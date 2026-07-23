@@ -11,8 +11,8 @@ production:
     - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: G002
-  completed_assets: 10
+  next_cycle: G003
+  completed_assets: 20
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycles:
@@ -33,6 +33,23 @@ cycles:
       - {id: HEX-G001-008, concept: Sistema de setas, status: generated, source: assets/canonical/G001/HEX-G001-008/base-art.svg}
       - {id: HEX-G001-009, concept: Sistema de cores, status: generated, source: assets/canonical/G001/HEX-G001-009/base-art.svg}
       - {id: HEX-G001-010, concept: Templates, status: generated, source: assets/canonical/G001/HEX-G001-010/base-art.svg}
+  G002:
+    layer: G
+    range: 11-20
+    theme: Anatomia Respiratória I
+    status: generated
+    exports_pending: [base-art.png, thumbnail.webp]
+    assets:
+      - {id: HEX-G002-011, concept: Traqueia, status: generated, source: assets/canonical/G002/HEX-G002-011/base-art.svg}
+      - {id: HEX-G002-012, concept: Brônquios, status: generated, source: assets/canonical/G002/HEX-G002-012/base-art.svg}
+      - {id: HEX-G002-013, concept: Bronquíolos, status: generated, source: assets/canonical/G002/HEX-G002-013/base-art.svg}
+      - {id: HEX-G002-014, concept: Ácino, status: generated, source: assets/canonical/G002/HEX-G002-014/base-art.svg}
+      - {id: HEX-G002-015, concept: Alvéolo, status: generated, source: assets/canonical/G002/HEX-G002-015/base-art.svg}
+      - {id: HEX-G002-016, concept: Pleura, status: generated, source: assets/canonical/G002/HEX-G002-016/base-art.svg}
+      - {id: HEX-G002-017, concept: Diafragma, status: generated, source: assets/canonical/G002/HEX-G002-017/base-art.svg}
+      - {id: HEX-G002-018, concept: Caixa torácica, status: generated, source: assets/canonical/G002/HEX-G002-018/base-art.svg}
+      - {id: HEX-G002-019, concept: Intercostais, status: generated, source: assets/canonical/G002/HEX-G002-019/base-art.svg}
+      - {id: HEX-G002-020, concept: Árvore brônquica, status: generated, source: assets/canonical/G002/HEX-G002-020/base-art.svg}
 cycle_generation_rule: >-
   Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
