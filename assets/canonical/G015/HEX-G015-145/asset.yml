@@ -1,0 +1,12 @@
+id: HEX-G015-145
+concept: Midazolam
+cycle: G015
+layer: canonical
+status: generated
+prompt: >-
+  Prancha vetorial Hexápode sobre midazolam, modulação GABA-A, sedação, amnésia e depressão respiratória.
+alt: Encéfalo esquemático e painéis de mecanismo, efeitos e cautelas do midazolam.
+overlay: {title: Midazolam, subtitle: Benzodiazepínico sedativo, labels: [mecanismo, efeito-alvo, cautelas]}
+consumers: [Ventila, Emergências, Farmacologia, Pediatria]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
