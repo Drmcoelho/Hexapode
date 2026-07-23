@@ -1,0 +1,12 @@
+id: HEX-G005-046
+concept: Difusão
+status: generated
+source: base-art.svg
+overlay: embedded_svg
+prompt: >-
+  Editorial vetorial Hexápode mostrando O₂ e CO₂ atravessando a membrana alvéolo-capilar segundo gradientes de pressão parcial.
+alt: >-
+  Painel com alvéolo acima e capilar abaixo, setas de O₂ descendo e de CO₂ subindo através da barreira.
+consumers: [Respira, Ventila, Fisiologia, Emergencias]
+review: [visual_consistency, clinical_accuracy, accessibility]
+exports_pending: [base-art.png, thumbnail.webp]
