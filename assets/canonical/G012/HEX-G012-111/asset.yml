@@ -1,0 +1,12 @@
+id: HEX-G012-111
+concept: pH
+cycle: G012
+layer: canonical
+status: generated
+source: base-art.svg
+overlay: embedded-svg
+prompt: "Prancha editorial Hexápode sobre pH, escala ácido-base, faixa fisiológica e relação logarítmica com H+."
+alt: "Escala de pH destaca acidemia, faixa 7,35 a 7,45 e alcalemia, com fórmula logarítmica e roteiro de interpretação."
+consumers: [Emergências, Terapia Intensiva, Nefrologia, Pneumologia, Pediatria, Educação]
+review: {visual_consistency: pending, clinical_accuracy: pending, accessibility: present, responsive_legibility: pending}
+exports_pending: [base-art.png, thumbnail.webp]
