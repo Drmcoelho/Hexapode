@@ -11,8 +11,8 @@ production:
     - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: G003
-  completed_assets: 20
+  next_cycle: G004
+  completed_assets: 30
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycles:
@@ -50,6 +50,23 @@ cycles:
       - {id: HEX-G002-018, concept: Caixa torácica, status: generated, source: assets/canonical/G002/HEX-G002-018/base-art.svg}
       - {id: HEX-G002-019, concept: Intercostais, status: generated, source: assets/canonical/G002/HEX-G002-019/base-art.svg}
       - {id: HEX-G002-020, concept: Árvore brônquica, status: generated, source: assets/canonical/G002/HEX-G002-020/base-art.svg}
+  G003:
+    layer: G
+    range: 21-30
+    theme: Anatomia Respiratória II
+    status: generated
+    exports_pending: [base-art.png, thumbnail.webp]
+    assets:
+      - {id: HEX-G003-021, concept: Lobos pulmonares, status: generated, source: assets/canonical/G003/HEX-G003-021/base-art.svg}
+      - {id: HEX-G003-022, concept: Segmentos pulmonares, status: generated, source: assets/canonical/G003/HEX-G003-022/base-art.svg}
+      - {id: HEX-G003-023, concept: Hilo, status: generated, source: assets/canonical/G003/HEX-G003-023/base-art.svg}
+      - {id: HEX-G003-024, concept: Capilares, status: generated, source: assets/canonical/G003/HEX-G003-024/base-art.svg}
+      - {id: HEX-G003-025, concept: Pneumócito I, status: generated, source: assets/canonical/G003/HEX-G003-025/base-art.svg}
+      - {id: HEX-G003-026, concept: Pneumócito II, status: generated, source: assets/canonical/G003/HEX-G003-026/base-art.svg}
+      - {id: HEX-G003-027, concept: Surfactante, status: generated, source: assets/canonical/G003/HEX-G003-027/base-art.svg}
+      - {id: HEX-G003-028, concept: Membrana alvéolo-capilar, status: generated, source: assets/canonical/G003/HEX-G003-028/base-art.svg}
+      - {id: HEX-G003-029, concept: Linfáticos, status: generated, source: assets/canonical/G003/HEX-G003-029/base-art.svg}
+      - {id: HEX-G003-030, concept: Circulação pulmonar, status: generated, source: assets/canonical/G003/HEX-G003-030/base-art.svg}
 cycle_generation_rule: >-
   Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
