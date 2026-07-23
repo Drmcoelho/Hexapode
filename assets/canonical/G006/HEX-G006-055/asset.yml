@@ -1,0 +1,12 @@
+id: HEX-G006-055
+concept: Máscara facial
+status: generated
+source: base-art.svg
+overlay: embedded_svg
+prompt: >-
+  Editorial vetorial Hexápode mostrando máscara facial para suporte não invasivo, com almofada de vedação, cotovelo, tirantes e conexão.
+alt: >-
+  Máscara facial esquemática com almofada teal, conexão azul e quatro pontos de fixação.
+consumers: [Ventila, Respira, Emergencias, UTI, Anestesia, Pediatria]
+review: [visual_consistency, clinical_accuracy, accessibility]
+exports_pending: [base-art.png, thumbnail.webp]
