@@ -11,8 +11,8 @@ production:
     - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: G004
-  completed_assets: 30
+  next_cycle: G005
+  completed_assets: 40
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycles:
@@ -67,6 +67,23 @@ cycles:
       - {id: HEX-G003-028, concept: Membrana alvéolo-capilar, status: generated, source: assets/canonical/G003/HEX-G003-028/base-art.svg}
       - {id: HEX-G003-029, concept: Linfáticos, status: generated, source: assets/canonical/G003/HEX-G003-029/base-art.svg}
       - {id: HEX-G003-030, concept: Circulação pulmonar, status: generated, source: assets/canonical/G003/HEX-G003-030/base-art.svg}
+  G004:
+    layer: G
+    range: 31-40
+    theme: Mecânica Respiratória
+    status: generated
+    exports_pending: [base-art.png, thumbnail.webp]
+    assets:
+      - {id: HEX-G004-031, concept: Inspiração, status: generated, source: assets/canonical/G004/HEX-G004-031/base-art.svg}
+      - {id: HEX-G004-032, concept: Expiração, status: generated, source: assets/canonical/G004/HEX-G004-032/base-art.svg}
+      - {id: HEX-G004-033, concept: Pressão pleural, status: generated, source: assets/canonical/G004/HEX-G004-033/base-art.svg}
+      - {id: HEX-G004-034, concept: Pressão alveolar, status: generated, source: assets/canonical/G004/HEX-G004-034/base-art.svg}
+      - {id: HEX-G004-035, concept: Pressão transpulmonar, status: generated, source: assets/canonical/G004/HEX-G004-035/base-art.svg}
+      - {id: HEX-G004-036, concept: Elastância, status: generated, source: assets/canonical/G004/HEX-G004-036/base-art.svg}
+      - {id: HEX-G004-037, concept: Complacência, status: generated, source: assets/canonical/G004/HEX-G004-037/base-art.svg}
+      - {id: HEX-G004-038, concept: Resistência, status: generated, source: assets/canonical/G004/HEX-G004-038/base-art.svg}
+      - {id: HEX-G004-039, concept: Trabalho respiratório, status: generated, source: assets/canonical/G004/HEX-G004-039/base-art.svg}
+      - {id: HEX-G004-040, concept: Histerese, status: generated, source: assets/canonical/G004/HEX-G004-040/base-art.svg}
 cycle_generation_rule: >-
   Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
