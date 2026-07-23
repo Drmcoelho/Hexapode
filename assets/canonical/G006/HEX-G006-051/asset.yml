@@ -1,0 +1,12 @@
+id: HEX-G006-051
+concept: Ventilador
+status: generated
+source: base-art.svg
+overlay: embedded_svg
+prompt: >-
+  Editorial vetorial Hexápode mostrando ventilador mecânico, tela, controles, circuito e entrega de suporte ao paciente.
+alt: >-
+  Ventilador esquemático em azul ligado por circuito teal a um paciente, com tela de curvas e legenda cromática.
+consumers: [Ventila, Respira, Emergencias, Pediatria, UTI, Anestesia]
+review: [visual_consistency, clinical_accuracy, accessibility]
+exports_pending: [base-art.png, thumbnail.webp]
