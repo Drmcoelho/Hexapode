@@ -1,0 +1,12 @@
+id: HEX-G011-104
+concept: Rampa
+cycle: G011
+layer: canonical
+status: generated
+source: base-art.svg
+overlay: embedded-svg
+prompt: "Prancha Hexápode mostrando posicionamento em rampa e alinhamento entre meato acústico externo e incisura esternal."
+alt: "Paciente esquemático com cabeça e tronco elevados; uma linha horizontal une o meato acústico externo à incisura esternal."
+consumers: [Via Aérea, Emergências, Anestesia, Terapia Intensiva, Obstetrícia, Educação]
+review: {visual_consistency: pending, clinical_accuracy: pending, accessibility: present, responsive_legibility: pending}
+exports_pending: [base-art.png, thumbnail.webp]
