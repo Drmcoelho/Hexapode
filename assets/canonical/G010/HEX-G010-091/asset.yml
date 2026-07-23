@@ -1,0 +1,9 @@
+id: HEX-G010-091
+concept: SDRA
+status: generated
+prompt: "Prancha vetorial Hexápode sobre lesão alveolar difusa, edema, baixa complacência e shunt."
+alt: "Pulmões esquemáticos com áreas difusas de edema e lesão alveolar na SDRA."
+overlay: ["lesão alveolar difusa", "edema", "shunt", "baixa complacência"]
+consumers: [Respira, Ventila, Emergencias, Fisiologia, Medicina_Interna]
+files: {source: base-art.svg, png: pending, thumbnail: pending}
+review_gates: [visual_consistency, clinical_accuracy, didactic_function, accessibility, responsive_legibility, metadata_completeness]
