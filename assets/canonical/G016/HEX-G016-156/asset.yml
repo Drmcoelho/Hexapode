@@ -1,0 +1,10 @@
+id: HEX-G016-156
+concept: Ducto coletor
+cycle: G016
+layer: canonical
+status: generated
+prompt: Prancha vetorial Hexápode sobre ducto coletor, ADH, aldosterona e transporte de água, sódio e potássio.
+alt: Células do ducto coletor com setas de H2O, Na+, K+ e H+.
+overlay: {title: Ducto coletor, subtitle: Água, sódio e potássio}
+consumers: [Nefrologia, Emergências, Medicina Interna, Pediatria, Farmacologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
