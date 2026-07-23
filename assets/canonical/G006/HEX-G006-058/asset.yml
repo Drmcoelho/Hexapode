@@ -1,0 +1,12 @@
+id: HEX-G006-058
+concept: HFNC
+status: generated
+source: base-art.svg
+overlay: embedded_svg
+prompt: >-
+  Editorial vetorial Hexápode mostrando sistema de cânula nasal de alto fluxo com blender, aquecimento, umidificação, circuito aquecido e interface nasal.
+alt: >-
+  Sistema HFNC esquemático com controlador azul, câmara teal, circuito aquecido e cânula nasal.
+consumers: [Respira, Ventila, Emergencias, UTI, Pediatria, Enfermagem]
+review: [visual_consistency, clinical_accuracy, accessibility]
+exports_pending: [base-art.png, thumbnail.webp]
