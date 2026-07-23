@@ -1,0 +1,11 @@
+id: HEX-G004-039
+concept: Trabalho respiratório
+cycle: G004
+layer: canonical
+status: generated
+prompt: Curva pressão-volume vetorial com área de trabalho respiratório e decomposição em cargas elástica e resistiva.
+alt: Energia necessária para vencer cargas elásticas e resistivas durante a ventilação.
+overlay: {embedded_in: base-art.svg, labels: [Carga elástica, Carga resistiva, Área pressão-volume]}
+consumers: [Respira, Ventila, Fisiologia, UTI]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, didactic_function, accessibility]
