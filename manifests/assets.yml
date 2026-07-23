@@ -11,8 +11,8 @@ production:
     - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: G008
-  completed_assets: 70
+  next_cycle: G009
+  completed_assets: 80
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycles:
@@ -135,6 +135,23 @@ cycles:
       - {id: HEX-G007-068, concept: Trigger, status: generated, source: assets/canonical/G007/HEX-G007-068/base-art.svg}
       - {id: HEX-G007-069, concept: Ciclagem, status: generated, source: assets/canonical/G007/HEX-G007-069/base-art.svg}
       - {id: HEX-G007-070, concept: Driving Pressure, status: generated, source: assets/canonical/G007/HEX-G007-070/base-art.svg}
+  G008:
+    layer: G
+    range: 71-80
+    theme: Modos Ventilatórios
+    status: generated
+    exports_pending: [base-art.png, thumbnail.webp]
+    assets:
+      - {id: HEX-G008-071, concept: VCV, status: generated, source: assets/canonical/G008/HEX-G008-071/base-art.svg}
+      - {id: HEX-G008-072, concept: PCV, status: generated, source: assets/canonical/G008/HEX-G008-072/base-art.svg}
+      - {id: HEX-G008-073, concept: PSV, status: generated, source: assets/canonical/G008/HEX-G008-073/base-art.svg}
+      - {id: HEX-G008-074, concept: SIMV, status: generated, source: assets/canonical/G008/HEX-G008-074/base-art.svg}
+      - {id: HEX-G008-075, concept: PRVC, status: generated, source: assets/canonical/G008/HEX-G008-075/base-art.svg}
+      - {id: HEX-G008-076, concept: APRV, status: generated, source: assets/canonical/G008/HEX-G008-076/base-art.svg}
+      - {id: HEX-G008-077, concept: CPAP, status: generated, source: assets/canonical/G008/HEX-G008-077/base-art.svg}
+      - {id: HEX-G008-078, concept: BIPAP, status: generated, source: assets/canonical/G008/HEX-G008-078/base-art.svg}
+      - {id: HEX-G008-079, concept: HFOV, status: generated, source: assets/canonical/G008/HEX-G008-079/base-art.svg}
+      - {id: HEX-G008-080, concept: VNI, status: generated, source: assets/canonical/G008/HEX-G008-080/base-art.svg}
 cycle_generation_rule: >-
   Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
