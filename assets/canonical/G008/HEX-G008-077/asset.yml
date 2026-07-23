@@ -1,0 +1,13 @@
+id: HEX-G008-077
+cycle: G008
+layer: canonical
+concept: CPAP
+title: Pressão positiva contínua nas vias aéreas
+status: generated
+source: assets/canonical/G008/HEX-G008-077/base-art.svg
+prompt: Prancha vetorial canônica sobre CPAP com pressão única e respiração espontânea.
+alt: Infográfico sobre CPAP mostrando pressão constante, fluxo e volume espontâneos.
+overlay: {embedded: true, editable: true}
+consumers: [Ventila, Respira, Pediatria]
+review: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete}
+exports_pending: [base-art.png, thumbnail.webp]
