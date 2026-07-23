@@ -1,0 +1,11 @@
+id: HEX-G002-019
+concept: Intercostais
+cycle: G002
+layer: canonical
+status: generated
+prompt: Prancha vetorial das camadas intercostais externa, interna e íntima, orientação das fibras e feixe neurovascular.
+alt: Músculos intercostais esquemáticos em camadas, com direção das fibras e espaços intercostais.
+overlay: {embedded_in: base-art.svg, labels: [Intercostal externo, Intercostal interno, Intercostal íntimo, Feixe neurovascular]}
+consumers: [Respira, Ventila, Trauma, Procedimentos]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, accessibility]
