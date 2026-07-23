@@ -1,0 +1,14 @@
+id: HEX-G014-139
+concept: Hipoglicemia
+cycle: G014
+layer: canonical
+status: generated
+prompt: >-
+  Prancha vetorial Hexápode sobre hipoglicemia, déficit energético cerebral, resposta autonômica e deterioração neurológica.
+alt: Diagrama vetorial com queda da glicose, ativação autonômica e comprometimento progressivo do encéfalo.
+overlay:
+  title: Hipoglicemia
+  labels: [glicose, resposta autonômica, neuroglicopenia, deterioração]
+consumers: [Emergências, Neuro, Pediatria, Medicina Interna, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: complete}
