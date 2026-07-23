@@ -1,0 +1,12 @@
+id: HEX-G005-047
+concept: Transporte de O₂
+status: generated
+source: base-art.svg
+overlay: embedded_svg
+prompt: >-
+  Editorial vetorial Hexápode mostrando oxigênio transportado majoritariamente ligado à hemoglobina e em pequena fração dissolvida.
+alt: >-
+  Hemácia esquemática com hemoglobina central e quatro moléculas de oxigênio, ao lado de caixas para O₂ ligado e dissolvido.
+consumers: [Respira, Ventila, Cardio, Emergencias, Fisiologia]
+review: [visual_consistency, clinical_accuracy, accessibility]
+exports_pending: [base-art.png, thumbnail.webp]
