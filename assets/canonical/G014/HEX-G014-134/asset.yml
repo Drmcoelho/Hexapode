@@ -1,0 +1,14 @@
+id: HEX-G014-134
+concept: Choque séptico
+cycle: G014
+layer: canonical
+status: generated
+prompt: >-
+  Prancha vetorial Hexápode sobre choque séptico, vasoplegia, disfunção endotelial, maldistribuição de fluxo e hipoperfusão.
+alt: Esquema vetorial de vasodilatação sistêmica, microcirculação alterada e redução de perfusão orgânica no choque séptico.
+overlay:
+  title: Choque séptico
+  labels: [infecção, vasoplegia, microcirculação, hipoperfusão]
+consumers: [Emergências, Cardio, Ventila, Farmacologia, Medicina Interna]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: complete}
