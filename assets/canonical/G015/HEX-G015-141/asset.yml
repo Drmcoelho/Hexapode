@@ -1,0 +1,12 @@
+id: HEX-G015-141
+concept: Noradrenalina
+cycle: G015
+layer: canonical
+status: generated
+prompt: >-
+  Prancha vetorial Hexápode sobre noradrenalina, vasoconstrição arterial e venosa, efeito pressor e cautelas.
+alt: Frasco esquemático de noradrenalina conectado a painéis de mecanismo, efeito-alvo e cautelas.
+overlay: {title: Noradrenalina, subtitle: Vasopressor alfa-1 predominante, labels: [mecanismo, efeito-alvo, cautelas]}
+consumers: [Emergências, Cardio, Farmacologia, UTI]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
