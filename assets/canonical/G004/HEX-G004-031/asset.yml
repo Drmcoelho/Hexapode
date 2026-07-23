@@ -1,0 +1,11 @@
+id: HEX-G004-031
+concept: Inspiração
+cycle: G004
+layer: canonical
+status: generated
+prompt: Prancha vetorial canônica sobre inspiração, com expansão torácica, descida do diafragma, gradiente de pressão e entrada de ar.
+alt: Entrada de ar com expansão torácica, descida do diafragma e pressão alveolar subatmosférica.
+overlay: {embedded_in: base-art.svg, labels: [Expansão torácica, Diafragma desce, PAlv < Patm]}
+consumers: [Respira, Ventila, Fisiologia, Emergência]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, didactic_function, accessibility]
