@@ -1,0 +1,12 @@
+id: HEX-G006-060
+concept: Umidificador
+status: generated
+source: base-art.svg
+overlay: embedded_svg
+prompt: >-
+  Editorial vetorial Hexápode mostrando umidificador aquecido com câmara de água, placa aquecedora, circuito e sensores.
+alt: >-
+  Umidificador aquecido esquemático com câmara teal, placa âmbar, circuito inspiratório e sensores.
+consumers: [Ventila, Respira, UTI, Anestesia, Pediatria, Enfermagem]
+review: [visual_consistency, clinical_accuracy, accessibility]
+exports_pending: [base-art.png, thumbnail.webp]
