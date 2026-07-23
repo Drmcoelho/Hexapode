@@ -1,0 +1,14 @@
+id: HEX-G016-151
+concept: Néfron
+cycle: G016
+layer: canonical
+status: generated
+prompt: >-
+  Prancha médica vetorial Hexápode sobre néfron, em composição editorial 4:3, fundo marfim, linhas grafite e cores semânticas.
+alt: Esquema completo do néfron com glomérulo, túbulos e ducto coletor.
+overlay:
+  title: Néfron
+  subtitle: Unidade funcional do rim
+consumers: [Nefrologia, Emergências, Medicina Interna, Pediatria, Farmacologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
