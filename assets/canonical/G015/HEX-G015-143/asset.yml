@@ -1,0 +1,12 @@
+id: HEX-G015-143
+concept: Dobutamina
+cycle: G015
+layer: canonical
+status: generated
+prompt: >-
+  Prancha vetorial Hexápode sobre dobutamina, estimulação beta-1, contratilidade, débito cardíaco e cautelas.
+alt: Coração esquemático com seta de contratilidade e painéis de mecanismo, efeito-alvo e cautelas da dobutamina.
+overlay: {title: Dobutamina, subtitle: Inotrópico beta-1 predominante, labels: [mecanismo, efeito-alvo, cautelas]}
+consumers: [Cardio, Emergências, Farmacologia, UTI]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
