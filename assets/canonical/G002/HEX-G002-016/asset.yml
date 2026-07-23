@@ -1,0 +1,11 @@
+id: HEX-G002-016
+concept: Pleura
+cycle: G002
+layer: canonical
+status: generated
+prompt: Prancha vetorial dos folhetos pleurais visceral e parietal, espaço pleural virtual e pulmão adjacente.
+alt: Pleura esquemática com folhetos visceral e parietal, espaço pleural e pulmão adjacente.
+overlay: {embedded_in: base-art.svg, labels: [Pleura visceral, Espaço pleural, Pleura parietal, Pulmão]}
+consumers: [Respira, Ventila, Trauma, Emergencia]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, accessibility]
