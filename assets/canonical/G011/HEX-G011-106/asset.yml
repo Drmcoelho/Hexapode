@@ -1,0 +1,12 @@
+id: HEX-G011-106
+concept: Videolaringoscopia
+cycle: G011
+layer: canonical
+status: generated
+source: base-art.svg
+overlay: embedded-svg
+prompt: "Prancha Hexápode com videolaringoscópio, câmera distal, tela, trajetória do tubo e nota sobre geometria da lâmina."
+alt: "Videolaringoscópio esquemático conectado a uma tela; a lâmina curva e o tubo avançam em direção à glote."
+consumers: [Via Aérea, Emergências, Anestesia, Terapia Intensiva, Pediatria, Educação]
+review: {visual_consistency: pending, clinical_accuracy: pending, accessibility: present, responsive_legibility: pending}
+exports_pending: [base-art.png, thumbnail.webp]
