@@ -1,0 +1,12 @@
+id: HEX-G011-102
+concept: Cormack-Lehane
+cycle: G011
+layer: canonical
+status: generated
+source: base-art.svg
+overlay: embedded-svg
+prompt: "Prancha Hexápode com graus I-IV de Cormack-Lehane e visualização laríngea esquemática."
+alt: "Quatro vistas esquemáticas mostram glote completa, glote parcial, apenas epiglote e ausência de epiglote visível."
+consumers: [Via Aérea, Emergências, Anestesia, Terapia Intensiva, Educação]
+review: {visual_consistency: pending, clinical_accuracy: pending, accessibility: present, responsive_legibility: pending}
+exports_pending: [base-art.png, thumbnail.webp]
