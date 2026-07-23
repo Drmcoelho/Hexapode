@@ -1,0 +1,12 @@
+id: HEX-G005-049
+concept: Curva da hemoglobina
+status: generated
+source: base-art.svg
+overlay: embedded_svg
+prompt: >-
+  Editorial vetorial Hexápode mostrando a curva sigmoide de dissociação oxi-hemoglobina, com trecho íngreme e platô identificados.
+alt: >-
+  Gráfico com saturação da hemoglobina no eixo vertical e pressão de oxigênio no horizontal, destacando trecho íngreme e platô.
+consumers: [Respira, Ventila, Cardio, Emergencias, Fisiologia]
+review: [visual_consistency, clinical_accuracy, accessibility]
+exports_pending: [base-art.png, thumbnail.webp]
