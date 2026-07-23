@@ -1,0 +1,12 @@
+id: HEX-G012-116
+concept: Distúrbios simples
+cycle: G012
+layer: canonical
+status: generated
+source: base-art.svg
+overlay: embedded-svg
+prompt: "Prancha editorial Hexápode em matriz 2x2 para os quatro distúrbios ácido-base simples."
+alt: "Matriz compara acidose e alcalose respiratórias e metabólicas pela direção do pH, PaCO2 e bicarbonato."
+consumers: [Emergências, Terapia Intensiva, Nefrologia, Respira, Ventila, Pediatria, Educação]
+review: {visual_consistency: pending, clinical_accuracy: pending, accessibility: present, responsive_legibility: pending}
+exports_pending: [base-art.png, thumbnail.webp]
