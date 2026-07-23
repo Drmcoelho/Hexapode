@@ -1,0 +1,12 @@
+id: HEX-G015-147
+concept: Cetamina
+cycle: G015
+layer: canonical
+status: generated
+prompt: >-
+  Prancha vetorial Hexápode sobre cetamina, antagonismo NMDA, dissociação, analgesia e cautelas clínicas.
+alt: Encéfalo esquemático com linha de dissociação e painéis de mecanismo, efeito-alvo e cautelas da cetamina.
+overlay: {title: Cetamina, subtitle: Anestésico dissociativo, labels: [mecanismo, efeito-alvo, cautelas]}
+consumers: [Emergências, Trauma, Farmacologia, Pediatria]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
