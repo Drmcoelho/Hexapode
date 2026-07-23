@@ -1,0 +1,11 @@
+id: HEX-G003-023
+concept: Hilo
+cycle: G003
+layer: canonical
+status: generated
+prompt: Corte vetorial do hilo pulmonar mostrando brônquio, artéria pulmonar, veias pulmonares e relações principais.
+alt: Hilo pulmonar esquemático com brônquio, artéria e veias pulmonares identificados.
+overlay: {embedded_in: base-art.svg, labels: [Brônquio, Artéria pulmonar, Veias pulmonares]}
+consumers: [Respira, Ventila, Pneumologia, Radiologia, Anatomia]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, didactic_function, accessibility]
