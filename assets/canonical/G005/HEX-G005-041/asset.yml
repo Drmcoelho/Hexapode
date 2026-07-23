@@ -1,0 +1,12 @@
+id: HEX-G005-041
+concept: Ventilação
+status: generated
+source: base-art.svg
+overlay: embedded_svg
+prompt: >-
+  Editorial vetorial Hexápode mostrando o movimento de gás entre atmosfera, vias aéreas e alvéolos, distinguindo ventilação de troca gasosa.
+alt: >-
+  Esquema de setas teal conduzindo ar da atmosfera às vias aéreas e aos dois pulmões, com nota de que ventilação não equivale isoladamente à troca gasosa.
+consumers: [Respira, Ventila, Emergencias, Pediatria, Fisiologia]
+review: [visual_consistency, clinical_accuracy, accessibility]
+exports_pending: [base-art.png, thumbnail.webp]
