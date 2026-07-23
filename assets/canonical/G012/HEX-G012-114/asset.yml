@@ -1,0 +1,12 @@
+id: HEX-G012-114
+concept: HCO₃⁻
+cycle: G012
+layer: canonical
+status: generated
+source: base-art.svg
+overlay: embedded-svg
+prompt: "Prancha editorial Hexápode sobre bicarbonato, sistema tampão e integração rim-pulmão."
+alt: "Equação do tampão bicarbonato e painéis mostram causas de bicarbonato baixo e alto."
+consumers: [Nefrologia, Emergências, Terapia Intensiva, Respira, Ventila, Pediatria, Educação]
+review: {visual_consistency: pending, clinical_accuracy: pending, accessibility: present, responsive_legibility: pending}
+exports_pending: [base-art.png, thumbnail.webp]
