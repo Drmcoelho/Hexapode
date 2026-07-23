@@ -1,0 +1,12 @@
+id: HEX-G005-042
+concept: Perfusão
+status: generated
+source: base-art.svg
+overlay: embedded_svg
+prompt: >-
+  Editorial vetorial Hexápode mostrando o fluxo sanguíneo pulmonar e sua distribuição aos capilares alveolares.
+alt: >-
+  Trajeto vascular azul com células vermelhas atravessando a rede capilar ao redor de unidades alveolares.
+consumers: [Respira, Ventila, Cardio, Emergencias, Fisiologia]
+review: [visual_consistency, clinical_accuracy, accessibility]
+exports_pending: [base-art.png, thumbnail.webp]
