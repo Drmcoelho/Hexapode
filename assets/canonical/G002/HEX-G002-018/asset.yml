@@ -1,0 +1,11 @@
+id: HEX-G002-018
+concept: Caixa torácica
+cycle: G002
+layer: canonical
+status: generated
+prompt: Prancha vetorial de esterno, costelas e vértebras com vetores de expansão em alça de balde e bomba d'água.
+alt: Caixa torácica esquemática com esterno, costelas e vetores de expansão respiratória.
+overlay: {embedded_in: base-art.svg, labels: [Esterno, Alça de balde, Bomba d'água]}
+consumers: [Respira, Ventila, Trauma, Anatomia]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, accessibility]
