@@ -1,0 +1,11 @@
+id: HEX-G004-040
+concept: Histerese
+cycle: G004
+layer: canonical
+status: generated
+prompt: Alça pressão-volume vetorial comparando trajetórias inspiratória e expiratória, recrutamento e surfactante.
+alt: Diferença entre as trajetórias inspiratória e expiratória na curva pressão-volume.
+overlay: {embedded_in: base-art.svg, labels: [Alça P–V, Recrutamento, Surfactante]}
+consumers: [Respira, Ventila, Fisiologia, Pneumologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, didactic_function, accessibility]
