@@ -1,0 +1,9 @@
+id: HEX-G010-092
+concept: DPOC
+status: generated
+prompt: "Comparação vetorial entre via aérea normal e DPOC, com obstrução, aprisionamento e perda elástica."
+alt: "Comparação esquemática de via aérea normal e DPOC com redução do lúmen e aprisionamento aéreo."
+overlay: ["obstrução persistente", "aprisionamento aéreo", "perda elástica"]
+consumers: [Respira, Ventila, Emergencias, Fisiologia, Medicina_Interna]
+files: {source: base-art.svg, png: pending, thumbnail: pending}
+review_gates: [visual_consistency, clinical_accuracy, didactic_function, accessibility, responsive_legibility, metadata_completeness]
