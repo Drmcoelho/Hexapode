@@ -1,0 +1,11 @@
+id: HEX-G002-012
+concept: Brônquios
+cycle: G002
+layer: canonical
+status: generated
+prompt: Prancha vetorial dos brônquios principais e lobares, destacando a assimetria angular direita-esquerda.
+alt: Brônquios principais e lobares esquemáticos, com maior verticalidade do brônquio direito.
+overlay: {embedded_in: base-art.svg, labels: [Brônquio direito, Brônquio esquerdo, Divisões lobares]}
+consumers: [Respira, Ventila, ViaAerea, Emergencia]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, accessibility]
