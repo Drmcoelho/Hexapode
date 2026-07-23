@@ -1,0 +1,12 @@
+id: HEX-G005-043
+concept: Relação V/Q
+status: generated
+source: base-art.svg
+overlay: embedded_svg
+prompt: >-
+  Editorial vetorial Hexápode comparando ventilação alveolar e perfusão pulmonar como determinantes regionais da eficiência de troca gasosa.
+alt: >-
+  Painel dividido entre ventilação em teal e perfusão em azul, convergindo para uma caixa central de adequação V/Q.
+consumers: [Respira, Ventila, Emergencias, Fisiologia, Cardio]
+review: [visual_consistency, clinical_accuracy, accessibility]
+exports_pending: [base-art.png, thumbnail.webp]
