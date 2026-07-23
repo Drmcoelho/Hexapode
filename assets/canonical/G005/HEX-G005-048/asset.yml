@@ -1,0 +1,12 @@
+id: HEX-G005-048
+concept: Transporte de CO₂
+status: generated
+source: base-art.svg
+overlay: embedded_svg
+prompt: >-
+  Editorial vetorial Hexápode mostrando transporte de CO₂ como bicarbonato, compostos carbamino e fração dissolvida.
+alt: >-
+  Três painéis com bicarbonato, hemoglobina ligada a CO₂ e CO₂ dissolvido, além da reação mediada pela anidrase carbônica.
+consumers: [Respira, Ventila, Fisiologia, Emergencias, Nefrologia]
+review: [visual_consistency, clinical_accuracy, accessibility]
+exports_pending: [base-art.png, thumbnail.webp]
