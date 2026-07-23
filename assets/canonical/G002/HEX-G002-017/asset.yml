@@ -1,0 +1,11 @@
+id: HEX-G002-017
+concept: Diafragma
+cycle: G002
+layer: canonical
+status: generated
+prompt: Prancha vetorial das cúpulas diafragmáticas, tendão central e excursão entre inspiração e expiração.
+alt: Diafragma esquemático em inspiração e expiração, com cúpulas e tendão central.
+overlay: {embedded_in: base-art.svg, labels: [Expiração, Inspiração, Tendão central]}
+consumers: [Respira, Ventila, Fisiologia, Ultrassom]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, accessibility]
