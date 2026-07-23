@@ -1,0 +1,15 @@
+id: HEX-G009-081
+cycle: G009
+layer: canonical
+concept: Auto-trigger
+title: Auto-trigger
+status: generated
+source: assets/canonical/G009/HEX-G009-081/base-art.svg
+prompt: >-
+  Prancha vetorial canônica do Hexápode mostrando disparo ventilatório sem esforço inspiratório efetivo, mecanismos e sinal-chave.
+alt: >-
+  Infográfico de auto-trigger com ciclos iniciados sem deflexão compatível com esforço do paciente.
+overlay: {embedded: true, editable: true}
+consumers: [Ventila, Respira, Emergências]
+review: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete}
+exports_pending: [base-art.png, thumbnail.webp]
