@@ -1,0 +1,14 @@
+id: HEX-G014-135
+concept: Anafilaxia
+cycle: G014
+layer: canonical
+status: generated
+prompt: >-
+  Prancha vetorial Hexápode sobre anafilaxia, liberação de mediadores, edema de via aérea, broncoespasmo e vasodilatação.
+alt: Diagrama vetorial com edema de via aérea, broncoespasmo e vasodilatação sistêmica na anafilaxia.
+overlay:
+  title: Anafilaxia
+  labels: [mediadores, edema, broncoespasmo, vasodilatação]
+consumers: [Emergências, Respira, Ventila, Farmacologia, Pediatria]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: complete}
