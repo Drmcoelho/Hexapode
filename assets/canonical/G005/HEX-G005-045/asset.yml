@@ -1,0 +1,12 @@
+id: HEX-G005-045
+concept: Espaço morto
+status: generated
+source: base-art.svg
+overlay: embedded_svg
+prompt: >-
+  Editorial vetorial Hexápode mostrando unidade alveolar ventilada sem perfusão efetiva, distinguindo espaço morto anatômico e alveolar em nível conceitual.
+alt: >-
+  Via aérea teal conduz ar a um alvéolo enquanto o trajeto vascular abaixo aparece interrompido e marcado como perfusão ausente.
+consumers: [Respira, Ventila, Emergencias, Fisiologia]
+review: [visual_consistency, clinical_accuracy, accessibility]
+exports_pending: [base-art.png, thumbnail.webp]
