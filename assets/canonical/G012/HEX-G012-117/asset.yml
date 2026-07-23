@@ -1,0 +1,12 @@
+id: HEX-G012-117
+concept: Distúrbios mistos
+cycle: G012
+layer: canonical
+status: generated
+source: base-art.svg
+overlay: embedded-svg
+prompt: "Prancha editorial Hexápode para reconhecer distúrbios ácido-base mistos por compensação inadequada e forças simultâneas."
+alt: "Mapa compara acidose dupla, forças opostas e alcalose dupla, destacando que pH quase normal pode ocultar distúrbio misto."
+consumers: [Emergências, Terapia Intensiva, Nefrologia, Respira, Ventila, Pediatria, Educação]
+review: {visual_consistency: pending, clinical_accuracy: pending, accessibility: present, responsive_legibility: pending}
+exports_pending: [base-art.png, thumbnail.webp]
