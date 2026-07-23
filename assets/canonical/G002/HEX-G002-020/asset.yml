@@ -1,0 +1,11 @@
+id: HEX-G002-020
+concept: Árvore brônquica
+cycle: G002
+layer: canonical
+status: generated
+prompt: Prancha vetorial integrada da árvore traqueobrônquica até bronquíolos terminais e ácinos.
+alt: Árvore brônquica esquemática da traqueia aos bronquíolos terminais e ácinos.
+overlay: {embedded_in: base-art.svg, labels: [Traqueia, Brônquios principais, Brônquios lobares, Bronquíolos, Ácinos]}
+consumers: [Respira, Ventila, Pneumologia, Anatomia]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, accessibility]
