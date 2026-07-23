@@ -1,0 +1,12 @@
+id: HEX-G012-113
+concept: PaO₂
+cycle: G012
+layer: canonical
+status: generated
+source: base-art.svg
+overlay: embedded-svg
+prompt: "Prancha editorial Hexápode sobre PaO2, gradiente alveolar-arterial e contexto da interpretação da oxigenação."
+alt: "Esquema liga oxigênio alveolar à PaO2 arterial e destaca o gradiente A-a e os fatores necessários à interpretação."
+consumers: [Respira, Ventila, Emergências, Terapia Intensiva, Cardio, Pediatria, Educação]
+review: {visual_consistency: pending, clinical_accuracy: pending, accessibility: present, responsive_legibility: pending}
+exports_pending: [base-art.png, thumbnail.webp]
