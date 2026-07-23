@@ -1,0 +1,14 @@
+id: HEX-G014-138
+concept: Hipercalemia
+cycle: G014
+layer: canonical
+status: generated
+prompt: >-
+  Prancha vetorial Hexápode sobre hipercalemia, alteração do potencial de membrana, progressão eletrocardiográfica e risco arrítmico.
+alt: Diagrama vetorial com íons potássio, membrana celular e progressão de alterações eletrocardiográficas da hipercalemia.
+overlay:
+  title: Hipercalemia
+  labels: [potássio, membrana, condução, arritmia]
+consumers: [Emergências, Cardio, Nefrologia, Farmacologia, Medicina Interna]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: complete}
