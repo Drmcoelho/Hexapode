@@ -1,0 +1,12 @@
+id: HEX-G005-044
+concept: Shunt
+status: generated
+source: base-art.svg
+overlay: embedded_svg
+prompt: >-
+  Editorial vetorial Hexápode mostrando perfusão através de unidade alveolar não ventilada e contraste com unidade ventilada.
+alt: >-
+  Dois alvéolos comparados; um recebe ventilação teal, enquanto o outro mantém fluxo sanguíneo mas está marcado como não ventilado.
+consumers: [Respira, Ventila, Emergencias, Fisiologia, Cardio]
+review: [visual_consistency, clinical_accuracy, accessibility]
+exports_pending: [base-art.png, thumbnail.webp]
