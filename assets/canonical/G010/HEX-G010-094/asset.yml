@@ -1,0 +1,9 @@
+id: HEX-G010-094
+concept: Atelectasia
+status: generated
+prompt: "Pulmão vetorial com segmento colapsado, perda de volume e shunt."
+alt: "Pulmão esquemático com segmento basal colapsado e redução de volume."
+overlay: ["colapso alveolar", "perda de volume", "shunt"]
+consumers: [Respira, Ventila, Emergencias, Pediatria, Medicina_Interna]
+files: {source: base-art.svg, png: pending, thumbnail: pending}
+review_gates: [visual_consistency, clinical_accuracy, didactic_function, accessibility, responsive_legibility, metadata_completeness]
