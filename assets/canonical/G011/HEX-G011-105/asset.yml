@@ -1,0 +1,12 @@
+id: HEX-G011-105
+concept: Cuff
+cycle: G011
+layer: canonical
+status: generated
+source: base-art.svg
+overlay: embedded-svg
+prompt: "Prancha Hexápode sobre cuff de tubo traqueal, faixa de pressão, riscos de pressão baixa e alta e reavaliação com manômetro."
+alt: "Tubo traqueal esquemático com cuff insuflado, linha para balão piloto e quadro comparando baixa pressão, faixa-alvo e alta pressão."
+consumers: [Via Aérea, Ventila, Emergências, Anestesia, Terapia Intensiva, Enfermagem, Educação]
+review: {visual_consistency: pending, clinical_accuracy: pending, accessibility: present, responsive_legibility: pending}
+exports_pending: [base-art.png, thumbnail.webp]
