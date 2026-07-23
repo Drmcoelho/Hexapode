@@ -1,0 +1,11 @@
+id: HEX-G003-022
+concept: Segmentos pulmonares
+cycle: G003
+layer: canonical
+status: generated
+prompt: Mapa vetorial dos segmentos broncopulmonares em vistas anterior e posterior, com codificação cromática.
+alt: Mapa esquemático dos segmentos broncopulmonares por lobo em vistas anterior e posterior.
+overlay: {embedded_in: base-art.svg, labels: [Segmentos por lobo, Vista esquemática, Codificação cromática]}
+consumers: [Respira, Ventila, Pneumologia, Cirurgia Torácica, Anatomia]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, didactic_function, accessibility]
