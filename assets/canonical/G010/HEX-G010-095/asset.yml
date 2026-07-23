@@ -1,0 +1,9 @@
+id: HEX-G010-095
+concept: Pneumotórax
+status: generated
+prompt: "Esquema vetorial de ar no espaço pleural comprimindo o pulmão ipsilateral."
+alt: "Pulmão comprimido por ar acumulado na cavidade pleural."
+overlay: ["ar pleural", "perda da pressão negativa", "colapso"]
+consumers: [Respira, Ventila, Emergencias, Trauma, Medicina_Interna]
+files: {source: base-art.svg, png: pending, thumbnail: pending}
+review_gates: [visual_consistency, clinical_accuracy, didactic_function, accessibility, responsive_legibility, metadata_completeness]
