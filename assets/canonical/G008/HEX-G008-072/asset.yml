@@ -1,0 +1,13 @@
+id: HEX-G008-072
+cycle: G008
+layer: canonical
+concept: PCV
+title: Ventilação controlada a pressão
+status: generated
+source: assets/canonical/G008/HEX-G008-072/base-art.svg
+prompt: Prancha vetorial canônica sobre PCV com curvas, contrato do modo e mecanismo visual.
+alt: Infográfico sobre PCV mostrando pressão quadrada, fluxo desacelerado e volume resultante.
+overlay: {embedded: true, editable: true}
+consumers: [Ventila, Respira, Emergências]
+review: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete}
+exports_pending: [base-art.png, thumbnail.webp]
