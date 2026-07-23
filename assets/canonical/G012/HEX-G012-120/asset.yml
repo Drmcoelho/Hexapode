@@ -1,0 +1,12 @@
+id: HEX-G012-120
+concept: Lactato
+cycle: G012
+layer: canonical
+status: generated
+source: base-art.svg
+overlay: embedded-svg
+prompt: "Prancha editorial Hexápode sobre produção, depuração e interpretação dinâmica do lactato em contexto clínico."
+alt: "Fluxo visual relaciona produção de lactato, concentração sérica e depuração hepatorrenal, com orientação para interpretação dinâmica."
+consumers: [Emergências, Terapia Intensiva, Cardio, Nefrologia, Pediatria, Educação]
+review: {visual_consistency: pending, clinical_accuracy: pending, accessibility: present, responsive_legibility: pending}
+exports_pending: [base-art.png, thumbnail.webp]
