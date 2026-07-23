@@ -1,0 +1,11 @@
+id: HEX-G004-038
+concept: Resistência
+cycle: G004
+layer: canonical
+status: generated
+prompt: Comparação vetorial entre baixa e alta resistência das vias aéreas, relacionando calibre, fluxo e gradiente de pressão.
+alt: Oposição ao fluxo nas vias aéreas determinada por pressão, fluxo e calibre.
+overlay: {embedded_in: base-art.svg, labels: [R = ΔP / Fluxo, Raio da via aérea, Fluxo turbulento]}
+consumers: [Respira, Ventila, Fisiologia, Emergência]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, didactic_function, accessibility]
