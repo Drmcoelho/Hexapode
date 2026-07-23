@@ -1,0 +1,11 @@
+id: HEX-G003-024
+concept: Capilares
+cycle: G003
+layer: canonical
+status: generated
+prompt: Rede capilar alveolar vetorial com fluxo sanguíneo, hemácias e gradiente de gases.
+alt: Rede capilar envolvendo alvéolos, com hemácias e setas de troca de oxigênio e dióxido de carbono.
+overlay: {embedded_in: base-art.svg, labels: [Rede capilar, Hemácias, Troca gasosa]}
+consumers: [Respira, Ventila, Pneumologia, Fisiologia, Hematologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, didactic_function, accessibility]
