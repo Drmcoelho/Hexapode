@@ -11,8 +11,8 @@ production:
     - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: G006
-  completed_assets: 50
+  next_cycle: G007
+  completed_assets: 60
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycles:
@@ -101,6 +101,23 @@ cycles:
       - {id: HEX-G005-048, concept: Transporte de CO₂, status: generated, source: assets/canonical/G005/HEX-G005-048/base-art.svg}
       - {id: HEX-G005-049, concept: Curva da hemoglobina, status: generated, source: assets/canonical/G005/HEX-G005-049/base-art.svg}
       - {id: HEX-G005-050, concept: Efeito Bohr, status: generated, source: assets/canonical/G005/HEX-G005-050/base-art.svg}
+  G006:
+    layer: G
+    range: 51-60
+    theme: Equipamentos
+    status: generated
+    exports_pending: [base-art.png, thumbnail.webp]
+    assets:
+      - {id: HEX-G006-051, concept: Ventilador, status: generated, source: assets/canonical/G006/HEX-G006-051/base-art.svg}
+      - {id: HEX-G006-052, concept: Circuito, status: generated, source: assets/canonical/G006/HEX-G006-052/base-art.svg}
+      - {id: HEX-G006-053, concept: Tubo orotraqueal, status: generated, source: assets/canonical/G006/HEX-G006-053/base-art.svg}
+      - {id: HEX-G006-054, concept: Traqueostomia, status: generated, source: assets/canonical/G006/HEX-G006-054/base-art.svg}
+      - {id: HEX-G006-055, concept: Máscara facial, status: generated, source: assets/canonical/G006/HEX-G006-055/base-art.svg}
+      - {id: HEX-G006-056, concept: Máscara total-face, status: generated, source: assets/canonical/G006/HEX-G006-056/base-art.svg}
+      - {id: HEX-G006-057, concept: Cânula nasal, status: generated, source: assets/canonical/G006/HEX-G006-057/base-art.svg}
+      - {id: HEX-G006-058, concept: HFNC, status: generated, source: assets/canonical/G006/HEX-G006-058/base-art.svg}
+      - {id: HEX-G006-059, concept: HME, status: generated, source: assets/canonical/G006/HEX-G006-059/base-art.svg}
+      - {id: HEX-G006-060, concept: Umidificador, status: generated, source: assets/canonical/G006/HEX-G006-060/base-art.svg}
 cycle_generation_rule: >-
   Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
