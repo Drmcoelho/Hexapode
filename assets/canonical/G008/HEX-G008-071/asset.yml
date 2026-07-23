@@ -1,0 +1,16 @@
+id: HEX-G008-071
+cycle: G008
+layer: canonical
+concept: VCV
+title: Ventilação controlada a volume
+status: generated
+source: assets/canonical/G008/HEX-G008-071/base-art.svg
+prompt: >-
+  Prancha vetorial canônica do Hexápode sobre VCV, com curvas de pressão, fluxo e volume,
+  contrato do modo, mecanismo ventilador-paciente e composição editorial 4:3.
+alt: >-
+  Infográfico sobre VCV mostrando fluxo inspiratório constante, volume-alvo e pressão resultante.
+overlay: {embedded: true, editable: true}
+consumers: [Ventila, Respira, Emergências]
+review: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete}
+exports_pending: [base-art.png, thumbnail.webp]
