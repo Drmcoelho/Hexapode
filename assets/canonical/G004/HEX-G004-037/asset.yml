@@ -1,0 +1,11 @@
+id: HEX-G004-037
+concept: Complacência
+cycle: G004
+layer: canonical
+status: generated
+prompt: Curvas vetoriais comparando alta e baixa complacência no sistema respiratório.
+alt: Variação de volume obtida por unidade de pressão aplicada ao sistema respiratório.
+overlay: {embedded_in: base-art.svg, labels: [C = ΔV / ΔP, Inclinação da curva, Baixa em pulmão rígido]}
+consumers: [Respira, Ventila, Fisiologia, Pneumologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, didactic_function, accessibility]
