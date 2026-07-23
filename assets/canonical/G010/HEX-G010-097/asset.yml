@@ -1,0 +1,9 @@
+id: HEX-G010-097
+concept: Fibrose pulmonar
+status: generated
+prompt: "Pulmões vetoriais com interstício espessado, padrão reticular e baixa complacência."
+alt: "Pulmões esquemáticos com rede intersticial espessada compatível com fibrose."
+overlay: ["interstício espessado", "baixa complacência", "difusão reduzida"]
+consumers: [Respira, Ventila, Fisiologia, Medicina_Interna]
+files: {source: base-art.svg, png: pending, thumbnail: pending}
+review_gates: [visual_consistency, clinical_accuracy, didactic_function, accessibility, responsive_legibility, metadata_completeness]
