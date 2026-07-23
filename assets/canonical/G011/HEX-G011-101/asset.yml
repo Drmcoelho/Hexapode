@@ -1,0 +1,12 @@
+id: HEX-G011-101
+concept: Mallampati
+cycle: G011
+layer: canonical
+status: generated
+source: base-art.svg
+overlay: embedded-svg
+prompt: "Prancha editorial Hexápode comparando classes I-IV de Mallampati, com anatomia orofaríngea esquemática e nota de integração clínica."
+alt: "Quatro esquemas orofaríngeos mostram as classes I a IV de Mallampati e a redução progressiva das estruturas visíveis."
+consumers: [Via Aérea, Emergências, Anestesia, Terapia Intensiva, Pediatria, Educação]
+review: {visual_consistency: pending, clinical_accuracy: pending, accessibility: present, responsive_legibility: pending}
+exports_pending: [base-art.png, thumbnail.webp]
