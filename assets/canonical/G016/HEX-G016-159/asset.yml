@@ -1,0 +1,10 @@
+id: HEX-G016-159
+concept: Ultrafiltração
+cycle: G016
+layer: canonical
+status: generated
+prompt: Prancha vetorial Hexápode sobre ultrafiltração e gradiente de pressão transmembrana.
+alt: Água atravessando membrana semipermeável do compartimento de maior pressão para o de menor pressão.
+overlay: {title: Ultrafiltração, subtitle: Remoção de água}
+consumers: [Nefrologia, Emergências, Medicina Interna, Pediatria, Farmacologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
