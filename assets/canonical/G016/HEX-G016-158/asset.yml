@@ -1,0 +1,10 @@
+id: HEX-G016-158
+concept: Diálise peritoneal
+cycle: G016
+layer: canonical
+status: generated
+prompt: Prancha vetorial Hexápode sobre diálise peritoneal, bolsa, cateter, cavidade e trocas por difusão e osmose.
+alt: Bolsa de dialisato conectada à cavidade peritoneal por cateter.
+overlay: {title: Diálise peritoneal, subtitle: Peritônio como membrana}
+consumers: [Nefrologia, Emergências, Medicina Interna, Pediatria, Farmacologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
