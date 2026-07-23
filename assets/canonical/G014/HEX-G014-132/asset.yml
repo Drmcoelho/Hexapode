@@ -1,0 +1,14 @@
+id: HEX-G014-132
+concept: IAM
+cycle: G014
+layer: canonical
+status: generated
+prompt: >-
+  Prancha vetorial Hexápode sobre infarto agudo do miocárdio, oclusão coronariana, isquemia transmural e reperfusão.
+alt: Coração esquemático com artéria coronária obstruída, território isquêmico e seta de reperfusão.
+overlay:
+  title: IAM
+  labels: [oclusão coronariana, isquemia, necrose, reperfusão]
+consumers: [Cardio, Emergências, Fisiologia, Farmacologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: complete}
