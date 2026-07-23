@@ -1,0 +1,13 @@
+id: HEX-G008-074
+cycle: G008
+layer: canonical
+concept: SIMV
+title: Ventilação mandatória intermitente sincronizada
+status: generated
+source: assets/canonical/G008/HEX-G008-074/base-art.svg
+prompt: Prancha vetorial canônica sobre SIMV com ciclos mandatórios e espontâneos sincronizados.
+alt: Infográfico sobre SIMV mostrando ciclos mandatórios e espontâneos na mesma sequência temporal.
+overlay: {embedded: true, editable: true}
+consumers: [Ventila, Respira, Emergências]
+review: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete}
+exports_pending: [base-art.png, thumbnail.webp]
