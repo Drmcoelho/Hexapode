@@ -1,0 +1,14 @@
+id: HEX-G014-136
+concept: Estado asmático
+cycle: G014
+layer: canonical
+status: generated
+prompt: >-
+  Prancha vetorial Hexápode sobre estado asmático, broncoconstrição grave, aprisionamento aéreo e falência ventilatória iminente.
+alt: Brônquios esquemáticos com broncoespasmo intenso, obstrução expiratória e hiperinsuflação dinâmica.
+overlay:
+  title: Estado asmático
+  labels: [broncoespasmo, aprisionamento aéreo, fadiga, falência ventilatória]
+consumers: [Emergências, Respira, Ventila, Farmacologia, Pediatria]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: complete}
