@@ -1,0 +1,12 @@
+id: HEX-G011-108
+concept: Máscara laríngea
+cycle: G011
+layer: canonical
+status: generated
+source: base-art.svg
+overlay: embedded-svg
+prompt: "Prancha Hexápode mostrando máscara laríngea supraglótica, posição, usos de resgate e limitações de vedação e proteção contra aspiração."
+alt: "Máscara laríngea azul posicionada sobre uma laringe esquemática, acompanhada por pontos-chave e limitações."
+consumers: [Via Aérea, Emergências, Anestesia, Terapia Intensiva, Pediatria, Educação]
+review: {visual_consistency: pending, clinical_accuracy: pending, accessibility: present, responsive_legibility: pending}
+exports_pending: [base-art.png, thumbnail.webp]
