@@ -1,0 +1,11 @@
+id: HEX-G002-014
+concept: Ácino
+cycle: G002
+layer: canonical
+status: generated
+prompt: Prancha vetorial do ácino pulmonar com bronquíolo respiratório, ductos alveolares e sacos alveolares.
+alt: Ácino pulmonar esquemático mostrando bronquíolo respiratório, ductos alveolares e sacos alveolares.
+overlay: {embedded_in: base-art.svg, labels: [Bronquíolo respiratório, Ductos alveolares, Sacos alveolares]}
+consumers: [Respira, Ventila, Pneumologia, Fisiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, accessibility]
