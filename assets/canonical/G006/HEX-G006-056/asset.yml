@@ -1,0 +1,12 @@
+id: HEX-G006-056
+concept: Máscara total-face
+status: generated
+source: base-art.svg
+overlay: embedded_svg
+prompt: >-
+  Editorial vetorial Hexápode mostrando máscara total-face com ampla área de vedação, fixação lateral e conexão ao circuito.
+alt: >-
+  Máscara total-face esquemática envolvendo toda a face, com almofada teal, quatro tirantes e conexão azul.
+consumers: [Ventila, Respira, Emergencias, UTI, Pediatria]
+review: [visual_consistency, clinical_accuracy, accessibility]
+exports_pending: [base-art.png, thumbnail.webp]
