@@ -1,0 +1,12 @@
+id: HEX-G012-119
+concept: Ânion Gap
+cycle: G012
+layer: canonical
+status: generated
+source: base-art.svg
+overlay: embedded-svg
+prompt: "Prancha editorial Hexápode sobre cálculo do ânion gap, correção pela albumina e distinção entre gap alto e normal."
+alt: "Fórmula do ânion gap e dois painéis com causas de acidose metabólica com gap elevado ou normal, além da correção pela albumina."
+consumers: [Nefrologia, Emergências, Terapia Intensiva, Pediatria, Educação]
+review: {visual_consistency: pending, clinical_accuracy: pending, accessibility: present, responsive_legibility: pending}
+exports_pending: [base-art.png, thumbnail.webp]
