@@ -1,0 +1,11 @@
+id: HEX-G004-036
+concept: Elastância
+cycle: G004
+layer: canonical
+status: generated
+prompt: Curvas vetoriais comparando alta e baixa elastância no sistema respiratório.
+alt: Tendência do sistema respiratório de retornar ao volume de repouso, inversa da complacência.
+overlay: {embedded_in: base-art.svg, labels: [E = ΔP / ΔV, Recuo elástico, Alta em pulmão rígido]}
+consumers: [Respira, Ventila, Fisiologia, Pneumologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, didactic_function, accessibility]
