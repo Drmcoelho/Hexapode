@@ -1,0 +1,13 @@
+id: HEX-G008-073
+cycle: G008
+layer: canonical
+concept: PSV
+title: Ventilação com pressão de suporte
+status: generated
+source: assets/canonical/G008/HEX-G008-073/base-art.svg
+prompt: Prancha vetorial canônica sobre PSV com curvas, trigger, suporte e ciclagem por fluxo.
+alt: Infográfico sobre PSV mostrando esforço do paciente, pressão de suporte e ciclagem por queda do fluxo.
+overlay: {embedded: true, editable: true}
+consumers: [Ventila, Respira, Emergências]
+review: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete}
+exports_pending: [base-art.png, thumbnail.webp]
