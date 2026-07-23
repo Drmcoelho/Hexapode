@@ -1,0 +1,11 @@
+id: HEX-G004-032
+concept: Expiração
+cycle: G004
+layer: canonical
+status: generated
+prompt: Prancha vetorial canônica sobre expiração, com recuo elástico, elevação do diafragma, gradiente de pressão e saída de ar.
+alt: Saída de ar com recuo elástico, elevação do diafragma e pressão alveolar supra-atmosférica.
+overlay: {embedded_in: base-art.svg, labels: [Recuo elástico, Diafragma sobe, PAlv > Patm]}
+consumers: [Respira, Ventila, Fisiologia, Emergência]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, didactic_function, accessibility]
