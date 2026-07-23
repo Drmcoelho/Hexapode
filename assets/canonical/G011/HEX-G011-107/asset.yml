@@ -1,0 +1,12 @@
+id: HEX-G011-107
+concept: Bougie
+cycle: G011
+layer: canonical
+status: generated
+source: base-art.svg
+overlay: embedded-svg
+prompt: "Prancha Hexápode sobre uso do bougie, progressão pela glote, passagem do tubo e prevenção de trauma."
+alt: "Guia bougie amarelo atravessa uma glote esquemática; um tubo azul avança sobre o guia, acompanhado por quatro etapas."
+consumers: [Via Aérea, Emergências, Anestesia, Terapia Intensiva, Educação]
+review: {visual_consistency: pending, clinical_accuracy: pending, accessibility: present, responsive_legibility: pending}
+exports_pending: [base-art.png, thumbnail.webp]
