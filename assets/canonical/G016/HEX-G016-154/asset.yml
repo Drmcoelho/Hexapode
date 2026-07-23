@@ -1,0 +1,10 @@
+id: HEX-G016-154
+concept: Alça de Henle
+cycle: G016
+layer: canonical
+status: generated
+prompt: Prancha vetorial Hexápode sobre alça de Henle, contracorrente e gradiente corticomedular.
+alt: Ramos descendente e ascendente com permeabilidade diferencial a água e NaCl.
+overlay: {title: Alça de Henle, subtitle: Gradiente corticomedular}
+consumers: [Nefrologia, Emergências, Medicina Interna, Pediatria, Farmacologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
