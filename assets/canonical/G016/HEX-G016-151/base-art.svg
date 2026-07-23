@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" role="img"><title>Néfron</title><desc>Unidade funcional do rim</desc>
+<rect width="1600" height="1200" fill="#F7F4EC"/><text x="72" y="92" font-family="Arial" font-size="24" font-weight="700" fill="#1D4E7A">HEXÁPODE · NEFROLOGIA</text>
+<text x="72" y="165" font-family="Georgia" font-size="58" font-weight="700" fill="#2B2E34">Néfron</text>
+<text x="74" y="210" font-family="Arial" font-size="25" fill="#6A727A">Unidade funcional do rim</text>
+<line x1="72" y1="240" x2="1528" y2="240" stroke="#DCD2BE" stroke-width="3"/>
+<rect x="72" y="278" width="1456" height="760" rx="28" fill="#FFFDF8" stroke="#DCD2BE" stroke-width="2"/><circle cx="390" cy="470" r="100" fill="#F4DDD9" stroke="#B2473F" stroke-width="6"/>
+<path d="M360 470 C390 410 450 420 470 470 C445 530 390 530 360 470Z" fill="#B2473F" opacity=".75"/>
+<path d="M490 470 C650 470 590 620 720 650 C850 680 720 830 900 850" fill="none" stroke="#C45A3C" stroke-width="24" stroke-linecap="round"/>
+<path d="M900 850 H1180 V470" fill="none" stroke="#D39A2E" stroke-width="24"/>
+<text x="250" y="650" font-family="Arial" font-size="26" fill="#2B2E34">glomérulo</text><text x="640" y="610" font-family="Arial" font-size="26" fill="#2B2E34">túbulos</text><text x="1100" y="440" font-family="Arial" font-size="26" fill="#2B2E34">coletor</text><text x="72" y="1145" font-family="Arial" font-size="20" fill="#6A727A">HEX-G016-151 · Hexápode · G016</text></svg>
