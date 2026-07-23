@@ -11,8 +11,8 @@ production:
     - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: G007
-  completed_assets: 60
+  next_cycle: G008
+  completed_assets: 70
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycles:
@@ -118,6 +118,23 @@ cycles:
       - {id: HEX-G006-058, concept: HFNC, status: generated, source: assets/canonical/G006/HEX-G006-058/base-art.svg}
       - {id: HEX-G006-059, concept: HME, status: generated, source: assets/canonical/G006/HEX-G006-059/base-art.svg}
       - {id: HEX-G006-060, concept: Umidificador, status: generated, source: assets/canonical/G006/HEX-G006-060/base-art.svg}
+  G007:
+    layer: G
+    range: 61-70
+    theme: Curvas
+    status: generated
+    exports_pending: [base-art.png, thumbnail.webp]
+    assets:
+      - {id: HEX-G007-061, concept: Fluxo × Tempo, status: generated, source: assets/canonical/G007/HEX-G007-061/base-art.svg}
+      - {id: HEX-G007-062, concept: Pressão × Tempo, status: generated, source: assets/canonical/G007/HEX-G007-062/base-art.svg}
+      - {id: HEX-G007-063, concept: Volume × Tempo, status: generated, source: assets/canonical/G007/HEX-G007-063/base-art.svg}
+      - {id: HEX-G007-064, concept: Loop Pressão × Volume, status: generated, source: assets/canonical/G007/HEX-G007-064/base-art.svg}
+      - {id: HEX-G007-065, concept: Loop Fluxo × Volume, status: generated, source: assets/canonical/G007/HEX-G007-065/base-art.svg}
+      - {id: HEX-G007-066, concept: Plateau, status: generated, source: assets/canonical/G007/HEX-G007-066/base-art.svg}
+      - {id: HEX-G007-067, concept: Auto-PEEP, status: generated, source: assets/canonical/G007/HEX-G007-067/base-art.svg}
+      - {id: HEX-G007-068, concept: Trigger, status: generated, source: assets/canonical/G007/HEX-G007-068/base-art.svg}
+      - {id: HEX-G007-069, concept: Ciclagem, status: generated, source: assets/canonical/G007/HEX-G007-069/base-art.svg}
+      - {id: HEX-G007-070, concept: Driving Pressure, status: generated, source: assets/canonical/G007/HEX-G007-070/base-art.svg}
 cycle_generation_rule: >-
   Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
