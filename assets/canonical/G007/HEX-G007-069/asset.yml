@@ -1,0 +1,12 @@
+id: HEX-G007-069
+cycle: G007
+layer: canonical
+concept: Ciclagem
+status: generated
+source: {type: original_vector, file: base-art.svg}
+prompt: "Prancha vetorial Hexápode sobre ciclagem ventilatória, com curva respiratória e ponto de transição inspiração-expiração destacado, fundo marfim e overlay editável."
+alt_text: "Curva esquemática destacando o ponto de transição da inspiração para a expiração."
+overlay: {embedded: true, editable: true, elements: [title, asset_id, curve, cycling_marker, labels, note]}
+consumers: [Ventila, Respira, Fisiologia, Emergencias, Educacao]
+review: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: complete}
+exports_pending: [base-art.png, thumbnail.webp]
