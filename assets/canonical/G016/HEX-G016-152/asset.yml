@@ -1,0 +1,14 @@
+id: HEX-G016-152
+concept: Glomérulo
+cycle: G016
+layer: canonical
+status: generated
+prompt: >-
+  Prancha médica vetorial Hexápode sobre glomérulo, em composição editorial 4:3, fundo marfim, linhas grafite e cores semânticas.
+alt: Corpúsculo renal com arteríola aferente, eferente, capilares e cápsula de Bowman.
+overlay:
+  title: Glomérulo
+  subtitle: Barreira de filtração
+consumers: [Nefrologia, Emergências, Medicina Interna, Pediatria, Farmacologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
