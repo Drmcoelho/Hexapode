@@ -1,0 +1,12 @@
+id: HEX-G007-062
+cycle: G007
+layer: canonical
+concept: "Pressão × Tempo"
+status: generated
+source: {type: original_vector, file: base-art.svg}
+prompt: "Prancha vetorial Hexápode sobre Pressão × Tempo, fundo marfim, curva de pressão com subida, platô e retorno, eixos claros e overlay editável."
+alt_text: "Curva esquemática de pressão das vias aéreas ao longo do tempo."
+overlay: {embedded: true, editable: true, elements: [title, asset_id, axes, labels, note]}
+consumers: [Respira, Ventila, Fisiologia, Emergencias, Educacao]
+review: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: complete}
+exports_pending: [base-art.png, thumbnail.webp]
