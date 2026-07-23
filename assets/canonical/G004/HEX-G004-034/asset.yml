@@ -1,0 +1,11 @@
+id: HEX-G004-034
+concept: Pressão alveolar
+cycle: G004
+layer: canonical
+status: generated
+prompt: Curva vetorial da pressão alveolar ao redor da pressão atmosférica durante inspiração e expiração.
+alt: Oscilação da pressão alveolar ao redor da pressão atmosférica durante inspiração e expiração.
+overlay: {embedded_in: base-art.svg, labels: [Zero no repouso, Negativa na inspiração, Positiva na expiração]}
+consumers: [Respira, Ventila, Fisiologia, UTI]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, didactic_function, accessibility]
