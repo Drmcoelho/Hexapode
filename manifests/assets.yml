@@ -1,5 +1,5 @@
 project: Hexapode
-schema_version: 2
+schema_version: 3
 repository: Drmcoelho/Hexapode
 source_of_truth: true
 production:
@@ -11,164 +11,39 @@ production:
     - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: G010
-  completed_assets: 90
+  next_cycle: G011
+  completed_assets: 100
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
+cycle_index:
+  - {id: G001, range: 1-10, theme: Identidade Visual, status: generated, source_root: assets/canonical/G001}
+  - {id: G002, range: 11-20, theme: Anatomia Respiratória I, status: generated, source_root: assets/canonical/G002}
+  - {id: G003, range: 21-30, theme: Anatomia Respiratória II, status: generated, source_root: assets/canonical/G003}
+  - {id: G004, range: 31-40, theme: Mecânica Respiratória, status: generated, source_root: assets/canonical/G004}
+  - {id: G005, range: 41-50, theme: Fisiologia, status: generated, source_root: assets/canonical/G005}
+  - {id: G006, range: 51-60, theme: Equipamentos, status: generated, source_root: assets/canonical/G006}
+  - {id: G007, range: 61-70, theme: Curvas, status: generated, source_root: assets/canonical/G007}
+  - {id: G008, range: 71-80, theme: Modos Ventilatórios, status: generated, source_root: assets/canonical/G008}
+  - {id: G009, range: 81-90, theme: Assincronias, status: generated, source_root: assets/canonical/G009}
+  - {id: G010, range: 91-100, theme: Patologias Respiratórias, status: generated, source_root: assets/canonical/G010}
 cycles:
-  G001:
+  G010:
     layer: G
-    range: 1-10
-    theme: Identidade Visual
+    range: 91-100
+    theme: Patologias Respiratórias
     status: generated
     exports_pending: [base-art.png, thumbnail.webp]
     assets:
-      - {id: HEX-G001-001, concept: Paleta oficial, status: generated, source: assets/canonical/G001/HEX-G001-001/base-art.svg}
-      - {id: HEX-G001-002, concept: Tipografia, status: generated, source: assets/canonical/G001/HEX-G001-002/base-art.svg}
-      - {id: HEX-G001-003, concept: Biblioteca de ícones, status: generated, source: assets/canonical/G001/HEX-G001-003/base-art.svg}
-      - {id: HEX-G001-004, concept: Corpo humano masculino, status: generated, source: assets/canonical/G001/HEX-G001-004/base-art.svg}
-      - {id: HEX-G001-005, concept: Corpo humano feminino, status: generated, source: assets/canonical/G001/HEX-G001-005/base-art.svg}
-      - {id: HEX-G001-006, concept: Corpo infantil, status: generated, source: assets/canonical/G001/HEX-G001-006/base-art.svg}
-      - {id: HEX-G001-007, concept: Grid editorial, status: generated, source: assets/canonical/G001/HEX-G001-007/base-art.svg}
-      - {id: HEX-G001-008, concept: Sistema de setas, status: generated, source: assets/canonical/G001/HEX-G001-008/base-art.svg}
-      - {id: HEX-G001-009, concept: Sistema de cores, status: generated, source: assets/canonical/G001/HEX-G001-009/base-art.svg}
-      - {id: HEX-G001-010, concept: Templates, status: generated, source: assets/canonical/G001/HEX-G001-010/base-art.svg}
-  G002:
-    layer: G
-    range: 11-20
-    theme: Anatomia Respiratória I
-    status: generated
-    exports_pending: [base-art.png, thumbnail.webp]
-    assets:
-      - {id: HEX-G002-011, concept: Traqueia, status: generated, source: assets/canonical/G002/HEX-G002-011/base-art.svg}
-      - {id: HEX-G002-012, concept: Brônquios, status: generated, source: assets/canonical/G002/HEX-G002-012/base-art.svg}
-      - {id: HEX-G002-013, concept: Bronquíolos, status: generated, source: assets/canonical/G002/HEX-G002-013/base-art.svg}
-      - {id: HEX-G002-014, concept: Ácino, status: generated, source: assets/canonical/G002/HEX-G002-014/base-art.svg}
-      - {id: HEX-G002-015, concept: Alvéolo, status: generated, source: assets/canonical/G002/HEX-G002-015/base-art.svg}
-      - {id: HEX-G002-016, concept: Pleura, status: generated, source: assets/canonical/G002/HEX-G002-016/base-art.svg}
-      - {id: HEX-G002-017, concept: Diafragma, status: generated, source: assets/canonical/G002/HEX-G002-017/base-art.svg}
-      - {id: HEX-G002-018, concept: Caixa torácica, status: generated, source: assets/canonical/G002/HEX-G002-018/base-art.svg}
-      - {id: HEX-G002-019, concept: Intercostais, status: generated, source: assets/canonical/G002/HEX-G002-019/base-art.svg}
-      - {id: HEX-G002-020, concept: Árvore brônquica, status: generated, source: assets/canonical/G002/HEX-G002-020/base-art.svg}
-  G003:
-    layer: G
-    range: 21-30
-    theme: Anatomia Respiratória II
-    status: generated
-    exports_pending: [base-art.png, thumbnail.webp]
-    assets:
-      - {id: HEX-G003-021, concept: Lobos pulmonares, status: generated, source: assets/canonical/G003/HEX-G003-021/base-art.svg}
-      - {id: HEX-G003-022, concept: Segmentos pulmonares, status: generated, source: assets/canonical/G003/HEX-G003-022/base-art.svg}
-      - {id: HEX-G003-023, concept: Hilo, status: generated, source: assets/canonical/G003/HEX-G003-023/base-art.svg}
-      - {id: HEX-G003-024, concept: Capilares, status: generated, source: assets/canonical/G003/HEX-G003-024/base-art.svg}
-      - {id: HEX-G003-025, concept: Pneumócito I, status: generated, source: assets/canonical/G003/HEX-G003-025/base-art.svg}
-      - {id: HEX-G003-026, concept: Pneumócito II, status: generated, source: assets/canonical/G003/HEX-G003-026/base-art.svg}
-      - {id: HEX-G003-027, concept: Surfactante, status: generated, source: assets/canonical/G003/HEX-G003-027/base-art.svg}
-      - {id: HEX-G003-028, concept: Membrana alvéolo-capilar, status: generated, source: assets/canonical/G003/HEX-G003-028/base-art.svg}
-      - {id: HEX-G003-029, concept: Linfáticos, status: generated, source: assets/canonical/G003/HEX-G003-029/base-art.svg}
-      - {id: HEX-G003-030, concept: Circulação pulmonar, status: generated, source: assets/canonical/G003/HEX-G003-030/base-art.svg}
-  G004:
-    layer: G
-    range: 31-40
-    theme: Mecânica Respiratória
-    status: generated
-    exports_pending: [base-art.png, thumbnail.webp]
-    assets:
-      - {id: HEX-G004-031, concept: Inspiração, status: generated, source: assets/canonical/G004/HEX-G004-031/base-art.svg}
-      - {id: HEX-G004-032, concept: Expiração, status: generated, source: assets/canonical/G004/HEX-G004-032/base-art.svg}
-      - {id: HEX-G004-033, concept: Pressão pleural, status: generated, source: assets/canonical/G004/HEX-G004-033/base-art.svg}
-      - {id: HEX-G004-034, concept: Pressão alveolar, status: generated, source: assets/canonical/G004/HEX-G004-034/base-art.svg}
-      - {id: HEX-G004-035, concept: Pressão transpulmonar, status: generated, source: assets/canonical/G004/HEX-G004-035/base-art.svg}
-      - {id: HEX-G004-036, concept: Elastância, status: generated, source: assets/canonical/G004/HEX-G004-036/base-art.svg}
-      - {id: HEX-G004-037, concept: Complacência, status: generated, source: assets/canonical/G004/HEX-G004-037/base-art.svg}
-      - {id: HEX-G004-038, concept: Resistência, status: generated, source: assets/canonical/G004/HEX-G004-038/base-art.svg}
-      - {id: HEX-G004-039, concept: Trabalho respiratório, status: generated, source: assets/canonical/G004/HEX-G004-039/base-art.svg}
-      - {id: HEX-G004-040, concept: Histerese, status: generated, source: assets/canonical/G004/HEX-G004-040/base-art.svg}
-  G005:
-    layer: G
-    range: 41-50
-    theme: Fisiologia
-    status: generated
-    exports_pending: [base-art.png, thumbnail.webp]
-    assets:
-      - {id: HEX-G005-041, concept: Ventilação, status: generated, source: assets/canonical/G005/HEX-G005-041/base-art.svg}
-      - {id: HEX-G005-042, concept: Perfusão, status: generated, source: assets/canonical/G005/HEX-G005-042/base-art.svg}
-      - {id: HEX-G005-043, concept: Relação V/Q, status: generated, source: assets/canonical/G005/HEX-G005-043/base-art.svg}
-      - {id: HEX-G005-044, concept: Shunt, status: generated, source: assets/canonical/G005/HEX-G005-044/base-art.svg}
-      - {id: HEX-G005-045, concept: Espaço morto, status: generated, source: assets/canonical/G005/HEX-G005-045/base-art.svg}
-      - {id: HEX-G005-046, concept: Difusão, status: generated, source: assets/canonical/G005/HEX-G005-046/base-art.svg}
-      - {id: HEX-G005-047, concept: Transporte de O₂, status: generated, source: assets/canonical/G005/HEX-G005-047/base-art.svg}
-      - {id: HEX-G005-048, concept: Transporte de CO₂, status: generated, source: assets/canonical/G005/HEX-G005-048/base-art.svg}
-      - {id: HEX-G005-049, concept: Curva da hemoglobina, status: generated, source: assets/canonical/G005/HEX-G005-049/base-art.svg}
-      - {id: HEX-G005-050, concept: Efeito Bohr, status: generated, source: assets/canonical/G005/HEX-G005-050/base-art.svg}
-  G006:
-    layer: G
-    range: 51-60
-    theme: Equipamentos
-    status: generated
-    exports_pending: [base-art.png, thumbnail.webp]
-    assets:
-      - {id: HEX-G006-051, concept: Ventilador, status: generated, source: assets/canonical/G006/HEX-G006-051/base-art.svg}
-      - {id: HEX-G006-052, concept: Circuito, status: generated, source: assets/canonical/G006/HEX-G006-052/base-art.svg}
-      - {id: HEX-G006-053, concept: Tubo orotraqueal, status: generated, source: assets/canonical/G006/HEX-G006-053/base-art.svg}
-      - {id: HEX-G006-054, concept: Traqueostomia, status: generated, source: assets/canonical/G006/HEX-G006-054/base-art.svg}
-      - {id: HEX-G006-055, concept: Máscara facial, status: generated, source: assets/canonical/G006/HEX-G006-055/base-art.svg}
-      - {id: HEX-G006-056, concept: Máscara total-face, status: generated, source: assets/canonical/G006/HEX-G006-056/base-art.svg}
-      - {id: HEX-G006-057, concept: Cânula nasal, status: generated, source: assets/canonical/G006/HEX-G006-057/base-art.svg}
-      - {id: HEX-G006-058, concept: HFNC, status: generated, source: assets/canonical/G006/HEX-G006-058/base-art.svg}
-      - {id: HEX-G006-059, concept: HME, status: generated, source: assets/canonical/G006/HEX-G006-059/base-art.svg}
-      - {id: HEX-G006-060, concept: Umidificador, status: generated, source: assets/canonical/G006/HEX-G006-060/base-art.svg}
-  G007:
-    layer: G
-    range: 61-70
-    theme: Curvas
-    status: generated
-    exports_pending: [base-art.png, thumbnail.webp]
-    assets:
-      - {id: HEX-G007-061, concept: Fluxo × Tempo, status: generated, source: assets/canonical/G007/HEX-G007-061/base-art.svg}
-      - {id: HEX-G007-062, concept: Pressão × Tempo, status: generated, source: assets/canonical/G007/HEX-G007-062/base-art.svg}
-      - {id: HEX-G007-063, concept: Volume × Tempo, status: generated, source: assets/canonical/G007/HEX-G007-063/base-art.svg}
-      - {id: HEX-G007-064, concept: Loop Pressão × Volume, status: generated, source: assets/canonical/G007/HEX-G007-064/base-art.svg}
-      - {id: HEX-G007-065, concept: Loop Fluxo × Volume, status: generated, source: assets/canonical/G007/HEX-G007-065/base-art.svg}
-      - {id: HEX-G007-066, concept: Plateau, status: generated, source: assets/canonical/G007/HEX-G007-066/base-art.svg}
-      - {id: HEX-G007-067, concept: Auto-PEEP, status: generated, source: assets/canonical/G007/HEX-G007-067/base-art.svg}
-      - {id: HEX-G007-068, concept: Trigger, status: generated, source: assets/canonical/G007/HEX-G007-068/base-art.svg}
-      - {id: HEX-G007-069, concept: Ciclagem, status: generated, source: assets/canonical/G007/HEX-G007-069/base-art.svg}
-      - {id: HEX-G007-070, concept: Driving Pressure, status: generated, source: assets/canonical/G007/HEX-G007-070/base-art.svg}
-  G008:
-    layer: G
-    range: 71-80
-    theme: Modos Ventilatórios
-    status: generated
-    exports_pending: [base-art.png, thumbnail.webp]
-    assets:
-      - {id: HEX-G008-071, concept: VCV, status: generated, source: assets/canonical/G008/HEX-G008-071/base-art.svg}
-      - {id: HEX-G008-072, concept: PCV, status: generated, source: assets/canonical/G008/HEX-G008-072/base-art.svg}
-      - {id: HEX-G008-073, concept: PSV, status: generated, source: assets/canonical/G008/HEX-G008-073/base-art.svg}
-      - {id: HEX-G008-074, concept: SIMV, status: generated, source: assets/canonical/G008/HEX-G008-074/base-art.svg}
-      - {id: HEX-G008-075, concept: PRVC, status: generated, source: assets/canonical/G008/HEX-G008-075/base-art.svg}
-      - {id: HEX-G008-076, concept: APRV, status: generated, source: assets/canonical/G008/HEX-G008-076/base-art.svg}
-      - {id: HEX-G008-077, concept: CPAP, status: generated, source: assets/canonical/G008/HEX-G008-077/base-art.svg}
-      - {id: HEX-G008-078, concept: BIPAP, status: generated, source: assets/canonical/G008/HEX-G008-078/base-art.svg}
-      - {id: HEX-G008-079, concept: HFOV, status: generated, source: assets/canonical/G008/HEX-G008-079/base-art.svg}
-      - {id: HEX-G008-080, concept: VNI, status: generated, source: assets/canonical/G008/HEX-G008-080/base-art.svg}
-  G009:
-    layer: G
-    range: 81-90
-    theme: Assincronias
-    status: generated
-    exports_pending: [base-art.png, thumbnail.webp]
-    assets:
-      - {id: HEX-G009-081, concept: Auto-trigger, status: generated, source: assets/canonical/G009/HEX-G009-081/base-art.svg}
-      - {id: HEX-G009-082, concept: Double Trigger, status: generated, source: assets/canonical/G009/HEX-G009-082/base-art.svg}
-      - {id: HEX-G009-083, concept: Reverse Trigger, status: generated, source: assets/canonical/G009/HEX-G009-083/base-art.svg}
-      - {id: HEX-G009-084, concept: Ineffective Trigger, status: generated, source: assets/canonical/G009/HEX-G009-084/base-art.svg}
-      - {id: HEX-G009-085, concept: Flow Starvation, status: generated, source: assets/canonical/G009/HEX-G009-085/base-art.svg}
-      - {id: HEX-G009-086, concept: Ciclagem precoce, status: generated, source: assets/canonical/G009/HEX-G009-086/base-art.svg}
-      - {id: HEX-G009-087, concept: Ciclagem tardia, status: generated, source: assets/canonical/G009/HEX-G009-087/base-art.svg}
-      - {id: HEX-G009-088, concept: Breath Stacking, status: generated, source: assets/canonical/G009/HEX-G009-088/base-art.svg}
-      - {id: HEX-G009-089, concept: Auto-PEEP dinâmica, status: generated, source: assets/canonical/G009/HEX-G009-089/base-art.svg}
-      - {id: HEX-G009-090, concept: Soluções, status: generated, source: assets/canonical/G009/HEX-G009-090/base-art.svg}
+      - {id: HEX-G010-091, concept: SDRA, status: generated, source: assets/canonical/G010/HEX-G010-091/base-art.svg, metadata: assets/canonical/G010/HEX-G010-091/asset.yml}
+      - {id: HEX-G010-092, concept: DPOC, status: generated, source: assets/canonical/G010/HEX-G010-092/base-art.svg, metadata: assets/canonical/G010/HEX-G010-092/asset.yml}
+      - {id: HEX-G010-093, concept: Asma, status: generated, source: assets/canonical/G010/HEX-G010-093/base-art.svg, metadata: assets/canonical/G010/HEX-G010-093/asset.yml}
+      - {id: HEX-G010-094, concept: Atelectasia, status: generated, source: assets/canonical/G010/HEX-G010-094/base-art.svg, metadata: assets/canonical/G010/HEX-G010-094/asset.yml}
+      - {id: HEX-G010-095, concept: Pneumotórax, status: generated, source: assets/canonical/G010/HEX-G010-095/base-art.svg, metadata: assets/canonical/G010/HEX-G010-095/asset.yml}
+      - {id: HEX-G010-096, concept: Derrame pleural, status: generated, source: assets/canonical/G010/HEX-G010-096/base-art.svg, metadata: assets/canonical/G010/HEX-G010-096/asset.yml}
+      - {id: HEX-G010-097, concept: Fibrose pulmonar, status: generated, source: assets/canonical/G010/HEX-G010-097/base-art.svg, metadata: assets/canonical/G010/HEX-G010-097/asset.yml}
+      - {id: HEX-G010-098, concept: Enfisema, status: generated, source: assets/canonical/G010/HEX-G010-098/base-art.svg, metadata: assets/canonical/G010/HEX-G010-098/asset.yml}
+      - {id: HEX-G010-099, concept: Edema pulmonar, status: generated, source: assets/canonical/G010/HEX-G010-099/base-art.svg, metadata: assets/canonical/G010/HEX-G010-099/asset.yml}
+      - {id: HEX-G010-100, concept: Pneumonia esquemática, status: generated, source: assets/canonical/G010/HEX-G010-100/base-art.svg, metadata: assets/canonical/G010/HEX-G010-100/asset.yml}
 cycle_generation_rule: >-
   Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
