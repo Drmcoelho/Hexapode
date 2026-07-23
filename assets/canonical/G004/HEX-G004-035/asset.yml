@@ -1,0 +1,11 @@
+id: HEX-G004-035
+concept: Pressão transpulmonar
+cycle: G004
+layer: canonical
+status: generated
+prompt: Diagrama vetorial do gradiente transpulmonar, definido pela diferença entre pressão alveolar e pleural.
+alt: Diferença entre pressão alveolar e pleural que mantém o pulmão distendido.
+overlay: {embedded_in: base-art.svg, labels: [PL = PAlv − Ppl, Gradiente distensor, Aumenta na inspiração]}
+consumers: [Respira, Ventila, Fisiologia, UTI]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, didactic_function, accessibility]
