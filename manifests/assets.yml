@@ -11,8 +11,8 @@ production:
     - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: G011
-  completed_assets: 100
+  next_cycle: G012
+  completed_assets: 110
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycle_index:
@@ -26,24 +26,25 @@ cycle_index:
   - {id: G008, range: 71-80, theme: Modos Ventilatórios, status: generated, source_root: assets/canonical/G008}
   - {id: G009, range: 81-90, theme: Assincronias, status: generated, source_root: assets/canonical/G009}
   - {id: G010, range: 91-100, theme: Patologias Respiratórias, status: generated, source_root: assets/canonical/G010}
+  - {id: G011, range: 101-110, theme: Via Aérea, status: generated, source_root: assets/canonical/G011}
 cycles:
-  G010:
+  G011:
     layer: G
-    range: 91-100
-    theme: Patologias Respiratórias
+    range: 101-110
+    theme: Via Aérea
     status: generated
     exports_pending: [base-art.png, thumbnail.webp]
     assets:
-      - {id: HEX-G010-091, concept: SDRA, status: generated, source: assets/canonical/G010/HEX-G010-091/base-art.svg, metadata: assets/canonical/G010/HEX-G010-091/asset.yml}
-      - {id: HEX-G010-092, concept: DPOC, status: generated, source: assets/canonical/G010/HEX-G010-092/base-art.svg, metadata: assets/canonical/G010/HEX-G010-092/asset.yml}
-      - {id: HEX-G010-093, concept: Asma, status: generated, source: assets/canonical/G010/HEX-G010-093/base-art.svg, metadata: assets/canonical/G010/HEX-G010-093/asset.yml}
-      - {id: HEX-G010-094, concept: Atelectasia, status: generated, source: assets/canonical/G010/HEX-G010-094/base-art.svg, metadata: assets/canonical/G010/HEX-G010-094/asset.yml}
-      - {id: HEX-G010-095, concept: Pneumotórax, status: generated, source: assets/canonical/G010/HEX-G010-095/base-art.svg, metadata: assets/canonical/G010/HEX-G010-095/asset.yml}
-      - {id: HEX-G010-096, concept: Derrame pleural, status: generated, source: assets/canonical/G010/HEX-G010-096/base-art.svg, metadata: assets/canonical/G010/HEX-G010-096/asset.yml}
-      - {id: HEX-G010-097, concept: Fibrose pulmonar, status: generated, source: assets/canonical/G010/HEX-G010-097/base-art.svg, metadata: assets/canonical/G010/HEX-G010-097/asset.yml}
-      - {id: HEX-G010-098, concept: Enfisema, status: generated, source: assets/canonical/G010/HEX-G010-098/base-art.svg, metadata: assets/canonical/G010/HEX-G010-098/asset.yml}
-      - {id: HEX-G010-099, concept: Edema pulmonar, status: generated, source: assets/canonical/G010/HEX-G010-099/base-art.svg, metadata: assets/canonical/G010/HEX-G010-099/asset.yml}
-      - {id: HEX-G010-100, concept: Pneumonia esquemática, status: generated, source: assets/canonical/G010/HEX-G010-100/base-art.svg, metadata: assets/canonical/G010/HEX-G010-100/asset.yml}
+      - {id: HEX-G011-101, concept: Mallampati, status: generated, source: assets/canonical/G011/HEX-G011-101/base-art.svg, metadata: assets/canonical/G011/HEX-G011-101/asset.yml}
+      - {id: HEX-G011-102, concept: Cormack-Lehane, status: generated, source: assets/canonical/G011/HEX-G011-102/base-art.svg, metadata: assets/canonical/G011/HEX-G011-102/asset.yml}
+      - {id: HEX-G011-103, concept: BURP, status: generated, source: assets/canonical/G011/HEX-G011-103/base-art.svg, metadata: assets/canonical/G011/HEX-G011-103/asset.yml}
+      - {id: HEX-G011-104, concept: Rampa, status: generated, source: assets/canonical/G011/HEX-G011-104/base-art.svg, metadata: assets/canonical/G011/HEX-G011-104/asset.yml}
+      - {id: HEX-G011-105, concept: Cuff, status: generated, source: assets/canonical/G011/HEX-G011-105/base-art.svg, metadata: assets/canonical/G011/HEX-G011-105/asset.yml}
+      - {id: HEX-G011-106, concept: Videolaringoscopia, status: generated, source: assets/canonical/G011/HEX-G011-106/base-art.svg, metadata: assets/canonical/G011/HEX-G011-106/asset.yml}
+      - {id: HEX-G011-107, concept: Bougie, status: generated, source: assets/canonical/G011/HEX-G011-107/base-art.svg, metadata: assets/canonical/G011/HEX-G011-107/asset.yml}
+      - {id: HEX-G011-108, concept: Máscara laríngea, status: generated, source: assets/canonical/G011/HEX-G011-108/base-art.svg, metadata: assets/canonical/G011/HEX-G011-108/asset.yml}
+      - {id: HEX-G011-109, concept: Cricotireoidostomia, status: generated, source: assets/canonical/G011/HEX-G011-109/base-art.svg, metadata: assets/canonical/G011/HEX-G011-109/asset.yml}
+      - {id: HEX-G011-110, concept: Sequência rápida, status: generated, source: assets/canonical/G011/HEX-G011-110/base-art.svg, metadata: assets/canonical/G011/HEX-G011-110/asset.yml}
 cycle_generation_rule: >-
   Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
