@@ -1,0 +1,14 @@
+id: HEX-G013-122
+concept: Pós-carga
+cycle: G013
+layer: canonical
+status: generated
+prompt: >-
+  Prancha editorial vetorial Hexápode sobre pós-carga como carga oposta à ejeção, integrando pressão arterial, impedância e tensão parietal.
+alt: Prancha mostrando o ventrículo ejetando contra resistência vascular, com efeitos da elevação da pós-carga.
+overlay:
+  title: Pós-carga
+  labels: [resistência à ejeção, tensão parietal, volume sistólico]
+consumers: [Cardio, Emergências, Ventila, Fisiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

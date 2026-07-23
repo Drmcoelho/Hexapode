@@ -1,0 +1,14 @@
+id: HEX-G013-123
+concept: Débito cardíaco
+cycle: G013
+layer: canonical
+status: generated
+prompt: >-
+  Prancha vetorial Hexápode sobre débito cardíaco, equação FC vezes volume sistólico e principais determinantes.
+alt: Prancha com coração, fluxo e equação do débito cardíaco, listando pré-carga, contratilidade, pós-carga, frequência e ritmo.
+overlay:
+  title: Débito cardíaco
+  labels: [FC, volume sistólico, pré-carga, contratilidade, pós-carga]
+consumers: [Cardio, Emergências, Ventila, Nefrologia, Fisiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
