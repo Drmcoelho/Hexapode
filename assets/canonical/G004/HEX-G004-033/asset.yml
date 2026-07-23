@@ -1,0 +1,11 @@
+id: HEX-G004-033
+concept: Pressão pleural
+cycle: G004
+layer: canonical
+status: generated
+prompt: Curva vetorial da pressão pleural ao longo do ciclo respiratório, destacando seu caráter negativo e a maior negatividade inspiratória.
+alt: Pressão pleural negativa e mais negativa durante a inspiração.
+overlay: {embedded_in: base-art.svg, labels: [Ppl negativa, Mais negativa na inspiração, Transmissão à caixa torácica]}
+consumers: [Respira, Ventila, Fisiologia, UTI]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, didactic_function, accessibility]
