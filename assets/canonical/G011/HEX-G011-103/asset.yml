@@ -1,0 +1,12 @@
+id: HEX-G011-103
+concept: BURP
+cycle: G011
+layer: canonical
+status: generated
+source: base-art.svg
+overlay: embedded-svg
+prompt: "Diagrama Hexápode demonstrando pressão posterior, superior e para a direita sobre a laringe, distinguindo BURP de pressão cricoide."
+alt: "Pescoço esquemático com três setas indicando os vetores posterior, superior e para a direita usados na manobra BURP."
+consumers: [Via Aérea, Emergências, Anestesia, Terapia Intensiva, Educação]
+review: {visual_consistency: pending, clinical_accuracy: pending, accessibility: present, responsive_legibility: pending}
+exports_pending: [base-art.png, thumbnail.webp]
