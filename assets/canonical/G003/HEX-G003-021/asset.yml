@@ -1,0 +1,11 @@
+id: HEX-G003-021
+concept: Lobos pulmonares
+cycle: G003
+layer: canonical
+status: generated
+prompt: Prancha vetorial comparativa dos lobos pulmonares direito e esquerdo, com fissuras e orientação anatômica.
+alt: Pulmões esquemáticos com três lobos à direita, dois à esquerda e fissuras identificadas.
+overlay: {embedded_in: base-art.svg, labels: [Pulmão direito: 3 lobos, Pulmão esquerdo: 2 lobos, Fissuras]}
+consumers: [Respira, Ventila, Pneumologia, Anatomia]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, didactic_function, accessibility]
