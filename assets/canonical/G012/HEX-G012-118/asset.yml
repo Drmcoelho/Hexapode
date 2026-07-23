@@ -1,0 +1,12 @@
+id: HEX-G012-118
+concept: Compensações
+cycle: G012
+layer: canonical
+status: generated
+source: base-art.svg
+overlay: embedded-svg
+prompt: "Prancha editorial Hexápode com regras de compensação nos distúrbios metabólicos e respiratórios, incluindo fórmula de Winter."
+alt: "Quatro painéis resumem compensação na acidose e alcalose metabólicas e em distúrbios respiratórios agudos e crônicos."
+consumers: [Emergências, Terapia Intensiva, Nefrologia, Respira, Ventila, Pediatria, Educação]
+review: {visual_consistency: pending, clinical_accuracy: pending, accessibility: present, responsive_legibility: pending}
+exports_pending: [base-art.png, thumbnail.webp]
