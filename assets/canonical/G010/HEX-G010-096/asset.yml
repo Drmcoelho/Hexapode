@@ -1,0 +1,9 @@
+id: HEX-G010-096
+concept: Derrame pleural
+status: generated
+prompt: "Esquema vetorial de líquido pleural com menisco e compressão basal."
+alt: "Líquido acumulado na cavidade pleural comprimindo a base pulmonar."
+overlay: ["líquido pleural", "menisco", "compressão basal"]
+consumers: [Respira, Ventila, Emergencias, Ultrassom, Medicina_Interna]
+files: {source: base-art.svg, png: pending, thumbnail: pending}
+review_gates: [visual_consistency, clinical_accuracy, didactic_function, accessibility, responsive_legibility, metadata_completeness]
