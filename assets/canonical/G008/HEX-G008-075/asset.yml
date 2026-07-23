@@ -1,0 +1,13 @@
+id: HEX-G008-075
+cycle: G008
+layer: canonical
+concept: PRVC
+title: Controle de pressão com volume-alvo
+status: generated
+source: assets/canonical/G008/HEX-G008-075/base-art.svg
+prompt: Prancha vetorial canônica sobre PRVC com ajuste ciclo a ciclo da pressão para atingir volume-alvo.
+alt: Infográfico sobre PRVC mostrando volume-alvo e ajuste automático da pressão inspiratória.
+overlay: {embedded: true, editable: true}
+consumers: [Ventila, Respira, Emergências]
+review: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete}
+exports_pending: [base-art.png, thumbnail.webp]
