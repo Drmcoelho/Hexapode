@@ -1,0 +1,11 @@
+id: HEX-G003-028
+concept: Membrana alvéolo-capilar
+cycle: G003
+layer: canonical
+status: generated
+prompt: Corte vetorial em camadas da membrana alvéolo-capilar com espessura relativa e trajetória de O2 e CO2.
+alt: Membrana alvéolo-capilar em camadas mostrando epitélio, membranas basais, endotélio e difusão gasosa.
+overlay: {embedded_in: base-art.svg, labels: [Epitélio alveolar, Membranas basais, Endotélio capilar, O₂ ↔ CO₂]}
+consumers: [Respira, Ventila, Pneumologia, Fisiologia, Patologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, didactic_function, accessibility]
