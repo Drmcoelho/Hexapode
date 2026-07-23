@@ -1,0 +1,15 @@
+id: HEX-G009-083
+cycle: G009
+layer: canonical
+concept: Reverse Trigger
+title: Reverse Trigger
+status: generated
+source: assets/canonical/G009/HEX-G009-083/base-art.svg
+prompt: >-
+  Prancha vetorial canônica mostrando esforço do paciente após início mandatório, latência fixa e acoplamento por entrainment.
+alt: >-
+  Infográfico de reverse trigger com pressão mandatória antecedendo esforço muscular repetitivo.
+overlay: {embedded: true, editable: true}
+consumers: [Ventila, Respira, Emergências]
+review: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete}
+exports_pending: [base-art.png, thumbnail.webp]

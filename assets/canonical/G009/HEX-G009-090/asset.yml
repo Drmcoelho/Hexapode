@@ -1,0 +1,15 @@
+id: HEX-G009-090
+cycle: G009
+layer: canonical
+concept: Soluções
+title: Soluções para Assincronias
+status: generated
+source: assets/canonical/G009/HEX-G009-090/base-art.svg
+prompt: >-
+  Matriz vetorial canônica de reconhecimento, mecanismo, ajuste inicial e reavaliação das assincronias.
+alt: >-
+  Tabela visual relacionando padrões de assincronia, causas, correções e critérios de reavaliação.
+overlay: {embedded: true, editable: true}
+consumers: [Ventila, Respira, Emergências, Educação]
+review: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete}
+exports_pending: [base-art.png, thumbnail.webp]

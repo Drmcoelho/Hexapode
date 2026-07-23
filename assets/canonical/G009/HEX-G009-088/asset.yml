@@ -1,0 +1,15 @@
+id: HEX-G009-088
+cycle: G009
+layer: canonical
+concept: Breath Stacking
+title: Breath Stacking
+status: generated
+source: assets/canonical/G009/HEX-G009-088/base-art.svg
+prompt: >-
+  Prancha vetorial mostrando soma de volumes por ciclos consecutivos sem expiração completa e riscos mecânicos.
+alt: >-
+  Infográfico de breath stacking com segundo ciclo antes do retorno do volume à linha de base.
+overlay: {embedded: true, editable: true}
+consumers: [Ventila, Respira, Emergências]
+review: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete}
+exports_pending: [base-art.png, thumbnail.webp]

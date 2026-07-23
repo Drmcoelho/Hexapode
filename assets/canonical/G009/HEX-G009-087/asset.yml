@@ -1,0 +1,15 @@
+id: HEX-G009-087
+cycle: G009
+layer: canonical
+concept: Ciclagem tardia
+title: Ciclagem tardia
+status: generated
+source: assets/canonical/G009/HEX-G009-087/base-art.svg
+prompt: >-
+  Prancha vetorial mostrando fluxo inspiratório persistindo após fim do esforço, expiração ativa e correção.
+alt: >-
+  Infográfico de ciclagem tardia com inspiração mecânica prolongada além do esforço neural.
+overlay: {embedded: true, editable: true}
+consumers: [Ventila, Respira]
+review: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete}
+exports_pending: [base-art.png, thumbnail.webp]
