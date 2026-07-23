@@ -1,0 +1,11 @@
+id: HEX-G003-029
+concept: Linfáticos
+cycle: G003
+layer: canonical
+status: generated
+prompt: Mapa vetorial da drenagem linfática pulmonar desde plexos superficiais e profundos até linfonodos hilares.
+alt: Drenagem linfática pulmonar esquemática dos plexos periféricos aos linfonodos hilares e mediastinais.
+overlay: {embedded_in: base-art.svg, labels: [Plexo superficial, Plexo profundo, Linfonodos hilares]}
+consumers: [Respira, Ventila, Pneumologia, Oncologia, Anatomia]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, didactic_function, accessibility]
