@@ -1,0 +1,9 @@
+id: HEX-G010-098
+concept: Enfisema
+status: generated
+prompt: "Ácino normal versus enfisema com destruição septal e espaços aéreos aumentados."
+alt: "Comparação esquemática entre ácinos normais e espaço aéreo aumentado no enfisema."
+overlay: ["destruição septal", "hiperinsuflação", "perda elástica"]
+consumers: [Respira, Ventila, Fisiologia, Medicina_Interna]
+files: {source: base-art.svg, png: pending, thumbnail: pending}
+review_gates: [visual_consistency, clinical_accuracy, didactic_function, accessibility, responsive_legibility, metadata_completeness]
