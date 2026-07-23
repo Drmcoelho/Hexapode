@@ -1,0 +1,10 @@
+id: HEX-G016-160
+concept: Distúrbios hidroeletrolíticos
+cycle: G016
+layer: canonical
+status: generated
+prompt: Prancha vetorial Hexápode com mapa integrado de água, sódio, potássio, cálcio, magnésio e osmolaridade.
+alt: Rede visual relacionando água aos principais eletrólitos e à osmolaridade.
+overlay: {title: Distúrbios hidroeletrolíticos, subtitle: Mapa clínico integrado}
+consumers: [Nefrologia, Emergências, Medicina Interna, Pediatria, Farmacologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
