@@ -1,0 +1,11 @@
+id: HEX-G003-025
+concept: Pneumócito I
+cycle: G003
+layer: canonical
+status: generated
+prompt: Corte microscópico esquemático de pneumócito tipo I revestindo a superfície alveolar e participando da barreira de difusão.
+alt: Pneumócito tipo I achatado revestindo o alvéolo e compondo a barreira alvéolo-capilar.
+overlay: {embedded_in: base-art.svg, labels: [Pneumócito tipo I, Núcleo achatado, Barreira fina]}
+consumers: [Respira, Ventila, Pneumologia, Histologia, Patologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, didactic_function, accessibility]
