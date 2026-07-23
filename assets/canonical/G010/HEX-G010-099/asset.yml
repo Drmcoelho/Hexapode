@@ -1,0 +1,9 @@
+id: HEX-G010-099
+concept: Edema pulmonar
+status: generated
+prompt: "Pulmões vetoriais com líquido intersticial e preenchimento alveolar."
+alt: "Pulmões esquemáticos com áreas azuladas representando edema intersticial e alveolar."
+overlay: ["pressão hidrostática", "interstício", "alvéolo inundado"]
+consumers: [Respira, Ventila, Cardio, Emergencias, Medicina_Interna]
+files: {source: base-art.svg, png: pending, thumbnail: pending}
+review_gates: [visual_consistency, clinical_accuracy, didactic_function, accessibility, responsive_legibility, metadata_completeness]
