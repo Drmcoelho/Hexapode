@@ -1,0 +1,11 @@
+id: HEX-G002-013
+concept: Bronquíolos
+cycle: G002
+layer: canonical
+status: generated
+prompt: Prancha vetorial de bronquíolos com redução progressiva do calibre, musculatura lisa e ausência de cartilagem.
+alt: Bronquíolos esquemáticos com redução progressiva do calibre e ausência de cartilagem.
+overlay: {embedded_in: base-art.svg, labels: [Brônquio pequeno, Bronquíolo, Bronquíolo terminal]}
+consumers: [Respira, Ventila, Pneumologia, Farmacologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, accessibility]
