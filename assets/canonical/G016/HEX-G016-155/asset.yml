@@ -1,0 +1,10 @@
+id: HEX-G016-155
+concept: Túbulo distal
+cycle: G016
+layer: canonical
+status: generated
+prompt: Prancha vetorial Hexápode sobre túbulo distal e ajuste fino de sódio, cálcio, potássio e hidrogênio.
+alt: Segmento tubular distal com setas de transporte de NaCl, Ca2+, K+ e H+.
+overlay: {title: Túbulo distal, subtitle: Ajuste fino do filtrado}
+consumers: [Nefrologia, Emergências, Medicina Interna, Pediatria, Farmacologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
