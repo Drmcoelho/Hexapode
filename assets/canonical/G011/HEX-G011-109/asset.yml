@@ -1,0 +1,12 @@
+id: HEX-G011-109
+concept: Cricotireoidostomia
+cycle: G011
+layer: canonical
+status: generated
+source: base-art.svg
+overlay: embedded-svg
+prompt: "Prancha Hexápode localizando a membrana cricotireóidea e resumindo a sequência conceitual de acesso frontal do pescoço em CICO."
+alt: "Pescoço esquemático destaca a membrana cricotireóidea entre cartilagens e apresenta quatro etapas conceituais do procedimento."
+consumers: [Via Aérea, Emergências, Anestesia, Terapia Intensiva, Trauma, Educação]
+review: {visual_consistency: pending, clinical_accuracy: pending, accessibility: present, responsive_legibility: pending}
+exports_pending: [base-art.png, thumbnail.webp]
