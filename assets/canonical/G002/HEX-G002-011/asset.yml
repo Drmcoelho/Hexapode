@@ -1,0 +1,15 @@
+id: HEX-G002-011
+concept: Traqueia
+cycle: G002
+layer: canonical
+status: generated
+prompt: >-
+  Prancha vetorial editorial da traqueia, com anéis cartilaginosos em C,
+  parede posterior membranosa e carina, segundo o design system Hexápode.
+alt: Traqueia esquemática com anéis cartilaginosos, parede posterior membranosa e carina.
+overlay:
+  embedded_in: base-art.svg
+  labels: [Anéis em C, Parede membranosa posterior, Carina]
+consumers: [Respira, Ventila, ViaAerea, Emergencia]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, accessibility]
