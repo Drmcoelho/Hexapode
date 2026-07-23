@@ -11,8 +11,8 @@ production:
     - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: G009
-  completed_assets: 80
+  next_cycle: G010
+  completed_assets: 90
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycles:
@@ -152,6 +152,23 @@ cycles:
       - {id: HEX-G008-078, concept: BIPAP, status: generated, source: assets/canonical/G008/HEX-G008-078/base-art.svg}
       - {id: HEX-G008-079, concept: HFOV, status: generated, source: assets/canonical/G008/HEX-G008-079/base-art.svg}
       - {id: HEX-G008-080, concept: VNI, status: generated, source: assets/canonical/G008/HEX-G008-080/base-art.svg}
+  G009:
+    layer: G
+    range: 81-90
+    theme: Assincronias
+    status: generated
+    exports_pending: [base-art.png, thumbnail.webp]
+    assets:
+      - {id: HEX-G009-081, concept: Auto-trigger, status: generated, source: assets/canonical/G009/HEX-G009-081/base-art.svg}
+      - {id: HEX-G009-082, concept: Double Trigger, status: generated, source: assets/canonical/G009/HEX-G009-082/base-art.svg}
+      - {id: HEX-G009-083, concept: Reverse Trigger, status: generated, source: assets/canonical/G009/HEX-G009-083/base-art.svg}
+      - {id: HEX-G009-084, concept: Ineffective Trigger, status: generated, source: assets/canonical/G009/HEX-G009-084/base-art.svg}
+      - {id: HEX-G009-085, concept: Flow Starvation, status: generated, source: assets/canonical/G009/HEX-G009-085/base-art.svg}
+      - {id: HEX-G009-086, concept: Ciclagem precoce, status: generated, source: assets/canonical/G009/HEX-G009-086/base-art.svg}
+      - {id: HEX-G009-087, concept: Ciclagem tardia, status: generated, source: assets/canonical/G009/HEX-G009-087/base-art.svg}
+      - {id: HEX-G009-088, concept: Breath Stacking, status: generated, source: assets/canonical/G009/HEX-G009-088/base-art.svg}
+      - {id: HEX-G009-089, concept: Auto-PEEP dinâmica, status: generated, source: assets/canonical/G009/HEX-G009-089/base-art.svg}
+      - {id: HEX-G009-090, concept: Soluções, status: generated, source: assets/canonical/G009/HEX-G009-090/base-art.svg}
 cycle_generation_rule: >-
   Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
