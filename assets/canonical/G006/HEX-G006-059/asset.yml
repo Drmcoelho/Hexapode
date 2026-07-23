@@ -1,0 +1,12 @@
+id: HEX-G006-059
+concept: HME
+status: generated
+source: base-art.svg
+overlay: embedded_svg
+prompt: >-
+  Editorial vetorial Hexápode mostrando trocador de calor e umidade entre circuito e via aérea, com retenção e devolução de calor e umidade.
+alt: >-
+  HME esquemático entre circuito azul e via aérea terracota, com meio higroscópico teal e setas opostas.
+consumers: [Ventila, UTI, Anestesia, Emergencias, Enfermagem]
+review: [visual_consistency, clinical_accuracy, accessibility]
+exports_pending: [base-art.png, thumbnail.webp]
