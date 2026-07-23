@@ -1,0 +1,14 @@
+id: HEX-G014-137
+concept: TEP
+cycle: G014
+layer: canonical
+status: generated
+prompt: >-
+  Prancha vetorial Hexápode sobre tromboembolismo pulmonar, obstrução arterial, aumento de pós-carga do ventrículo direito e desequilíbrio V/Q.
+alt: Circulação pulmonar esquemática com trombo arterial, sobrecarga direita e área ventilada sem perfusão.
+overlay:
+  title: TEP
+  labels: [trombo, obstrução arterial, ventrículo direito, espaço morto]
+consumers: [Emergências, Cardio, Respira, Ventila, Medicina Interna]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: complete}
