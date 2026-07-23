@@ -1,0 +1,11 @@
+id: HEX-G002-015
+concept: Alvéolo
+cycle: G002
+layer: canonical
+status: generated
+prompt: Prancha vetorial de alvéolo isolado com surfactante, septo fino e capilar adjacente.
+alt: Alvéolo esquemático com surfactante, septo fino e capilar adjacente.
+overlay: {embedded_in: base-art.svg, labels: [Surfactante, Septo alveolar, Capilar, Hemácia]}
+consumers: [Respira, Ventila, Pneumologia, Fisiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, accessibility]
