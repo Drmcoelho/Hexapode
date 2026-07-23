@@ -1,0 +1,10 @@
+id: HEX-G016-157
+concept: Hemodiálise
+cycle: G016
+layer: canonical
+status: generated
+prompt: Prancha vetorial Hexápode sobre hemodiálise, circuito extracorpóreo, dialisador, difusão e ultrafiltração.
+alt: Máquina, circuito sanguíneo e dialisador com fluxo de ida e retorno.
+overlay: {title: Hemodiálise, subtitle: Depuração extracorpórea}
+consumers: [Nefrologia, Emergências, Medicina Interna, Pediatria, Farmacologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
