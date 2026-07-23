@@ -1,0 +1,12 @@
+id: HEX-G006-052
+concept: Circuito
+status: generated
+source: base-art.svg
+overlay: embedded_svg
+prompt: >-
+  Editorial vetorial Hexápode mostrando circuito respiratório com ramos inspiratório e expiratório, peça Y e direção de fluxo.
+alt: >-
+  Circuito respiratório esquemático com dois ramos coloridos conectando ventilador, peça Y e paciente.
+consumers: [Ventila, Respira, UTI, Anestesia, Pediatria]
+review: [visual_consistency, clinical_accuracy, accessibility]
+exports_pending: [base-art.png, thumbnail.webp]
