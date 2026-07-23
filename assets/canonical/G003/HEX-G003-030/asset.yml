@@ -1,0 +1,11 @@
+id: HEX-G003-030
+concept: Circulação pulmonar
+cycle: G003
+layer: canonical
+status: generated
+prompt: Diagrama vetorial integrado da circulação pulmonar, do ventrículo direito ao átrio esquerdo, com zonas arterial, capilar e venosa.
+alt: Circulação pulmonar esquemática do coração direito aos pulmões e retorno oxigenado ao átrio esquerdo.
+overlay: {embedded_in: base-art.svg, labels: [Artéria pulmonar, Capilares, Veias pulmonares, Coração]}
+consumers: [Respira, Ventila, Cardio, Pneumologia, Fisiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, didactic_function, accessibility]
