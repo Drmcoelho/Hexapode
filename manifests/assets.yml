@@ -11,8 +11,8 @@ production:
     - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: G016
-  completed_assets: 150
+  next_cycle: G017
+  completed_assets: 160
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycle_index:
@@ -31,41 +31,25 @@ cycle_index:
   - {id: G013, range: 121-130, theme: Hemodinâmica, status: generated, source_root: assets/canonical/G013}
   - {id: G014, range: 131-140, theme: Emergências, status: generated, source_root: assets/canonical/G014}
   - {id: G015, range: 141-150, theme: Farmacologia, status: generated, source_root: assets/canonical/G015}
+  - {id: G016, range: 151-160, theme: Nefrologia, status: generated, source_root: assets/canonical/G016}
 cycles:
-  G014:
+  G016:
     layer: G
-    range: 131-140
-    theme: Emergências
+    range: 151-160
+    theme: Nefrologia
     status: generated
     exports_pending: [base-art.png, thumbnail.webp]
     assets:
-      - {id: HEX-G014-131, concept: PCR, status: generated, source: assets/canonical/G014/HEX-G014-131/base-art.svg, metadata: assets/canonical/G014/HEX-G014-131/asset.yml}
-      - {id: HEX-G014-132, concept: IAM, status: generated, source: assets/canonical/G014/HEX-G014-132/base-art.svg, metadata: assets/canonical/G014/HEX-G014-132/asset.yml}
-      - {id: HEX-G014-133, concept: EAP, status: generated, source: assets/canonical/G014/HEX-G014-133/base-art.svg, metadata: assets/canonical/G014/HEX-G014-133/asset.yml}
-      - {id: HEX-G014-134, concept: Choque séptico, status: generated, source: assets/canonical/G014/HEX-G014-134/base-art.svg, metadata: assets/canonical/G014/HEX-G014-134/asset.yml}
-      - {id: HEX-G014-135, concept: Anafilaxia, status: generated, source: assets/canonical/G014/HEX-G014-135/base-art.svg, metadata: assets/canonical/G014/HEX-G014-135/asset.yml}
-      - {id: HEX-G014-136, concept: Estado asmático, status: generated, source: assets/canonical/G014/HEX-G014-136/base-art.svg, metadata: assets/canonical/G014/HEX-G014-136/asset.yml}
-      - {id: HEX-G014-137, concept: TEP, status: generated, source: assets/canonical/G014/HEX-G014-137/base-art.svg, metadata: assets/canonical/G014/HEX-G014-137/asset.yml}
-      - {id: HEX-G014-138, concept: Hipercalemia, status: generated, source: assets/canonical/G014/HEX-G014-138/base-art.svg, metadata: assets/canonical/G014/HEX-G014-138/asset.yml}
-      - {id: HEX-G014-139, concept: Hipoglicemia, status: generated, source: assets/canonical/G014/HEX-G014-139/base-art.svg, metadata: assets/canonical/G014/HEX-G014-139/asset.yml}
-      - {id: HEX-G014-140, concept: Via aérea difícil, status: generated, source: assets/canonical/G014/HEX-G014-140/base-art.svg, metadata: assets/canonical/G014/HEX-G014-140/asset.yml}
-  G015:
-    layer: G
-    range: 141-150
-    theme: Farmacologia
-    status: generated
-    exports_pending: [base-art.png, thumbnail.webp]
-    assets:
-      - {id: HEX-G015-141, concept: Noradrenalina, status: generated, source: assets/canonical/G015/HEX-G015-141/base-art.svg, metadata: assets/canonical/G015/HEX-G015-141/asset.yml}
-      - {id: HEX-G015-142, concept: Adrenalina, status: generated, source: assets/canonical/G015/HEX-G015-142/base-art.svg, metadata: assets/canonical/G015/HEX-G015-142/asset.yml}
-      - {id: HEX-G015-143, concept: Dobutamina, status: generated, source: assets/canonical/G015/HEX-G015-143/base-art.svg, metadata: assets/canonical/G015/HEX-G015-143/asset.yml}
-      - {id: HEX-G015-144, concept: Vasopressina, status: generated, source: assets/canonical/G015/HEX-G015-144/base-art.svg, metadata: assets/canonical/G015/HEX-G015-144/asset.yml}
-      - {id: HEX-G015-145, concept: Midazolam, status: generated, source: assets/canonical/G015/HEX-G015-145/base-art.svg, metadata: assets/canonical/G015/HEX-G015-145/asset.yml}
-      - {id: HEX-G015-146, concept: Fentanil, status: generated, source: assets/canonical/G015/HEX-G015-146/base-art.svg, metadata: assets/canonical/G015/HEX-G015-146/asset.yml}
-      - {id: HEX-G015-147, concept: Cetamina, status: generated, source: assets/canonical/G015/HEX-G015-147/base-art.svg, metadata: assets/canonical/G015/HEX-G015-147/asset.yml}
-      - {id: HEX-G015-148, concept: Etomidato, status: generated, source: assets/canonical/G015/HEX-G015-148/base-art.svg, metadata: assets/canonical/G015/HEX-G015-148/asset.yml}
-      - {id: HEX-G015-149, concept: Rocurônio, status: generated, source: assets/canonical/G015/HEX-G015-149/base-art.svg, metadata: assets/canonical/G015/HEX-G015-149/asset.yml}
-      - {id: HEX-G015-150, concept: Succinilcolina, status: generated, source: assets/canonical/G015/HEX-G015-150/base-art.svg, metadata: assets/canonical/G015/HEX-G015-150/asset.yml}
+      - {id: HEX-G016-151, concept: Néfron, status: generated, source: assets/canonical/G016/HEX-G016-151/base-art.svg, metadata: assets/canonical/G016/HEX-G016-151/asset.yml}
+      - {id: HEX-G016-152, concept: Glomérulo, status: generated, source: assets/canonical/G016/HEX-G016-152/base-art.svg, metadata: assets/canonical/G016/HEX-G016-152/asset.yml}
+      - {id: HEX-G016-153, concept: Túbulo proximal, status: generated, source: assets/canonical/G016/HEX-G016-153/base-art.svg, metadata: assets/canonical/G016/HEX-G016-153/asset.yml}
+      - {id: HEX-G016-154, concept: Alça de Henle, status: generated, source: assets/canonical/G016/HEX-G016-154/base-art.svg, metadata: assets/canonical/G016/HEX-G016-154/asset.yml}
+      - {id: HEX-G016-155, concept: Túbulo distal, status: generated, source: assets/canonical/G016/HEX-G016-155/base-art.svg, metadata: assets/canonical/G016/HEX-G016-155/asset.yml}
+      - {id: HEX-G016-156, concept: Ducto coletor, status: generated, source: assets/canonical/G016/HEX-G016-156/base-art.svg, metadata: assets/canonical/G016/HEX-G016-156/asset.yml}
+      - {id: HEX-G016-157, concept: Hemodiálise, status: generated, source: assets/canonical/G016/HEX-G016-157/base-art.svg, metadata: assets/canonical/G016/HEX-G016-157/asset.yml}
+      - {id: HEX-G016-158, concept: Diálise peritoneal, status: generated, source: assets/canonical/G016/HEX-G016-158/base-art.svg, metadata: assets/canonical/G016/HEX-G016-158/asset.yml}
+      - {id: HEX-G016-159, concept: Ultrafiltração, status: generated, source: assets/canonical/G016/HEX-G016-159/base-art.svg, metadata: assets/canonical/G016/HEX-G016-159/asset.yml}
+      - {id: HEX-G016-160, concept: Distúrbios hidroeletrolíticos, status: generated, source: assets/canonical/G016/HEX-G016-160/base-art.svg, metadata: assets/canonical/G016/HEX-G016-160/asset.yml}
 cycle_generation_rule: >-
   Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
