@@ -1,0 +1,13 @@
+id: HEX-G008-079
+cycle: G008
+layer: canonical
+concept: HFOV
+title: Ventilação oscilatória de alta frequência
+status: generated
+source: assets/canonical/G008/HEX-G008-079/base-art.svg
+prompt: Prancha vetorial canônica sobre HFOV com pressão média, amplitude, frequência e volumes oscilatórios pequenos.
+alt: Infográfico sobre HFOV mostrando oscilação de alta frequência ao redor de pressão média.
+overlay: {embedded: true, editable: true}
+consumers: [Ventila, Respira, Pediatria]
+review: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete}
+exports_pending: [base-art.png, thumbnail.webp]
