@@ -1,0 +1,9 @@
+id: HEX-G010-100
+concept: Pneumonia esquemática
+status: generated
+prompt: "Pulmão vetorial com consolidação focal, inflamação e exsudato alveolar."
+alt: "Pulmão esquemático com área focal avermelhada de consolidação pneumônica."
+overlay: ["inflamação", "exsudato", "consolidação", "troca gasosa reduzida"]
+consumers: [Respira, Ventila, Emergencias, Pediatria, Medicina_Interna]
+files: {source: base-art.svg, png: pending, thumbnail: pending}
+review_gates: [visual_consistency, clinical_accuracy, didactic_function, accessibility, responsive_legibility, metadata_completeness]
