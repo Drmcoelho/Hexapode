@@ -1,0 +1,14 @@
+id: HEX-G013-121
+concept: Pré-carga
+cycle: G013
+layer: canonical
+status: generated
+prompt: >-
+  Prancha editorial vetorial Hexápode sobre pré-carga, retorno venoso, volume diastólico final e estiramento miocárdico, com distinção explícita entre pré-carga e responsividade a fluidos.
+alt: Prancha mostrando retorno venoso preenchendo o ventrículo, volume diastólico final e cadeia causal da pré-carga.
+overlay:
+  title: Pré-carga
+  labels: [retorno venoso, volume diastólico final, estiramento, força contrátil]
+consumers: [Cardio, Emergências, Ventila, Nefrologia, Fisiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
