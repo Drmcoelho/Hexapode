@@ -1,0 +1,12 @@
+id: HEX-G012-112
+concept: PaCO₂
+cycle: G012
+layer: canonical
+status: generated
+source: base-art.svg
+overlay: embedded-svg
+prompt: "Prancha editorial Hexápode mostrando PaCO2 como variável ventilatória e sua relação inversa com ventilação alveolar."
+alt: "Curva inversa relaciona ventilação alveolar e PaCO2, com interpretação de hipoventilação e hiperventilação."
+consumers: [Ventila, Respira, Emergências, Terapia Intensiva, Nefrologia, Pediatria, Educação]
+review: {visual_consistency: pending, clinical_accuracy: pending, accessibility: present, responsive_legibility: pending}
+exports_pending: [base-art.png, thumbnail.webp]
