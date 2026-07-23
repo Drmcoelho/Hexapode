@@ -1,0 +1,11 @@
+id: HEX-G003-027
+concept: Surfactante
+cycle: G003
+layer: canonical
+status: generated
+prompt: Prancha vetorial da camada de surfactante reduzindo tensão superficial e prevenindo colapso alveolar.
+alt: Camada de surfactante na interface ar-líquido com comparação entre alvéolo estável e tendência ao colapso.
+overlay: {embedded_in: base-art.svg, labels: [Com surfactante: estável, Sem surfactante: colapso, Tensão superficial]}
+consumers: [Respira, Ventila, Pneumologia, Fisiologia, Neonatologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, didactic_function, accessibility]
