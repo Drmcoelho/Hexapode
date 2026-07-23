@@ -1,0 +1,12 @@
+id: HEX-G006-054
+concept: Traqueostomia
+status: generated
+source: base-art.svg
+overlay: embedded_svg
+prompt: >-
+  Editorial vetorial Hexápode mostrando cânula de traqueostomia com flange cervical, cuff, balonete piloto e conector.
+alt: >-
+  Cânula de traqueostomia esquemática em azul com flange, cuff teal, balonete piloto e conexão distal.
+consumers: [Ventila, UTI, Emergencias, Cirurgia, Fonoaudiologia, Reabilitacao]
+review: [visual_consistency, clinical_accuracy, accessibility]
+exports_pending: [base-art.png, thumbnail.webp]
