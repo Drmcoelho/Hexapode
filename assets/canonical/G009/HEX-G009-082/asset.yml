@@ -1,0 +1,15 @@
+id: HEX-G009-082
+cycle: G009
+layer: canonical
+concept: Double Trigger
+title: Double Trigger
+status: generated
+source: assets/canonical/G009/HEX-G009-082/base-art.svg
+prompt: >-
+  Prancha vetorial canônica mostrando dois ciclos consecutivos disparados por esforço prolongado, ciclagem precoce e empilhamento de volume.
+alt: >-
+  Infográfico de double trigger com dois ciclos quase sem expiração e soma de volumes.
+overlay: {embedded: true, editable: true}
+consumers: [Ventila, Respira, Emergências]
+review: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete}
+exports_pending: [base-art.png, thumbnail.webp]
