@@ -1,0 +1,12 @@
+id: HEX-G011-110
+concept: Sequência rápida
+cycle: G011
+layer: canonical
+status: generated
+source: base-art.svg
+overlay: embedded-svg
+prompt: "Prancha Hexápode com fluxo operacional da sequência rápida: preparo, pré-oxigenação, indução, bloqueio, intubação, confirmação e sedoanalgesia pós-intubação."
+alt: "Seis círculos conectados representam preparo, pré-oxigenação, indução, bloqueio, intubação e confirmação, seguidos por requisitos de segurança."
+consumers: [Via Aérea, Emergências, Anestesia, Terapia Intensiva, Trauma, Pediatria, Educação]
+review: {visual_consistency: pending, clinical_accuracy: pending, accessibility: present, responsive_legibility: pending}
+exports_pending: [base-art.png, thumbnail.webp]
