@@ -1,0 +1,12 @@
+id: HEX-G006-057
+concept: Cânula nasal
+status: generated
+source: base-art.svg
+overlay: embedded_svg
+prompt: >-
+  Editorial vetorial Hexápode mostrando cânula nasal de baixo fluxo com dois prongs, tubulação e direção do oxigênio às narinas.
+alt: >-
+  Cânula nasal esquemática com dois prongs teal e tubulação azul contornando a face.
+consumers: [Respira, Emergencias, UTI, Pediatria, Enfermagem, Clinica]
+review: [visual_consistency, clinical_accuracy, accessibility]
+exports_pending: [base-art.png, thumbnail.webp]
