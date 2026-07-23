@@ -1,0 +1,14 @@
+id: HEX-G013-125
+concept: Retorno venoso
+cycle: G013
+layer: canonical
+status: generated
+prompt: >-
+  Prancha vetorial Hexápode sobre retorno venoso, pressão sistêmica média, pressão atrial direita e resistência venosa.
+alt: Esquema circular da circulação com gradiente entre pressão sistêmica média e pressão atrial direita determinando o retorno venoso.
+overlay:
+  title: Retorno venoso
+  labels: [Pms, PAD, resistência venosa, gradiente de retorno]
+consumers: [Cardio, Emergências, Ventila, Nefrologia, Fisiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

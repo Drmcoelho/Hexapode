@@ -1,0 +1,14 @@
+id: HEX-G013-129
+concept: Microcirculação
+cycle: G013
+layer: canonical
+status: generated
+prompt: >-
+  Prancha vetorial Hexápode sobre microcirculação, capilares recrutados, heterogeneidade de fluxo e extração tecidual de oxigênio.
+alt: Rede arterial, capilar e venosa sobre células teciduais, destacando recrutamento capilar e heterogeneidade de fluxo.
+overlay:
+  title: Microcirculação
+  labels: [capilares recrutados, heterogeneidade, extração tecidual]
+consumers: [Emergências, Cardio, Ventila, Nefrologia, Fisiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

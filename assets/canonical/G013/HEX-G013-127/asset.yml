@@ -1,0 +1,14 @@
+id: HEX-G013-127
+concept: Vasoplegia
+cycle: G013
+layer: canonical
+status: generated
+prompt: >-
+  Prancha vetorial Hexápode sobre vasoplegia, resistência vascular sistêmica reduzida, hipotensão distributiva e maldistribuição de fluxo.
+alt: Vaso esquemático dilatado com painel descrevendo resistência vascular baixa, hipotensão e maldistribuição do fluxo.
+overlay:
+  title: Vasoplegia
+  labels: [vasodilatação, resistência vascular sistêmica, hipotensão, maldistribuição]
+consumers: [Emergências, Cardio, Ventila, Farmacologia, Fisiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

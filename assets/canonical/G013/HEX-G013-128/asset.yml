@@ -1,0 +1,14 @@
+id: HEX-G013-128
+concept: Choque
+cycle: G013
+layer: canonical
+status: generated
+prompt: >-
+  Prancha vetorial Hexápode sobre choque como falha circulatória, com quatro mecanismos e cadeia até disfunção orgânica.
+alt: Quatro painéis mostram choque hipovolêmico, cardiogênico, distributivo e obstrutivo convergindo para hipoperfusão e disfunção orgânica.
+overlay:
+  title: Choque
+  labels: [hipovolêmico, cardiogênico, distributivo, obstrutivo, hipoperfusão]
+consumers: [Emergências, Cardio, Ventila, Nefrologia, Neuro]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

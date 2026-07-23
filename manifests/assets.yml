@@ -11,8 +11,8 @@ production:
     - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: G013
-  completed_assets: 120
+  next_cycle: G014
+  completed_assets: 130
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycle_index:
@@ -28,24 +28,25 @@ cycle_index:
   - {id: G010, range: 91-100, theme: Patologias Respiratórias, status: generated, source_root: assets/canonical/G010}
   - {id: G011, range: 101-110, theme: Via Aérea, status: generated, source_root: assets/canonical/G011}
   - {id: G012, range: 111-120, theme: Gasometria, status: generated, source_root: assets/canonical/G012}
+  - {id: G013, range: 121-130, theme: Hemodinâmica, status: generated, source_root: assets/canonical/G013}
 cycles:
-  G012:
+  G013:
     layer: G
-    range: 111-120
-    theme: Gasometria
+    range: 121-130
+    theme: Hemodinâmica
     status: generated
     exports_pending: [base-art.png, thumbnail.webp]
     assets:
-      - {id: HEX-G012-111, concept: pH, status: generated, source: assets/canonical/G012/HEX-G012-111/base-art.svg, metadata: assets/canonical/G012/HEX-G012-111/asset.yml}
-      - {id: HEX-G012-112, concept: PaCO₂, status: generated, source: assets/canonical/G012/HEX-G012-112/base-art.svg, metadata: assets/canonical/G012/HEX-G012-112/asset.yml}
-      - {id: HEX-G012-113, concept: PaO₂, status: generated, source: assets/canonical/G012/HEX-G012-113/base-art.svg, metadata: assets/canonical/G012/HEX-G012-113/asset.yml}
-      - {id: HEX-G012-114, concept: HCO₃⁻, status: generated, source: assets/canonical/G012/HEX-G012-114/base-art.svg, metadata: assets/canonical/G012/HEX-G012-114/asset.yml}
-      - {id: HEX-G012-115, concept: Excesso de bases, status: generated, source: assets/canonical/G012/HEX-G012-115/base-art.svg, metadata: assets/canonical/G012/HEX-G012-115/asset.yml}
-      - {id: HEX-G012-116, concept: Distúrbios simples, status: generated, source: assets/canonical/G012/HEX-G012-116/base-art.svg, metadata: assets/canonical/G012/HEX-G012-116/asset.yml}
-      - {id: HEX-G012-117, concept: Distúrbios mistos, status: generated, source: assets/canonical/G012/HEX-G012-117/base-art.svg, metadata: assets/canonical/G012/HEX-G012-117/asset.yml}
-      - {id: HEX-G012-118, concept: Compensações, status: generated, source: assets/canonical/G012/HEX-G012-118/base-art.svg, metadata: assets/canonical/G012/HEX-G012-118/asset.yml}
-      - {id: HEX-G012-119, concept: Ânion Gap, status: generated, source: assets/canonical/G012/HEX-G012-119/base-art.svg, metadata: assets/canonical/G012/HEX-G012-119/asset.yml}
-      - {id: HEX-G012-120, concept: Lactato, status: generated, source: assets/canonical/G012/HEX-G012-120/base-art.svg, metadata: assets/canonical/G012/HEX-G012-120/asset.yml}
+      - {id: HEX-G013-121, concept: Pré-carga, status: generated, source: assets/canonical/G013/HEX-G013-121/base-art.svg, metadata: assets/canonical/G013/HEX-G013-121/asset.yml}
+      - {id: HEX-G013-122, concept: Pós-carga, status: generated, source: assets/canonical/G013/HEX-G013-122/base-art.svg, metadata: assets/canonical/G013/HEX-G013-122/asset.yml}
+      - {id: HEX-G013-123, concept: Débito cardíaco, status: generated, source: assets/canonical/G013/HEX-G013-123/base-art.svg, metadata: assets/canonical/G013/HEX-G013-123/asset.yml}
+      - {id: HEX-G013-124, concept: Pressão arterial média, status: generated, source: assets/canonical/G013/HEX-G013-124/base-art.svg, metadata: assets/canonical/G013/HEX-G013-124/asset.yml}
+      - {id: HEX-G013-125, concept: Retorno venoso, status: generated, source: assets/canonical/G013/HEX-G013-125/base-art.svg, metadata: assets/canonical/G013/HEX-G013-125/asset.yml}
+      - {id: HEX-G013-126, concept: Curva de Frank-Starling, status: generated, source: assets/canonical/G013/HEX-G013-126/base-art.svg, metadata: assets/canonical/G013/HEX-G013-126/asset.yml}
+      - {id: HEX-G013-127, concept: Vasoplegia, status: generated, source: assets/canonical/G013/HEX-G013-127/base-art.svg, metadata: assets/canonical/G013/HEX-G013-127/asset.yml}
+      - {id: HEX-G013-128, concept: Choque, status: generated, source: assets/canonical/G013/HEX-G013-128/base-art.svg, metadata: assets/canonical/G013/HEX-G013-128/asset.yml}
+      - {id: HEX-G013-129, concept: Microcirculação, status: generated, source: assets/canonical/G013/HEX-G013-129/base-art.svg, metadata: assets/canonical/G013/HEX-G013-129/asset.yml}
+      - {id: HEX-G013-130, concept: Oferta de oxigênio, status: generated, source: assets/canonical/G013/HEX-G013-130/base-art.svg, metadata: assets/canonical/G013/HEX-G013-130/asset.yml}
 cycle_generation_rule: >-
   Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:

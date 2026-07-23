@@ -1,0 +1,14 @@
+id: HEX-G013-124
+concept: Pressão arterial média
+cycle: G013
+layer: canonical
+status: generated
+prompt: >-
+  Prancha vetorial Hexápode sobre pressão arterial média, componente pulsátil, gradiente de perfusão e dependência do contexto clínico.
+alt: Curva arterial pulsátil com linha média destacada, fórmula aproximada da PAM e relação entre pressão, resistência e fluxo.
+overlay:
+  title: Pressão arterial média
+  labels: [PAS, PAD, PAM, gradiente de pressão, resistência]
+consumers: [Cardio, Emergências, Neuro, Nefrologia, Ventila]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
