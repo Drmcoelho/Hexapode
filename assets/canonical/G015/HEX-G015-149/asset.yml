@@ -1,0 +1,12 @@
+id: HEX-G015-149
+concept: Rocurônio
+cycle: G015
+layer: canonical
+status: generated
+prompt: >-
+  Prancha vetorial Hexápode sobre rocurônio, antagonismo nicotínico competitivo, bloqueio neuromuscular e ausência de sedação.
+alt: Junção neuromuscular esquemática e painéis de mecanismo, efeito-alvo e cautelas do rocurônio.
+overlay: {title: Rocurônio, subtitle: Bloqueador neuromuscular não despolarizante, labels: [mecanismo, efeito-alvo, cautelas]}
+consumers: [Emergências, Via Aérea, Farmacologia, UTI]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
