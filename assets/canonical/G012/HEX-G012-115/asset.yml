@@ -1,0 +1,12 @@
+id: HEX-G012-115
+concept: Excesso de bases
+cycle: G012
+layer: canonical
+status: generated
+source: base-art.svg
+overlay: embedded-svg
+prompt: "Prancha editorial Hexápode sobre excesso de bases, déficit de base e interpretação metabólica."
+alt: "Escala mostra déficit de base, faixa aproximada normal e excesso de base, relacionando-os ao componente metabólico."
+consumers: [Nefrologia, Emergências, Terapia Intensiva, Pediatria, Educação]
+review: {visual_consistency: pending, clinical_accuracy: pending, accessibility: present, responsive_legibility: pending}
+exports_pending: [base-art.png, thumbnail.webp]
