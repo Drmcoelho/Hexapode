@@ -1,0 +1,12 @@
+id: HEX-G005-050
+concept: Efeito Bohr
+status: generated
+source: base-art.svg
+overlay: embedded_svg
+prompt: >-
+  Editorial vetorial Hexápode mostrando deslocamentos da curva da hemoglobina por CO₂, pH e temperatura, com ênfase na liberação tecidual de O₂.
+alt: >-
+  Duas curvas sigmoides comparadas; a curva vermelha está deslocada à direita e a teal à esquerda, com notas sobre afinidade e liberação de oxigênio.
+consumers: [Respira, Ventila, Cardio, Emergencias, Fisiologia]
+review: [visual_consistency, clinical_accuracy, accessibility]
+exports_pending: [base-art.png, thumbnail.webp]
