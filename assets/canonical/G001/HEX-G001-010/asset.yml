@@ -1,0 +1,7 @@
+id: HEX-G001-010
+concept: Templates
+status: generated
+prompt: Seis famílias de templates editoriais reutilizáveis.
+alt: Seis miniaturas de templates do sistema Hexápode.
+consumers: [all]
+exports_pending: [base-art.png, thumbnail.webp]

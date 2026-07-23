@@ -1,0 +1,7 @@
+id: HEX-G001-003
+concept: Biblioteca de ícones
+status: generated
+prompt: Ícones médicos lineares com traço uniforme e leitura em 24 px.
+alt: Dez glifos médicos lineares do sistema Hexápode.
+consumers: [all]
+exports_pending: [base-art.png, thumbnail.webp]

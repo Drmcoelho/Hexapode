@@ -1,0 +1,7 @@
+id: HEX-G001-008
+concept: Sistema de setas
+status: generated
+prompt: Setas vetoriais para fluxo, causalidade, alerta, lesão e retorno.
+alt: Cinco setas com códigos semânticos distintos.
+consumers: [all]
+exports_pending: [base-art.png, thumbnail.webp]

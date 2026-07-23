@@ -1,0 +1,7 @@
+id: HEX-G001-004
+concept: Corpo humano masculino
+status: generated
+prompt: Silhueta masculina adulta esquemática, neutra, não realista, sem detalhes explícitos.
+alt: Corpo masculino esquemático em vistas anterior, posterior e lateral.
+consumers: [Trauma, Cardio, Neuro, Nefro, Respira, Ventila]
+exports_pending: [base-art.png, thumbnail.webp]

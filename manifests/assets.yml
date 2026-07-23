@@ -1,68 +1,41 @@
 project: Hexapode
-schema_version: 1
+schema_version: 2
 repository: Drmcoelho/Hexapode
 source_of_truth: true
 production:
   total_assets: 600
   concepts: 200
   layers:
-    - id: G
-      name: canonical
-      range: 1-200
-    - id: A
-      name: advanced
-      range: 201-400
-    - id: X
-      name: applied
-      range: 401-600
+    - {id: G, name: canonical, range: 1-200}
+    - {id: A, name: advanced, range: 201-400}
+    - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: G001
-  completed_assets: 0
+  next_cycle: G002
+  completed_assets: 10
   status: active
-statuses:
-  - planned
-  - prompt_ready
-  - generated
-  - overlay_ready
-  - reviewed
-  - approved
-  - integrated
-  - blocked
+statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycles:
   G001:
     layer: G
     range: 1-10
     theme: Identidade Visual
-    status: planned
+    status: generated
+    exports_pending: [base-art.png, thumbnail.webp]
     assets:
-      - {id: HEX-G001-001, concept: Paleta oficial, status: planned}
-      - {id: HEX-G001-002, concept: Tipografia, status: planned}
-      - {id: HEX-G001-003, concept: Biblioteca de ícones, status: planned}
-      - {id: HEX-G001-004, concept: Corpo humano masculino, status: planned}
-      - {id: HEX-G001-005, concept: Corpo humano feminino, status: planned}
-      - {id: HEX-G001-006, concept: Corpo infantil, status: planned}
-      - {id: HEX-G001-007, concept: Grid editorial, status: planned}
-      - {id: HEX-G001-008, concept: Sistema de setas, status: planned}
-      - {id: HEX-G001-009, concept: Sistema de cores, status: planned}
-      - {id: HEX-G001-010, concept: Templates, status: planned}
+      - {id: HEX-G001-001, concept: Paleta oficial, status: generated, source: assets/canonical/G001/HEX-G001-001/base-art.svg}
+      - {id: HEX-G001-002, concept: Tipografia, status: generated, source: assets/canonical/G001/HEX-G001-002/base-art.svg}
+      - {id: HEX-G001-003, concept: Biblioteca de ícones, status: generated, source: assets/canonical/G001/HEX-G001-003/base-art.svg}
+      - {id: HEX-G001-004, concept: Corpo humano masculino, status: generated, source: assets/canonical/G001/HEX-G001-004/base-art.svg}
+      - {id: HEX-G001-005, concept: Corpo humano feminino, status: generated, source: assets/canonical/G001/HEX-G001-005/base-art.svg}
+      - {id: HEX-G001-006, concept: Corpo infantil, status: generated, source: assets/canonical/G001/HEX-G001-006/base-art.svg}
+      - {id: HEX-G001-007, concept: Grid editorial, status: generated, source: assets/canonical/G001/HEX-G001-007/base-art.svg}
+      - {id: HEX-G001-008, concept: Sistema de setas, status: generated, source: assets/canonical/G001/HEX-G001-008/base-art.svg}
+      - {id: HEX-G001-009, concept: Sistema de cores, status: generated, source: assets/canonical/G001/HEX-G001-009/base-art.svg}
+      - {id: HEX-G001-010, concept: Templates, status: generated, source: assets/canonical/G001/HEX-G001-010/base-art.svg}
 cycle_generation_rule: >-
-  After G001, create sequential cycles of ten assets using the 200-concept matrix
-  in docs/HEXAPODE-MASTER-PLAN-IA1.md. Complete G001-G020, then A021-A040,
-  then X041-X060. Never regenerate an asset whose status is approved or integrated.
+  Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
-  required:
-    - base-art.png
-    - overlay.svg
-    - prompt.md
-    - metadata.yml
-    - alt.txt
-    - thumbnail.webp
-review_gates:
-  - visual_consistency
-  - clinical_accuracy
-  - didactic_function
-  - accessibility
-  - responsive_legibility
-  - metadata_completeness
-  - no_duplication
+  source_required: [base-art.svg, asset.yml]
+  export_required_for_approval: [base-art.png, thumbnail.webp]
+review_gates: [visual_consistency, clinical_accuracy, didactic_function, accessibility, responsive_legibility, metadata_completeness, no_duplication]

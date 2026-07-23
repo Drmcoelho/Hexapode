@@ -1,0 +1,7 @@
+id: HEX-G001-005
+concept: Corpo humano feminino
+status: generated
+prompt: Silhueta feminina adulta esquemática, neutra, não realista, sem detalhes explícitos.
+alt: Corpo feminino esquemático em vistas anterior, posterior e lateral.
+consumers: [Trauma, Cardio, Neuro, Nefro, Respira, Ventila]
+exports_pending: [base-art.png, thumbnail.webp]

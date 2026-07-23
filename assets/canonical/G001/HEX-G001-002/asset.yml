@@ -1,0 +1,7 @@
+id: HEX-G001-002
+concept: Tipografia
+status: generated
+prompt: Hierarquia tipográfica editorial, sans e monoespaçada.
+alt: Níveis tipográficos do Hexápode com exemplos clínicos.
+consumers: [all]
+exports_pending: [base-art.png, thumbnail.webp]

@@ -1,0 +1,7 @@
+id: HEX-G001-001
+concept: Paleta oficial
+status: generated
+prompt: Sistema cromático semântico vetorial do Hexápode.
+alt: Oito amostras cromáticas funcionais do sistema Hexápode.
+consumers: [all]
+exports_pending: [base-art.png, thumbnail.webp]

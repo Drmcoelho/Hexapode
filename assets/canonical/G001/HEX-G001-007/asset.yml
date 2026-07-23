@@ -1,0 +1,7 @@
+id: HEX-G001-007
+concept: Grid editorial
+status: generated
+prompt: Grades modulares de quatro e seis colunas para prancha, web e mobile.
+alt: Duas grades editoriais modulares com margens e gutters.
+consumers: [all]
+exports_pending: [base-art.png, thumbnail.webp]

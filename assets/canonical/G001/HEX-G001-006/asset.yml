@@ -1,0 +1,7 @@
+id: HEX-G001-006
+concept: Corpo infantil
+status: generated
+prompt: Silhuetas pediátricas esquemáticas, não realistas e sem detalhes explícitos.
+alt: Comparação de proporções de lactente, criança e adolescente.
+consumers: [Pediatria, Emergência, Trauma, Respira, Ventila]
+exports_pending: [base-art.png, thumbnail.webp]
