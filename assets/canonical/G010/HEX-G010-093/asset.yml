@@ -1,0 +1,9 @@
+id: HEX-G010-093
+concept: Asma
+status: generated
+prompt: "Via aérea normal versus asma com broncoconstrição, edema e muco."
+alt: "Cortes brônquicos esquemáticos comparando lúmen normal e estreitamento asmático."
+overlay: ["broncoconstrição", "edema", "muco", "reversibilidade"]
+consumers: [Respira, Ventila, Emergencias, Pediatria, Fisiologia]
+files: {source: base-art.svg, png: pending, thumbnail: pending}
+review_gates: [visual_consistency, clinical_accuracy, didactic_function, accessibility, responsive_legibility, metadata_completeness]
