@@ -1,0 +1,10 @@
+id: HEX-G016-153
+concept: Túbulo proximal
+cycle: G016
+layer: canonical
+status: generated
+prompt: Prancha vetorial Hexápode sobre túbulo proximal, reabsorção de Na+, glicose, bicarbonato e água.
+alt: Epitélio tubular proximal com borda em escova e setas de reabsorção.
+overlay: {title: Túbulo proximal, subtitle: Reabsorção em massa}
+consumers: [Nefrologia, Emergências, Medicina Interna, Pediatria, Farmacologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
