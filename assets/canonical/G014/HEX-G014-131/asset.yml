@@ -1,0 +1,14 @@
+id: HEX-G014-131
+concept: PCR
+cycle: G014
+layer: canonical
+status: generated
+prompt: >-
+  Prancha vetorial Hexápode sobre parada cardiorrespiratória, ausência de perfusão efetiva, reconhecimento do ritmo e restauração da circulação.
+alt: Ilustração vetorial com coração, traçado elétrico, fluxo de perfusão e cadeia causal da parada cardiorrespiratória.
+overlay:
+  title: PCR
+  labels: [ritmo, perfusão, circulação, retorno da circulação]
+consumers: [Emergências, Cardio, Ventila, Pediatria, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: complete}
