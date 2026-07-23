@@ -1,0 +1,12 @@
+id: HEX-G007-066
+cycle: G007
+layer: canonical
+concept: Plateau
+status: generated
+source: {type: original_vector, file: base-art.svg}
+prompt: "Prancha vetorial Hexápode sobre pressão de platô, com curva pressão-tempo, pausa inspiratória, Pplat destacada, fundo marfim e overlay editável."
+alt_text: "Curva de pressão com pausa inspiratória e identificação da pressão de platô."
+overlay: {embedded: true, editable: true, elements: [title, asset_id, curve, Pplat, note]}
+consumers: [Ventila, Respira, Fisiologia, Emergencias, Educacao]
+review: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: complete}
+exports_pending: [base-art.png, thumbnail.webp]
