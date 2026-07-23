@@ -1,0 +1,11 @@
+id: HEX-G003-026
+concept: Pneumócito II
+cycle: G003
+layer: canonical
+status: generated
+prompt: Corte microscópico esquemático de pneumócito tipo II com corpos lamelares, produção de surfactante e regeneração epitelial.
+alt: Pneumócito tipo II cúbico com corpos lamelares e secreção de surfactante no alvéolo.
+overlay: {embedded_in: base-art.svg, labels: [Pneumócito tipo II, Corpos lamelares, Secreção]}
+consumers: [Respira, Ventila, Pneumologia, Histologia, Neonatologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review: [visual_consistency, clinical_accuracy, didactic_function, accessibility]
