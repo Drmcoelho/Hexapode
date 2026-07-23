@@ -1,0 +1,12 @@
+id: HEX-G006-053
+concept: Tubo orotraqueal
+status: generated
+source: base-art.svg
+overlay: embedded_svg
+prompt: >-
+  Editorial vetorial Hexápode mostrando tubo orotraqueal com conector, marcações de profundidade, cuff e balonete piloto.
+alt: >-
+  Tubo orotraqueal curvo com conector proximal, cuff teal, balonete piloto e marcações visuais de profundidade.
+consumers: [Ventila, Emergencias, UTI, Anestesia, Pediatria, Trauma]
+review: [visual_consistency, clinical_accuracy, accessibility]
+exports_pending: [base-art.png, thumbnail.webp]
