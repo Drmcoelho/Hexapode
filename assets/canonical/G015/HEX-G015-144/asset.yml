@@ -1,0 +1,12 @@
+id: HEX-G015-144
+concept: Vasopressina
+cycle: G015
+layer: canonical
+status: generated
+prompt: >-
+  Prancha vetorial Hexápode sobre vasopressina, receptor V1, vasoconstrição e riscos isquêmicos.
+alt: Vasos esquemáticos e painéis de mecanismo, efeito-alvo e cautelas da vasopressina.
+overlay: {title: Vasopressina, subtitle: Vasopressor não catecolaminérgico, labels: [mecanismo, efeito-alvo, cautelas]}
+consumers: [Emergências, Cardio, Farmacologia, Nefrologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
