@@ -1,0 +1,15 @@
+id: HEX-A034-331
+concept: Parada cardiorrespiratória: cadeia de sobrevivência e ritmos
+cycle: A034
+layer: advanced
+status: generated
+canonical_origin: HEX-G014-131
+prompt: >-
+  Prancha médica didática Hexápode sobre parada cardiorrespiratória, comparando ritmos chocáveis e não chocáveis, RCP, desfibrilação e cuidados pós-ROSC.
+alt: Comparação entre FV/TV sem pulso e AESP/assistolia, conectadas à RCP, desfibrilação e estabilização pós-ROSC.
+overlay:
+  title: Parada cardiorrespiratória
+  labels: [ritmos chocáveis, ritmos não chocáveis, RCP, desfibrilação, ROSC]
+consumers: [Emergências, Cardio, UTI, Enfermagem, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
