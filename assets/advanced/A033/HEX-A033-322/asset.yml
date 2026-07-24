@@ -1,0 +1,15 @@
+id: HEX-A033-322
+concept: "Pós-carga: ventrículo e impedância arterial"
+cycle: A033
+layer: advanced
+status: generated
+canonical_source: HEX-G013-122
+prompt: >-
+  Prancha médica vetorial didática sobre pós-carga, impedância arterial, pressão, resistência,
+  complacência e estresse parietal pela lei de Laplace.
+alt: >-
+  Coração e árvore arterial com componentes da pós-carga e esquema de estresse parietal proporcional à pressão e ao raio e inverso à espessura.
+overlay: {title: "Pós-carga: ventrículo e impedância arterial", labels: [PAM, RVS, complacência arterial, estresse parietal]}
+consumers: [Cardio, Emergências, Ventila, Fisiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
