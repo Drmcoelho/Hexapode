@@ -1,0 +1,12 @@
+id: HEX-A027-262
+concept: Pressão × tempo avançada
+cycle: A027
+layer: advanced
+status: generated
+canonical_origin: HEX-G007-062
+prompt: Prancha médica vetorial didática sobre curva pressão-tempo com Ppico, Pplat e PEEP.
+alt: Curva pressão-tempo com pico inspiratório, plateau e retorno à PEEP.
+overlay: {title: Pressão × tempo avançada, labels: [Ppico, Pplat, PEEP]}
+consumers: [Respira, Ventila, Emergências, Fisiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
