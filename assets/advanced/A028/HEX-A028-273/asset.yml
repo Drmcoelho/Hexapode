@@ -1,0 +1,12 @@
+id: HEX-A028-273
+concept: PSV avançado
+cycle: A028
+layer: advanced
+status: generated
+canonical_origin: HEX-G008-73
+prompt: Prancha médica didática sobre PSV, disparo pelo paciente, pressão de suporte e ciclagem por fluxo.
+alt: Curvas do suporte pressórico e quadro de interpretação clínica.
+overlay: {title: PSV avançado, labels: [disparo, pressão de suporte, ciclagem por fluxo, assincronia]}
+consumers: [Respira, Ventila, Emergências, Reabilitação, Pediatria]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
