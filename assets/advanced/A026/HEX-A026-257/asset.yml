@@ -1,0 +1,12 @@
+id: HEX-A026-257
+concept: Cânula nasal avançada
+cycle: A026
+layer: advanced
+status: generated
+canonical_origin: HEX-G006-057
+prompt: Prancha didática vetorial sobre cânula nasal, fluxo de oxigênio, mistura com ar ambiente e FiO2 variável.
+alt: Cânula nasal com oxigênio misturado ao ar ambiente e fatores que alteram a FiO2.
+overlay: {title: Cânula nasal, labels: [fluxo, ar ambiente, FiO2, padrão ventilatório]}
+consumers: [Respira, Emergências, Pediatria, Enfermagem, Medicina Interna]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
