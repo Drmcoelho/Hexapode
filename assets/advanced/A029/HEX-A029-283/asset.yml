@@ -1,0 +1,15 @@
+id: HEX-A029-283
+concept: Reverse trigger
+cycle: A029
+layer: advanced
+status: generated
+source_canonical: HEX-G009-083
+prompt: >-
+  Prancha didática vetorial Hexápode sobre reverse trigger, comparando início do ciclo mandatório e esforço diafragmático posterior com atraso fixo.
+alt: Curvas mostram o ciclo do ventilador precedendo o esforço diafragmático induzido, em padrão repetitivo de acoplamento.
+overlay:
+  title: Reverse trigger
+  labels: [ciclo mandatório, esforço diafragmático, atraso fixo, acoplamento, pressão]
+consumers: [Ventila, Respira, UTI, Neuro]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
