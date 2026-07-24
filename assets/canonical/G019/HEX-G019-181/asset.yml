@@ -1,0 +1,15 @@
+id: HEX-G019-181
+concept: Física do ultrassom
+cycle: G019
+layer: canonical
+status: generated
+prompt: >-
+  Prancha vetorial original Hexápode sobre física do ultrassom, em fundo marfim, traço grafite,
+  azul para estruturas e tecnologia, teal para fluxo e âmbar para pontos de atenção.
+alt: Ondas, frequência, comprimento de onda, impedância e reflexão.
+overlay:
+  title: Física do ultrassom
+  labels: [onda, frequência, comprimento de onda, impedância, reflexão, atenuação]
+consumers: [Física, USG, Emergências, Cardio, Trauma]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
