@@ -1,0 +1,45 @@
+name: Unpack generated image cycle
+
+on:
+  push:
+    paths:
+      - 'staging/*.zip'
+
+permissions:
+  contents: write
+
+jobs:
+  unpack:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Unpack generated assets
+        shell: bash
+        run: |
+          shopt -s nullglob
+          archives=(staging/*.zip)
+          if [ ${#archives[@]} -eq 0 ]; then
+            echo 'No staged archives found.'
+            exit 0
+          fi
+          for archive in "${archives[@]}"; do
+            unzip -o "$archive" -d .
+            rm "$archive"
+          done
+
+      - name: Commit unpacked assets
+        shell: bash
+        run: |
+          git config user.name 'hexapode-image-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo 'No changes to commit.'
+            exit 0
+          fi
+          git commit -m 'A021: unpack generated visual assets'
+          git push
