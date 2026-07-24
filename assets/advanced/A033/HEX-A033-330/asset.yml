@@ -1,0 +1,15 @@
+id: HEX-A033-330
+concept: "Oferta, consumo e extração de oxigênio"
+cycle: A033
+layer: advanced
+status: generated
+canonical_source: HEX-G013-130
+prompt: >-
+  Prancha médica vetorial didática sobre oferta de oxigênio, conteúdo arterial, débito cardíaco,
+  extração tecidual e limiar crítico de dependência do consumo.
+alt: >-
+  Equações de DO2 e CaO2 seguidas de gráfico em que o consumo passa a depender da oferta abaixo de um limiar crítico.
+overlay: {title: "Oferta, consumo e extração de oxigênio", labels: [DO2, CaO2, VO2, extração, débito cardíaco]}
+consumers: [Emergências, Cardio, Ventila, Nefrologia, Fisiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
