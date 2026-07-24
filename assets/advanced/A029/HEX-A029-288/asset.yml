@@ -1,0 +1,15 @@
+id: HEX-A029-288
+concept: Breath stacking
+cycle: A029
+layer: advanced
+status: generated
+source_canonical: HEX-G009-088
+prompt: >-
+  Prancha didática vetorial Hexápode sobre breath stacking, mostrando ciclos consecutivos antes do esvaziamento completo e soma de volumes.
+alt: Dois ciclos se acumulam sem expiração completa, elevando volume corrente e pressão alveolar.
+overlay:
+  title: Breath stacking
+  labels: [ciclos empilhados, volume acumulado, expiração incompleta, volutrauma, drive]
+consumers: [Ventila, Respira, Emergências, Trauma]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
