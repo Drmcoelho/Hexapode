@@ -1,0 +1,15 @@
+id: HEX-A029-285
+concept: Fome de fluxo
+cycle: A029
+layer: advanced
+status: generated
+source_canonical: HEX-G009-085
+prompt: >-
+  Prancha didática vetorial Hexápode sobre assincronia fluxo-demanda, comparando fluxo ofertado e demanda do paciente e mostrando concavidade da pressão.
+alt: Demanda inspiratória excede o fluxo entregue, produzindo esforço intenso e concavidade na curva de pressão.
+overlay:
+  title: Fome de fluxo
+  labels: [demanda, oferta, concavidade de pressão, rise time, fluxo inspiratório]
+consumers: [Ventila, Respira, Emergências, Pneumologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
