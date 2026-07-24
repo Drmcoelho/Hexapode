@@ -1,0 +1,11 @@
+id: HEX-G019-182
+concept: Sonda linear
+cycle: G019
+layer: canonical
+status: generated
+prompt: Prancha vetorial Hexápode sobre sonda linear, alta frequência e campo retangular.
+alt: Sonda linear com campo retangular para estruturas superficiais.
+overlay: {title: Sonda linear, labels: [campo retangular, alta frequência, superficial]}
+consumers: [USG, Emergências, Vascular, Trauma, Procedimentos]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
