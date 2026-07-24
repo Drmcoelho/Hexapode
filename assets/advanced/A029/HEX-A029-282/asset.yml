@@ -1,0 +1,15 @@
+id: HEX-A029-282
+concept: Duplo disparo
+cycle: A029
+layer: advanced
+status: generated
+source_canonical: HEX-G009-082
+prompt: >-
+  Prancha didática vetorial Hexápode sobre duplo disparo, mostrando dois ciclos para um esforço neural prolongado, empilhamento de volume e risco de volutrauma.
+alt: Dois ciclos ventilatórios consecutivos se sobrepõem a um único esforço inspiratório, produzindo volume corrente somado.
+overlay:
+  title: Duplo disparo
+  labels: [esforço neural, dois ciclos, volume somado, hiperinsuflação, volutrauma]
+consumers: [Ventila, Respira, Emergências, Pneumologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
