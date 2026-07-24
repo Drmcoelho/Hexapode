@@ -1,0 +1,14 @@
+id: HEX-A039-381
+cycle: A039
+layer: A
+concept: Janelas acústicas do ultrassom
+status: generated
+canonical_source: HEX-G019-181
+prompt_canonical: Infográfico médico didático sobre janelas acústicas, posicionamento da sonda e escolha da janela; estilo vetorial Hexápode.
+alt: Mapa das principais janelas acústicas e do posicionamento da sonda para ultrassom cardíaco, pulmonar, abdominal e vascular.
+overlay:
+  title: Janelas acústicas do ultrassom
+  subtitle: Posicionamento da sonda e escolha da janela
+  labels: [Cardíaca, Pulmonar, Abdominal, Vascular]
+consumers: [Hexágono, Hexaconsulta, Hexaconecta, Respira, Ventila, Cardio, Trauma, Neuro, Nefro, USG, Farmaco]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
