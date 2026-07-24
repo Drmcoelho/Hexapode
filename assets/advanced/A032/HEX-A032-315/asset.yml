@@ -1,0 +1,14 @@
+id: HEX-A032-315
+concept: Ânion gap e causas
+cycle: A032
+layer: advanced
+status: generated
+canonical_source: HEX-G012-115
+prompt: Infográfico Hexápode sobre cálculo do ânion gap, correção por albumina e causas de acidose com AG aumentado ou normal.
+alt: Fórmula do ânion gap e duas colunas de causas, com lembrete de correção pela albumina.
+overlay:
+  title: Ânion gap e causas
+  labels: [AG aumentado, AG normal, lactato, cetoácidos, diarreia, acidose tubular renal]
+consumers: [Emergências, Medicina Interna, Nefrologia, Toxicologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

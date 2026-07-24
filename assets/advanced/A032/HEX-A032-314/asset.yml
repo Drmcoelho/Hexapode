@@ -1,0 +1,14 @@
+id: HEX-A032-314
+concept: Fórmula de Winter
+cycle: A032
+layer: advanced
+status: generated
+canonical_source: HEX-G012-114
+prompt: Gráfico didático Hexápode da fórmula de Winter com faixa esperada de PaCO2 e interpretação de desvios.
+alt: Linha e faixa de PaCO2 esperada conforme bicarbonato, com indicação de distúrbios respiratórios associados.
+overlay:
+  title: Fórmula de Winter
+  labels: [PaCO2 esperada, HCO3, faixa esperada, acidose respiratória, alcalose respiratória]
+consumers: [Emergências, Medicina Interna, Nefrologia, UTI, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

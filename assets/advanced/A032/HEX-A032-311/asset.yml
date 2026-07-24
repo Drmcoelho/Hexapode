@@ -1,0 +1,14 @@
+id: HEX-A032-311
+concept: Interpretação sistemática da gasometria
+cycle: A032
+layer: advanced
+status: generated
+canonical_source: HEX-G012-111
+prompt: Prancha didática Hexápode com algoritmo visual em seis passos para interpretação sistemática da gasometria arterial.
+alt: Algoritmo em seis passos cobrindo pH, PaCO2, bicarbonato, compensação, oxigenação e ânion gap.
+overlay:
+  title: Interpretação sistemática da gasometria
+  labels: [pH, PaCO2, HCO3, compensação, oxigenação, ânion gap]
+consumers: [Emergências, Medicina Interna, Nefrologia, Respira, Ventila, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

@@ -1,0 +1,14 @@
+id: HEX-A032-317
+concept: Gradiente alvéolo-arterial
+cycle: A032
+layer: advanced
+status: generated
+canonical_source: HEX-G012-117
+prompt: Diagrama Hexápode do gradiente alvéolo-arterial com alvéolo, capilar e causas de gradiente aumentado.
+alt: Oxigênio passa do alvéolo ao sangue; painel lista desigualdade V/Q, shunt, difusão e embolia como causas de gradiente elevado.
+overlay:
+  title: Gradiente alvéolo-arterial
+  labels: [PAO2, PaO2, gradiente A-a, V/Q, shunt, difusão]
+consumers: [Respira, Ventila, Emergências, UTI, Cardio, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

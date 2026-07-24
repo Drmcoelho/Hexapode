@@ -1,0 +1,14 @@
+id: HEX-A032-320
+concept: Lactato e depuração
+cycle: A032
+layer: advanced
+status: generated
+canonical_source: HEX-G012-120
+prompt: Infográfico Hexápode sobre produção e depuração do lactato, causas de elevação e interpretação seriada.
+alt: Tecidos produzem lactato e o fígado o depura; painéis distinguem produção aumentada de depuração reduzida e mostram fórmula de clearance.
+overlay:
+  title: Lactato e depuração
+  labels: [produção, depuração, hipoperfusão, fígado, clearance]
+consumers: [Emergências, UTI, Cardio, Hepatologia, Nefrologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

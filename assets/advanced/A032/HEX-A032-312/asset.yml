@@ -1,0 +1,14 @@
+id: HEX-A032-312
+concept: Distúrbios ácido-base primários
+cycle: A032
+layer: advanced
+status: generated
+canonical_source: HEX-G012-112
+prompt: Matriz didática Hexápode comparando acidose e alcalose metabólicas e respiratórias.
+alt: Quatro quadrantes relacionam pH, PaCO2 e bicarbonato nos distúrbios ácido-base primários.
+overlay:
+  title: Distúrbios ácido-base primários
+  labels: [acidose metabólica, alcalose metabólica, acidose respiratória, alcalose respiratória]
+consumers: [Emergências, Medicina Interna, Nefrologia, UTI, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

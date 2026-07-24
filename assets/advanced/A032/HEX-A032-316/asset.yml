@@ -1,0 +1,14 @@
+id: HEX-A032-316
+concept: Delta gap
+cycle: A032
+layer: advanced
+status: generated
+canonical_source: HEX-G012-116
+prompt: Escala visual Hexápode da relação delta AG sobre delta bicarbonato para reconhecer distúrbios metabólicos mistos.
+alt: Faixas coloridas do delta ratio indicam acidose hiperclorêmica associada, AG elevado isolado ou alcalose metabólica associada.
+overlay:
+  title: Delta gap
+  labels: [delta AG, delta bicarbonato, baixo, intermediário, alto]
+consumers: [Emergências, Medicina Interna, Nefrologia, Toxicologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

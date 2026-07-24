@@ -1,0 +1,14 @@
+id: HEX-A032-319
+concept: Conteúdo arterial e oferta de oxigênio
+cycle: A032
+layer: advanced
+status: generated
+canonical_source: HEX-G012-119
+prompt: Infográfico Hexápode relacionando hemoglobina, saturação, PaO2, conteúdo arterial de oxigênio e oferta sistêmica.
+alt: Hemácia e fórmulas mostram que CaO2 depende principalmente de hemoglobina e saturação, enquanto DO2 também depende do débito cardíaco.
+overlay:
+  title: Conteúdo arterial e oferta de oxigênio
+  labels: [CaO2, Hb, SaO2, PaO2, débito cardíaco, DO2]
+consumers: [Cardio, Emergências, UTI, Hematologia, Ventila, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

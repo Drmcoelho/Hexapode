@@ -1,0 +1,14 @@
+id: HEX-A032-313
+concept: Compensações esperadas
+cycle: A032
+layer: advanced
+status: generated
+canonical_source: HEX-G012-113
+prompt: Fluxograma médico Hexápode para comparar compensação ácido-base adequada e inadequada.
+alt: Distúrbio primário se divide em compensação adequada, sugerindo distúrbio simples, ou inadequada, sugerindo distúrbio misto.
+overlay:
+  title: Compensações esperadas
+  labels: [distúrbio primário, compensação adequada, compensação inadequada, distúrbio misto]
+consumers: [Emergências, Medicina Interna, Nefrologia, UTI, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
