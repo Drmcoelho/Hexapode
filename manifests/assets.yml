@@ -11,8 +11,8 @@ production:
     - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: A034
-  completed_assets: 330
+  next_cycle: A035
+  completed_assets: 340
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycle_index:
@@ -49,24 +49,25 @@ cycle_index:
   - {id: A031, range: 301-310, theme: Via Aérea Avançada, status: generated, source_root: assets/advanced/A031}
   - {id: A032, range: 311-320, theme: Gasometria Avançada, status: generated, source_root: assets/advanced/A032}
   - {id: A033, range: 321-330, theme: Hemodinâmica Avançada, status: generated, source_root: assets/advanced/A033}
+  - {id: A034, range: 331-340, theme: Emergências Avançadas, status: generated, source_root: assets/advanced/A034}
 cycles:
-  A033:
+  A034:
     layer: A
-    range: 321-330
-    theme: Hemodinâmica Avançada
+    range: 331-340
+    theme: Emergências Avançadas
     status: generated
     exports_pending: [base-art.png, thumbnail.webp]
     assets:
-      - {id: HEX-A033-321, concept: Pré-carga: determinantes e avaliação, status: generated, source: assets/advanced/A033/HEX-A033-321/base-art.svg, metadata: assets/advanced/A033/HEX-A033-321/asset.yml}
-      - {id: HEX-A033-322, concept: Pós-carga: ventrículo e impedância arterial, status: generated, source: assets/advanced/A033/HEX-A033-322/base-art.svg, metadata: assets/advanced/A033/HEX-A033-322/asset.yml}
-      - {id: HEX-A033-323, concept: Débito cardíaco e seus componentes, status: generated, source: assets/advanced/A033/HEX-A033-323/base-art.svg, metadata: assets/advanced/A033/HEX-A033-323/asset.yml}
-      - {id: HEX-A033-324, concept: Pressão arterial média e perfusão orgânica, status: generated, source: assets/advanced/A033/HEX-A033-324/base-art.svg, metadata: assets/advanced/A033/HEX-A033-324/asset.yml}
-      - {id: HEX-A033-325, concept: Retorno venoso e pressão sistêmica média, status: generated, source: assets/advanced/A033/HEX-A033-325/base-art.svg, metadata: assets/advanced/A033/HEX-A033-325/asset.yml}
-      - {id: HEX-A033-326, concept: Frank-Starling e responsividade a fluidos, status: generated, source: assets/advanced/A033/HEX-A033-326/base-art.svg, metadata: assets/advanced/A033/HEX-A033-326/asset.yml}
-      - {id: HEX-A033-327, concept: Vasoplegia e perda de tônus vascular, status: generated, source: assets/advanced/A033/HEX-A033-327/base-art.svg, metadata: assets/advanced/A033/HEX-A033-327/asset.yml}
-      - {id: HEX-A033-328, concept: Perfis hemodinâmicos do choque, status: generated, source: assets/advanced/A033/HEX-A033-328/base-art.svg, metadata: assets/advanced/A033/HEX-A033-328/asset.yml}
-      - {id: HEX-A033-329, concept: Microcirculação e heterogeneidade de fluxo, status: generated, source: assets/advanced/A033/HEX-A033-329/base-art.svg, metadata: assets/advanced/A033/HEX-A033-329/asset.yml}
-      - {id: HEX-A033-330, concept: Oferta, consumo e extração de oxigênio, status: generated, source: assets/advanced/A033/HEX-A033-330/base-art.svg, metadata: assets/advanced/A033/HEX-A033-330/asset.yml}
+      - {id: HEX-A034-331, concept: Parada cardiorrespiratória: cadeia de sobrevivência e ritmos, status: generated, source: assets/advanced/A034/HEX-A034-331/base-art.svg, metadata: assets/advanced/A034/HEX-A034-331/asset.yml}
+      - {id: HEX-A034-332, concept: Síndrome coronariana aguda: oclusão, isquemia e reperfusão, status: generated, source: assets/advanced/A034/HEX-A034-332/base-art.svg, metadata: assets/advanced/A034/HEX-A034-332/asset.yml}
+      - {id: HEX-A034-333, concept: Edema agudo de pulmão: pressão hidrostática e inundação alveolar, status: generated, source: assets/advanced/A034/HEX-A034-333/base-art.svg, metadata: assets/advanced/A034/HEX-A034-333/asset.yml}
+      - {id: HEX-A034-334, concept: Choque séptico: vasoplegia, microcirculação e lactato, status: generated, source: assets/advanced/A034/HEX-A034-334/base-art.svg, metadata: assets/advanced/A034/HEX-A034-334/asset.yml}
+      - {id: HEX-A034-335, concept: Anafilaxia: mastócitos, vasodilatação, edema e broncoespasmo, status: generated, source: assets/advanced/A034/HEX-A034-335/base-art.svg, metadata: assets/advanced/A034/HEX-A034-335/asset.yml}
+      - {id: HEX-A034-336, concept: Estado de mal asmático: aprisionamento aéreo e fadiga, status: generated, source: assets/advanced/A034/HEX-A034-336/base-art.svg, metadata: assets/advanced/A034/HEX-A034-336/asset.yml}
+      - {id: HEX-A034-337, concept: Tromboembolismo pulmonar maciço: VD e choque, status: generated, source: assets/advanced/A034/HEX-A034-337/base-art.svg, metadata: assets/advanced/A034/HEX-A034-337/asset.yml}
+      - {id: HEX-A034-338, concept: Hipercalemia grave: membrana, ECG e estabilização, status: generated, source: assets/advanced/A034/HEX-A034-338/base-art.svg, metadata: assets/advanced/A034/HEX-A034-338/asset.yml}
+      - {id: HEX-A034-339, concept: Hipoglicemia grave: neuroglicopenia e contrarregulação, status: generated, source: assets/advanced/A034/HEX-A034-339/base-art.svg, metadata: assets/advanced/A034/HEX-A034-339/asset.yml}
+      - {id: HEX-A034-340, concept: Via aérea crítica: falha de intubação e oxigenação, status: generated, source: assets/advanced/A034/HEX-A034-340/base-art.svg, metadata: assets/advanced/A034/HEX-A034-340/asset.yml}
 cycle_generation_rule: >-
   Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
