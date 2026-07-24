@@ -1,0 +1,11 @@
+id: HEX-A039-387
+cycle: A039
+layer: A
+concept: Derrame pleural no ultrassom
+status: generated
+canonical_source: HEX-G019-187
+prompt_canonical: Infográfico didático sobre derrame pleural, líquido anecoico, pulmão atelectasiado e planejamento seguro de punção.
+alt: Janela ultrassonográfica com líquido pleural anecoico e pulmão atelectasiado flutuando acima do diafragma.
+overlay: {title: Derrame pleural no ultrassom, subtitle: Líquido anecoico e sinal da coluna, labels: [Líquido, Pulmão atelectasiado, Diafragma]}
+consumers: [Hexágono, Hexaconsulta, Hexaconecta, Respira, Ventila, Cardio, Trauma, Neuro, Nefro, USG, Farmaco]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
