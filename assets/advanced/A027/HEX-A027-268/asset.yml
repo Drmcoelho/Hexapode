@@ -1,0 +1,12 @@
+id: HEX-A027-268
+concept: Trigger avançado
+cycle: A027
+layer: advanced
+status: generated
+canonical_origin: HEX-G007-068
+prompt: Prancha médica vetorial didática sobre esforço do paciente, limiar de disparo e atraso de trigger.
+alt: Curva mostrando esforço inspiratório do paciente seguido do disparo do ventilador e o atraso entre ambos.
+overlay: {title: Trigger avançado, labels: [esforço, limiar, disparo, atraso]}
+consumers: [Ventila, UTI, Fisiologia, Ensino]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
