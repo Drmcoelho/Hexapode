@@ -1,0 +1,12 @@
+id: HEX-A026-259
+concept: HME avançado
+cycle: A026
+layer: advanced
+status: generated
+canonical_origin: HEX-G006-059
+prompt: Prancha didática vetorial sobre HME, retenção e devolução de calor e água, espaço morto e resistência.
+alt: HME entre tubo e circuito com setas de captura e devolução de calor e umidade.
+overlay: {title: HME, labels: [água, calor, expiração, inspiração, resistência]}
+consumers: [Ventila, Respira, Anestesia, Emergências, Enfermagem]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
