@@ -1,0 +1,12 @@
+id: HEX-A026-251
+concept: Ventilador mecânico avançado
+cycle: A026
+layer: advanced
+status: generated
+canonical_origin: HEX-G006-051
+prompt: Prancha didática vetorial sobre arquitetura funcional do ventilador, turbina, válvulas, sensores, circuito e paciente.
+alt: Ventilador ligado por circuito a um paciente, mostrando geração de fluxo e monitorização.
+overlay: {title: Ventilador mecânico, labels: [turbina, válvulas, sensores, circuito, paciente]}
+consumers: [Ventila, Respira, Emergências, Pediatria, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
