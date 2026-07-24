@@ -1,0 +1,12 @@
+id: HEX-A038-373
+cycle: A038
+layer: A
+concept: Ciclo cardíaco integrado
+status: generated
+canonical_source: HEX-G018-173
+prompt_canonical: Diagrama médico vetorial integrando ECG, pressões, volume ventricular, valvas e bulhas ao longo do ciclo cardíaco.
+alt: Ciclo circular relacionando ondas do ECG, sístole, diástole, pressões, volumes e eventos valvares.
+overlay: {title: Ciclo cardíaco integrado, labels: [ECG, pressão, volume, valvas, bulhas]}
+consumers: [Cardio, Hemodinâmica, Emergências, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}

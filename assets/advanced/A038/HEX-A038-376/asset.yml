@@ -1,0 +1,12 @@
+id: HEX-A038-376
+cycle: A038
+layer: A
+concept: Arritmias: classificação
+status: generated
+canonical_source: HEX-G018-176
+prompt_canonical: Infográfico vetorial com traçados didáticos de bradicardia, taquiarritmia supraventricular e taquicardia ventricular, destacando estabilidade.
+alt: Três traçados esquemáticos classificando bradicardia, TSV e taquicardia ventricular.
+overlay: {title: Arritmias: classificação, labels: [bradicardia, TSV, TV, estabilidade]}
+consumers: [Cardio, Emergências, Farmacologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}

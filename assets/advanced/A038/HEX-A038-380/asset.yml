@@ -1,0 +1,12 @@
+id: HEX-A038-380
+cycle: A038
+layer: A
+concept: Ecocardiograma: parâmetros
+status: generated
+canonical_source: HEX-G018-180
+prompt_canonical: Infográfico vetorial com setor ecocardiográfico e parâmetros FEVE, VTI, E sobre e linha, PSAP e TAPSE, explicando sua interpretação inicial.
+alt: Setor de ultrassom ao lado de lista didática de parâmetros ecocardiográficos essenciais.
+overlay: {title: Ecocardiograma: parâmetros, labels: [FEVE, VTI, E/e’, PSAP, TAPSE]}
+consumers: [Cardio, Ultrassom, Hemodinâmica, Emergências, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}

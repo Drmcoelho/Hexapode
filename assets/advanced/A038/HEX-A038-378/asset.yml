@@ -1,0 +1,12 @@
+id: HEX-A038-378
+cycle: A038
+layer: A
+concept: Choque cardiogênico
+status: generated
+canonical_source: HEX-G018-178
+prompt_canonical: Infográfico vetorial conectando falência da bomba cardíaca, baixo débito, hipoperfusão, lactato, pressões de enchimento e congestão pulmonar.
+alt: Coração disfuncional entre hipoperfusão sistêmica e congestão, com consequências do choque cardiogênico.
+overlay: {title: Choque cardiogênico, labels: [baixo débito, hipoperfusão, lactato, congestão, reperfusão]}
+consumers: [Cardio, Emergências, Hemodinâmica, Respira, Ventila, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}

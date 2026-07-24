@@ -1,0 +1,12 @@
+id: HEX-A038-374
+cycle: A038
+layer: A
+concept: Débito cardíaco e determinantes
+status: generated
+canonical_source: HEX-G018-174
+prompt_canonical: Infográfico vetorial explicando DC igual a frequência cardíaca vezes volume sistólico e os efeitos de pré-carga, pós-carga e contratilidade.
+alt: Equação do débito cardíaco com três módulos para pré-carga, pós-carga e contratilidade.
+overlay: {title: Débito cardíaco e determinantes, labels: [DC, FC, VS, pré-carga, pós-carga, contratilidade]}
+consumers: [Cardio, Hemodinâmica, Emergências, Farmacologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}

@@ -1,0 +1,12 @@
+id: HEX-A038-372
+cycle: A038
+layer: A
+concept: Potencial de ação cardíaco
+status: generated
+canonical_source: HEX-G018-172
+prompt_canonical: Infográfico vetorial comparando potencial de ação do miócito ventricular e da célula marcapasso, com fases e correntes iônicas.
+alt: Curvas de potencial de ação cardíaco com fases de sódio, cálcio e potássio.
+overlay: {title: Potencial de ação cardíaco, labels: [Na+, Ca2+, K+, miócito, marcapasso]}
+consumers: [Cardio, Farmacologia, Emergências, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}

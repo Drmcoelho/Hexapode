@@ -1,0 +1,14 @@
+id: HEX-A038-371
+cycle: A038
+layer: A
+concept: Sistema de condução cardíaca
+status: generated
+canonical_source: HEX-G018-171
+prompt_canonical: Infográfico médico vetorial sobre o sistema de condução cardíaca, mostrando nó SA, nó AV, feixe de His, ramos e fibras de Purkinje.
+alt: Diagrama do coração com a sequência de ativação elétrica do nó sinoatrial às fibras de Purkinje.
+overlay:
+  title: Sistema de condução cardíaca
+  labels: [Nó SA, Nó AV, Feixe de His, Ramos, Purkinje]
+consumers: [Cardio, Emergências, Medicina Interna, Educação, Respira, Ventila]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}

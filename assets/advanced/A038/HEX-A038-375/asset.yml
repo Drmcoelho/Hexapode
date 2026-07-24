@@ -1,0 +1,12 @@
+id: HEX-A038-375
+cycle: A038
+layer: A
+concept: Insuficiência cardíaca
+status: generated
+canonical_source: HEX-G018-175
+prompt_canonical: Infográfico médico vetorial sobre insuficiência cardíaca, ligando baixo débito, ativação neuro-hormonal, retenção hidrossalina, congestão e remodelamento.
+alt: Coração entre módulos de baixo débito e congestão, com sequência neuro-hormonal e remodelamento.
+overlay: {title: Insuficiência cardíaca, labels: [baixo débito, SNS, SRAA, retenção, congestão, remodelamento]}
+consumers: [Cardio, Nefrologia, Respira, Ventila, Emergências, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}

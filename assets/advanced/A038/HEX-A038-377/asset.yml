@@ -1,0 +1,12 @@
+id: HEX-A038-377
+cycle: A038
+layer: A
+concept: Infarto agudo do miocárdio
+status: generated
+canonical_source: HEX-G018-177
+prompt_canonical: Infográfico médico vetorial mostrando ruptura de placa, trombo coronário, progressão de isquemia para necrose, troponina e reperfusão.
+alt: Artéria coronária ocluída por trombo com sequência oclusão, isquemia, necrose e reperfusão precoce.
+overlay: {title: Infarto agudo do miocárdio, labels: [placa, trombo, isquemia, necrose, troponina, reperfusão]}
+consumers: [Cardio, Emergências, Hemodinâmica, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}

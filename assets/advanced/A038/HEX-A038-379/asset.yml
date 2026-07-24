@@ -1,0 +1,12 @@
+id: HEX-A038-379
+cycle: A038
+layer: A
+concept: Ecocardiograma: janelas básicas
+status: generated
+canonical_source: HEX-G018-179
+prompt_canonical: Infográfico médico vetorial mostrando posições do transdutor para janelas paraesternal longa, paraesternal curta, apical quatro câmaras e subcostal.
+alt: Tórax esquemático com quatro pontos coloridos e linhas para as janelas ecocardiográficas básicas.
+overlay: {title: Ecocardiograma: janelas básicas, labels: [paraesternal longa, paraesternal curta, apical 4 câmaras, subcostal]}
+consumers: [Cardio, Ultrassom, Emergências, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
