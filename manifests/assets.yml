@@ -11,8 +11,8 @@ production:
     - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: G019
-  completed_assets: 180
+  next_cycle: G020
+  completed_assets: 190
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycle_index:
@@ -34,24 +34,25 @@ cycle_index:
   - {id: G016, range: 151-160, theme: Nefrologia, status: generated, source_root: assets/canonical/G016}
   - {id: G017, range: 161-170, theme: Neurologia, status: generated, source_root: assets/canonical/G017}
   - {id: G018, range: 171-180, theme: Cardiologia, status: generated, source_root: assets/canonical/G018}
+  - {id: G019, range: 181-190, theme: Ultrassom, status: generated, source_root: assets/canonical/G019}
 cycles:
-  G018:
+  G019:
     layer: G
-    range: 171-180
-    theme: Cardiologia
+    range: 181-190
+    theme: Ultrassom
     status: generated
     exports_pending: [base-art.png, thumbnail.webp]
     assets:
-      - {id: HEX-G018-171, concept: Coração, status: generated, source: assets/canonical/G018/HEX-G018-171/base-art.svg, metadata: assets/canonical/G018/HEX-G018-171/asset.yml}
-      - {id: HEX-G018-172, concept: Sistema de condução, status: generated, source: assets/canonical/G018/HEX-G018-172/base-art.svg, metadata: assets/canonical/G018/HEX-G018-172/asset.yml}
-      - {id: HEX-G018-173, concept: Coronárias, status: generated, source: assets/canonical/G018/HEX-G018-173/base-art.svg, metadata: assets/canonical/G018/HEX-G018-173/asset.yml}
-      - {id: HEX-G018-174, concept: Sístole, status: generated, source: assets/canonical/G018/HEX-G018-174/base-art.svg, metadata: assets/canonical/G018/HEX-G018-174/asset.yml}
-      - {id: HEX-G018-175, concept: Diástole, status: generated, source: assets/canonical/G018/HEX-G018-175/base-art.svg, metadata: assets/canonical/G018/HEX-G018-175/asset.yml}
-      - {id: HEX-G018-176, concept: Valvas, status: generated, source: assets/canonical/G018/HEX-G018-176/base-art.svg, metadata: assets/canonical/G018/HEX-G018-176/asset.yml}
-      - {id: HEX-G018-177, concept: Arritmias, status: generated, source: assets/canonical/G018/HEX-G018-177/base-art.svg, metadata: assets/canonical/G018/HEX-G018-177/asset.yml}
-      - {id: HEX-G018-178, concept: Insuficiência cardíaca, status: generated, source: assets/canonical/G018/HEX-G018-178/base-art.svg, metadata: assets/canonical/G018/HEX-G018-178/asset.yml}
-      - {id: HEX-G018-179, concept: Tamponamento, status: generated, source: assets/canonical/G018/HEX-G018-179/base-art.svg, metadata: assets/canonical/G018/HEX-G018-179/asset.yml}
-      - {id: HEX-G018-180, concept: Pericárdio, status: generated, source: assets/canonical/G018/HEX-G018-180/base-art.svg, metadata: assets/canonical/G018/HEX-G018-180/asset.yml}
+      - {id: HEX-G019-181, concept: Física do ultrassom, status: generated, source: assets/canonical/G019/HEX-G019-181/base-art.svg, metadata: assets/canonical/G019/HEX-G019-181/asset.yml}
+      - {id: HEX-G019-182, concept: Sonda linear, status: generated, source: assets/canonical/G019/HEX-G019-182/base-art.svg, metadata: assets/canonical/G019/HEX-G019-182/asset.yml}
+      - {id: HEX-G019-183, concept: Sonda convexa, status: generated, source: assets/canonical/G019/HEX-G019-183/base-art.svg, metadata: assets/canonical/G019/HEX-G019-183/asset.yml}
+      - {id: HEX-G019-184, concept: Sonda setorial, status: generated, source: assets/canonical/G019/HEX-G019-184/base-art.svg, metadata: assets/canonical/G019/HEX-G019-184/asset.yml}
+      - {id: HEX-G019-185, concept: Artefatos, status: generated, source: assets/canonical/G019/HEX-G019-185/base-art.svg, metadata: assets/canonical/G019/HEX-G019-185/asset.yml}
+      - {id: HEX-G019-186, concept: FAST, status: generated, source: assets/canonical/G019/HEX-G019-186/base-art.svg, metadata: assets/canonical/G019/HEX-G019-186/asset.yml}
+      - {id: HEX-G019-187, concept: Ultrassom pulmonar, status: generated, source: assets/canonical/G019/HEX-G019-187/base-art.svg, metadata: assets/canonical/G019/HEX-G019-187/asset.yml}
+      - {id: HEX-G019-188, concept: Ultrassom cardíaco, status: generated, source: assets/canonical/G019/HEX-G019-188/base-art.svg, metadata: assets/canonical/G019/HEX-G019-188/asset.yml}
+      - {id: HEX-G019-189, concept: Veia cava inferior, status: generated, source: assets/canonical/G019/HEX-G019-189/base-art.svg, metadata: assets/canonical/G019/HEX-G019-189/asset.yml}
+      - {id: HEX-G019-190, concept: Punções guiadas, status: generated, source: assets/canonical/G019/HEX-G019-190/base-art.svg, metadata: assets/canonical/G019/HEX-G019-190/asset.yml}
 cycle_generation_rule: >-
   Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
