@@ -1,0 +1,14 @@
+id: HEX-A023-225
+concept: Pneumócito tipo I avançado
+cycle: A023
+layer: advanced
+status: generated
+canonical_source: HEX-G003-025
+prompt: Pneumócito tipo I avançado com morfologia pavimentosa, junções e participação na barreira de difusão.
+alt: Célula alveolar pavimentosa extensa formando a maior parte da superfície de troca gasosa.
+overlay:
+  title: Pneumócito tipo I avançado
+  labels: [citoplasma delgado, núcleo, junção, membrana basal, superfície alveolar]
+consumers: [Respira, Ventila, Histologia, Fisiologia, Patologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
