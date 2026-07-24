@@ -1,0 +1,11 @@
+id: HEX-A039-390
+cycle: A039
+layer: A
+concept: Setor, foco e profundidade
+status: generated
+canonical_source: HEX-G019-190
+prompt_canonical: Infográfico didático sobre profundidade, foco, ganho e largura do setor e seus efeitos na resolução ultrassonográfica.
+alt: Setor ultrassonográfico com arcos de profundidade, linha central e foco destacado no nível do alvo.
+overlay: {title: Setor, foco e profundidade, subtitle: Geometria e otimização da imagem, labels: [Profundidade, Foco, Ganho, Largura do setor]}
+consumers: [Hexágono, Hexaconsulta, Hexaconecta, Respira, Ventila, Cardio, Trauma, Neuro, Nefro, USG, Farmaco]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
