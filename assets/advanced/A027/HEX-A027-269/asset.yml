@@ -1,0 +1,12 @@
+id: HEX-A027-269
+concept: Ciclagem avançada
+cycle: A027
+layer: advanced
+status: generated
+canonical_origin: HEX-G007-069
+prompt: Prancha médica vetorial didática comparando ciclagem por tempo, fluxo e volume.
+alt: Três painéis mostram as variáveis que encerram a inspiração e iniciam a expiração.
+overlay: {title: Ciclagem avançada, labels: [tempo, fluxo, volume]}
+consumers: [Ventila, UTI, Fisiologia, Ensino]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
