@@ -1,0 +1,12 @@
+id: HEX-A028-278
+concept: BiPAP avançado
+cycle: A028
+layer: advanced
+status: generated
+canonical_origin: HEX-G008-78
+prompt: Prancha médica didática sobre BiPAP, IPAP, EPAP, suporte ventilatório, recrutamento e vazamento.
+alt: Dois níveis de pressão não invasiva com interpretação de IPAP e EPAP.
+overlay: {title: BiPAP avançado, labels: [IPAP, EPAP, ventilação, vazamento]}
+consumers: [Respira, Ventila, Emergências, Sono, Pediatria]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
