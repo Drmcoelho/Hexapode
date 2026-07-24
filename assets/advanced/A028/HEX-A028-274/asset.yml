@@ -1,0 +1,12 @@
+id: HEX-A028-274
+concept: SIMV avançado
+cycle: A028
+layer: advanced
+status: generated
+canonical_origin: HEX-G008-74
+prompt: Prancha médica didática sobre SIMV, ciclos mandatórios sincronizados e respirações espontâneas.
+alt: Curvas de ciclos mandatórios e espontâneos intercalados.
+overlay: {title: SIMV avançado, labels: [mandatórias, sincronização, espontâneas, trabalho respiratório]}
+consumers: [Respira, Ventila, Emergências, Anestesia, Pediatria]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
