@@ -1,0 +1,13 @@
+id: HEX-A034-340
+concept: Via aérea crítica: falha de intubação e oxigenação
+cycle: A034
+layer: advanced
+status: generated
+canonical_origin: HEX-G014-140
+prompt: >-
+  Prancha médica didática Hexápode com algoritmo de via aérea crítica em planos A, B, C e D, destacando falha de intubação, falha de oxigenação e acesso frontal ao pescoço.
+alt: Fluxograma de via aérea crítica com intubação otimizada, dispositivo supraglótico, ventilação por máscara e acesso frontal ao pescoço.
+overlay: {title: Via aérea crítica, labels: [plano A, plano B, plano C, plano D, CICO]}
+consumers: [Emergências, Via Aérea, Trauma, Anestesia, UTI]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
