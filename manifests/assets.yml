@@ -6,70 +6,84 @@ production:
   total_assets: 600
   concepts: 200
   layers:
-    - {id: G, name: canonical, range: 1-200}
-    - {id: A, name: advanced, range: 201-400}
-    - {id: X, name: applied, range: 401-600}
+  - id: G
+    name: canonical
+    range: 1-200
+  - id: A
+    name: advanced
+    range: 201-400
+  - id: X
+    name: applied
+    range: 401-600
   batch_size: 10
   total_cycles: 60
-  next_cycle: A035
-  completed_assets: 340
+  next_cycle: A036
+  completed_assets: 350
   status: active
-statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
+statuses:
+- planned
+- prompt_ready
+- generated
+- overlay_ready
+- reviewed
+- approved
+- integrated
+- blocked
 cycle_index:
-  - {id: G001, range: 1-10, theme: Identidade Visual, status: generated, source_root: assets/canonical/G001}
-  - {id: G002, range: 11-20, theme: Anatomia Respiratória I, status: generated, source_root: assets/canonical/G002}
-  - {id: G003, range: 21-30, theme: Anatomia Respiratória II, status: generated, source_root: assets/canonical/G003}
-  - {id: G004, range: 31-40, theme: Mecânica Respiratória, status: generated, source_root: assets/canonical/G004}
-  - {id: G005, range: 41-50, theme: Fisiologia, status: generated, source_root: assets/canonical/G005}
-  - {id: G006, range: 51-60, theme: Equipamentos, status: generated, source_root: assets/canonical/G006}
-  - {id: G007, range: 61-70, theme: Curvas, status: generated, source_root: assets/canonical/G007}
-  - {id: G008, range: 71-80, theme: Modos Ventilatórios, status: generated, source_root: assets/canonical/G008}
-  - {id: G009, range: 81-90, theme: Assincronias, status: generated, source_root: assets/canonical/G009}
-  - {id: G010, range: 91-100, theme: Patologias Respiratórias, status: generated, source_root: assets/canonical/G010}
-  - {id: G011, range: 101-110, theme: Via Aérea, status: generated, source_root: assets/canonical/G011}
-  - {id: G012, range: 111-120, theme: Gasometria, status: generated, source_root: assets/canonical/G012}
-  - {id: G013, range: 121-130, theme: Hemodinâmica, status: generated, source_root: assets/canonical/G013}
-  - {id: G014, range: 131-140, theme: Emergências, status: generated, source_root: assets/canonical/G014}
-  - {id: G015, range: 141-150, theme: Farmacologia, status: generated, source_root: assets/canonical/G015}
-  - {id: G016, range: 151-160, theme: Nefrologia, status: generated, source_root: assets/canonical/G016}
-  - {id: G017, range: 161-170, theme: Neurologia, status: generated, source_root: assets/canonical/G017}
-  - {id: G018, range: 171-180, theme: Cardiologia, status: generated, source_root: assets/canonical/G018}
-  - {id: G019, range: 181-190, theme: Ultrassom, status: generated, source_root: assets/canonical/G019}
-  - {id: G020, range: 191-200, theme: Biblioteca Universal, status: generated, source_root: assets/canonical/G020}
-  - {id: A021, range: 201-210, theme: Identidade Visual Avançada, status: generated, source_root: assets/advanced/A021}
-  - {id: A022, range: 211-220, theme: Anatomia Respiratória I Avançada, status: generated, source_root: assets/advanced/A022}
-  - {id: A023, range: 221-230, theme: Anatomia Respiratória II Avançada, status: generated, source_root: assets/advanced/A023}
-  - {id: A024, range: 231-240, theme: Mecânica Respiratória Avançada, status: generated, source_root: assets/advanced/A024}
-  - {id: A025, range: 241-250, theme: Fisiologia Avançada, status: generated, source_root: assets/advanced/A025}
-  - {id: A026, range: 251-260, theme: Equipamentos Avançados, status: generated, source_root: assets/advanced/A026}
-  - {id: A027, range: 261-270, theme: Curvas Avançadas, status: generated, source_root: assets/advanced/A027}
-  - {id: A028, range: 271-280, theme: Modos Ventilatórios Avançados, status: generated, source_root: assets/advanced/A028}
-  - {id: A029, range: 281-290, theme: Assincronias Avançadas, status: generated, source_root: assets/advanced/A029}
-  - {id: A030, range: 291-300, theme: Patologias Respiratórias Avançadas, status: generated, source_root: assets/advanced/A030}
-  - {id: A031, range: 301-310, theme: Via Aérea Avançada, status: generated, source_root: assets/advanced/A031}
-  - {id: A032, range: 311-320, theme: Gasometria Avançada, status: generated, source_root: assets/advanced/A032}
-  - {id: A033, range: 321-330, theme: Hemodinâmica Avançada, status: generated, source_root: assets/advanced/A033}
-  - {id: A034, range: 331-340, theme: Emergências Avançadas, status: generated, source_root: assets/advanced/A034}
+- {id: G001, range: 1-10, theme: Identidade Visual, status: generated, source_root: assets/canonical/G001}
+- {id: G002, range: 11-20, theme: Anatomia Respiratória I, status: generated, source_root: assets/canonical/G002}
+- {id: G003, range: 21-30, theme: Anatomia Respiratória II, status: generated, source_root: assets/canonical/G003}
+- {id: G004, range: 31-40, theme: Mecânica Respiratória, status: generated, source_root: assets/canonical/G004}
+- {id: G005, range: 41-50, theme: Fisiologia, status: generated, source_root: assets/canonical/G005}
+- {id: G006, range: 51-60, theme: Equipamentos, status: generated, source_root: assets/canonical/G006}
+- {id: G007, range: 61-70, theme: Curvas, status: generated, source_root: assets/canonical/G007}
+- {id: G008, range: 71-80, theme: Modos Ventilatórios, status: generated, source_root: assets/canonical/G008}
+- {id: G009, range: 81-90, theme: Assincronias, status: generated, source_root: assets/canonical/G009}
+- {id: G010, range: 91-100, theme: Patologias Respiratórias, status: generated, source_root: assets/canonical/G010}
+- {id: G011, range: 101-110, theme: Via Aérea, status: generated, source_root: assets/canonical/G011}
+- {id: G012, range: 111-120, theme: Gasometria, status: generated, source_root: assets/canonical/G012}
+- {id: G013, range: 121-130, theme: Hemodinâmica, status: generated, source_root: assets/canonical/G013}
+- {id: G014, range: 131-140, theme: Emergências, status: generated, source_root: assets/canonical/G014}
+- {id: G015, range: 141-150, theme: Farmacologia, status: generated, source_root: assets/canonical/G015}
+- {id: G016, range: 151-160, theme: Nefrologia, status: generated, source_root: assets/canonical/G016}
+- {id: G017, range: 161-170, theme: Neurologia, status: generated, source_root: assets/canonical/G017}
+- {id: G018, range: 171-180, theme: Cardiologia, status: generated, source_root: assets/canonical/G018}
+- {id: G019, range: 181-190, theme: Ultrassom, status: generated, source_root: assets/canonical/G019}
+- {id: G020, range: 191-200, theme: Biblioteca Universal, status: generated, source_root: assets/canonical/G020}
+- {id: A021, range: 201-210, theme: Identidade Visual Avançada, status: generated, source_root: assets/advanced/A021}
+- {id: A022, range: 211-220, theme: Anatomia Respiratória I Avançada, status: generated, source_root: assets/advanced/A022}
+- {id: A023, range: 221-230, theme: Anatomia Respiratória II Avançada, status: generated, source_root: assets/advanced/A023}
+- {id: A024, range: 231-240, theme: Mecânica Respiratória Avançada, status: generated, source_root: assets/advanced/A024}
+- {id: A025, range: 241-250, theme: Fisiologia Avançada, status: generated, source_root: assets/advanced/A025}
+- {id: A026, range: 251-260, theme: Equipamentos Avançados, status: generated, source_root: assets/advanced/A026}
+- {id: A027, range: 261-270, theme: Curvas Avançadas, status: generated, source_root: assets/advanced/A027}
+- {id: A028, range: 271-280, theme: Modos Ventilatórios Avançados, status: generated, source_root: assets/advanced/A028}
+- {id: A029, range: 281-290, theme: Assincronias Avançadas, status: generated, source_root: assets/advanced/A029}
+- {id: A030, range: 291-300, theme: Patologias Respiratórias Avançadas, status: generated, source_root: assets/advanced/A030}
+- {id: A031, range: 301-310, theme: Via Aérea Avançada, status: generated, source_root: assets/advanced/A031}
+- {id: A032, range: 311-320, theme: Gasometria Avançada, status: generated, source_root: assets/advanced/A032}
+- {id: A033, range: 321-330, theme: Hemodinâmica Avançada, status: generated, source_root: assets/advanced/A033}
+- {id: A034, range: 331-340, theme: Emergências Avançadas, status: generated, source_root: assets/advanced/A034}
+- {id: A035, range: 341-350, theme: Farmacologia Avançada, status: generated, source_root: assets/advanced/A035}
 cycles:
-  A034:
+  A035:
     layer: A
-    range: 331-340
-    theme: Emergências Avançadas
+    range: 341-350
+    theme: Farmacologia Avançada
     status: generated
     exports_pending: [base-art.png, thumbnail.webp]
     assets:
-      - {id: HEX-A034-331, concept: Parada cardiorrespiratória: cadeia de sobrevivência e ritmos, status: generated, source: assets/advanced/A034/HEX-A034-331/base-art.svg, metadata: assets/advanced/A034/HEX-A034-331/asset.yml}
-      - {id: HEX-A034-332, concept: Síndrome coronariana aguda: oclusão, isquemia e reperfusão, status: generated, source: assets/advanced/A034/HEX-A034-332/base-art.svg, metadata: assets/advanced/A034/HEX-A034-332/asset.yml}
-      - {id: HEX-A034-333, concept: Edema agudo de pulmão: pressão hidrostática e inundação alveolar, status: generated, source: assets/advanced/A034/HEX-A034-333/base-art.svg, metadata: assets/advanced/A034/HEX-A034-333/asset.yml}
-      - {id: HEX-A034-334, concept: Choque séptico: vasoplegia, microcirculação e lactato, status: generated, source: assets/advanced/A034/HEX-A034-334/base-art.svg, metadata: assets/advanced/A034/HEX-A034-334/asset.yml}
-      - {id: HEX-A034-335, concept: Anafilaxia: mastócitos, vasodilatação, edema e broncoespasmo, status: generated, source: assets/advanced/A034/HEX-A034-335/base-art.svg, metadata: assets/advanced/A034/HEX-A034-335/asset.yml}
-      - {id: HEX-A034-336, concept: Estado de mal asmático: aprisionamento aéreo e fadiga, status: generated, source: assets/advanced/A034/HEX-A034-336/base-art.svg, metadata: assets/advanced/A034/HEX-A034-336/asset.yml}
-      - {id: HEX-A034-337, concept: Tromboembolismo pulmonar maciço: VD e choque, status: generated, source: assets/advanced/A034/HEX-A034-337/base-art.svg, metadata: assets/advanced/A034/HEX-A034-337/asset.yml}
-      - {id: HEX-A034-338, concept: Hipercalemia grave: membrana, ECG e estabilização, status: generated, source: assets/advanced/A034/HEX-A034-338/base-art.svg, metadata: assets/advanced/A034/HEX-A034-338/asset.yml}
-      - {id: HEX-A034-339, concept: Hipoglicemia grave: neuroglicopenia e contrarregulação, status: generated, source: assets/advanced/A034/HEX-A034-339/base-art.svg, metadata: assets/advanced/A034/HEX-A034-339/asset.yml}
-      - {id: HEX-A034-340, concept: Via aérea crítica: falha de intubação e oxigenação, status: generated, source: assets/advanced/A034/HEX-A034-340/base-art.svg, metadata: assets/advanced/A034/HEX-A034-340/asset.yml}
-cycle_generation_rule: >-
-  Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
+    - {id: HEX-A035-341, concept: Noradrenalina avançada, status: generated, source: assets/advanced/A035/HEX-A035-341/base-art.svg, metadata: assets/advanced/A035/HEX-A035-341/asset.yml}
+    - {id: HEX-A035-342, concept: Adrenalina avançada, status: generated, source: assets/advanced/A035/HEX-A035-342/base-art.svg, metadata: assets/advanced/A035/HEX-A035-342/asset.yml}
+    - {id: HEX-A035-343, concept: Dobutamina avançada, status: generated, source: assets/advanced/A035/HEX-A035-343/base-art.svg, metadata: assets/advanced/A035/HEX-A035-343/asset.yml}
+    - {id: HEX-A035-344, concept: Vasopressina avançada, status: generated, source: assets/advanced/A035/HEX-A035-344/base-art.svg, metadata: assets/advanced/A035/HEX-A035-344/asset.yml}
+    - {id: HEX-A035-345, concept: Midazolam avançado, status: generated, source: assets/advanced/A035/HEX-A035-345/base-art.svg, metadata: assets/advanced/A035/HEX-A035-345/asset.yml}
+    - {id: HEX-A035-346, concept: Fentanil avançado, status: generated, source: assets/advanced/A035/HEX-A035-346/base-art.svg, metadata: assets/advanced/A035/HEX-A035-346/asset.yml}
+    - {id: HEX-A035-347, concept: Cetamina avançada, status: generated, source: assets/advanced/A035/HEX-A035-347/base-art.svg, metadata: assets/advanced/A035/HEX-A035-347/asset.yml}
+    - {id: HEX-A035-348, concept: Etomidato avançado, status: generated, source: assets/advanced/A035/HEX-A035-348/base-art.svg, metadata: assets/advanced/A035/HEX-A035-348/asset.yml}
+    - {id: HEX-A035-349, concept: Rocurônio avançado, status: generated, source: assets/advanced/A035/HEX-A035-349/base-art.svg, metadata: assets/advanced/A035/HEX-A035-349/asset.yml}
+    - {id: HEX-A035-350, concept: Succinilcolina avançada, status: generated, source: assets/advanced/A035/HEX-A035-350/base-art.svg, metadata: assets/advanced/A035/HEX-A035-350/asset.yml}
+cycle_generation_rule: Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
   source_required: [base-art.svg, asset.yml]
   export_required_for_approval: [base-art.png, thumbnail.webp]
