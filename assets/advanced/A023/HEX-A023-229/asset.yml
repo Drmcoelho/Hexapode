@@ -1,0 +1,14 @@
+id: HEX-A023-229
+concept: Linfáticos pulmonares avançados
+cycle: A023
+layer: advanced
+status: generated
+canonical_source: HEX-G003-029
+prompt: Drenagem linfática pulmonar superficial e profunda, com linfonodos hilares e mediastinais.
+alt: Pulmões com redes linfáticas pleural e peribrônquica convergindo para cadeias nodais.
+overlay:
+  title: Linfáticos pulmonares avançados
+  labels: [rede subpleural, rede profunda, linfonodos hilares, mediastino, drenagem]
+consumers: [Respira, Cirurgia Torácica, Oncologia, Radiologia, Patologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
