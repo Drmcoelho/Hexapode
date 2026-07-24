@@ -1,0 +1,15 @@
+id: HEX-A033-324
+concept: "Pressão arterial média e perfusão orgânica"
+cycle: A033
+layer: advanced
+status: generated
+canonical_source: HEX-G013-124
+prompt: >-
+  Prancha médica vetorial didática sobre pressão arterial média, pressão de impulsão,
+  contrapressões venosas ou compartimentais e gradientes de perfusão orgânica.
+alt: >-
+  Curva arterial com linha da PAM e três órgãos mostrando gradientes cerebral, renal e hepático.
+overlay: {title: "Pressão arterial média e perfusão orgânica", labels: [PAM, PIC, PVC, gradiente de perfusão]}
+consumers: [Cardio, Emergências, Neuro, Nefrologia, Ventila]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
