@@ -1,0 +1,12 @@
+id: HEX-A028-277
+concept: CPAP avançado
+cycle: A028
+layer: advanced
+status: generated
+canonical_origin: HEX-G008-77
+prompt: Prancha médica didática sobre CPAP, pressão positiva contínua e recrutamento durante respiração espontânea.
+alt: Linha de pressão contínua e ciclos respiratórios espontâneos.
+overlay: {title: CPAP avançado, labels: [pressão contínua, respiração espontânea, recrutamento, intolerância]}
+consumers: [Respira, Ventila, Emergências, Sono, Pediatria]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
