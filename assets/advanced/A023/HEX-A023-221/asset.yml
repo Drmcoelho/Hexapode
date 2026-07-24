@@ -1,0 +1,14 @@
+id: HEX-A023-221
+concept: Lobos pulmonares avançados
+cycle: A023
+layer: advanced
+status: generated
+canonical_source: HEX-G003-021
+prompt: Mapa avançado dos cinco lobos pulmonares, fissuras e relações mediastinais.
+alt: Pulmões em vistas anterior e posterior com lobos e fissuras codificados por cor.
+overlay:
+  title: Lobos pulmonares avançados
+  labels: [lobo superior, lobo médio, lobo inferior, fissura horizontal, fissura oblíqua]
+consumers: [Respira, Ventila, Emergências, Cirurgia Torácica, Radiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
