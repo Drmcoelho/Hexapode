@@ -1,0 +1,13 @@
+id: HEX-A034-334
+concept: Choque séptico: vasoplegia, microcirculação e lactato
+cycle: A034
+layer: advanced
+status: generated
+canonical_origin: HEX-G014-134
+prompt: >-
+  Prancha médica didática Hexápode sobre vasoplegia, disfunção endotelial, microtrombos, heterogeneidade de fluxo, extração alterada e lactato.
+alt: Infecção central conectada a vasoplegia, disfunção endotelial e alteração metabólica, convergindo para hipoperfusão e disfunção orgânica.
+overlay: {title: Choque séptico, labels: [vasoplegia, endotélio, microcirculação, lactato, hipoperfusão]}
+consumers: [Emergências, UTI, Hemodinâmica, Farmacologia, Nefrologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
