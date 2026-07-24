@@ -1,0 +1,11 @@
+id: HEX-G017-166
+concept: Hemisférios
+cycle: G017
+layer: canonical
+status: generated
+prompt: Prancha vetorial canônica Hexápode sobre hemisférios cerebrais e lobos frontal, parietal, temporal e occipital.
+alt: Hemisfério cerebral em vista lateral com lobos frontal, parietal, temporal e occipital coloridos, além de pequena vista medial.
+overlay: {title: Hemisférios cerebrais, labels: [frontal, parietal, temporal, occipital, vista medial]}
+consumers: [Neuro, Trauma, Educação, Fisiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
