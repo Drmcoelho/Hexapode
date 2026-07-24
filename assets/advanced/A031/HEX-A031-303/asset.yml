@@ -1,0 +1,12 @@
+id: HEX-A031-303
+concept: Manipulação laríngea externa
+cycle: A031
+layer: advanced
+status: generated
+canonical_source: HEX-G011-103
+prompt: Prancha didática médica sobre BURP e manipulação bimanual para otimizar a visão glótica.
+alt: Esquema da laringe com vetores posterior, superior e para a direita, acompanhado de aviso de que BURP não equivale à pressão cricoide.
+overlay: {title: Manipulação laríngea externa, labels: [BURP, posterior, superior, direita]}
+consumers: [ViaAerea, Emergencias, Anestesia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
