@@ -1,0 +1,11 @@
+id: HEX-A039-386
+cycle: A039
+layer: A
+concept: Pneumotórax no ultrassom
+status: generated
+canonical_source: HEX-G019-186
+prompt_canonical: Infográfico didático comparando sliding pulmonar normal, ausência de deslizamento, código de barras e lung point.
+alt: Comparação entre pulmão normal e pneumotórax com linha pleural, M-mode e lung point destacados.
+overlay: {title: Pneumotórax no ultrassom, subtitle: Ausência de deslizamento pleural, labels: [Sliding, Código de barras, Lung point]}
+consumers: [Hexágono, Hexaconsulta, Hexaconecta, Respira, Ventila, Cardio, Trauma, Neuro, Nefro, USG, Farmaco]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
