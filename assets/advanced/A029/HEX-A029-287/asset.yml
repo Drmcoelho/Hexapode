@@ -1,0 +1,15 @@
+id: HEX-A029-287
+concept: Ciclagem tardia
+cycle: A029
+layer: advanced
+status: generated
+source_canonical: HEX-G009-087
+prompt: >-
+  Prancha didática vetorial Hexápode sobre ciclagem tardia, mostrando inspiração mecânica persistindo após o fim do esforço neural.
+alt: O esforço inspiratório termina, mas o ventilador continua insuflando, produzindo desconforto e esforço expiratório ativo.
+overlay:
+  title: Ciclagem tardia
+  labels: [tempo inspiratório, esforço neural, critério de fluxo, expiração ativa, vazamento]
+consumers: [Ventila, Respira, UTI, Pneumologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
