@@ -1,0 +1,11 @@
+id: HEX-A039-383
+cycle: A039
+layer: A
+concept: Doppler espectral
+status: generated
+canonical_source: HEX-G019-183
+prompt_canonical: Infográfico didático sobre Doppler espectral, linha de base, escala e medidas sistólica e diastólica no design Hexápode.
+alt: Espectro de velocidade ao longo do tempo com picos sistólicos e velocidades diastólicas marcadas.
+overlay: {title: Doppler espectral, subtitle: Velocidade ao longo do tempo, labels: [Linha de base, Pico sistólico, Velocidade diastólica]}
+consumers: [Hexágono, Hexaconsulta, Hexaconecta, Respira, Ventila, Cardio, Trauma, Neuro, Nefro, USG, Farmaco]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
