@@ -1,0 +1,11 @@
+id: HEX-G020-199
+concept: Escalas visuais
+cycle: G020
+layer: canonical
+status: generated
+prompt: Prancha vetorial Hexápode conectando corpo, órgão, tecido, célula, organela e molécula.
+alt: Sequência de seis escalas mostra redução progressiva do organismo à molécula.
+overlay: {title: Escalas visuais, labels: [corpo, órgão, tecido, célula, organela, molécula]}
+consumers: [Respira, Ventila, Cardio, Neuro, Nefrologia, Ultrassom, Farmacologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
