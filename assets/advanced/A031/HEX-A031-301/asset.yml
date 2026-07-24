@@ -1,0 +1,12 @@
+id: HEX-A031-301
+concept: Mallampati avançado
+cycle: A031
+layer: advanced
+status: generated
+canonical_source: HEX-G011-101
+prompt: Prancha didática médica sobre classes de Mallampati, limitações e avaliação combinada da via aérea.
+alt: Quatro representações orofaríngeas mostram as classes I a IV e uma nota de que o teste isolado não prediz laringoscopia difícil.
+overlay: {title: Mallampati avançado, labels: [classe I, classe II, classe III, classe IV]}
+consumers: [ViaAerea, Emergencias, Anestesia, UTI, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
