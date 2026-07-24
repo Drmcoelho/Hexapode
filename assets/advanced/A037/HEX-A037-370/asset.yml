@@ -1,0 +1,13 @@
+id: HEX-A037-370
+cycle: A037
+layer: A
+concept: Síndromes de herniação encefálica
+status: generated
+source_asset: HEX-G017-170
+source: assets/advanced/A037/HEX-A037-370/base-art.svg
+prompt_canonical: Diagrama vetorial comparando herniações subfalcina, uncal e tonsilar e suas estruturas comprimidas.
+alt: Encéfalo com setas mostrando herniações subfalcina, uncal e tonsilar.
+overlay: {embedded: true, language: pt-BR, labels: [subfalcina, uncal, tonsilar, compressão vascular, tronco]}
+consumers: [Neuro, Trauma, Emergências, Ventila, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

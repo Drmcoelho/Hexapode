@@ -1,0 +1,13 @@
+id: HEX-A037-369
+cycle: A037
+layer: A
+concept: Pressão intracraniana e Monro-Kellie
+status: generated
+source_asset: HEX-G017-169
+source: assets/advanced/A037/HEX-A037-369/base-art.svg
+prompt_canonical: Diagrama vetorial dos compartimentos intracranianos e da curva pressão-volume de Monro-Kellie.
+alt: Crânio contendo cérebro, sangue e líquor ao lado de curva pressão-volume ascendente.
+overlay: {embedded: true, language: pt-BR, labels: [cérebro, sangue, líquor, compensação, PIC]}
+consumers: [Neuro, Trauma, Emergências, Ventila, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

@@ -1,0 +1,13 @@
+id: HEX-A037-364
+cycle: A037
+layer: A
+concept: Tronco encefálico e consciência
+status: generated
+source_asset: HEX-G017-164
+source: assets/advanced/A037/HEX-A037-364/base-art.svg
+prompt_canonical: Diagrama vetorial do mesencéfalo, ponte, bulbo, formação reticular e centros respiratórios.
+alt: Tronco encefálico dividido em mesencéfalo, ponte e bulbo, relacionando consciência, respiração e reflexos.
+overlay: {embedded: true, language: pt-BR, labels: [mesencéfalo, ponte, bulbo, formação reticular]}
+consumers: [Neuro, Respira, Ventila, Emergências, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

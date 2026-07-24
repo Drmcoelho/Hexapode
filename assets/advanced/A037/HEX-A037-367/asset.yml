@@ -1,0 +1,13 @@
+id: HEX-A037-367
+cycle: A037
+layer: A
+concept: AVC isquêmico — núcleo e penumbra
+status: generated
+source_asset: HEX-G017-167
+source: assets/advanced/A037/HEX-A037-367/base-art.svg
+prompt_canonical: Diagrama vetorial de oclusão arterial, núcleo infartado, penumbra e reperfusão dependente do tempo.
+alt: Cérebro com núcleo isquêmico vermelho e penumbra amarela ao redor de uma artéria ocluída.
+overlay: {embedded: true, language: pt-BR, labels: [oclusão, núcleo, penumbra, reperfusão]}
+consumers: [Neuro, Emergências, Cardio, USG, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

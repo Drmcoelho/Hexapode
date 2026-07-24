@@ -1,0 +1,13 @@
+id: HEX-A037-361
+cycle: A037
+layer: A
+concept: Neurônio integrado e vias axonais
+status: generated
+source_asset: HEX-G017-161
+source: assets/advanced/A037/HEX-A037-361/base-art.svg
+prompt_canonical: Ilustração vetorial didática de neurônio multipolar, mielina, nós de Ranvier e direção do impulso, no design system Hexápode.
+alt: Neurônio multipolar com dendritos, soma, axônio mielinizado, nós de Ranvier e direção do impulso.
+overlay: {embedded: true, language: pt-BR, labels: [dendritos, soma, mielina, axônio, terminal]}
+consumers: [Neuro, Respira, Ventila, Emergências, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

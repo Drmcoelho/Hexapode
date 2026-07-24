@@ -1,0 +1,13 @@
+id: HEX-A037-363
+cycle: A037
+layer: A
+concept: Potencial de ação e canais iônicos
+status: generated
+source_asset: HEX-G017-163
+source: assets/advanced/A037/HEX-A037-363/base-art.svg
+prompt_canonical: Curva vetorial didática das fases do potencial de ação neuronal com canais de sódio e potássio.
+alt: Gráfico de potencial de ação mostrando repouso, despolarização, repolarização e período refratário.
+overlay: {embedded: true, language: pt-BR, labels: [repouso, limiar, sódio, potássio, refratário]}
+consumers: [Neuro, Farmacologia, Emergências, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

@@ -1,0 +1,13 @@
+id: HEX-A037-362
+cycle: A037
+layer: A
+concept: Sinapse excitatória e inibitória
+status: generated
+source_asset: HEX-G017-162
+source: assets/advanced/A037/HEX-A037-362/base-art.svg
+prompt_canonical: Comparação vetorial didática entre sinapse glutamatérgica e GABAérgica, com fluxos iônicos e efeito de membrana.
+alt: Duas sinapses comparando excitação por glutamato e inibição por GABA.
+overlay: {embedded: true, language: pt-BR, labels: [glutamato, GABA, despolarização, hiperpolarização]}
+consumers: [Neuro, Farmacologia, Psiquiatria, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

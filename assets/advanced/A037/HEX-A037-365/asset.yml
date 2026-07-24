@@ -1,0 +1,13 @@
+id: HEX-A037-365
+cycle: A037
+layer: A
+concept: Cerebelo e coordenação motora
+status: generated
+source_asset: HEX-G017-165
+source: assets/advanced/A037/HEX-A037-365/base-art.svg
+prompt_canonical: Diagrama vetorial didático do circuito cerebelar de comparação e correção do movimento.
+alt: Cerebelo recebendo comando e propriocepção e emitindo correção motora.
+overlay: {embedded: true, language: pt-BR, labels: [propriocepção, comparação, erro, correção]}
+consumers: [Neuro, Reabilitação, Trauma, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

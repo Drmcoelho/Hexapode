@@ -1,0 +1,13 @@
+id: HEX-A037-368
+cycle: A037
+layer: A
+concept: Epilepsia — foco e propagação
+status: generated
+source_asset: HEX-G017-168
+source: assets/advanced/A037/HEX-A037-368/base-art.svg
+prompt_canonical: Diagrama vetorial didático de foco epileptogênico, recrutamento cortical, propagação e EEG.
+alt: Cérebro com foco epileptogênico vermelho propagando atividade para outras regiões e traçado EEG abaixo.
+overlay: {embedded: true, language: pt-BR, labels: [foco, propagação, hiperssincronia, EEG]}
+consumers: [Neuro, Emergências, Farmacologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
