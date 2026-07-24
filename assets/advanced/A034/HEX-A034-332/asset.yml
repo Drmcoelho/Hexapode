@@ -1,0 +1,13 @@
+id: HEX-A034-332
+concept: Síndrome coronariana aguda: oclusão, isquemia e reperfusão
+cycle: A034
+layer: advanced
+status: generated
+canonical_origin: HEX-G014-132
+prompt: >-
+  Prancha médica didática Hexápode sobre oclusão coronariana, isquemia subendocárdica e transmural, progressão temporal e reperfusão.
+alt: Coração com coronária ocluída e linha temporal da isquemia reversível à necrose, destacando reperfusão precoce.
+overlay: {title: Síndrome coronariana aguda, labels: [oclusão, isquemia, necrose, reperfusão, tempo]}
+consumers: [Emergências, Cardio, UTI, Farmacologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
