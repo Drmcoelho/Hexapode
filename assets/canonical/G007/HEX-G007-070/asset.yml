@@ -5,7 +5,7 @@ concept: "Driving Pressure"
 status: generated
 source: {type: original_vector, file: base-art.svg}
 prompt: "Prancha vetorial Hexápode sobre driving pressure, com Pplat, PEEP, diferença ΔP, fórmula conceitual, fundo marfim e overlay editável."
-alt_text: "Diagrama esquemático da diferença entre pressão de platô e PEEP, representando a driving pressure."
+alt: "Diagrama esquemático da diferença entre pressão de platô e PEEP, representando a driving pressure."
 overlay: {embedded: true, editable: true, elements: [title, asset_id, Pplat, PEEP, deltaP, formula, note]}
 consumers: [Ventila, Respira, Fisiologia, Emergencias, Educacao]
 review: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: complete}

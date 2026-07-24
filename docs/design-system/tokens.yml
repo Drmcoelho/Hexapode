@@ -1,0 +1,89 @@
+# Hexápode — Tokens Canônicos do Design System
+#
+# Fonte única dos valores visuais compartilhados por todos os ativos e atlas
+# consumidores. Os valores foram extraídos da produção canônica G001–G019 e
+# representam o padrão que toda nova prancha deve seguir.
+#
+# O validador (tools/validate.py) usa a lista `palette` como paleta canônica:
+# cores fora desta lista em um base-art.svg geram aviso de inconsistência.
+
+schema_version: 1
+canonical: true
+
+canvas:
+  viewbox: "0 0 1600 1200"
+  width: 1600
+  height: 1200
+  margin: 72
+  rule_y: 238
+
+# Paleta semântica. `hex` é o valor canônico; `role` documenta o uso pretendido.
+palette:
+  # Superfícies
+  - {token: surface-paper,    hex: "#F7F4EC", role: fundo da prancha}
+  - {token: surface-card,     hex: "#FFFDF8", role: cartões e blocos internos}
+  - {token: surface-card-alt, hex: "#FBF9F3", role: cartão alternativo}
+  - {token: surface-tint,     hex: "#FCFAF5", role: realce suave de superfície}
+
+  # Tinta / texto
+  - {token: ink-strong, hex: "#2B2E34", role: texto e traços primários}
+  - {token: ink-muted,  hex: "#6A727A", role: subtítulos e legendas}
+  - {token: ink-soft,   hex: "#59636E", role: rótulos secundários}
+
+  # Bordas e réguas
+  - {token: border-strong, hex: "#DCD2BE", role: réguas e contornos de cartão}
+  - {token: border-subtle, hex: "#E8E1D1", role: divisórias suaves}
+
+  # Marca e acentos
+  - {token: brand-primary, hex: "#1D4E7A", role: azul da marca, eyebrow e estruturas}
+  - {token: brand-primary-alt, hex: "#2B6F8A", role: variação de azul}
+  - {token: accent-teal,   hex: "#1696A3", role: acento ciano}
+  - {token: accent-green,  hex: "#2E7D69", role: estruturas venosas e verdes}
+  - {token: accent-amber,  hex: "#D39A2E", role: realce âmbar e destaque}
+
+  # Anatômicos
+  - {token: anatomy-red,       hex: "#B2473F", role: sangue e estruturas arteriais}
+  - {token: anatomy-terracota, hex: "#C45A3C", role: estruturas secundárias}
+  - {token: anatomy-purple,    hex: "#6A4C93", role: estruturas neurais e roxas}
+
+  # Tints de preenchimento (fundos suaves derivados das matizes centrais).
+  # Recorrentes na produção G001–G019; documentados para uso consistente.
+  - {token: tint-red-100,    hex: "#F4DDD9", role: preenchimento vermelho muito claro}
+  - {token: tint-red-200,    hex: "#F2D2CC", role: preenchimento vermelho claro}
+  - {token: tint-red-300,    hex: "#F3C7C2", role: preenchimento vermelho médio}
+  - {token: tint-red-warm,   hex: "#F2C8BF", role: preenchimento róseo quente}
+  - {token: tint-red-soft,   hex: "#F3DED6", role: preenchimento róseo neutro}
+  - {token: tint-terra-100,  hex: "#F3E2D8", role: preenchimento terracota claro}
+  - {token: tint-terra-300,  hex: "#D77A6D", role: contorno terracota}
+  - {token: tint-terra-warm, hex: "#E9B2A4", role: preenchimento terracota quente}
+  - {token: tint-amber-100,  hex: "#F6E8C4", role: preenchimento âmbar claro}
+  - {token: tint-amber-200,  hex: "#F8D9B7", role: preenchimento âmbar médio}
+  - {token: tint-amber-300,  hex: "#EAB68C", role: preenchimento âmbar quente}
+  - {token: tint-purple-100, hex: "#E8D9E8", role: preenchimento roxo claro}
+  - {token: tint-blue-100,   hex: "#E8EEF4", role: preenchimento azul muito claro}
+  - {token: tint-blue-150,   hex: "#DCEAF3", role: preenchimento azul claro}
+  - {token: tint-blue-200,   hex: "#DCE9F2", role: preenchimento azul médio}
+  - {token: tint-blue-250,   hex: "#E7EEF5", role: preenchimento azul neutro}
+  - {token: tint-teal-100,   hex: "#E6F1F4", role: preenchimento ciano claro}
+  - {token: tint-teal-150,   hex: "#DDF3F5", role: preenchimento ciano médio}
+  - {token: tint-teal-200,   hex: "#D9EEF0", role: preenchimento ciano suave}
+  - {token: tint-teal-250,   hex: "#C9E6EA", role: preenchimento ciano saturado}
+  - {token: tint-teal-glow,  hex: "#EAF6F7", role: realce ciano}
+  - {token: tint-green-100,  hex: "#E5F1ED", role: preenchimento verde claro}
+  - {token: tint-green-200,  hex: "#DDEFEF", role: preenchimento verde-ciano claro}
+  - {token: surface-cool-100, hex: "#F5F6F7", role: cinza-frio quase branco}
+  - {token: surface-cool-150, hex: "#F3F6F8", role: cinza-frio claro}
+
+typography:
+  sans:  {family: Arial,   role: eyebrow, corpo, legendas}
+  serif: {family: Georgia, role: título da prancha}
+  scale:
+    eyebrow:  {size: 25, weight: 700, color: brand-primary}
+    title:    {size: 58, weight: 400, color: ink-strong}
+    subtitle: {size: 24, weight: 400, color: ink-muted}
+    body:     {size: 24, weight: 400, color: ink-strong}
+    caption:  {size: 20, weight: 400, color: ink-muted}
+
+header:
+  eyebrow_format: "HEXÁPODE · {THEME}"
+  footer_format: "{ASSET_ID} · Hexápode · {THEME}"

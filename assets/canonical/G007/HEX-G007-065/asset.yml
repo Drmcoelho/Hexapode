@@ -5,7 +5,7 @@ concept: "Loop Fluxo × Volume"
 status: generated
 source: {type: original_vector, file: base-art.svg}
 prompt: "Prancha vetorial Hexápode com loop fluxo-volume, ramos inspiratório e expiratório, eixos claros, fundo marfim e overlay editável."
-alt_text: "Loop fluxo-volume esquemático com ramos inspiratório e expiratório."
+alt: "Loop fluxo-volume esquemático com ramos inspiratório e expiratório."
 overlay: {embedded: true, editable: true, elements: [title, asset_id, axes, labels, note]}
 consumers: [Respira, Ventila, Fisiologia, Emergencias, Educacao]
 review: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: complete}

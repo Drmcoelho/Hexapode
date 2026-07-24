@@ -45,3 +45,17 @@ Cada ciclo produz exatamente 10 imagens. O programa completo contém 60 ciclos.
 ## Repositórios consumidores
 
 Respira e Ventila deram origem histórica ao projeto, mas não possuem prioridade estrutural sobre os demais braços. O Hexápode é a fonte canônica comum.
+
+## Design system
+
+Os valores visuais canônicos (paleta, tipografia, canvas, cabeçalho) vivem em [`docs/design-system/`](docs/design-system/README.md). São a fonte única de cor e tipo; os SVGs devem convergir para esses tokens em vez de redeclará-los.
+
+## Validação
+
+O manifesto (`manifests/assets.yml`) é a fonte de verdade do estado de produção. O validador garante que ele descreva exatamente o que existe em disco:
+
+```bash
+python3 tools/validate.py
+```
+
+Ele reconcilia `cycle_index` × disco, confere o padrão dos identificadores, os metadados mínimos de cada ativo e a contagem de ativos concluídos, e sinaliza cores fora dos tokens canônicos. A checagem roda automaticamente em cada push e pull request via [GitHub Actions](.github/workflows/validate.yml).

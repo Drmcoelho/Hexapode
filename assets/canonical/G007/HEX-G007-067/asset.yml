@@ -5,7 +5,7 @@ concept: Auto-PEEP
 status: generated
 source: {type: original_vector, file: base-art.svg}
 prompt: "Prancha vetorial Hexápode sobre Auto-PEEP, curva fluxo-tempo com fluxo expiratório sem retorno a zero, marca de aprisionamento, fundo marfim e overlay editável."
-alt_text: "Curva fluxo-tempo mostrando fluxo expiratório que não retorna a zero antes do próximo ciclo."
+alt: "Curva fluxo-tempo mostrando fluxo expiratório que não retorna a zero antes do próximo ciclo."
 overlay: {embedded: true, editable: true, elements: [title, asset_id, curve, zero_line, warning, note]}
 consumers: [Ventila, Respira, Fisiologia, Emergencias, Educacao]
 review: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: complete}

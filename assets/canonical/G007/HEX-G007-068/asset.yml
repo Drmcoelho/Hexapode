@@ -5,7 +5,7 @@ concept: Trigger
 status: generated
 source: {type: original_vector, file: base-art.svg}
 prompt: "Prancha vetorial Hexápode sobre trigger ventilatório, com deflexão inicial do esforço do paciente, início do ciclo, fundo marfim e overlay editável."
-alt_text: "Curva esquemática com deflexão inicial do esforço do paciente e início do ciclo ventilatório."
+alt: "Curva esquemática com deflexão inicial do esforço do paciente e início do ciclo ventilatório."
 overlay: {embedded: true, editable: true, elements: [title, asset_id, curve, effort_marker, labels, note]}
 consumers: [Ventila, Respira, Fisiologia, Emergencias, Educacao]
 review: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: complete}

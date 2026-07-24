@@ -5,7 +5,7 @@ concept: "Volume × Tempo"
 status: generated
 source: {type: original_vector, file: base-art.svg}
 prompt: "Prancha vetorial Hexápode sobre Volume × Tempo, fundo marfim, curva ascendente com estabilização, eixos claros e overlay editável."
-alt_text: "Curva esquemática de aumento do volume ao longo do tempo com estabilização."
+alt: "Curva esquemática de aumento do volume ao longo do tempo com estabilização."
 overlay: {embedded: true, editable: true, elements: [title, asset_id, axes, labels, note]}
 consumers: [Respira, Ventila, Fisiologia, Emergencias, Educacao]
 review: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: complete}
