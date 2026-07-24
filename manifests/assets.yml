@@ -11,8 +11,8 @@ production:
     - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: A023
-  completed_assets: 220
+  next_cycle: A024
+  completed_assets: 230
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycle_index:
@@ -38,24 +38,25 @@ cycle_index:
   - {id: G020, range: 191-200, theme: Biblioteca Universal, status: generated, source_root: assets/canonical/G020}
   - {id: A021, range: 201-210, theme: Identidade Visual Avançada, status: generated, source_root: assets/advanced/A021}
   - {id: A022, range: 211-220, theme: Anatomia Respiratória I Avançada, status: generated, source_root: assets/advanced/A022}
+  - {id: A023, range: 221-230, theme: Anatomia Respiratória II Avançada, status: generated, source_root: assets/advanced/A023}
 cycles:
-  A022:
+  A023:
     layer: A
-    range: 211-220
-    theme: Anatomia Respiratória I Avançada
+    range: 221-230
+    theme: Anatomia Respiratória II Avançada
     status: generated
     exports_pending: [base-art.png, thumbnail.webp]
     assets:
-      - {id: HEX-A022-211, concept: Traqueia avançada, status: generated, source: assets/advanced/A022/HEX-A022-211/base-art.svg, metadata: assets/advanced/A022/HEX-A022-211/asset.yml}
-      - {id: HEX-A022-212, concept: Brônquios avançados, status: generated, source: assets/advanced/A022/HEX-A022-212/base-art.svg, metadata: assets/advanced/A022/HEX-A022-212/asset.yml}
-      - {id: HEX-A022-213, concept: Bronquíolos avançados, status: generated, source: assets/advanced/A022/HEX-A022-213/base-art.svg, metadata: assets/advanced/A022/HEX-A022-213/asset.yml}
-      - {id: HEX-A022-214, concept: Ácino pulmonar avançado, status: generated, source: assets/advanced/A022/HEX-A022-214/base-art.svg, metadata: assets/advanced/A022/HEX-A022-214/asset.yml}
-      - {id: HEX-A022-215, concept: Alvéolo avançado, status: generated, source: assets/advanced/A022/HEX-A022-215/base-art.svg, metadata: assets/advanced/A022/HEX-A022-215/asset.yml}
-      - {id: HEX-A022-216, concept: Pleura avançada, status: generated, source: assets/advanced/A022/HEX-A022-216/base-art.svg, metadata: assets/advanced/A022/HEX-A022-216/asset.yml}
-      - {id: HEX-A022-217, concept: Diafragma avançado, status: generated, source: assets/advanced/A022/HEX-A022-217/base-art.svg, metadata: assets/advanced/A022/HEX-A022-217/asset.yml}
-      - {id: HEX-A022-218, concept: Caixa torácica avançada, status: generated, source: assets/advanced/A022/HEX-A022-218/base-art.svg, metadata: assets/advanced/A022/HEX-A022-218/asset.yml}
-      - {id: HEX-A022-219, concept: Intercostais avançados, status: generated, source: assets/advanced/A022/HEX-A022-219/base-art.svg, metadata: assets/advanced/A022/HEX-A022-219/asset.yml}
-      - {id: HEX-A022-220, concept: Árvore traqueobrônquica avançada, status: generated, source: assets/advanced/A022/HEX-A022-220/base-art.svg, metadata: assets/advanced/A022/HEX-A022-220/asset.yml}
+      - {id: HEX-A023-221, concept: Lobos pulmonares avançados, status: generated, source: assets/advanced/A023/HEX-A023-221/base-art.svg, metadata: assets/advanced/A023/HEX-A023-221/asset.yml}
+      - {id: HEX-A023-222, concept: Segmentos broncopulmonares avançados, status: generated, source: assets/advanced/A023/HEX-A023-222/base-art.svg, metadata: assets/advanced/A023/HEX-A023-222/asset.yml}
+      - {id: HEX-A023-223, concept: Hilo pulmonar avançado, status: generated, source: assets/advanced/A023/HEX-A023-223/base-art.svg, metadata: assets/advanced/A023/HEX-A023-223/asset.yml}
+      - {id: HEX-A023-224, concept: Rede capilar alveolar avançada, status: generated, source: assets/advanced/A023/HEX-A023-224/base-art.svg, metadata: assets/advanced/A023/HEX-A023-224/asset.yml}
+      - {id: HEX-A023-225, concept: Pneumócito tipo I avançado, status: generated, source: assets/advanced/A023/HEX-A023-225/base-art.svg, metadata: assets/advanced/A023/HEX-A023-225/asset.yml}
+      - {id: HEX-A023-226, concept: Pneumócito tipo II avançado, status: generated, source: assets/advanced/A023/HEX-A023-226/base-art.svg, metadata: assets/advanced/A023/HEX-A023-226/asset.yml}
+      - {id: HEX-A023-227, concept: Surfactante pulmonar avançado, status: generated, source: assets/advanced/A023/HEX-A023-227/base-art.svg, metadata: assets/advanced/A023/HEX-A023-227/asset.yml}
+      - {id: HEX-A023-228, concept: Membrana alvéolo-capilar avançada, status: generated, source: assets/advanced/A023/HEX-A023-228/base-art.svg, metadata: assets/advanced/A023/HEX-A023-228/asset.yml}
+      - {id: HEX-A023-229, concept: Linfáticos pulmonares avançados, status: generated, source: assets/advanced/A023/HEX-A023-229/base-art.svg, metadata: assets/advanced/A023/HEX-A023-229/asset.yml}
+      - {id: HEX-A023-230, concept: Circulação pulmonar avançada, status: generated, source: assets/advanced/A023/HEX-A023-230/base-art.svg, metadata: assets/advanced/A023/HEX-A023-230/asset.yml}
 cycle_generation_rule: >-
   Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
