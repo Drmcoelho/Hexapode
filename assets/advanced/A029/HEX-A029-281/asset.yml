@@ -1,0 +1,15 @@
+id: HEX-A029-281
+concept: Disparo ineficaz
+cycle: A029
+layer: advanced
+status: generated
+source_canonical: HEX-G009-084
+prompt: >-
+  Prancha didática vetorial Hexápode sobre disparo ineficaz, mostrando esforço inspiratório sem ciclo assistido, limiar de trigger, causas e correções.
+alt: Esforço do paciente aparece nas curvas sem produzir fluxo ou ciclo ventilatório, com pistas e correções para trigger ineficaz.
+overlay:
+  title: Disparo ineficaz
+  labels: [esforço sem ciclo, limiar de trigger, auto-PEEP, fraqueza, sensibilidade]
+consumers: [Ventila, Respira, Emergências, Pneumologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
