@@ -1,0 +1,15 @@
+id: HEX-A029-286
+concept: Ciclagem precoce
+cycle: A029
+layer: advanced
+status: generated
+source_canonical: HEX-G009-086
+prompt: >-
+  Prancha didática vetorial Hexápode sobre ciclagem precoce, mostrando término mecânico da inspiração antes do fim do esforço neural.
+alt: A inspiração ventilatória termina enquanto o esforço do paciente continua, favorecendo nova demanda e duplo disparo.
+overlay:
+  title: Ciclagem precoce
+  labels: [fim do ciclo, esforço neural, tempo inspiratório, critério de fluxo, duplo disparo]
+consumers: [Ventila, Respira, UTI, Pediatria]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
