@@ -1,0 +1,12 @@
+id: HEX-A027-261
+concept: Fluxo × tempo avançado
+cycle: A027
+layer: advanced
+status: generated
+canonical_origin: HEX-G007-061
+prompt: Prancha médica vetorial didática sobre curva fluxo-tempo, fases inspiratória e expiratória e retorno ao zero.
+alt: Curva fluxo-tempo com fluxo inspiratório acima da linha de base e expiratório abaixo dela.
+overlay: {title: Fluxo × tempo avançado, labels: [inspiração, expiração, linha zero]}
+consumers: [Respira, Ventila, Emergências, Fisiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
