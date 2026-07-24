@@ -1,0 +1,11 @@
+id: HEX-G019-185
+concept: Artefatos
+cycle: G019
+layer: canonical
+status: generated
+prompt: Prancha vetorial Hexápode sobre artefatos ultrassonográficos principais.
+alt: Comparação entre sombra acústica, reforço posterior, reverberação e imagem em espelho.
+overlay: {title: Artefatos, labels: [sombra, reforço posterior, reverberação, imagem em espelho]}
+consumers: [USG, Emergências, Cardio, Trauma, Respira]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
