@@ -1,0 +1,15 @@
+id: HEX-A033-327
+concept: "Vasoplegia e perda de tônus vascular"
+cycle: A033
+layer: advanced
+status: generated
+canonical_source: HEX-G013-127
+prompt: >-
+  Prancha médica vetorial didática sobre vasoplegia, vasodilatação, baixa resistência sistêmica,
+  aumento da capacitância venosa, volume estressado e heterogeneidade de fluxo.
+alt: >-
+  Vaso dilatado com fluxo e três círculos mostrando queda do tônus, redução do volume estressado e fluxo heterogêneo.
+overlay: {title: "Vasoplegia e perda de tônus vascular", labels: [RVS, capacitância venosa, volume estressado, maldistribuição]}
+consumers: [Emergências, Cardio, Farmacologia, Nefrologia, Ventila]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
