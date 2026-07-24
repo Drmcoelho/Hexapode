@@ -1,0 +1,11 @@
+id: HEX-G017-161
+concept: Neurônio
+cycle: G017
+layer: canonical
+status: generated
+prompt: Prancha vetorial canônica Hexápode sobre neurônio multipolar, dendritos, soma, axônio mielinizado e terminal sináptico.
+alt: Neurônio multipolar com dendritos, soma, axônio mielinizado e terminações sinápticas.
+overlay: {title: Neurônio, labels: [dendritos, soma, axônio mielinizado, terminais]}
+consumers: [Neuro, Emergências, Fisiologia, Farmacologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
