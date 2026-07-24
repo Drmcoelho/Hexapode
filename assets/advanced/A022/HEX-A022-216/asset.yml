@@ -1,0 +1,16 @@
+id: HEX-A022-216
+concept: Pleura avançada
+cycle: A022
+layer: advanced
+status: generated
+prompt: >-
+  Prancha avançada Hexápode sobre pleura avançada, expandindo o conceito canônico com microanatomia, relações funcionais e aplicação transversal.
+alt: Folhetos pleurais, recessos, pressão subatmosférica e acoplamento mecânico pulmão-parede.
+overlay:
+  embedded_in: base-art.svg
+  title: Pleura avançada
+  labels: [Pleura visceral, Pleura parietal, Espaço pleural, Pressão pleural, Recesso costofrênico]
+consumers: [Respira, Ventila, Trauma, Emergências, Ultrassom]
+canonical_source: assets/canonical/G002/HEX-G002-016
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

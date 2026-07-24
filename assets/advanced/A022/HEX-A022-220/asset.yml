@@ -1,0 +1,16 @@
+id: HEX-A022-220
+concept: Árvore traqueobrônquica avançada
+cycle: A022
+layer: advanced
+status: generated
+prompt: >-
+  Prancha avançada Hexápode sobre árvore traqueobrônquica avançada, expandindo o conceito canônico com microanatomia, relações funcionais e aplicação transversal.
+alt: Mapa integrado das gerações da via aérea da traqueia aos ácinos, com calibres e zonas funcionais.
+overlay:
+  embedded_in: base-art.svg
+  title: Árvore traqueobrônquica avançada
+  labels: [Traqueia, Zona condutora, Bronquíolo terminal, Zona respiratória, Ácinos]
+consumers: [Respira, Ventila, Pneumologia, Anatomia, Pediatria]
+canonical_source: assets/canonical/G002/HEX-G002-020
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

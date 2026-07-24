@@ -1,0 +1,16 @@
+id: HEX-A022-212
+concept: Brônquios avançados
+cycle: A022
+layer: advanced
+status: generated
+prompt: >-
+  Prancha avançada Hexápode sobre brônquios avançados, expandindo o conceito canônico com microanatomia, relações funcionais e aplicação transversal.
+alt: Assimetria dos brônquios principais, ramificações lobares e implicações para aspiração e intubação seletiva.
+overlay:
+  embedded_in: base-art.svg
+  title: Brônquios avançados
+  labels: [Brônquio principal direito, Brônquio principal esquerdo, Brônquios lobares, Ângulo da carina]
+consumers: [Respira, Ventila, ViaAerea, Emergências, Pediatria]
+canonical_source: assets/canonical/G002/HEX-G002-012
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

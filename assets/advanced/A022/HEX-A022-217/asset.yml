@@ -1,0 +1,16 @@
+id: HEX-A022-217
+concept: Diafragma avançado
+cycle: A022
+layer: advanced
+status: generated
+prompt: >-
+  Prancha avançada Hexápode sobre diafragma avançado, expandindo o conceito canônico com microanatomia, relações funcionais e aplicação transversal.
+alt: Arquitetura muscular, tendão central, zonas de aposição e excursão respiratória.
+overlay:
+  embedded_in: base-art.svg
+  title: Diafragma avançado
+  labels: [Cúpulas, Tendão central, Zona de aposição, Inspiração, Expiração]
+consumers: [Respira, Ventila, Fisiologia, Ultrassom, Reabilitação]
+canonical_source: assets/canonical/G002/HEX-G002-017
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

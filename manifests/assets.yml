@@ -11,8 +11,8 @@ production:
     - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: A022
-  completed_assets: 210
+  next_cycle: A023
+  completed_assets: 220
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycle_index:
@@ -37,24 +37,25 @@ cycle_index:
   - {id: G019, range: 181-190, theme: Ultrassom, status: generated, source_root: assets/canonical/G019}
   - {id: G020, range: 191-200, theme: Biblioteca Universal, status: generated, source_root: assets/canonical/G020}
   - {id: A021, range: 201-210, theme: Identidade Visual Avançada, status: generated, source_root: assets/advanced/A021}
+  - {id: A022, range: 211-220, theme: Anatomia Respiratória I Avançada, status: generated, source_root: assets/advanced/A022}
 cycles:
-  A021:
+  A022:
     layer: A
-    range: 201-210
-    theme: Identidade Visual Avançada
+    range: 211-220
+    theme: Anatomia Respiratória I Avançada
     status: generated
     exports_pending: [base-art.png, thumbnail.webp]
     assets:
-      - {id: HEX-A021-201, concept: Paleta oficial aplicada, status: generated, source: assets/advanced/A021/HEX-A021-201/base-art.svg, metadata: assets/advanced/A021/HEX-A021-201/asset.yml}
-      - {id: HEX-A021-202, concept: Tipografia aplicada, status: generated, source: assets/advanced/A021/HEX-A021-202/base-art.svg, metadata: assets/advanced/A021/HEX-A021-202/asset.yml}
-      - {id: HEX-A021-203, concept: Biblioteca de ícones aplicada, status: generated, source: assets/advanced/A021/HEX-A021-203/base-art.svg, metadata: assets/advanced/A021/HEX-A021-203/asset.yml}
-      - {id: HEX-A021-204, concept: Corpo humano masculino aplicado, status: generated, source: assets/advanced/A021/HEX-A021-204/base-art.svg, metadata: assets/advanced/A021/HEX-A021-204/asset.yml}
-      - {id: HEX-A021-205, concept: Corpo humano feminino aplicado, status: generated, source: assets/advanced/A021/HEX-A021-205/base-art.svg, metadata: assets/advanced/A021/HEX-A021-205/asset.yml}
-      - {id: HEX-A021-206, concept: Corpo infantil aplicado, status: generated, source: assets/advanced/A021/HEX-A021-206/base-art.svg, metadata: assets/advanced/A021/HEX-A021-206/asset.yml}
-      - {id: HEX-A021-207, concept: Grid editorial aplicado, status: generated, source: assets/advanced/A021/HEX-A021-207/base-art.svg, metadata: assets/advanced/A021/HEX-A021-207/asset.yml}
-      - {id: HEX-A021-208, concept: Sistema de setas aplicado, status: generated, source: assets/advanced/A021/HEX-A021-208/base-art.svg, metadata: assets/advanced/A021/HEX-A021-208/asset.yml}
-      - {id: HEX-A021-209, concept: Sistema de cores aplicado, status: generated, source: assets/advanced/A021/HEX-A021-209/base-art.svg, metadata: assets/advanced/A021/HEX-A021-209/asset.yml}
-      - {id: HEX-A021-210, concept: Templates aplicados, status: generated, source: assets/advanced/A021/HEX-A021-210/base-art.svg, metadata: assets/advanced/A021/HEX-A021-210/asset.yml}
+      - {id: HEX-A022-211, concept: Traqueia avançada, status: generated, source: assets/advanced/A022/HEX-A022-211/base-art.svg, metadata: assets/advanced/A022/HEX-A022-211/asset.yml}
+      - {id: HEX-A022-212, concept: Brônquios avançados, status: generated, source: assets/advanced/A022/HEX-A022-212/base-art.svg, metadata: assets/advanced/A022/HEX-A022-212/asset.yml}
+      - {id: HEX-A022-213, concept: Bronquíolos avançados, status: generated, source: assets/advanced/A022/HEX-A022-213/base-art.svg, metadata: assets/advanced/A022/HEX-A022-213/asset.yml}
+      - {id: HEX-A022-214, concept: Ácino pulmonar avançado, status: generated, source: assets/advanced/A022/HEX-A022-214/base-art.svg, metadata: assets/advanced/A022/HEX-A022-214/asset.yml}
+      - {id: HEX-A022-215, concept: Alvéolo avançado, status: generated, source: assets/advanced/A022/HEX-A022-215/base-art.svg, metadata: assets/advanced/A022/HEX-A022-215/asset.yml}
+      - {id: HEX-A022-216, concept: Pleura avançada, status: generated, source: assets/advanced/A022/HEX-A022-216/base-art.svg, metadata: assets/advanced/A022/HEX-A022-216/asset.yml}
+      - {id: HEX-A022-217, concept: Diafragma avançado, status: generated, source: assets/advanced/A022/HEX-A022-217/base-art.svg, metadata: assets/advanced/A022/HEX-A022-217/asset.yml}
+      - {id: HEX-A022-218, concept: Caixa torácica avançada, status: generated, source: assets/advanced/A022/HEX-A022-218/base-art.svg, metadata: assets/advanced/A022/HEX-A022-218/asset.yml}
+      - {id: HEX-A022-219, concept: Intercostais avançados, status: generated, source: assets/advanced/A022/HEX-A022-219/base-art.svg, metadata: assets/advanced/A022/HEX-A022-219/asset.yml}
+      - {id: HEX-A022-220, concept: Árvore traqueobrônquica avançada, status: generated, source: assets/advanced/A022/HEX-A022-220/base-art.svg, metadata: assets/advanced/A022/HEX-A022-220/asset.yml}
 cycle_generation_rule: >-
   Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:

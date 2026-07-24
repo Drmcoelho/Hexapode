@@ -1,0 +1,16 @@
+id: HEX-A022-215
+concept: Alvéolo avançado
+cycle: A022
+layer: advanced
+status: generated
+prompt: >-
+  Prancha avançada Hexápode sobre alvéolo avançado, expandindo o conceito canônico com microanatomia, relações funcionais e aplicação transversal.
+alt: Microanatomia alveolar com pneumócitos, surfactante, macrófago e membrana alvéolo-capilar.
+overlay:
+  embedded_in: base-art.svg
+  title: Alvéolo avançado
+  labels: [Pneumócito I, Pneumócito II, Surfactante, Macrófago alveolar, Capilar]
+consumers: [Respira, Ventila, Pneumologia, Fisiologia, Patologia]
+canonical_source: assets/canonical/G002/HEX-G002-015
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

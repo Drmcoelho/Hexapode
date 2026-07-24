@@ -1,0 +1,16 @@
+id: HEX-A022-213
+concept: Bronquíolos avançados
+cycle: A022
+layer: advanced
+status: generated
+prompt: >-
+  Prancha avançada Hexápode sobre bronquíolos avançados, expandindo o conceito canônico com microanatomia, relações funcionais e aplicação transversal.
+alt: Transição de brônquio pequeno para bronquíolo terminal e respiratório, sem cartilagem e com músculo liso.
+overlay:
+  embedded_in: base-art.svg
+  title: Bronquíolos avançados
+  labels: [Perda de cartilagem, Músculo liso, Bronquíolo terminal, Bronquíolo respiratório]
+consumers: [Respira, Ventila, Pneumologia, Farmacologia, Pediatria]
+canonical_source: assets/canonical/G002/HEX-G002-013
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

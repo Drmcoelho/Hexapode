@@ -1,0 +1,16 @@
+id: HEX-A022-218
+concept: Caixa torácica avançada
+cycle: A022
+layer: advanced
+status: generated
+prompt: >-
+  Prancha avançada Hexápode sobre caixa torácica avançada, expandindo o conceito canônico com microanatomia, relações funcionais e aplicação transversal.
+alt: Mecânica tridimensional das costelas e esterno nos movimentos de alça de balde e bomba d’água.
+overlay:
+  embedded_in: base-art.svg
+  title: Caixa torácica avançada
+  labels: [Esterno, Costelas, Alça de balde, Bomba d’água, Eixo vertebral]
+consumers: [Respira, Ventila, Trauma, Anatomia, Reabilitação]
+canonical_source: assets/canonical/G002/HEX-G002-018
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
