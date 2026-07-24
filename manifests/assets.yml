@@ -11,8 +11,8 @@ production:
     - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: A033
-  completed_assets: 320
+  next_cycle: A034
+  completed_assets: 330
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycle_index:
@@ -48,24 +48,25 @@ cycle_index:
   - {id: A030, range: 291-300, theme: Patologias Respiratórias Avançadas, status: generated, source_root: assets/advanced/A030}
   - {id: A031, range: 301-310, theme: Via Aérea Avançada, status: generated, source_root: assets/advanced/A031}
   - {id: A032, range: 311-320, theme: Gasometria Avançada, status: generated, source_root: assets/advanced/A032}
+  - {id: A033, range: 321-330, theme: Hemodinâmica Avançada, status: generated, source_root: assets/advanced/A033}
 cycles:
-  A032:
+  A033:
     layer: A
-    range: 311-320
-    theme: Gasometria Avançada
+    range: 321-330
+    theme: Hemodinâmica Avançada
     status: generated
     exports_pending: [base-art.png, thumbnail.webp]
     assets:
-      - {id: HEX-A032-311, concept: Interpretação sistemática da gasometria, status: generated, source: assets/advanced/A032/HEX-A032-311/base-art.svg, metadata: assets/advanced/A032/HEX-A032-311/asset.yml}
-      - {id: HEX-A032-312, concept: Distúrbios ácido-base primários, status: generated, source: assets/advanced/A032/HEX-A032-312/base-art.svg, metadata: assets/advanced/A032/HEX-A032-312/asset.yml}
-      - {id: HEX-A032-313, concept: Compensações esperadas, status: generated, source: assets/advanced/A032/HEX-A032-313/base-art.svg, metadata: assets/advanced/A032/HEX-A032-313/asset.yml}
-      - {id: HEX-A032-314, concept: Fórmula de Winter, status: generated, source: assets/advanced/A032/HEX-A032-314/base-art.svg, metadata: assets/advanced/A032/HEX-A032-314/asset.yml}
-      - {id: HEX-A032-315, concept: Ânion gap e causas, status: generated, source: assets/advanced/A032/HEX-A032-315/base-art.svg, metadata: assets/advanced/A032/HEX-A032-315/asset.yml}
-      - {id: HEX-A032-316, concept: Delta gap, status: generated, source: assets/advanced/A032/HEX-A032-316/base-art.svg, metadata: assets/advanced/A032/HEX-A032-316/asset.yml}
-      - {id: HEX-A032-317, concept: Gradiente alvéolo-arterial, status: generated, source: assets/advanced/A032/HEX-A032-317/base-art.svg, metadata: assets/advanced/A032/HEX-A032-317/asset.yml}
-      - {id: HEX-A032-318, concept: Relação PaO2/FiO2, status: generated, source: assets/advanced/A032/HEX-A032-318/base-art.svg, metadata: assets/advanced/A032/HEX-A032-318/asset.yml}
-      - {id: HEX-A032-319, concept: Conteúdo arterial e oferta de oxigênio, status: generated, source: assets/advanced/A032/HEX-A032-319/base-art.svg, metadata: assets/advanced/A032/HEX-A032-319/asset.yml}
-      - {id: HEX-A032-320, concept: Lactato e depuração, status: generated, source: assets/advanced/A032/HEX-A032-320/base-art.svg, metadata: assets/advanced/A032/HEX-A032-320/asset.yml}
+      - {id: HEX-A033-321, concept: Pré-carga: determinantes e avaliação, status: generated, source: assets/advanced/A033/HEX-A033-321/base-art.svg, metadata: assets/advanced/A033/HEX-A033-321/asset.yml}
+      - {id: HEX-A033-322, concept: Pós-carga: ventrículo e impedância arterial, status: generated, source: assets/advanced/A033/HEX-A033-322/base-art.svg, metadata: assets/advanced/A033/HEX-A033-322/asset.yml}
+      - {id: HEX-A033-323, concept: Débito cardíaco e seus componentes, status: generated, source: assets/advanced/A033/HEX-A033-323/base-art.svg, metadata: assets/advanced/A033/HEX-A033-323/asset.yml}
+      - {id: HEX-A033-324, concept: Pressão arterial média e perfusão orgânica, status: generated, source: assets/advanced/A033/HEX-A033-324/base-art.svg, metadata: assets/advanced/A033/HEX-A033-324/asset.yml}
+      - {id: HEX-A033-325, concept: Retorno venoso e pressão sistêmica média, status: generated, source: assets/advanced/A033/HEX-A033-325/base-art.svg, metadata: assets/advanced/A033/HEX-A033-325/asset.yml}
+      - {id: HEX-A033-326, concept: Frank-Starling e responsividade a fluidos, status: generated, source: assets/advanced/A033/HEX-A033-326/base-art.svg, metadata: assets/advanced/A033/HEX-A033-326/asset.yml}
+      - {id: HEX-A033-327, concept: Vasoplegia e perda de tônus vascular, status: generated, source: assets/advanced/A033/HEX-A033-327/base-art.svg, metadata: assets/advanced/A033/HEX-A033-327/asset.yml}
+      - {id: HEX-A033-328, concept: Perfis hemodinâmicos do choque, status: generated, source: assets/advanced/A033/HEX-A033-328/base-art.svg, metadata: assets/advanced/A033/HEX-A033-328/asset.yml}
+      - {id: HEX-A033-329, concept: Microcirculação e heterogeneidade de fluxo, status: generated, source: assets/advanced/A033/HEX-A033-329/base-art.svg, metadata: assets/advanced/A033/HEX-A033-329/asset.yml}
+      - {id: HEX-A033-330, concept: Oferta, consumo e extração de oxigênio, status: generated, source: assets/advanced/A033/HEX-A033-330/base-art.svg, metadata: assets/advanced/A033/HEX-A033-330/asset.yml}
 cycle_generation_rule: >-
   Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
