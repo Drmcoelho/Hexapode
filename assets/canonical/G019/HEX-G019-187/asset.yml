@@ -1,0 +1,11 @@
+id: HEX-G019-187
+concept: Ultrassom pulmonar
+cycle: G019
+layer: canonical
+status: generated
+prompt: Prancha vetorial Hexápode sobre linha pleural, linhas A, linhas B e consolidação.
+alt: Comparação esquemática de linhas A, linhas B e consolidação no ultrassom pulmonar.
+overlay: {title: Ultrassom pulmonar, labels: [linha pleural, linhas A, linhas B, consolidação]}
+consumers: [USG, Respira, Ventila, Emergências]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
