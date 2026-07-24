@@ -1,0 +1,15 @@
+id: HEX-A029-284
+concept: Auto-trigger
+cycle: A029
+layer: advanced
+status: generated
+source_canonical: HEX-G009-081
+prompt: >-
+  Prancha didática vetorial Hexápode sobre auto-trigger, mostrando ciclos sem esforço muscular e causas como fuga, condensado, trigger sensível e oscilação cardíaca.
+alt: Ciclos ventilatórios aparecem sem esforço muscular correspondente, com causas técnicas e ajuste do limiar de disparo.
+overlay:
+  title: Auto-trigger
+  labels: [ciclo sem esforço, fuga, condensado, trigger sensível, oscilação cardíaca]
+consumers: [Ventila, Respira, Emergências, Pediatria]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
