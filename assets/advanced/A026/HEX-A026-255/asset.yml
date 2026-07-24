@@ -1,0 +1,12 @@
+id: HEX-A026-255
+concept: Máscara facial avançada
+cycle: A026
+layer: advanced
+status: generated
+canonical_origin: HEX-G006-055
+prompt: Prancha didática vetorial sobre máscara facial, vedação, pressão, escape e espaço morto.
+alt: Máscara facial sobre a face com zonas de vedação e pontos de fuga.
+overlay: {title: Máscara facial, labels: [vedação, fuga, pressão, espaço morto]}
+consumers: [Ventila, Respira, Emergências, Pediatria, Sono]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
