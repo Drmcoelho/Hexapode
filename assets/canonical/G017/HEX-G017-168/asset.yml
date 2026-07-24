@@ -1,0 +1,11 @@
+id: HEX-G017-168
+concept: Epilepsia
+cycle: G017
+layer: canonical
+status: generated
+prompt: Prancha vetorial canônica Hexápode sobre rede cortical, descarga hiperssincrônica focal e propagação.
+alt: Rede cortical esquemática com foco epiléptico destacado, conexões de propagação e traçado de descarga.
+overlay: {title: Epilepsia, labels: [descarga focal, propagação pela rede]}
+consumers: [Neuro, Emergências, Farmacologia, Pediatria, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
