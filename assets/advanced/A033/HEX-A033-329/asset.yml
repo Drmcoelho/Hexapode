@@ -1,0 +1,15 @@
+id: HEX-A033-329
+concept: "Microcirculação e heterogeneidade de fluxo"
+cycle: A033
+layer: advanced
+status: generated
+canonical_source: HEX-G013-129
+prompt: >-
+  Prancha médica vetorial didática sobre desacoplamento entre macro-hemodinâmica e microcirculação,
+  com shunt, estase, heterogeneidade capilar e pistas clínicas de perfusão.
+alt: >-
+  Comparação entre macro-hemodinâmica aparentemente corrigida e rede capilar heterogênea, com enchimento capilar, moteamento e gradiente de CO2.
+overlay: {title: "Microcirculação e heterogeneidade de fluxo", labels: [PAM, débito cardíaco, shunt, estase, moteamento]}
+consumers: [Emergências, Cardio, Nefrologia, Infectologia, Fisiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
