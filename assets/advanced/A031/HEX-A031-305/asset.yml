@@ -1,0 +1,12 @@
+id: HEX-A031-305
+concept: Cuff traqueal avançado
+cycle: A031
+layer: advanced
+status: generated
+canonical_source: HEX-G011-105
+prompt: Prancha didática médica sobre vedação traqueal, pressão do cuff e riscos de sub e hiperinsuflação.
+alt: Traqueia com cuff insuflado, manômetro na faixa de 20 a 30 cmH2O e riscos fora da faixa.
+overlay: {title: Cuff traqueal avançado, labels: [cuff, 20–30 cmH2O, microaspiração, isquemia mucosa]}
+consumers: [ViaAerea, Ventila, UTI, Enfermagem]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
