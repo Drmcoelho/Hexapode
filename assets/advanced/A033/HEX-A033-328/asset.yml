@@ -1,0 +1,15 @@
+id: HEX-A033-328
+concept: "Perfis hemodinâmicos do choque"
+cycle: A033
+layer: advanced
+status: generated
+canonical_source: HEX-G013-128
+prompt: >-
+  Prancha médica vetorial comparando choque hipovolêmico, cardiogênico, distributivo e obstrutivo
+  por débito cardíaco, resistência vascular e pressões de enchimento.
+alt: >-
+  Quatro painéis com os perfis hemodinâmicos clássicos do choque e setas de aumento ou redução do débito, resistência e pressões.
+overlay: {title: "Perfis hemodinâmicos do choque", labels: [hipovolêmico, cardiogênico, distributivo, obstrutivo]}
+consumers: [Emergências, Cardio, Trauma, Nefrologia, Ventila]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
