@@ -1,0 +1,12 @@
+id: HEX-A031-308
+concept: Dispositivo supraglótico avançado
+cycle: A031
+layer: advanced
+status: generated
+canonical_source: HEX-G011-108
+prompt: Prancha didática médica sobre posição, vedação, ventilação de resgate e limitações do dispositivo supraglótico.
+alt: Máscara laríngea assentada sobre a entrada laríngea com quadro de vantagens e limitação contra aspiração.
+overlay: {title: Dispositivo supraglótico avançado, labels: [máscara laríngea, vedação, resgate, aspiração]}
+consumers: [ViaAerea, Emergencias, Anestesia, Pediatria]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
