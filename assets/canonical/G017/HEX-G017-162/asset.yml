@@ -1,0 +1,11 @@
+id: HEX-G017-162
+concept: Sinapse
+cycle: G017
+layer: canonical
+status: generated
+prompt: Prancha vetorial canônica Hexápode sobre sinapse química, vesículas, fenda, neurotransmissores e receptores.
+alt: Terminal pré-sináptico com vesículas liberando neurotransmissores na fenda em direção a receptores pós-sinápticos.
+overlay: {title: Sinapse, labels: [terminal pré-sináptico, vesículas, fenda sináptica, receptores]}
+consumers: [Neuro, Farmacologia, Fisiologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
