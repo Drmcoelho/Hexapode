@@ -1,0 +1,14 @@
+id: HEX-A023-223
+concept: Hilo pulmonar avançado
+cycle: A023
+layer: advanced
+status: generated
+canonical_source: HEX-G003-023
+prompt: Relações anatômicas bilaterais do hilo pulmonar com artéria, veias, brônquio, linfáticos e mediastino.
+alt: Comparação dos hilos direito e esquerdo com vasos, brônquios e linfáticos organizados.
+overlay:
+  title: Hilo pulmonar avançado
+  labels: [artéria pulmonar, veias pulmonares, brônquio principal, linfáticos, mediastino]
+consumers: [Respira, Ventila, Cardio, Cirurgia Torácica, Radiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
