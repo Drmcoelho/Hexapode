@@ -1,0 +1,12 @@
+id: HEX-A035-342
+concept: Adrenalina avançada
+cycle: A035
+layer: advanced
+status: generated
+canonical_source: HEX-G015-142
+prompt: Prancha didática Hexápode sobre adrenalina, efeitos alfa-1, beta-1 e beta-2 dependentes da dose, anafilaxia, PCR e riscos.
+alt: Diagrama da adrenalina mostrando broncodilatação beta-2, inotropismo beta-1, vasoconstrição alfa-1, indicações e cautelas.
+overlay: {title: Adrenalina avançada, subtitle: Agonista alfa e beta dependente da dose, labels: [mecanismo, indicações, riscos, leitura prática]}
+consumers: [Emergências, Cardio, Alergia, UTI, Farmacologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
