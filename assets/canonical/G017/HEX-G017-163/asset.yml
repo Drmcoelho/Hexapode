@@ -1,0 +1,11 @@
+id: HEX-G017-163
+concept: Potencial de ação
+cycle: G017
+layer: canonical
+status: generated
+prompt: Prancha vetorial canônica Hexápode sobre despolarização, repolarização, hiperpolarização e refratariedade.
+alt: Curva de potencial de membrana com fases de despolarização, repolarização e hiperpolarização.
+overlay: {title: Potencial de ação, labels: [despolarização, repolarização, hiperpolarização, tempo, mV]}
+consumers: [Neuro, Cardio, Fisiologia, Farmacologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
