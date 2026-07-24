@@ -1,0 +1,11 @@
+id: HEX-A039-385
+cycle: A039
+layer: A
+concept: Padrão B-lines
+status: generated
+canonical_source: HEX-G019-185
+prompt_canonical: Infográfico didático sobre linhas B, artefatos verticais e aumento da densidade pulmonar no design Hexápode.
+alt: Linhas verticais hiperecogênicas partindo da pleura e alcançando o fundo da tela, apagando linhas A.
+overlay: {title: Padrão B-lines, subtitle: Artefatos verticais pulmonares, labels: [Linha pleural, Linhas B, Sem linhas A]}
+consumers: [Hexágono, Hexaconsulta, Hexaconecta, Respira, Ventila, Cardio, Trauma, Neuro, Nefro, USG, Farmaco]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
