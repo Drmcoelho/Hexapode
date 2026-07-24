@@ -1,0 +1,13 @@
+id: HEX-A034-337
+concept: Tromboembolismo pulmonar maciço: VD e choque
+cycle: A034
+layer: advanced
+status: generated
+canonical_origin: HEX-G014-137
+prompt: >-
+  Prancha médica didática Hexápode sobre obstrução vascular pulmonar, aumento da resistência vascular pulmonar, dilatação do VD, desvio septal, baixo débito e choque.
+alt: Trombo na circulação pulmonar conectado à dilatação do ventrículo direito e à cadeia obstrução, aumento da pós-carga, baixo débito e choque.
+overlay: {title: Tromboembolismo pulmonar maciço, labels: [trombo, RVP, ventrículo direito, desvio septal, choque]}
+consumers: [Emergências, Cardio, USG, Hemodinâmica, UTI]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
