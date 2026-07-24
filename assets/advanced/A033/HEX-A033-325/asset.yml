@@ -1,0 +1,15 @@
+id: HEX-A033-325
+concept: "Retorno venoso e pressão sistêmica média"
+cycle: A033
+layer: advanced
+status: generated
+canonical_source: HEX-G013-125
+prompt: >-
+  Prancha médica vetorial didática sobre curva de retorno venoso, pressão sistêmica média,
+  pressão atrial direita, resistência venosa e congestão.
+alt: >-
+  Gráfico descendente do retorno venoso até a pressão sistêmica média e equação do gradiente entre Pms e pressão atrial direita.
+overlay: {title: "Retorno venoso e pressão sistêmica média", labels: [Pms, PAD, resistência venosa, gradiente]}
+consumers: [Cardio, Emergências, Nefrologia, Ventila, Fisiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
