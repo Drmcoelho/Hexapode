@@ -1,0 +1,11 @@
+id: HEX-A039-384
+cycle: A039
+layer: A
+concept: Padrão A-lines
+status: generated
+canonical_source: HEX-G019-184
+prompt_canonical: Infográfico didático sobre linhas A, reverberação horizontal e pulmão aerado no design Hexápode.
+alt: Linhas horizontais equidistantes abaixo da pleura, representando artefatos de reverberação de pulmão aerado.
+overlay: {title: Padrão A-lines, subtitle: Reverberação horizontal pulmonar, labels: [Linha pleural, A1, A2, A3]}
+consumers: [Hexágono, Hexaconsulta, Hexaconecta, Respira, Ventila, Cardio, Trauma, Neuro, Nefro, USG, Farmaco]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
