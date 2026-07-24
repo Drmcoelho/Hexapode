@@ -1,0 +1,15 @@
+id: HEX-A033-323
+concept: "Débito cardíaco e seus componentes"
+cycle: A033
+layer: advanced
+status: generated
+canonical_source: HEX-G013-123
+prompt: >-
+  Prancha médica vetorial didática sobre débito cardíaco, frequência cardíaca, volume sistólico,
+  pré-carga, contratilidade e pós-carga.
+alt: >-
+  Equação débito cardíaco igual a frequência vezes volume sistólico, com três círculos mostrando pré-carga, contratilidade e pós-carga.
+overlay: {title: "Débito cardíaco e seus componentes", labels: [frequência cardíaca, volume sistólico, pré-carga, contratilidade, pós-carga]}
+consumers: [Cardio, Emergências, Nefrologia, Ventila, Fisiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
