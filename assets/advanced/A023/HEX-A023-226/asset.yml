@@ -1,0 +1,14 @@
+id: HEX-A023-226
+concept: Pneumócito tipo II avançado
+cycle: A023
+layer: advanced
+status: generated
+canonical_source: HEX-G003-026
+prompt: Pneumócito tipo II avançado com corpos lamelares, secreção de surfactante e regeneração epitelial.
+alt: Célula cúbica alveolar com corpos lamelares liberando surfactante sobre a interface aérea.
+overlay:
+  title: Pneumócito tipo II avançado
+  labels: [núcleo, corpos lamelares, microvilos, surfactante, regeneração]
+consumers: [Respira, Ventila, Neonatologia, Histologia, Patologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
