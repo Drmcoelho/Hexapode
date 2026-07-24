@@ -1,0 +1,12 @@
+id: HEX-A031-307
+concept: Bougie avançado
+cycle: A031
+layer: advanced
+status: generated
+canonical_source: HEX-G011-107
+prompt: Prancha didática médica sobre uso do bougie, sinais táteis, profundidade segura e passagem do tubo.
+alt: Bougie curvo com marcas de cliques traqueais e sequência numerada de utilização.
+overlay: {title: Bougie avançado, labels: [bougie, cliques traqueais, profundidade, railroading]}
+consumers: [ViaAerea, Emergencias, Anestesia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
