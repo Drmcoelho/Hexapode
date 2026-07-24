@@ -1,0 +1,11 @@
+id: HEX-A039-382
+cycle: A039
+layer: A
+concept: Doppler colorido
+status: generated
+canonical_source: HEX-G019-182
+prompt_canonical: Infográfico didático sobre Doppler colorido, direção do fluxo, escala, aliasing e ângulo de insonação no design Hexápode.
+alt: Setor ultrassonográfico com fluxo em vermelho e azul, escala de velocidades e linha do ângulo de insonação.
+overlay: {title: Doppler colorido, subtitle: Direção, velocidade e aliasing, labels: [Fluxo em direção, Fluxo afastando, Ângulo, Aliasing]}
+consumers: [Hexágono, Hexaconsulta, Hexaconecta, Respira, Ventila, Cardio, Trauma, Neuro, Nefro, USG, Farmaco]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
