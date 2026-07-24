@@ -1,0 +1,11 @@
+id: HEX-G019-190
+concept: Punções guiadas
+cycle: G019
+layer: canonical
+status: generated
+prompt: Prancha vetorial Hexápode sobre punção guiada com agulha no plano e fora do plano.
+alt: Comparação entre agulha no plano e fora do plano diante de alvo vascular.
+overlay: {title: Punções guiadas, labels: [agulha no plano, agulha fora do plano, alvo vascular, trajeto]}
+consumers: [USG, Procedimentos, Emergências, Anestesia, Terapia Intensiva]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
