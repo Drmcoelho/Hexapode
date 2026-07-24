@@ -1,0 +1,12 @@
+id: HEX-A031-304
+concept: Posição de rampa
+cycle: A031
+layer: advanced
+status: generated
+canonical_source: HEX-G011-104
+prompt: Prancha didática médica sobre posição de rampa, alinhamento meato auditivo–esterno e impacto na pré-oxigenação e laringoscopia.
+alt: Paciente elevado em rampa com linha entre meato auditivo externo e incisura esternal.
+overlay: {title: Posição de rampa, labels: [rampa, meato auditivo, incisura esternal, pré-oxigenação]}
+consumers: [ViaAerea, Emergencias, Anestesia, UTI, Respira]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
