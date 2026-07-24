@@ -11,8 +11,8 @@ production:
     - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: A029
-  completed_assets: 280
+  next_cycle: A030
+  completed_assets: 290
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycle_index:
@@ -44,24 +44,25 @@ cycle_index:
   - {id: A026, range: 251-260, theme: Equipamentos Avançados, status: generated, source_root: assets/advanced/A026}
   - {id: A027, range: 261-270, theme: Curvas Avançadas, status: generated, source_root: assets/advanced/A027}
   - {id: A028, range: 271-280, theme: Modos Ventilatórios Avançados, status: generated, source_root: assets/advanced/A028}
+  - {id: A029, range: 281-290, theme: Assincronias Avançadas, status: generated, source_root: assets/advanced/A029}
 cycles:
-  A028:
+  A029:
     layer: A
-    range: 271-280
-    theme: Modos Ventilatórios Avançados
+    range: 281-290
+    theme: Assincronias Avançadas
     status: generated
     exports_pending: [base-art.png, thumbnail.webp]
     assets:
-      - {id: HEX-A028-271, concept: VCV avançado, status: generated, source: assets/advanced/A028/HEX-A028-271/base-art.svg, metadata: assets/advanced/A028/HEX-A028-271/asset.yml}
-      - {id: HEX-A028-272, concept: PCV avançado, status: generated, source: assets/advanced/A028/HEX-A028-272/base-art.svg, metadata: assets/advanced/A028/HEX-A028-272/asset.yml}
-      - {id: HEX-A028-273, concept: PSV avançado, status: generated, source: assets/advanced/A028/HEX-A028-273/base-art.svg, metadata: assets/advanced/A028/HEX-A028-273/asset.yml}
-      - {id: HEX-A028-274, concept: SIMV avançado, status: generated, source: assets/advanced/A028/HEX-A028-274/base-art.svg, metadata: assets/advanced/A028/HEX-A028-274/asset.yml}
-      - {id: HEX-A028-275, concept: PRVC avançado, status: generated, source: assets/advanced/A028/HEX-A028-275/base-art.svg, metadata: assets/advanced/A028/HEX-A028-275/asset.yml}
-      - {id: HEX-A028-276, concept: APRV avançado, status: generated, source: assets/advanced/A028/HEX-A028-276/base-art.svg, metadata: assets/advanced/A028/HEX-A028-276/asset.yml}
-      - {id: HEX-A028-277, concept: CPAP avançado, status: generated, source: assets/advanced/A028/HEX-A028-277/base-art.svg, metadata: assets/advanced/A028/HEX-A028-277/asset.yml}
-      - {id: HEX-A028-278, concept: BiPAP avançado, status: generated, source: assets/advanced/A028/HEX-A028-278/base-art.svg, metadata: assets/advanced/A028/HEX-A028-278/asset.yml}
-      - {id: HEX-A028-279, concept: HFOV avançado, status: generated, source: assets/advanced/A028/HEX-A028-279/base-art.svg, metadata: assets/advanced/A028/HEX-A028-279/asset.yml}
-      - {id: HEX-A028-280, concept: VNI avançada, status: generated, source: assets/advanced/A028/HEX-A028-280/base-art.svg, metadata: assets/advanced/A028/HEX-A028-280/asset.yml}
+      - {id: HEX-A029-281, concept: Disparo ineficaz, status: generated, source: assets/advanced/A029/HEX-A029-281/base-art.svg, metadata: assets/advanced/A029/HEX-A029-281/asset.yml}
+      - {id: HEX-A029-282, concept: Duplo disparo, status: generated, source: assets/advanced/A029/HEX-A029-282/base-art.svg, metadata: assets/advanced/A029/HEX-A029-282/asset.yml}
+      - {id: HEX-A029-283, concept: Reverse trigger, status: generated, source: assets/advanced/A029/HEX-A029-283/base-art.svg, metadata: assets/advanced/A029/HEX-A029-283/asset.yml}
+      - {id: HEX-A029-284, concept: Auto-trigger, status: generated, source: assets/advanced/A029/HEX-A029-284/base-art.svg, metadata: assets/advanced/A029/HEX-A029-284/asset.yml}
+      - {id: HEX-A029-285, concept: Fome de fluxo, status: generated, source: assets/advanced/A029/HEX-A029-285/base-art.svg, metadata: assets/advanced/A029/HEX-A029-285/asset.yml}
+      - {id: HEX-A029-286, concept: Ciclagem precoce, status: generated, source: assets/advanced/A029/HEX-A029-286/base-art.svg, metadata: assets/advanced/A029/HEX-A029-286/asset.yml}
+      - {id: HEX-A029-287, concept: Ciclagem tardia, status: generated, source: assets/advanced/A029/HEX-A029-287/base-art.svg, metadata: assets/advanced/A029/HEX-A029-287/asset.yml}
+      - {id: HEX-A029-288, concept: Breath stacking, status: generated, source: assets/advanced/A029/HEX-A029-288/base-art.svg, metadata: assets/advanced/A029/HEX-A029-288/asset.yml}
+      - {id: HEX-A029-289, concept: Auto-PEEP dinâmica, status: generated, source: assets/advanced/A029/HEX-A029-289/base-art.svg, metadata: assets/advanced/A029/HEX-A029-289/asset.yml}
+      - {id: HEX-A029-290, concept: Correção das assincronias, status: generated, source: assets/advanced/A029/HEX-A029-290/base-art.svg, metadata: assets/advanced/A029/HEX-A029-290/asset.yml}
 cycle_generation_rule: >-
   Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
