@@ -1,0 +1,13 @@
+id: HEX-A034-339
+concept: Hipoglicemia grave: neuroglicopenia e contrarregulação
+cycle: A034
+layer: advanced
+status: generated
+canonical_origin: HEX-G014-139
+prompt: >-
+  Prancha médica didática Hexápode sobre queda da glicose, sintomas autonômicos, neuroglicopenia, hormônios contrarregulatórios e correção rápida.
+alt: Queda da glicose conectada ao cérebro, com sinais autonômicos e cerebrais separados e orientação para correção e prevenção da recorrência.
+overlay: {title: Hipoglicemia grave, labels: [glicose, sintomas autonômicos, neuroglicopenia, convulsão, correção]}
+consumers: [Emergências, Endocrinologia, Pediatria, Neurologia, Enfermagem]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
