@@ -1,0 +1,17 @@
+id: HEX-A033-321
+concept: "Pré-carga: determinantes e avaliação"
+cycle: A033
+layer: advanced
+status: generated
+canonical_source: HEX-G013-121
+prompt: >-
+  Prancha médica vetorial didática sobre pré-carga, retorno venoso, volume telediastólico,
+  complacência ventricular e interpretação conjunta de pressão e volume.
+alt: >-
+  Coração recebendo retorno venoso, determinantes da pré-carga e curvas pressão-volume comparando ventrículo complacente e rígido.
+overlay:
+  title: "Pré-carga: determinantes e avaliação"
+  labels: [retorno venoso, volume telediastólico, complacência, pressão intratorácica]
+consumers: [Cardio, Emergências, Nefrologia, Ventila, Fisiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
