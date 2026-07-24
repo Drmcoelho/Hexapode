@@ -1,0 +1,11 @@
+id: HEX-G019-183
+concept: Sonda convexa
+cycle: G019
+layer: canonical
+status: generated
+prompt: Prancha vetorial Hexápode sobre sonda convexa, campo curvo e avaliação profunda.
+alt: Sonda convexa com campo curvo para abdome e estruturas profundas.
+overlay: {title: Sonda convexa, labels: [campo curvo, profundidade, abdome, pelve]}
+consumers: [USG, Emergências, Trauma, Nefrologia, Obstetrícia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
