@@ -1,0 +1,12 @@
+id: HEX-A031-309
+concept: Cricotireoidostomia de emergência
+cycle: A031
+layer: advanced
+status: generated
+canonical_source: HEX-G011-109
+prompt: Prancha didática médica não gráfica sobre identificação da membrana cricotireóidea e sequência CICO.
+alt: Pescoço esquemático com membrana cricotireóidea marcada e cinco etapas de acesso frontal de emergência.
+overlay: {title: Cricotireoidostomia de emergência, labels: [CICO, membrana cricotireóidea, dilatação, ETCO2]}
+consumers: [ViaAerea, Emergencias, Trauma, Anestesia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
