@@ -1,0 +1,12 @@
+id: HEX-A027-267
+concept: Auto-PEEP avançada
+cycle: A027
+layer: advanced
+status: generated
+canonical_origin: HEX-G007-067
+prompt: Prancha médica vetorial didática sobre auto-PEEP, fluxo expiratório incompleto e hiperinsuflação dinâmica.
+alt: Curva de fluxo mostrando expiração que não retorna a zero antes do próximo ciclo.
+overlay: {title: Auto-PEEP avançada, labels: [fluxo expiratório, linha zero, PEEP intrínseca]}
+consumers: [Ventila, Emergências, Pneumologia, UTI]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
