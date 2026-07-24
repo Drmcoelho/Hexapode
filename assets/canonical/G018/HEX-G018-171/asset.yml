@@ -1,0 +1,10 @@
+id: HEX-G018-171
+concept: Coracao
+cycle: G018
+layer: canonical
+status: generated
+prompt: Prancha vetorial sobre anatomia cardiaca, quatro camaras, valvulas e grandes vasos.
+alt: Coracao esquematico com atrios, ventriculos, grandes vasos e fluxo sanguineo.
+overlay: {title: Coracao, labels: [AD, AE, VD, VE, aorta, arteria pulmonar]}
+consumers: [Cardio, Emergencias, Fisiologia, Farmacologia, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]

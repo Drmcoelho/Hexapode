@@ -1,0 +1,10 @@
+id: HEX-G018-176
+concept: Valvas
+cycle: G018
+layer: canonical
+status: generated
+prompt: Prancha vetorial sobre valvas tricuspide, mitral, pulmonar e aortica.
+alt: Quatro valvas cardiacas esquematicas com abertura unidirecional.
+overlay: {title: Valvas, labels: [tricuspide, mitral, pulmonar, aortica]}
+consumers: [Cardio, Emergencias, Fisiologia, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]

@@ -1,0 +1,10 @@
+id: HEX-G018-175
+concept: Diastole
+cycle: G018
+layer: canonical
+status: generated
+prompt: Prancha vetorial sobre relaxamento e enchimento ventricular.
+alt: Ventriculo esquematico relaxado recebendo fluxo de enchimento.
+overlay: {title: Diastole, labels: [relaxamento, enchimento, valvas AV abertas]}
+consumers: [Cardio, Emergencias, Fisiologia, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]

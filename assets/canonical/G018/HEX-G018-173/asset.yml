@@ -1,0 +1,10 @@
+id: HEX-G018-173
+concept: Coronarias
+cycle: G018
+layer: canonical
+status: generated
+prompt: Prancha vetorial sobre arterias coronarias e territorios miocardicos.
+alt: Coracao esquematico com ramos coronarios epicardicos.
+overlay: {title: Coronarias, labels: [RCA, LAD, CX, fluxo diastolico]}
+consumers: [Cardio, Emergencias, Fisiologia, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]

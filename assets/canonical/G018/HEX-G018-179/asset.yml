@@ -1,0 +1,10 @@
+id: HEX-G018-179
+concept: Tamponamento
+cycle: G018
+layer: canonical
+status: generated
+prompt: Prancha vetorial sobre acumulacao pericardica e restricao ao enchimento.
+alt: Coracao esquematico comprimido por liquido pericardico.
+overlay: {title: Tamponamento, labels: [liquido pericardico, compressao, baixo debito]}
+consumers: [Cardio, Emergencias, Fisiologia, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]

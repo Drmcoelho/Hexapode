@@ -1,0 +1,10 @@
+id: HEX-G018-174
+concept: Sistole
+cycle: G018
+layer: canonical
+status: generated
+prompt: Prancha vetorial sobre contracao ventricular e ejecao.
+alt: Ventriculo esquematico em contracao com fluxo de ejecao.
+overlay: {title: Sistole, labels: [contracao, ejecao, valvas AV fechadas]}
+consumers: [Cardio, Emergencias, Fisiologia, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]

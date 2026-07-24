@@ -1,0 +1,10 @@
+id: HEX-G018-172
+concept: Sistema de conducao
+cycle: G018
+layer: canonical
+status: generated
+prompt: Prancha vetorial sobre no sinusal, no AV e sistema His-Purkinje.
+alt: Coracao esquematico com trajetoria do impulso eletrico.
+overlay: {title: Sistema de conducao, labels: [no sinusal, no AV, His-Purkinje]}
+consumers: [Cardio, Emergencias, Fisiologia, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]

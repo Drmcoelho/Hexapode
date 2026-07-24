@@ -1,0 +1,10 @@
+id: HEX-G018-178
+concept: Insuficiencia cardiaca
+cycle: G018
+layer: canonical
+status: generated
+prompt: Prancha vetorial sobre falha de bomba, congestao e baixo debito.
+alt: Coracao esquematico com sinais de congestao e perfusao reduzida.
+overlay: {title: Insuficiencia cardiaca, labels: [baixo debito, congestao, perfusao]}
+consumers: [Cardio, Emergencias, Fisiologia, Farmacologia, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]

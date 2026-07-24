@@ -1,0 +1,10 @@
+id: HEX-G018-177
+concept: Arritmias
+cycle: G018
+layer: canonical
+status: generated
+prompt: Prancha vetorial sobre alteracoes de ritmo e conducao cardiaca.
+alt: Tracado eletrico esquematico comparando ritmo organizado e irregular.
+overlay: {title: Arritmias, labels: [frequencia, regularidade, origem, conducao]}
+consumers: [Cardio, Emergencias, Fisiologia, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]

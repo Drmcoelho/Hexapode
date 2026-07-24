@@ -1,0 +1,10 @@
+id: HEX-G018-180
+concept: Pericardio
+cycle: G018
+layer: canonical
+status: generated
+prompt: Prancha vetorial sobre camadas pericardicas, cavidade e funcao de contencao.
+alt: Coracao esquematico envolto por pericardio visceral e parietal.
+overlay: {title: Pericardio, labels: [visceral, parietal, cavidade pericardica]}
+consumers: [Cardio, Emergencias, Fisiologia, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
