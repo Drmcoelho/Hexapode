@@ -1,0 +1,13 @@
+id: HEX-A034-335
+concept: Anafilaxia: mastócitos, vasodilatação, edema e broncoespasmo
+cycle: A034
+layer: advanced
+status: generated
+canonical_origin: HEX-G014-135
+prompt: >-
+  Prancha médica didática Hexápode sobre exposição ao alérgeno, degranulação mastocitária, vasodilatação, extravasamento capilar, edema laríngeo e broncoespasmo.
+alt: Mastócito liberando mediadores com efeitos separados sobre circulação, via aérea e brônquios, destacando adrenalina intramuscular precoce.
+overlay: {title: Anafilaxia, labels: [mastócito, histamina, choque, edema laríngeo, broncoespasmo]}
+consumers: [Emergências, Alergia, Via Aérea, Farmacologia, Pediatria]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
