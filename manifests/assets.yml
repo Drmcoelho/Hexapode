@@ -11,8 +11,8 @@ production:
     - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: A026
-  completed_assets: 250
+  next_cycle: A027
+  completed_assets: 260
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycle_index:
@@ -41,24 +41,25 @@ cycle_index:
   - {id: A023, range: 221-230, theme: Anatomia Respiratória II Avançada, status: generated, source_root: assets/advanced/A023}
   - {id: A024, range: 231-240, theme: Mecânica Respiratória Avançada, status: generated, source_root: assets/advanced/A024}
   - {id: A025, range: 241-250, theme: Fisiologia Avançada, status: generated, source_root: assets/advanced/A025}
+  - {id: A026, range: 251-260, theme: Equipamentos Avançados, status: generated, source_root: assets/advanced/A026}
 cycles:
-  A025:
+  A026:
     layer: A
-    range: 241-250
-    theme: Fisiologia Avançada
+    range: 251-260
+    theme: Equipamentos Avançados
     status: generated
     exports_pending: [base-art.png, thumbnail.webp]
     assets:
-      - {id: HEX-A025-241, concept: Difusão alveolar de gases, status: generated, source: assets/advanced/A025/HEX-A025-241/base-art.svg, metadata: assets/advanced/A025/HEX-A025-241/asset.yml}
-      - {id: HEX-A025-242, concept: Transporte de oxigênio no sangue, status: generated, source: assets/advanced/A025/HEX-A025-242/base-art.svg, metadata: assets/advanced/A025/HEX-A025-242/asset.yml}
-      - {id: HEX-A025-243, concept: Curva de dissociação da oxiemoglobina, status: generated, source: assets/advanced/A025/HEX-A025-243/base-art.svg, metadata: assets/advanced/A025/HEX-A025-243/asset.yml}
-      - {id: HEX-A025-244, concept: Efeito Bohr, status: generated, source: assets/advanced/A025/HEX-A025-244/base-art.svg, metadata: assets/advanced/A025/HEX-A025-244/asset.yml}
-      - {id: HEX-A025-245, concept: Controle da ventilação, status: generated, source: assets/advanced/A025/HEX-A025-245/base-art.svg, metadata: assets/advanced/A025/HEX-A025-245/asset.yml}
-      - {id: HEX-A025-246, concept: Desenvolvimento da complacência pulmonar, status: generated, source: assets/advanced/A025/HEX-A025-246/base-art.svg, metadata: assets/advanced/A025/HEX-A025-246/asset.yml}
-      - {id: HEX-A025-247, concept: Vasoconstrição pulmonar hipóxica, status: generated, source: assets/advanced/A025/HEX-A025-247/base-art.svg, metadata: assets/advanced/A025/HEX-A025-247/asset.yml}
-      - {id: HEX-A025-248, concept: Shunt e espaço morto, status: generated, source: assets/advanced/A025/HEX-A025-248/base-art.svg, metadata: assets/advanced/A025/HEX-A025-248/asset.yml}
-      - {id: HEX-A025-249, concept: Formas de transporte do CO2, status: generated, source: assets/advanced/A025/HEX-A025-249/base-art.svg, metadata: assets/advanced/A025/HEX-A025-249/asset.yml}
-      - {id: HEX-A025-250, concept: Troca de CO2 entre tecidos e pulmões, status: generated, source: assets/advanced/A025/HEX-A025-250/base-art.svg, metadata: assets/advanced/A025/HEX-A025-250/asset.yml}
+      - {id: HEX-A026-251, concept: Ventilador mecânico avançado, status: generated, source: assets/advanced/A026/HEX-A026-251/base-art.svg, metadata: assets/advanced/A026/HEX-A026-251/asset.yml}
+      - {id: HEX-A026-252, concept: Circuito ventilatório avançado, status: generated, source: assets/advanced/A026/HEX-A026-252/base-art.svg, metadata: assets/advanced/A026/HEX-A026-252/asset.yml}
+      - {id: HEX-A026-253, concept: Tubo orotraqueal avançado, status: generated, source: assets/advanced/A026/HEX-A026-253/base-art.svg, metadata: assets/advanced/A026/HEX-A026-253/asset.yml}
+      - {id: HEX-A026-254, concept: Traqueostomia avançada, status: generated, source: assets/advanced/A026/HEX-A026-254/base-art.svg, metadata: assets/advanced/A026/HEX-A026-254/asset.yml}
+      - {id: HEX-A026-255, concept: Máscara facial avançada, status: generated, source: assets/advanced/A026/HEX-A026-255/base-art.svg, metadata: assets/advanced/A026/HEX-A026-255/asset.yml}
+      - {id: HEX-A026-256, concept: Máscara total-face avançada, status: generated, source: assets/advanced/A026/HEX-A026-256/base-art.svg, metadata: assets/advanced/A026/HEX-A026-256/asset.yml}
+      - {id: HEX-A026-257, concept: Cânula nasal avançada, status: generated, source: assets/advanced/A026/HEX-A026-257/base-art.svg, metadata: assets/advanced/A026/HEX-A026-257/asset.yml}
+      - {id: HEX-A026-258, concept: HFNC avançada, status: generated, source: assets/advanced/A026/HEX-A026-258/base-art.svg, metadata: assets/advanced/A026/HEX-A026-258/asset.yml}
+      - {id: HEX-A026-259, concept: HME avançado, status: generated, source: assets/advanced/A026/HEX-A026-259/base-art.svg, metadata: assets/advanced/A026/HEX-A026-259/asset.yml}
+      - {id: HEX-A026-260, concept: Umidificador aquecido avançado, status: generated, source: assets/advanced/A026/HEX-A026-260/base-art.svg, metadata: assets/advanced/A026/HEX-A026-260/asset.yml}
 cycle_generation_rule: >-
   Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
