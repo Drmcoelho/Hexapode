@@ -1,0 +1,11 @@
+id: HEX-G020-191
+concept: Células
+cycle: G020
+layer: canonical
+status: generated
+prompt: Prancha vetorial Hexápode comparando célula epitelial, neurônio, eritrócito e célula muscular.
+alt: Quatro painéis mostram formas celulares adaptadas a barreira, sinalização, transporte gasoso e contração.
+overlay: {title: Células, labels: [epitelial, neurônio, eritrócito, muscular]}
+consumers: [Respira, Ventila, Cardio, Neuro, Nefrologia, Farmacologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
