@@ -1,0 +1,14 @@
+id: HEX-A023-227
+concept: Surfactante pulmonar avançado
+cycle: A023
+layer: advanced
+status: generated
+canonical_source: HEX-G003-027
+prompt: Organização molecular do surfactante pulmonar, redução da tensão superficial e estabilidade alveolar.
+alt: Camada de surfactante na interface ar-líquido comparando alvéolo estável e tendência ao colapso.
+overlay:
+  title: Surfactante pulmonar avançado
+  labels: [interface ar-líquido, fosfolipídios, proteínas, tensão superficial, estabilidade]
+consumers: [Respira, Ventila, Neonatologia, Fisiologia, Emergências]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
