@@ -1,0 +1,12 @@
+id: HEX-A028-279
+concept: HFOV avançado
+cycle: A028
+layer: advanced
+status: generated
+canonical_origin: HEX-G008-79
+prompt: Prancha médica didática sobre HFOV, frequência elevada, baixo volume corrente e pressão média de via aérea.
+alt: Oscilações rápidas ao redor da pressão média de via aérea.
+overlay: {title: HFOV avançado, labels: [frequência, baixo volume, Paw média, aprisionamento]}
+consumers: [Respira, Ventila, UTI, Neonatologia, Pediatria]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
