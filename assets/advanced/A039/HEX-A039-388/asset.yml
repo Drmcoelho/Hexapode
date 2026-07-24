@@ -1,0 +1,11 @@
+id: HEX-A039-388
+cycle: A039
+layer: A
+concept: Consolidação pulmonar
+status: generated
+canonical_source: HEX-G019-188
+prompt_canonical: Infográfico didático sobre consolidação pulmonar, hepatização e broncogramas aéreos dinâmicos no design Hexápode.
+alt: Tecido pulmonar consolidado com ecotextura semelhante ao fígado e pontos hiperecogênicos de broncograma aéreo.
+overlay: {title: Consolidação pulmonar, subtitle: Hepatização e broncograma aéreo, labels: [Hepatização, Broncograma dinâmico, Atelectasia]}
+consumers: [Hexágono, Hexaconsulta, Hexaconecta, Respira, Ventila, Cardio, Trauma, Neuro, Nefro, USG, Farmaco]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
