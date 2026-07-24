@@ -1,0 +1,11 @@
+id: HEX-G017-164
+concept: Tronco encefálico
+cycle: G017
+layer: canonical
+status: generated
+prompt: Prancha vetorial canônica Hexápode sobre mesencéfalo, ponte, bulbo, cerebelo e medula.
+alt: Esquema do tronco encefálico com mesencéfalo, ponte, bulbo, cerebelo e continuidade com a medula.
+overlay: {title: Tronco encefálico, labels: [mesencéfalo, ponte, bulbo, cerebelo, medula]}
+consumers: [Neuro, Emergências, Ventila, Trauma, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
