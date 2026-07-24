@@ -1,0 +1,12 @@
+id: HEX-A035-346
+concept: Fentanil avançado
+cycle: A035
+layer: advanced
+status: generated
+canonical_source: HEX-G015-146
+prompt: Prancha didática sobre fentanil, agonismo mu, analgesia, redução de neurotransmissores, depressão respiratória e rigidez torácica.
+alt: Diagrama do fentanil mostrando receptor mu, redução de AMPc, analgesia, efeitos clínicos e riscos respiratórios.
+overlay: {title: Fentanil avançado, subtitle: Agonista mu de alta potência, labels: [mecanismo, efeitos, riscos, leitura prática]}
+consumers: [UTI, Emergências, Ventila, Anestesia, Farmacologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

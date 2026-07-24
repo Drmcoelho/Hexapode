@@ -1,0 +1,12 @@
+id: HEX-A035-348
+concept: Etomidato avançado
+cycle: A035
+layer: advanced
+status: generated
+canonical_source: HEX-G015-148
+prompt: Prancha didática sobre etomidato, GABA-A, hipnose rápida, estabilidade hemodinâmica relativa, mioclonia e supressão adrenal.
+alt: Diagrama do etomidato mostrando ação GABA-A, hipnose rápida, pouca vasodilatação, efeitos e riscos.
+overlay: {title: Etomidato avançado, subtitle: Indução rápida com estabilidade hemodinâmica relativa, labels: [mecanismo, efeitos, riscos, leitura prática]}
+consumers: [Emergências, UTI, Anestesia, Cardio, Farmacologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

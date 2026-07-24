@@ -1,0 +1,12 @@
+id: HEX-A035-343
+concept: Dobutamina avançada
+cycle: A035
+layer: advanced
+status: generated
+canonical_source: HEX-G015-143
+prompt: Prancha didática sobre dobutamina, receptor beta-1, contratilidade, débito cardíaco, vasodilatação beta-2 e riscos.
+alt: Diagrama da dobutamina mostrando ativação beta-1, aumento de cálcio, contratilidade e débito, com efeitos e riscos.
+overlay: {title: Dobutamina avançada, subtitle: Inotrópico beta-1 para baixo débito, labels: [mecanismo, efeitos, riscos, leitura prática]}
+consumers: [Cardio, UTI, Emergências, Nefrologia, Farmacologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

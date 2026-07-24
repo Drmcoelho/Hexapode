@@ -1,0 +1,12 @@
+id: HEX-A035-344
+concept: Vasopressina avançada
+cycle: A035
+layer: advanced
+status: generated
+canonical_source: HEX-G015-144
+prompt: Prancha didática sobre vasopressina, receptor V1, via PLC/IP3, vasoconstrição não adrenérgica, uso na vasoplegia e riscos isquêmicos.
+alt: Diagrama mostrando receptor V1, aumento de cálcio, contração vascular, efeitos hemodinâmicos e cautelas da vasopressina.
+overlay: {title: Vasopressina avançada, subtitle: Vasoconstrição V1 não adrenérgica, labels: [mecanismo, efeitos, riscos, leitura prática]}
+consumers: [Emergências, UTI, Cardio, Nefrologia, Farmacologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

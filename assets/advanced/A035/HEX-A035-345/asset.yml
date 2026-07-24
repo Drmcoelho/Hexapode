@@ -1,0 +1,12 @@
+id: HEX-A035-345
+concept: Midazolam avançado
+cycle: A035
+layer: advanced
+status: generated
+canonical_source: HEX-G015-145
+prompt: Prancha didática sobre midazolam, modulação GABA-A, sedação, amnésia, anticonvulsão, depressão respiratória e acúmulo.
+alt: Diagrama do midazolam mostrando GABA-A, aumento da frequência do canal de cloro, hiperpolarização, efeitos e riscos.
+overlay: {title: Midazolam avançado, subtitle: Benzodiazepínico modulador do GABA-A, labels: [mecanismo, efeitos, riscos, leitura prática]}
+consumers: [UTI, Emergências, Neuro, Ventila, Farmacologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

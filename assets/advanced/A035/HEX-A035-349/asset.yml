@@ -1,0 +1,12 @@
+id: HEX-A035-349
+concept: Rocurônio avançado
+cycle: A035
+layer: advanced
+status: generated
+canonical_source: HEX-G015-149
+prompt: Prancha didática sobre rocurônio, competição nicotínica, bloqueio não despolarizante, sequência rápida, duração e reversão com sugamadex.
+alt: Diagrama do rocurônio mostrando receptor nicotínico, competição com acetilcolina, paralisia, efeitos e riscos.
+overlay: {title: Rocurônio avançado, subtitle: Bloqueador neuromuscular não despolarizante, labels: [mecanismo, efeitos, riscos, leitura prática]}
+consumers: [Emergências, UTI, Anestesia, Ventila, Farmacologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

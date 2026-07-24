@@ -1,0 +1,12 @@
+id: HEX-A035-347
+concept: Cetamina avançada
+cycle: A035
+layer: advanced
+status: generated
+canonical_source: HEX-G015-147
+prompt: Prancha didática sobre cetamina, antagonismo NMDA, anestesia dissociativa, analgesia, broncodilatação, efeitos simpáticos e riscos.
+alt: Diagrama da cetamina mostrando bloqueio NMDA, dissociação, analgesia, efeitos clínicos e cautelas hemodinâmicas.
+overlay: {title: Cetamina avançada, subtitle: Antagonista NMDA com anestesia dissociativa, labels: [mecanismo, efeitos, riscos, leitura prática]}
+consumers: [Emergências, UTI, Trauma, Ventila, Farmacologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
