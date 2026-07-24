@@ -1,0 +1,13 @@
+id: HEX-A034-338
+concept: Hipercalemia grave: membrana, ECG e estabilização
+cycle: A034
+layer: advanced
+status: generated
+canonical_origin: HEX-G014-138
+prompt: >-
+  Prancha médica didática Hexápode sobre progressão eletrocardiográfica da hipercalemia e três eixos terapêuticos: estabilizar membrana, deslocar potássio e remover potássio.
+alt: Traçado de ECG evoluindo para QRS largo e padrão sinusoidal, seguido por três blocos terapêuticos: cálcio, deslocamento intracelular e remoção corporal.
+overlay: {title: Hipercalemia grave, labels: [ECG, cálcio, insulina, beta-agonista, diálise]}
+consumers: [Emergências, Nefrologia, Cardio, Farmacologia, UTI]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
