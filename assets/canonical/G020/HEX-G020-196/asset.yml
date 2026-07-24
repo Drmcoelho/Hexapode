@@ -1,0 +1,11 @@
+id: HEX-G020-196
+concept: Cicatrização
+cycle: G020
+layer: canonical
+status: generated
+prompt: Prancha vetorial Hexápode das fases de cicatrização.
+alt: Quatro painéis mostram hemostasia, inflamação, proliferação e remodelamento.
+overlay: {title: Cicatrização, labels: [hemostasia, inflamação, proliferação, remodelamento]}
+consumers: [Trauma, Cirurgia, Dermatologia, Emergências, Farmacologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

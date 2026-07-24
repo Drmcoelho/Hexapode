@@ -1,0 +1,11 @@
+id: HEX-G020-192
+concept: Tecidos
+cycle: G020
+layer: canonical
+status: generated
+prompt: Prancha vetorial Hexápode dos quatro tecidos fundamentais.
+alt: Quatro painéis mostram tecido epitelial, conjuntivo, muscular e nervoso.
+overlay: {title: Tecidos, labels: [epitelial, conjuntivo, muscular, nervoso]}
+consumers: [Respira, Cardio, Neuro, Nefrologia, Trauma, Farmacologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

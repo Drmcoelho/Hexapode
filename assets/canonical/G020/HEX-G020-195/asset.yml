@@ -1,0 +1,11 @@
+id: HEX-G020-195
+concept: Inflamação
+cycle: G020
+layer: canonical
+status: generated
+prompt: Prancha vetorial Hexápode da sequência lesão, sinalização, recrutamento e resolução.
+alt: Quatro painéis mostram lesão tecidual, mediadores, recrutamento celular e resolução.
+overlay: {title: Inflamação, labels: [lesão, sinal, recrutamento, resolução]}
+consumers: [Respira, Cardio, Trauma, Nefrologia, Neuro, Infectologia, Farmacologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

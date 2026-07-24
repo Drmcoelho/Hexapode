@@ -1,0 +1,11 @@
+id: HEX-G020-198
+concept: Microrganismos
+cycle: G020
+layer: canonical
+status: generated
+prompt: Prancha vetorial Hexápode comparando bactéria, vírus, fungo e protozoário.
+alt: Quatro painéis mostram arquiteturas esquemáticas de bactéria, vírus, fungo e protozoário.
+overlay: {title: Microrganismos, labels: [bactéria, vírus, fungo, protozoário]}
+consumers: [Infectologia, Emergências, Pediatria, Medicina Interna, Farmacologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

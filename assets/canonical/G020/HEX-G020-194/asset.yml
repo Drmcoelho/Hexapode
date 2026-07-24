@@ -1,0 +1,11 @@
+id: HEX-G020-194
+concept: Nervos
+cycle: G020
+layer: canonical
+status: generated
+prompt: Prancha vetorial Hexápode sobre fascículo nervoso e condução saltatória.
+alt: Corte de fascículo nervoso e axônio mielinizado mostram organização e condução entre nós.
+overlay: {title: Nervos, labels: [fascículo, axônio, mielina, nó]}
+consumers: [Neuro, Trauma, Anestesia, Emergências, Farmacologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

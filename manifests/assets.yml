@@ -11,8 +11,8 @@ production:
     - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: G020
-  completed_assets: 190
+  next_cycle: A021
+  completed_assets: 200
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycle_index:
@@ -35,24 +35,25 @@ cycle_index:
   - {id: G017, range: 161-170, theme: Neurologia, status: generated, source_root: assets/canonical/G017}
   - {id: G018, range: 171-180, theme: Cardiologia, status: generated, source_root: assets/canonical/G018}
   - {id: G019, range: 181-190, theme: Ultrassom, status: generated, source_root: assets/canonical/G019}
+  - {id: G020, range: 191-200, theme: Biblioteca Universal, status: generated, source_root: assets/canonical/G020}
 cycles:
-  G019:
+  G020:
     layer: G
-    range: 181-190
-    theme: Ultrassom
+    range: 191-200
+    theme: Biblioteca Universal
     status: generated
     exports_pending: [base-art.png, thumbnail.webp]
     assets:
-      - {id: HEX-G019-181, concept: Física do ultrassom, status: generated, source: assets/canonical/G019/HEX-G019-181/base-art.svg, metadata: assets/canonical/G019/HEX-G019-181/asset.yml}
-      - {id: HEX-G019-182, concept: Sonda linear, status: generated, source: assets/canonical/G019/HEX-G019-182/base-art.svg, metadata: assets/canonical/G019/HEX-G019-182/asset.yml}
-      - {id: HEX-G019-183, concept: Sonda convexa, status: generated, source: assets/canonical/G019/HEX-G019-183/base-art.svg, metadata: assets/canonical/G019/HEX-G019-183/asset.yml}
-      - {id: HEX-G019-184, concept: Sonda setorial, status: generated, source: assets/canonical/G019/HEX-G019-184/base-art.svg, metadata: assets/canonical/G019/HEX-G019-184/asset.yml}
-      - {id: HEX-G019-185, concept: Artefatos, status: generated, source: assets/canonical/G019/HEX-G019-185/base-art.svg, metadata: assets/canonical/G019/HEX-G019-185/asset.yml}
-      - {id: HEX-G019-186, concept: FAST, status: generated, source: assets/canonical/G019/HEX-G019-186/base-art.svg, metadata: assets/canonical/G019/HEX-G019-186/asset.yml}
-      - {id: HEX-G019-187, concept: Ultrassom pulmonar, status: generated, source: assets/canonical/G019/HEX-G019-187/base-art.svg, metadata: assets/canonical/G019/HEX-G019-187/asset.yml}
-      - {id: HEX-G019-188, concept: Ultrassom cardíaco, status: generated, source: assets/canonical/G019/HEX-G019-188/base-art.svg, metadata: assets/canonical/G019/HEX-G019-188/asset.yml}
-      - {id: HEX-G019-189, concept: Veia cava inferior, status: generated, source: assets/canonical/G019/HEX-G019-189/base-art.svg, metadata: assets/canonical/G019/HEX-G019-189/asset.yml}
-      - {id: HEX-G019-190, concept: Punções guiadas, status: generated, source: assets/canonical/G019/HEX-G019-190/base-art.svg, metadata: assets/canonical/G019/HEX-G019-190/asset.yml}
+      - {id: HEX-G020-191, concept: Células, status: generated, source: assets/canonical/G020/HEX-G020-191/base-art.svg, metadata: assets/canonical/G020/HEX-G020-191/asset.yml}
+      - {id: HEX-G020-192, concept: Tecidos, status: generated, source: assets/canonical/G020/HEX-G020-192/base-art.svg, metadata: assets/canonical/G020/HEX-G020-192/asset.yml}
+      - {id: HEX-G020-193, concept: Vasos, status: generated, source: assets/canonical/G020/HEX-G020-193/base-art.svg, metadata: assets/canonical/G020/HEX-G020-193/asset.yml}
+      - {id: HEX-G020-194, concept: Nervos, status: generated, source: assets/canonical/G020/HEX-G020-194/base-art.svg, metadata: assets/canonical/G020/HEX-G020-194/asset.yml}
+      - {id: HEX-G020-195, concept: Inflamação, status: generated, source: assets/canonical/G020/HEX-G020-195/base-art.svg, metadata: assets/canonical/G020/HEX-G020-195/asset.yml}
+      - {id: HEX-G020-196, concept: Cicatrização, status: generated, source: assets/canonical/G020/HEX-G020-196/base-art.svg, metadata: assets/canonical/G020/HEX-G020-196/asset.yml}
+      - {id: HEX-G020-197, concept: Imunidade, status: generated, source: assets/canonical/G020/HEX-G020-197/base-art.svg, metadata: assets/canonical/G020/HEX-G020-197/asset.yml}
+      - {id: HEX-G020-198, concept: Microrganismos, status: generated, source: assets/canonical/G020/HEX-G020-198/base-art.svg, metadata: assets/canonical/G020/HEX-G020-198/asset.yml}
+      - {id: HEX-G020-199, concept: Escalas visuais, status: generated, source: assets/canonical/G020/HEX-G020-199/base-art.svg, metadata: assets/canonical/G020/HEX-G020-199/asset.yml}
+      - {id: HEX-G020-200, concept: Biblioteca mestre de componentes, status: generated, source: assets/canonical/G020/HEX-G020-200/base-art.svg, metadata: assets/canonical/G020/HEX-G020-200/asset.yml}
 cycle_generation_rule: >-
   Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
