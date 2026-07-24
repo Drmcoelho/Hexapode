@@ -1,0 +1,12 @@
+id: HEX-A026-260
+concept: Umidificador aquecido avançado
+cycle: A026
+layer: advanced
+status: generated
+canonical_origin: HEX-G006-060
+prompt: Prancha didática vetorial sobre umidificador aquecido, câmara de água, placa térmica, sensores e condensação.
+alt: Umidificador aquecido com câmara, placa térmica, sensores e condensação no circuito.
+overlay: {title: Umidificador aquecido, labels: [câmara, placa aquecida, sensor, condensação]}
+consumers: [Ventila, Respira, Pediatria, Anestesia, Enfermagem]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
