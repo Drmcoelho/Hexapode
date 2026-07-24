@@ -1,0 +1,13 @@
+id: HEX-A024-238
+concept: "Tensão superficial e surfactante"
+cycle: A024
+layer: advanced
+status: generated
+canonical_origin: HEX-G004-038
+prompt: >-
+  Prancha vetorial avançada Hexápode mostrando interface ar-líquido alveolar, forças de tensão superficial e camada de surfactante.
+alt: Alvéolo circular com camada líquida, moléculas de surfactante e setas de tensão superficial reduzida.
+overlay: {title: "Tensão superficial e surfactante", labels: [interface ar-líquido, tensão superficial, surfactante]}
+consumers: [Respira, Ventila, Fisiologia, Neonatologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

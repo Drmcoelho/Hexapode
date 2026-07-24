@@ -1,0 +1,13 @@
+id: HEX-A024-231
+concept: "Inspiração — expansão torácica"
+cycle: A024
+layer: advanced
+status: generated
+canonical_origin: HEX-G004-031
+prompt: >-
+  Prancha vetorial avançada Hexápode sobre expansão torácica inspiratória, com setas de deslocamento costal, pulmões esquemáticos e relação entre volume e pressão.
+alt: Expansão lateral do tórax com pulmões insuflando e indicação de aumento de volume e queda da pressão alveolar.
+overlay: {title: "Inspiração — expansão torácica", labels: [expansão torácica, volume pulmonar, pressão alveolar]}
+consumers: [Respira, Ventila, Emergências, Fisiologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

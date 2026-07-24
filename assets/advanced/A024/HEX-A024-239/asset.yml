@@ -1,0 +1,13 @@
+id: HEX-A024-239
+concept: "Relação ventilação/perfusão"
+cycle: A024
+layer: advanced
+status: generated
+canonical_origin: HEX-G004-039
+prompt: >-
+  Prancha vetorial avançada Hexápode comparando unidades pulmonares com baixa, normal e alta relação ventilação-perfusão.
+alt: Três módulos mostram diferentes proporções entre entrada de ar e perfusão capilar, identificadas como baixa V/Q, normal e alta V/Q.
+overlay: {title: "Relação ventilação/perfusão", labels: [baixa V/Q, normal, alta V/Q]}
+consumers: [Respira, Ventila, Cardio, Emergências, Fisiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

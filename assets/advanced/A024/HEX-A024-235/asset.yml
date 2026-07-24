@@ -1,0 +1,13 @@
+id: HEX-A024-235
+concept: "Volumes e fluxos pulmonares"
+cycle: A024
+layer: advanced
+status: generated
+canonical_origin: HEX-G004-035
+prompt: >-
+  Prancha vetorial avançada Hexápode com curvas sincronizadas de volume-tempo e fluxo-tempo.
+alt: Dois gráficos lado a lado mostram volume aumentando na inspiração e fluxo positivo seguido por fluxo expiratório negativo.
+overlay: {title: "Volumes e fluxos pulmonares", labels: [volume, fluxo, tempo]}
+consumers: [Respira, Ventila, Fisiologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

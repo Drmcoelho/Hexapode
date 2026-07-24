@@ -1,0 +1,13 @@
+id: HEX-A024-232
+concept: "Inspiração — contração diafragmática"
+cycle: A024
+layer: advanced
+status: generated
+canonical_origin: HEX-G004-032
+prompt: >-
+  Prancha vetorial avançada Hexápode mostrando contração e descenso do diafragma durante a inspiração.
+alt: Pulmões esquemáticos acima de um diafragma rebaixado, com seta inferior indicando descenso inspiratório.
+overlay: {title: "Inspiração — contração diafragmática", labels: [diafragma, contração, descenso]}
+consumers: [Respira, Ventila, Emergências, Fisiologia, Pediatria]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

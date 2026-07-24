@@ -1,0 +1,13 @@
+id: HEX-A024-237
+concept: "Resistência das vias aéreas"
+cycle: A024
+layer: advanced
+status: generated
+canonical_origin: HEX-G004-037
+prompt: >-
+  Prancha vetorial avançada Hexápode com árvore brônquica, corte transversal de via aérea e relação inversa entre raio e resistência.
+alt: Árvore brônquica conectada a corte de via aérea estreitada, acompanhada da relação resistência proporcional ao inverso do raio à quarta potência.
+overlay: {title: "Resistência das vias aéreas", labels: [raio, calibre, resistência, fluxo]}
+consumers: [Respira, Ventila, Emergências, Farmacologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

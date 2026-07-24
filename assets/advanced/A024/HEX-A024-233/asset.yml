@@ -1,0 +1,13 @@
+id: HEX-A024-233
+concept: "Expiração — recuo elástico"
+cycle: A024
+layer: advanced
+status: generated
+canonical_origin: HEX-G004-033
+prompt: >-
+  Prancha vetorial avançada Hexápode sobre expiração passiva, recuo elástico pulmonar e ascensão diafragmática.
+alt: Pulmões reduzindo de volume com setas para dentro e diafragma ascendendo.
+overlay: {title: "Expiração — recuo elástico", labels: [recuo elástico, expiração, volume de repouso]}
+consumers: [Respira, Ventila, Fisiologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

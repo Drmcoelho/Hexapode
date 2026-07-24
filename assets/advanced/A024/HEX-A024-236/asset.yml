@@ -1,0 +1,13 @@
+id: HEX-A024-236
+concept: "Complacência pulmonar"
+cycle: A024
+layer: advanced
+status: generated
+canonical_origin: HEX-G004-036
+prompt: >-
+  Prancha vetorial avançada Hexápode com curva pressão-volume e destaque para a inclinação que representa complacência.
+alt: Curva pressão-volume ascendente com segmento de inclinação marcado como complacência pulmonar.
+overlay: {title: "Complacência pulmonar", labels: [pressão, volume, inclinação]}
+consumers: [Respira, Ventila, Fisiologia, Emergências]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
