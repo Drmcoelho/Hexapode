@@ -1,0 +1,12 @@
+id: HEX-A031-302
+concept: Cormack–Lehane avançado
+cycle: A031
+layer: advanced
+status: generated
+canonical_source: HEX-G011-102
+prompt: Prancha didática médica sobre os graus de Cormack–Lehane e progressão da dificuldade de visualização glótica.
+alt: Quatro quadros com visão glótica progressivamente menor, dos graus I a IV.
+overlay: {title: Cormack–Lehane avançado, labels: [grau I, grau II, grau III, grau IV]}
+consumers: [ViaAerea, Emergencias, Anestesia, UTI]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
