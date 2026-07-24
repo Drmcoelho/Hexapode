@@ -1,0 +1,12 @@
+id: HEX-A025-248
+concept: Shunt e espaço morto
+cycle: A025
+layer: advanced
+status: generated
+canonical_origin: HEX-G005-048
+prompt: Comparação didática entre V/Q normal, shunt e espaço morto alveolar.
+alt: Três painéis com ventilação e perfusão normais, perfusão sem ventilação e ventilação sem perfusão.
+overlay: {title: Shunt e espaço morto, labels: [V/Q normal, shunt, espaço morto, ventilação, perfusão]}
+consumers: [Respira, Ventila, Emergências, Cardio]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

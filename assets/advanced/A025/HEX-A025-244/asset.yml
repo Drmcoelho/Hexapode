@@ -1,0 +1,12 @@
+id: HEX-A025-244
+concept: Efeito Bohr
+cycle: A025
+layer: advanced
+status: generated
+canonical_origin: HEX-G005-044
+prompt: Comparação didática dos deslocamentos direito e esquerdo da curva da oxiemoglobina pelo efeito Bohr.
+alt: Duas curvas mostram redução da afinidade com aumento de CO2, hidrogênio e temperatura e o efeito oposto na alcalose e hipotermia.
+overlay: {title: Efeito Bohr, labels: [CO2, H+, temperatura, afinidade, descarga de O2]}
+consumers: [Respira, Cardio, Fisiologia, Emergências]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

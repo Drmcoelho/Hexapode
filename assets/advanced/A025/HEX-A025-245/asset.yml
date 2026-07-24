@@ -1,0 +1,12 @@
+id: HEX-A025-245
+concept: Controle da ventilação
+cycle: A025
+layer: advanced
+status: generated
+canonical_origin: HEX-G005-045
+prompt: Fluxograma médico dos estímulos químicos e mecânicos integrados pelos centros respiratórios e sua resposta ventilatória.
+alt: Centro respiratório recebe sinais de dióxido de carbono, oxigênio, pH e receptores pulmonares e ajusta a ventilação minuto.
+overlay: {title: Controle da ventilação, labels: [bulbo, ponte, PaCO2, PaO2, pH, ventilação minuto]}
+consumers: [Respira, Ventila, Neuro, Emergências]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

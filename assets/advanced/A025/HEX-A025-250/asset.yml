@@ -1,0 +1,12 @@
+id: HEX-A025-250
+concept: Troca de CO2 entre tecidos e pulmões
+cycle: A025
+layer: advanced
+status: generated
+canonical_origin: HEX-G005-050
+prompt: Esquema reversível da conversão de CO2 em bicarbonato na hemácia entre tecidos e pulmões.
+alt: Hemácia central mostra reação catalisada pela anidrase carbônica e fluxo de dióxido de carbono dos tecidos ao pulmão.
+overlay: {title: Troca de CO2 entre tecidos e pulmões, labels: [tecidos, pulmões, anidrase carbônica, bicarbonato, cloro]}
+consumers: [Respira, Cardio, Fisiologia, Nefrologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

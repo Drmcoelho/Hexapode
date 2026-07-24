@@ -1,0 +1,12 @@
+id: HEX-A025-241
+concept: Difusão alveolar de gases
+cycle: A025
+layer: advanced
+status: generated
+canonical_origin: HEX-G005-041
+prompt: Prancha médica didática sobre difusão de O2 e CO2 por gradientes de pressão parcial na membrana alvéolo-capilar.
+alt: Alvéolo e capilar com setas opostas mostrando oxigênio entrando no sangue e dióxido de carbono entrando no alvéolo.
+overlay: {title: Difusão alveolar de gases, labels: [alvéolo, capilar, O2, CO2, gradiente]}
+consumers: [Respira, Ventila, Fisiologia, Emergências]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

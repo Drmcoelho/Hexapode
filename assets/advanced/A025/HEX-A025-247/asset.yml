@@ -1,0 +1,12 @@
+id: HEX-A025-247
+concept: Vasoconstrição pulmonar hipóxica
+cycle: A025
+layer: advanced
+status: generated
+canonical_origin: HEX-G005-047
+prompt: Prancha didática mostrando vasoconstrição arteriolar em região alveolar hipóxica e redistribuição do fluxo.
+alt: Dois alvéolos com diferentes níveis de ventilação e vasos mostram o sangue sendo desviado da região hipóxica para a melhor ventilada.
+overlay: {title: Vasoconstrição pulmonar hipóxica, labels: [hipóxia alveolar, vasoconstrição, redistribuição, fluxo]}
+consumers: [Respira, Cardio, Ventila, Emergências]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

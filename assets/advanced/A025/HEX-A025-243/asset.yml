@@ -1,0 +1,12 @@
+id: HEX-A025-243
+concept: Curva de dissociação da oxiemoglobina
+cycle: A025
+layer: advanced
+status: generated
+canonical_origin: HEX-G005-043
+prompt: Gráfico didático da curva sigmoide de saturação da hemoglobina versus PO2, destacando platô e região íngreme.
+alt: Curva sigmoide com platô pulmonar e zona de descarga de oxigênio nos tecidos.
+overlay: {title: Curva de dissociação da oxiemoglobina, labels: [PO2, saturação, platô, região íngreme]}
+consumers: [Respira, Cardio, Fisiologia, Emergências]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
