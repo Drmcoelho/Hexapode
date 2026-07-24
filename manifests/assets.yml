@@ -11,8 +11,8 @@ production:
     - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: G017
-  completed_assets: 160
+  next_cycle: G018
+  completed_assets: 170
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycle_index:
@@ -32,24 +32,25 @@ cycle_index:
   - {id: G014, range: 131-140, theme: Emergências, status: generated, source_root: assets/canonical/G014}
   - {id: G015, range: 141-150, theme: Farmacologia, status: generated, source_root: assets/canonical/G015}
   - {id: G016, range: 151-160, theme: Nefrologia, status: generated, source_root: assets/canonical/G016}
+  - {id: G017, range: 161-170, theme: Neurologia, status: generated, source_root: assets/canonical/G017}
 cycles:
-  G016:
+  G017:
     layer: G
-    range: 151-160
-    theme: Nefrologia
+    range: 161-170
+    theme: Neurologia
     status: generated
     exports_pending: [base-art.png, thumbnail.webp]
     assets:
-      - {id: HEX-G016-151, concept: Néfron, status: generated, source: assets/canonical/G016/HEX-G016-151/base-art.svg, metadata: assets/canonical/G016/HEX-G016-151/asset.yml}
-      - {id: HEX-G016-152, concept: Glomérulo, status: generated, source: assets/canonical/G016/HEX-G016-152/base-art.svg, metadata: assets/canonical/G016/HEX-G016-152/asset.yml}
-      - {id: HEX-G016-153, concept: Túbulo proximal, status: generated, source: assets/canonical/G016/HEX-G016-153/base-art.svg, metadata: assets/canonical/G016/HEX-G016-153/asset.yml}
-      - {id: HEX-G016-154, concept: Alça de Henle, status: generated, source: assets/canonical/G016/HEX-G016-154/base-art.svg, metadata: assets/canonical/G016/HEX-G016-154/asset.yml}
-      - {id: HEX-G016-155, concept: Túbulo distal, status: generated, source: assets/canonical/G016/HEX-G016-155/base-art.svg, metadata: assets/canonical/G016/HEX-G016-155/asset.yml}
-      - {id: HEX-G016-156, concept: Ducto coletor, status: generated, source: assets/canonical/G016/HEX-G016-156/base-art.svg, metadata: assets/canonical/G016/HEX-G016-156/asset.yml}
-      - {id: HEX-G016-157, concept: Hemodiálise, status: generated, source: assets/canonical/G016/HEX-G016-157/base-art.svg, metadata: assets/canonical/G016/HEX-G016-157/asset.yml}
-      - {id: HEX-G016-158, concept: Diálise peritoneal, status: generated, source: assets/canonical/G016/HEX-G016-158/base-art.svg, metadata: assets/canonical/G016/HEX-G016-158/asset.yml}
-      - {id: HEX-G016-159, concept: Ultrafiltração, status: generated, source: assets/canonical/G016/HEX-G016-159/base-art.svg, metadata: assets/canonical/G016/HEX-G016-159/asset.yml}
-      - {id: HEX-G016-160, concept: Distúrbios hidroeletrolíticos, status: generated, source: assets/canonical/G016/HEX-G016-160/base-art.svg, metadata: assets/canonical/G016/HEX-G016-160/asset.yml}
+      - {id: HEX-G017-161, concept: Neurônio, status: generated, source: assets/canonical/G017/HEX-G017-161/base-art.svg, metadata: assets/canonical/G017/HEX-G017-161/asset.yml}
+      - {id: HEX-G017-162, concept: Sinapse, status: generated, source: assets/canonical/G017/HEX-G017-162/base-art.svg, metadata: assets/canonical/G017/HEX-G017-162/asset.yml}
+      - {id: HEX-G017-163, concept: Potencial de ação, status: generated, source: assets/canonical/G017/HEX-G017-163/base-art.svg, metadata: assets/canonical/G017/HEX-G017-163/asset.yml}
+      - {id: HEX-G017-164, concept: Tronco encefálico, status: generated, source: assets/canonical/G017/HEX-G017-164/base-art.svg, metadata: assets/canonical/G017/HEX-G017-164/asset.yml}
+      - {id: HEX-G017-165, concept: Cerebelo, status: generated, source: assets/canonical/G017/HEX-G017-165/base-art.svg, metadata: assets/canonical/G017/HEX-G017-165/asset.yml}
+      - {id: HEX-G017-166, concept: Hemisférios, status: generated, source: assets/canonical/G017/HEX-G017-166/base-art.svg, metadata: assets/canonical/G017/HEX-G017-166/asset.yml}
+      - {id: HEX-G017-167, concept: AVC, status: generated, source: assets/canonical/G017/HEX-G017-167/base-art.svg, metadata: assets/canonical/G017/HEX-G017-167/asset.yml}
+      - {id: HEX-G017-168, concept: Epilepsia, status: generated, source: assets/canonical/G017/HEX-G017-168/base-art.svg, metadata: assets/canonical/G017/HEX-G017-168/asset.yml}
+      - {id: HEX-G017-169, concept: PIC, status: generated, source: assets/canonical/G017/HEX-G017-169/base-art.svg, metadata: assets/canonical/G017/HEX-G017-169/asset.yml}
+      - {id: HEX-G017-170, concept: Herniações, status: generated, source: assets/canonical/G017/HEX-G017-170/base-art.svg, metadata: assets/canonical/G017/HEX-G017-170/asset.yml}
 cycle_generation_rule: >-
   Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
