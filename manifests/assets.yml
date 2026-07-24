@@ -11,8 +11,8 @@ production:
     - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: A032
-  completed_assets: 310
+  next_cycle: A033
+  completed_assets: 320
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycle_index:
@@ -47,24 +47,25 @@ cycle_index:
   - {id: A029, range: 281-290, theme: Assincronias Avançadas, status: generated, source_root: assets/advanced/A029}
   - {id: A030, range: 291-300, theme: Patologias Respiratórias Avançadas, status: generated, source_root: assets/advanced/A030}
   - {id: A031, range: 301-310, theme: Via Aérea Avançada, status: generated, source_root: assets/advanced/A031}
+  - {id: A032, range: 311-320, theme: Gasometria Avançada, status: generated, source_root: assets/advanced/A032}
 cycles:
-  A031:
+  A032:
     layer: A
-    range: 301-310
-    theme: Via Aérea Avançada
+    range: 311-320
+    theme: Gasometria Avançada
     status: generated
     exports_pending: [base-art.png, thumbnail.webp]
     assets:
-      - {id: HEX-A031-301, concept: Mallampati avançado, status: generated, source: assets/advanced/A031/HEX-A031-301/base-art.svg, metadata: assets/advanced/A031/HEX-A031-301/asset.yml}
-      - {id: HEX-A031-302, concept: Cormack–Lehane avançado, status: generated, source: assets/advanced/A031/HEX-A031-302/base-art.svg, metadata: assets/advanced/A031/HEX-A031-302/asset.yml}
-      - {id: HEX-A031-303, concept: Manipulação laríngea externa, status: generated, source: assets/advanced/A031/HEX-A031-303/base-art.svg, metadata: assets/advanced/A031/HEX-A031-303/asset.yml}
-      - {id: HEX-A031-304, concept: Posição de rampa, status: generated, source: assets/advanced/A031/HEX-A031-304/base-art.svg, metadata: assets/advanced/A031/HEX-A031-304/asset.yml}
-      - {id: HEX-A031-305, concept: Cuff traqueal avançado, status: generated, source: assets/advanced/A031/HEX-A031-305/base-art.svg, metadata: assets/advanced/A031/HEX-A031-305/asset.yml}
-      - {id: HEX-A031-306, concept: Videolaringoscopia avançada, status: generated, source: assets/advanced/A031/HEX-A031-306/base-art.svg, metadata: assets/advanced/A031/HEX-A031-306/asset.yml}
-      - {id: HEX-A031-307, concept: Bougie avançado, status: generated, source: assets/advanced/A031/HEX-A031-307/base-art.svg, metadata: assets/advanced/A031/HEX-A031-307/asset.yml}
-      - {id: HEX-A031-308, concept: Dispositivo supraglótico avançado, status: generated, source: assets/advanced/A031/HEX-A031-308/base-art.svg, metadata: assets/advanced/A031/HEX-A031-308/asset.yml}
-      - {id: HEX-A031-309, concept: Cricotireoidostomia de emergência, status: generated, source: assets/advanced/A031/HEX-A031-309/base-art.svg, metadata: assets/advanced/A031/HEX-A031-309/asset.yml}
-      - {id: HEX-A031-310, concept: Sequência rápida de intubação, status: generated, source: assets/advanced/A031/HEX-A031-310/base-art.svg, metadata: assets/advanced/A031/HEX-A031-310/asset.yml}
+      - {id: HEX-A032-311, concept: Interpretação sistemática da gasometria, status: generated, source: assets/advanced/A032/HEX-A032-311/base-art.svg, metadata: assets/advanced/A032/HEX-A032-311/asset.yml}
+      - {id: HEX-A032-312, concept: Distúrbios ácido-base primários, status: generated, source: assets/advanced/A032/HEX-A032-312/base-art.svg, metadata: assets/advanced/A032/HEX-A032-312/asset.yml}
+      - {id: HEX-A032-313, concept: Compensações esperadas, status: generated, source: assets/advanced/A032/HEX-A032-313/base-art.svg, metadata: assets/advanced/A032/HEX-A032-313/asset.yml}
+      - {id: HEX-A032-314, concept: Fórmula de Winter, status: generated, source: assets/advanced/A032/HEX-A032-314/base-art.svg, metadata: assets/advanced/A032/HEX-A032-314/asset.yml}
+      - {id: HEX-A032-315, concept: Ânion gap e causas, status: generated, source: assets/advanced/A032/HEX-A032-315/base-art.svg, metadata: assets/advanced/A032/HEX-A032-315/asset.yml}
+      - {id: HEX-A032-316, concept: Delta gap, status: generated, source: assets/advanced/A032/HEX-A032-316/base-art.svg, metadata: assets/advanced/A032/HEX-A032-316/asset.yml}
+      - {id: HEX-A032-317, concept: Gradiente alvéolo-arterial, status: generated, source: assets/advanced/A032/HEX-A032-317/base-art.svg, metadata: assets/advanced/A032/HEX-A032-317/asset.yml}
+      - {id: HEX-A032-318, concept: Relação PaO2/FiO2, status: generated, source: assets/advanced/A032/HEX-A032-318/base-art.svg, metadata: assets/advanced/A032/HEX-A032-318/asset.yml}
+      - {id: HEX-A032-319, concept: Conteúdo arterial e oferta de oxigênio, status: generated, source: assets/advanced/A032/HEX-A032-319/base-art.svg, metadata: assets/advanced/A032/HEX-A032-319/asset.yml}
+      - {id: HEX-A032-320, concept: Lactato e depuração, status: generated, source: assets/advanced/A032/HEX-A032-320/base-art.svg, metadata: assets/advanced/A032/HEX-A032-320/asset.yml}
 cycle_generation_rule: >-
   Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
