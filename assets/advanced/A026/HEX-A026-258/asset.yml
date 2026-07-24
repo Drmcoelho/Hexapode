@@ -1,0 +1,12 @@
+id: HEX-A026-258
+concept: HFNC avançada
+cycle: A026
+layer: advanced
+status: generated
+canonical_origin: HEX-G006-058
+prompt: Prancha didática vetorial sobre cânula nasal de alto fluxo com blender, aquecedor, umidificação e efeitos fisiológicos.
+alt: Sistema HFNC com mistura de gases, aquecimento, umidificação e cânula nasal.
+overlay: {title: HFNC, labels: [blender, aquecedor, alto fluxo, FiO2, espaço morto]}
+consumers: [Respira, Ventila, Emergências, Pediatria, UTI]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
