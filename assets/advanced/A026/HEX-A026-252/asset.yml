@@ -1,0 +1,12 @@
+id: HEX-A026-252
+concept: Circuito ventilatório avançado
+cycle: A026
+layer: advanced
+status: generated
+canonical_origin: HEX-G006-052
+prompt: Prancha didática vetorial sobre circuito inspiratório e expiratório, peça Y, sensores e direção do fluxo.
+alt: Circuito ventilatório com dois ramos, peça Y, sensores e paciente.
+overlay: {title: Circuito ventilatório, labels: [ramo inspiratório, ramo expiratório, peça Y, sensores]}
+consumers: [Ventila, Respira, Emergências, Pediatria, Enfermagem]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
