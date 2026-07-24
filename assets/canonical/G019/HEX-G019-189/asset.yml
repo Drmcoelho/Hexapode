@@ -1,0 +1,11 @@
+id: HEX-G019-189
+concept: Veia cava inferior
+cycle: G019
+layer: canonical
+status: generated
+prompt: Prancha vetorial Hexápode sobre diâmetro e variação respiratória da veia cava inferior.
+alt: Veia cava inferior com diâmetros máximo e mínimo e fatores contextuais de interpretação.
+overlay: {title: Veia cava inferior, labels: [diâmetro máximo, diâmetro mínimo, variação respiratória, contexto]}
+consumers: [USG, Cardio, Emergências, Nefrologia, Ventila]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
