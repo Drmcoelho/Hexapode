@@ -1,0 +1,13 @@
+id: HEX-A034-336
+concept: Estado de mal asmático: aprisionamento aéreo e fadiga
+cycle: A034
+layer: advanced
+status: generated
+canonical_origin: HEX-G014-136
+prompt: >-
+  Prancha médica didática Hexápode sobre broncoespasmo grave, limitação expiratória, hiperinsuflação dinâmica, auto-PEEP, trabalho respiratório e fadiga.
+alt: Brônquio estreitado conduzindo a pulmões hiperinsuflados e à sequência limitação expiratória, auto-PEEP, fadiga e falência.
+overlay: {title: Estado de mal asmático, labels: [broncoespasmo, hiperinsuflação, auto-PEEP, fadiga, falência]}
+consumers: [Emergências, Respira, Ventila, Pediatria, UTI]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
