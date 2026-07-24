@@ -1,0 +1,15 @@
+id: HEX-A030-298
+concept: Tromboembolia pulmonar
+cycle: A030
+layer: advanced
+status: generated
+prompt: >-
+  Prancha didática avançada sobre tromboembolia pulmonar, da trombose venosa à obstrução vascular, espaço morto e sobrecarga de ventrículo direito.
+alt: Fluxo em quatro etapas mostra trombo venoso, embolização, obstrução pulmonar e sobrecarga direita.
+overlay:
+  title: Tromboembolia pulmonar
+  labels: [trombo, êmbolo, obstrução, espaço morto, ventrículo direito]
+consumers: [Respira, Ventila, Emergências, Cardio, Ultrassom, Hematologia]
+source_canonical: HEX-G010-099
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

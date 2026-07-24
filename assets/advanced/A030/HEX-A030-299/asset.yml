@@ -1,0 +1,15 @@
+id: HEX-A030-299
+concept: Hipertensão pulmonar
+cycle: A030
+layer: advanced
+status: generated
+prompt: >-
+  Prancha didática avançada sobre hipertensão pulmonar, mostrando remodelamento arterial, aumento de resistência e progressão para falência do ventrículo direito.
+alt: Corte transversal compara artéria pulmonar normal e remodelada, com lúmen reduzido e parede espessada.
+overlay:
+  title: Hipertensão pulmonar
+  labels: [remodelamento, íntima, média, resistência vascular, ventrículo direito]
+consumers: [Respira, Ventila, Cardio, Pneumologia, Reumatologia, Ultrassom]
+source_canonical: HEX-G010-099
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

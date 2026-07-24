@@ -11,8 +11,8 @@ production:
     - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: A030
-  completed_assets: 290
+  next_cycle: A031
+  completed_assets: 300
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycle_index:
@@ -45,24 +45,25 @@ cycle_index:
   - {id: A027, range: 261-270, theme: Curvas Avançadas, status: generated, source_root: assets/advanced/A027}
   - {id: A028, range: 271-280, theme: Modos Ventilatórios Avançados, status: generated, source_root: assets/advanced/A028}
   - {id: A029, range: 281-290, theme: Assincronias Avançadas, status: generated, source_root: assets/advanced/A029}
+  - {id: A030, range: 291-300, theme: Patologias Respiratórias Avançadas, status: generated, source_root: assets/advanced/A030}
 cycles:
-  A029:
+  A030:
     layer: A
-    range: 281-290
-    theme: Assincronias Avançadas
+    range: 291-300
+    theme: Patologias Respiratórias Avançadas
     status: generated
     exports_pending: [base-art.png, thumbnail.webp]
     assets:
-      - {id: HEX-A029-281, concept: Disparo ineficaz, status: generated, source: assets/advanced/A029/HEX-A029-281/base-art.svg, metadata: assets/advanced/A029/HEX-A029-281/asset.yml}
-      - {id: HEX-A029-282, concept: Duplo disparo, status: generated, source: assets/advanced/A029/HEX-A029-282/base-art.svg, metadata: assets/advanced/A029/HEX-A029-282/asset.yml}
-      - {id: HEX-A029-283, concept: Reverse trigger, status: generated, source: assets/advanced/A029/HEX-A029-283/base-art.svg, metadata: assets/advanced/A029/HEX-A029-283/asset.yml}
-      - {id: HEX-A029-284, concept: Auto-trigger, status: generated, source: assets/advanced/A029/HEX-A029-284/base-art.svg, metadata: assets/advanced/A029/HEX-A029-284/asset.yml}
-      - {id: HEX-A029-285, concept: Fome de fluxo, status: generated, source: assets/advanced/A029/HEX-A029-285/base-art.svg, metadata: assets/advanced/A029/HEX-A029-285/asset.yml}
-      - {id: HEX-A029-286, concept: Ciclagem precoce, status: generated, source: assets/advanced/A029/HEX-A029-286/base-art.svg, metadata: assets/advanced/A029/HEX-A029-286/asset.yml}
-      - {id: HEX-A029-287, concept: Ciclagem tardia, status: generated, source: assets/advanced/A029/HEX-A029-287/base-art.svg, metadata: assets/advanced/A029/HEX-A029-287/asset.yml}
-      - {id: HEX-A029-288, concept: Breath stacking, status: generated, source: assets/advanced/A029/HEX-A029-288/base-art.svg, metadata: assets/advanced/A029/HEX-A029-288/asset.yml}
-      - {id: HEX-A029-289, concept: Auto-PEEP dinâmica, status: generated, source: assets/advanced/A029/HEX-A029-289/base-art.svg, metadata: assets/advanced/A029/HEX-A029-289/asset.yml}
-      - {id: HEX-A029-290, concept: Correção das assincronias, status: generated, source: assets/advanced/A029/HEX-A029-290/base-art.svg, metadata: assets/advanced/A029/HEX-A029-290/asset.yml}
+      - {id: HEX-A030-291, concept: DPOC — fisiopatologia avançada, status: generated, source: assets/advanced/A030/HEX-A030-291/base-art.svg, metadata: assets/advanced/A030/HEX-A030-291/asset.yml}
+      - {id: HEX-A030-292, concept: Asma — fisiopatologia avançada, status: generated, source: assets/advanced/A030/HEX-A030-292/base-art.svg, metadata: assets/advanced/A030/HEX-A030-292/asset.yml}
+      - {id: HEX-A030-293, concept: Fibrose pulmonar idiopática, status: generated, source: assets/advanced/A030/HEX-A030-293/base-art.svg, metadata: assets/advanced/A030/HEX-A030-293/asset.yml}
+      - {id: HEX-A030-294, concept: SDRA — fases e mecânica, status: generated, source: assets/advanced/A030/HEX-A030-294/base-art.svg, metadata: assets/advanced/A030/HEX-A030-294/asset.yml}
+      - {id: HEX-A030-295, concept: Bronquiectasias — ciclo vicioso, status: generated, source: assets/advanced/A030/HEX-A030-295/base-art.svg, metadata: assets/advanced/A030/HEX-A030-295/asset.yml}
+      - {id: HEX-A030-296, concept: Pneumotórax — fisiopatologia, status: generated, source: assets/advanced/A030/HEX-A030-296/base-art.svg, metadata: assets/advanced/A030/HEX-A030-296/asset.yml}
+      - {id: HEX-A030-297, concept: Derrame pleural — fisiopatologia, status: generated, source: assets/advanced/A030/HEX-A030-297/base-art.svg, metadata: assets/advanced/A030/HEX-A030-297/asset.yml}
+      - {id: HEX-A030-298, concept: Tromboembolia pulmonar, status: generated, source: assets/advanced/A030/HEX-A030-298/base-art.svg, metadata: assets/advanced/A030/HEX-A030-298/asset.yml}
+      - {id: HEX-A030-299, concept: Hipertensão pulmonar, status: generated, source: assets/advanced/A030/HEX-A030-299/base-art.svg, metadata: assets/advanced/A030/HEX-A030-299/asset.yml}
+      - {id: HEX-A030-300, concept: Infecções respiratórias graves, status: generated, source: assets/advanced/A030/HEX-A030-300/base-art.svg, metadata: assets/advanced/A030/HEX-A030-300/asset.yml}
 cycle_generation_rule: >-
   Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:

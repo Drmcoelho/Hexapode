@@ -1,0 +1,15 @@
+id: HEX-A030-295
+concept: Bronquiectasias — ciclo vicioso
+cycle: A030
+layer: advanced
+status: generated
+prompt: >-
+  Prancha didática avançada sobre bronquiectasias, representando o ciclo entre retenção de secreções, infecção, inflamação persistente e dano estrutural brônquico.
+alt: Diagrama circular do ciclo vicioso das bronquiectasias com brônquio dilatado ao centro.
+overlay:
+  title: Bronquiectasias — ciclo vicioso
+  labels: [retenção de muco, infecção, inflamação, dano estrutural]
+consumers: [Respira, Ventila, Pneumologia, Infectologia, Pediatria, Fisioterapia]
+source_canonical: HEX-G010-100
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

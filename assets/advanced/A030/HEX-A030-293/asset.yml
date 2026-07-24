@@ -1,0 +1,15 @@
+id: HEX-A030-293
+concept: Fibrose pulmonar idiopática
+cycle: A030
+layer: advanced
+status: generated
+prompt: >-
+  Prancha didática avançada sobre fibrose pulmonar idiopática, mostrando progressão de alvéolo normal a espessamento intersticial, deposição de matriz e faveolamento.
+alt: Comparação entre alvéolos normais e fibrosados com espessamento septal e redução da difusão.
+overlay:
+  title: Fibrose pulmonar idiopática
+  labels: [fibroblastos, matriz, espessamento septal, faveolamento, DLCO]
+consumers: [Respira, Ventila, Medicina Interna, Pneumologia, Radiologia, Reabilitação]
+source_canonical: HEX-G010-097
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

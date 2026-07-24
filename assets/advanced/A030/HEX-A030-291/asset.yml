@@ -1,0 +1,15 @@
+id: HEX-A030-291
+concept: DPOC — fisiopatologia avançada
+cycle: A030
+layer: advanced
+status: generated
+prompt: >-
+  Prancha didática avançada sobre DPOC, integrando inflamação crônica, remodelamento das pequenas vias aéreas, muco, enfisema, aprisionamento aéreo e hiperinsuflação dinâmica.
+alt: DPOC avançada com corte brônquico estreitado e alvéolos ampliados por destruição septal.
+overlay:
+  title: DPOC — fisiopatologia avançada
+  labels: [inflamação, remodelamento, muco, enfisema, aprisionamento aéreo]
+consumers: [Respira, Ventila, Emergências, Medicina Interna, Pneumologia, Reabilitação]
+source_canonical: HEX-G010-092
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

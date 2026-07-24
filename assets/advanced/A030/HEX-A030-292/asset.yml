@@ -1,0 +1,15 @@
+id: HEX-A030-292
+concept: Asma — fisiopatologia avançada
+cycle: A030
+layer: advanced
+status: generated
+prompt: >-
+  Prancha didática avançada sobre asma, mostrando hiperresponsividade, inflamação tipo 2, broncoconstrição, edema de mucosa, muco e obstrução variável.
+alt: Comparação entre brônquio normal e em crise asmática, com cadeia inflamatória e obstrução do fluxo.
+overlay:
+  title: Asma — fisiopatologia avançada
+  labels: [hiperresponsividade, broncoconstrição, edema, muco, eosinófilos]
+consumers: [Respira, Ventila, Emergências, Pediatria, Alergia, Pneumologia]
+source_canonical: HEX-G010-093
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

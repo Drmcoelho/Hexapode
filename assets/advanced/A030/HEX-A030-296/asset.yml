@@ -1,0 +1,15 @@
+id: HEX-A030-296
+concept: Pneumotórax — fisiopatologia
+cycle: A030
+layer: advanced
+status: generated
+prompt: >-
+  Prancha didática avançada comparando pneumotórax fechado, aberto e hipertensivo, com perda do gradiente transpulmonar, colapso e repercussão hemodinâmica.
+alt: Três esquemas torácicos mostram pneumotórax fechado, aberto e hipertensivo com deslocamento mediastinal.
+overlay:
+  title: Pneumotórax — fisiopatologia
+  labels: [fechado, aberto, tensão, colapso, choque obstrutivo]
+consumers: [Respira, Ventila, Emergências, Trauma, Cirurgia, Ultrassom]
+source_canonical: HEX-G010-095
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

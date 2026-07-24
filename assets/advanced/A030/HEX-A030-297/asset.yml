@@ -1,0 +1,15 @@
+id: HEX-A030-297
+concept: Derrame pleural — fisiopatologia
+cycle: A030
+layer: advanced
+status: generated
+prompt: >-
+  Prancha didática avançada sobre derrame pleural, comparando transudato e exsudato, mecanismos de formação e repercussões ventilatórias.
+alt: Comparação entre derrame transudativo azul e exsudativo avermelhado com compressão pulmonar.
+overlay:
+  title: Derrame pleural — fisiopatologia
+  labels: [transudato, exsudato, pressão hidrostática, permeabilidade, compressão]
+consumers: [Respira, Ventila, Emergências, Pneumologia, Ultrassom, Medicina Interna]
+source_canonical: HEX-G010-096
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

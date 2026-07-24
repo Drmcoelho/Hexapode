@@ -1,0 +1,15 @@
+id: HEX-A030-294
+concept: SDRA — fases e mecânica
+cycle: A030
+layer: advanced
+status: generated
+prompt: >-
+  Prancha didática avançada sobre SDRA, com fases exsudativa, proliferativa e fibroproliferativa, edema de permeabilidade, membranas hialinas, shunt e baixa complacência.
+alt: Três painéis mostram as fases da SDRA e suas alterações alveolares e funcionais.
+overlay:
+  title: SDRA — fases e mecânica
+  labels: [edema, membrana hialina, shunt, proliferação, fibrose]
+consumers: [Respira, Ventila, Emergências, Terapia Intensiva, Pneumologia, Pediatria]
+source_canonical: HEX-G010-091
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
