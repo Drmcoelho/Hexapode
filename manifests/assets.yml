@@ -11,8 +11,8 @@ production:
   - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: A039
-  completed_assets: 380
+  next_cycle: A040
+  completed_assets: 390
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycle_index:
@@ -54,24 +54,25 @@ cycle_index:
 - {id: A036, range: 351-360, theme: Nefrologia Avançada, status: generated, source_root: assets/advanced/A036}
 - {id: A037, range: 361-370, theme: Neurologia Avançada, status: generated, source_root: assets/advanced/A037}
 - {id: A038, range: 371-380, theme: Cardiologia Avançada, status: generated, source_root: assets/advanced/A038}
+- {id: A039, range: 381-390, theme: Ultrassom Avançado, status: generated, source_root: assets/advanced/A039}
 cycles:
-  A038:
+  A039:
     layer: A
-    range: 371-380
-    theme: Cardiologia Avançada
+    range: 381-390
+    theme: Ultrassom Avançado
     status: generated
     exports_pending: [base-art.png, thumbnail.webp]
     assets:
-    - {id: HEX-A038-371, concept: Sistema de condução cardíaca, status: generated, source: assets/advanced/A038/HEX-A038-371/base-art.svg, metadata: assets/advanced/A038/HEX-A038-371/asset.yml}
-    - {id: HEX-A038-372, concept: Potencial de ação cardíaco, status: generated, source: assets/advanced/A038/HEX-A038-372/base-art.svg, metadata: assets/advanced/A038/HEX-A038-372/asset.yml}
-    - {id: HEX-A038-373, concept: Ciclo cardíaco integrado, status: generated, source: assets/advanced/A038/HEX-A038-373/base-art.svg, metadata: assets/advanced/A038/HEX-A038-373/asset.yml}
-    - {id: HEX-A038-374, concept: Débito cardíaco e determinantes, status: generated, source: assets/advanced/A038/HEX-A038-374/base-art.svg, metadata: assets/advanced/A038/HEX-A038-374/asset.yml}
-    - {id: HEX-A038-375, concept: Insuficiência cardíaca, status: generated, source: assets/advanced/A038/HEX-A038-375/base-art.svg, metadata: assets/advanced/A038/HEX-A038-375/asset.yml}
-    - {id: HEX-A038-376, concept: Arritmias: classificação, status: generated, source: assets/advanced/A038/HEX-A038-376/base-art.svg, metadata: assets/advanced/A038/HEX-A038-376/asset.yml}
-    - {id: HEX-A038-377, concept: Infarto agudo do miocárdio, status: generated, source: assets/advanced/A038/HEX-A038-377/base-art.svg, metadata: assets/advanced/A038/HEX-A038-377/asset.yml}
-    - {id: HEX-A038-378, concept: Choque cardiogênico, status: generated, source: assets/advanced/A038/HEX-A038-378/base-art.svg, metadata: assets/advanced/A038/HEX-A038-378/asset.yml}
-    - {id: HEX-A038-379, concept: Ecocardiograma: janelas básicas, status: generated, source: assets/advanced/A038/HEX-A038-379/base-art.svg, metadata: assets/advanced/A038/HEX-A038-379/asset.yml}
-    - {id: HEX-A038-380, concept: Ecocardiograma: parâmetros, status: generated, source: assets/advanced/A038/HEX-A038-380/base-art.svg, metadata: assets/advanced/A038/HEX-A038-380/asset.yml}
+    - {id: HEX-A039-381, concept: Janelas acústicas do ultrassom, status: generated, source: assets/advanced/A039/HEX-A039-381/base-art.svg, metadata: assets/advanced/A039/HEX-A039-381/asset.yml}
+    - {id: HEX-A039-382, concept: Doppler colorido, status: generated, source: assets/advanced/A039/HEX-A039-382/base-art.svg, metadata: assets/advanced/A039/HEX-A039-382/asset.yml}
+    - {id: HEX-A039-383, concept: Doppler espectral, status: generated, source: assets/advanced/A039/HEX-A039-383/base-art.svg, metadata: assets/advanced/A039/HEX-A039-383/asset.yml}
+    - {id: HEX-A039-384, concept: Padrão A-lines, status: generated, source: assets/advanced/A039/HEX-A039-384/base-art.svg, metadata: assets/advanced/A039/HEX-A039-384/asset.yml}
+    - {id: HEX-A039-385, concept: Padrão B-lines, status: generated, source: assets/advanced/A039/HEX-A039-385/base-art.svg, metadata: assets/advanced/A039/HEX-A039-385/asset.yml}
+    - {id: HEX-A039-386, concept: Pneumotórax no ultrassom, status: generated, source: assets/advanced/A039/HEX-A039-386/base-art.svg, metadata: assets/advanced/A039/HEX-A039-386/asset.yml}
+    - {id: HEX-A039-387, concept: Derrame pleural no ultrassom, status: generated, source: assets/advanced/A039/HEX-A039-387/base-art.svg, metadata: assets/advanced/A039/HEX-A039-387/asset.yml}
+    - {id: HEX-A039-388, concept: Consolidação pulmonar, status: generated, source: assets/advanced/A039/HEX-A039-388/base-art.svg, metadata: assets/advanced/A039/HEX-A039-388/asset.yml}
+    - {id: HEX-A039-389, concept: Diafragma em M-mode, status: generated, source: assets/advanced/A039/HEX-A039-389/base-art.svg, metadata: assets/advanced/A039/HEX-A039-389/asset.yml}
+    - {id: HEX-A039-390, concept: Setor, foco e profundidade, status: generated, source: assets/advanced/A039/HEX-A039-390/base-art.svg, metadata: assets/advanced/A039/HEX-A039-390/asset.yml}
 cycle_generation_rule: Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
   source_required: [base-art.svg, asset.yml]
