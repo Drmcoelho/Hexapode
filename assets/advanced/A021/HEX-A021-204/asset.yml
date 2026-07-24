@@ -1,0 +1,15 @@
+id: HEX-A021-204
+concept: Corpo humano masculino aplicado
+cycle: A021
+layer: advanced
+status: generated
+prompt: >-
+  Prancha avançada Hexápode sobre corpo humano masculino aplicado, composição editorial 4:3, paleta canônica, diagramas vetoriais e aplicação transversal.
+alt: Mapa anatômico masculino esquemático com integração entre regiões e sistemas.
+overlay:
+  title: Corpo humano masculino aplicado
+  subtitle: Mapa anatômico masculino esquemático com integração entre regiões e sistemas.
+  labels: [Corpo humano masculino]
+consumers: [Respira, Ventila, Cardio, Trauma, Neuro, Nefrologia, Ultrassom, Farmacologia, Pediatria, Emergências, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

@@ -1,0 +1,15 @@
+id: HEX-A021-210
+concept: Templates aplicados
+cycle: A021
+layer: advanced
+status: generated
+prompt: >-
+  Prancha avançada Hexápode sobre templates aplicados, composição editorial 4:3, paleta canônica, diagramas vetoriais e aplicação transversal.
+alt: Família de templates para capítulos, comparações, algoritmos, casos e monitorização.
+overlay:
+  title: Templates aplicados
+  subtitle: Família de templates para capítulos, comparações, algoritmos, casos e monitorização.
+  labels: [Templatess]
+consumers: [Respira, Ventila, Cardio, Trauma, Neuro, Nefrologia, Ultrassom, Farmacologia, Pediatria, Emergências, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

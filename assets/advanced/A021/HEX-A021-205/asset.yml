@@ -1,0 +1,15 @@
+id: HEX-A021-205
+concept: Corpo humano feminino aplicado
+cycle: A021
+layer: advanced
+status: generated
+prompt: >-
+  Prancha avançada Hexápode sobre corpo humano feminino aplicado, composição editorial 4:3, paleta canônica, diagramas vetoriais e aplicação transversal.
+alt: Mapa anatômico feminino esquemático com integração entre regiões e sistemas.
+overlay:
+  title: Corpo humano feminino aplicado
+  subtitle: Mapa anatômico feminino esquemático com integração entre regiões e sistemas.
+  labels: [Corpo humano feminino]
+consumers: [Respira, Ventila, Cardio, Trauma, Neuro, Nefrologia, Ultrassom, Farmacologia, Pediatria, Emergências, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

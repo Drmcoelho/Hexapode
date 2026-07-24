@@ -1,0 +1,15 @@
+id: HEX-A021-207
+concept: Grid editorial aplicado
+cycle: A021
+layer: advanced
+status: generated
+prompt: >-
+  Prancha avançada Hexápode sobre grid editorial aplicado, composição editorial 4:3, paleta canônica, diagramas vetoriais e aplicação transversal.
+alt: Malha de 12 colunas, espaçamento e adaptações responsivas para atlas e painéis.
+overlay:
+  title: Grid editorial aplicado
+  subtitle: Malha de 12 colunas, espaçamento e adaptações responsivas para atlas e painéis.
+  labels: [Grid editorial]
+consumers: [Respira, Ventila, Cardio, Trauma, Neuro, Nefrologia, Ultrassom, Farmacologia, Pediatria, Emergências, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

@@ -1,0 +1,15 @@
+id: HEX-A021-208
+concept: Sistema de setas aplicado
+cycle: A021
+layer: advanced
+status: generated
+prompt: >-
+  Prancha avançada Hexápode sobre sistema de setas aplicado, composição editorial 4:3, paleta canônica, diagramas vetoriais e aplicação transversal.
+alt: Linguagem visual de fluxos, causalidade, feedback, migração e decisão clínica.
+overlay:
+  title: Sistema de setas aplicado
+  subtitle: Linguagem visual de fluxos, causalidade, feedback, migração e decisão clínica.
+  labels: [Sistema de setas]
+consumers: [Respira, Ventila, Cardio, Trauma, Neuro, Nefrologia, Ultrassom, Farmacologia, Pediatria, Emergências, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
