@@ -1,0 +1,15 @@
+id: HEX-A033-326
+concept: "Frank-Starling e responsividade a fluidos"
+cycle: A033
+layer: advanced
+status: generated
+canonical_source: HEX-G013-126
+prompt: >-
+  Prancha médica vetorial didática sobre curva de Frank-Starling, zona responsiva, platô,
+  teste dinâmico e decisão de fluidos baseada em resposta, tolerância e necessidade.
+alt: >-
+  Curva ascendente com platô e três círculos perguntando se o paciente responde, tolera e precisa de fluidos.
+overlay: {title: "Frank-Starling e responsividade a fluidos", labels: [pré-carga, volume sistólico, zona responsiva, platô]}
+consumers: [Cardio, Emergências, Nefrologia, Ventila, Fisiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
