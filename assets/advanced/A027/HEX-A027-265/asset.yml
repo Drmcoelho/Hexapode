@@ -1,0 +1,12 @@
+id: HEX-A027-265
+concept: Loop fluxo × volume avançado
+cycle: A027
+layer: advanced
+status: generated
+canonical_origin: HEX-G007-065
+prompt: Prancha médica vetorial didática sobre loop fluxo-volume e concavidade obstrutiva.
+alt: Loop fluxo-volume com ramos inspiratório e expiratório e concavidade obstrutiva destacada.
+overlay: {title: Loop fluxo × volume avançado, labels: [inspiração, expiração, concavidade]}
+consumers: [Respira, Ventila, Pneumologia, Fisiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
