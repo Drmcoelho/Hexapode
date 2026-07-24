@@ -1,0 +1,11 @@
+id: HEX-G017-167
+concept: AVC
+cycle: G017
+layer: canonical
+status: generated
+prompt: Prancha vetorial canônica Hexápode comparando AVC isquêmico e hemorrágico, com núcleo, penumbra e efeito de massa.
+alt: Comparação entre AVC isquêmico com oclusão, núcleo e penumbra e AVC hemorrágico com coleção sanguínea e efeito de massa.
+overlay: {title: AVC, labels: [isquêmico, penumbra, núcleo, hemorrágico, efeito de massa]}
+consumers: [Neuro, Emergências, Cardio, Trauma, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
