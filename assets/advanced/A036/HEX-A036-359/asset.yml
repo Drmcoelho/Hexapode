@@ -1,0 +1,16 @@
+id: HEX-A036-359
+concept: Anticoagulação na terapia renal substitutiva
+cycle: A036
+layer: advanced
+status: generated
+canonical_source: HEX-G016-159
+prompt: >-
+  Comparação Hexápode entre heparina sistêmica e citrato regional na terapia renal substitutiva contínua.
+alt: Duas colunas comparando heparina e citrato, monitorização, vantagens e riscos.
+overlay:
+  title: Anticoagulação na terapia renal substitutiva
+  subtitle: Heparina versus citrato regional
+  labels: [heparina, citrato, aPTT, cálcio, sangramento]
+consumers: [Nefrologia, UTI, Farmacologia, Hematologia, Enfermagem]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

@@ -1,0 +1,16 @@
+id: HEX-A036-351
+concept: Néfron integrado e autorregulação
+cycle: A036
+layer: advanced
+status: generated
+canonical_source: HEX-G016-151
+prompt: >-
+  Prancha didática Hexápode sobre autorregulação renal, aparelho justaglomerular, resposta miogênica e feedback tubuloglomerular.
+alt: Diagrama do néfron destacando glomérulo, mácula densa e os mecanismos de autorregulação da TFG.
+overlay:
+  title: Néfron integrado e autorregulação
+  subtitle: Feedback tubuloglomerular e resposta miogênica
+  labels: [glomérulo, mácula densa, resposta miogênica, feedback tubuloglomerular]
+consumers: [Nefrologia, Medicina Interna, UTI, Farmacologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

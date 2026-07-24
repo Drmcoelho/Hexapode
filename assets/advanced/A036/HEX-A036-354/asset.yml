@@ -1,0 +1,16 @@
+id: HEX-A036-354
+concept: Hipercalemia
+cycle: A036
+layer: advanced
+status: generated
+canonical_source: HEX-G016-154
+prompt: >-
+  Prancha Hexápode sobre hipercalemia, membrana, progressão eletrocardiográfica e sequência terapêutica.
+alt: Hipercalemia com onda T apiculada e três etapas: cálcio, redistribuição e remoção.
+overlay:
+  title: Hipercalemia
+  subtitle: Membrana, ECG e sequência terapêutica
+  labels: [potássio, ECG, cálcio, redistribuição, remoção]
+consumers: [Nefrologia, Emergências, Cardio, UTI, Farmacologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

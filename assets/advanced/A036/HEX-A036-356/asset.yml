@@ -1,0 +1,16 @@
+id: HEX-A036-356
+concept: Acidose metabólica renal
+cycle: A036
+layer: advanced
+status: generated
+canonical_source: HEX-G016-156
+prompt: >-
+  Infográfico Hexápode sobre acidose metabólica renal, amoniogênese, ácido titulável e compensação respiratória.
+alt: Comparação entre rim normal e doença renal mostrando retenção de ácidos e queda do bicarbonato.
+overlay:
+  title: Acidose metabólica renal
+  subtitle: Retenção de ácidos e compensação
+  labels: [amoniogênese, bicarbonato, ânion gap, fórmula de Winter]
+consumers: [Nefrologia, Gasometria, Medicina Interna, UTI, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

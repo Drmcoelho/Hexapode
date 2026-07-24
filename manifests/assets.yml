@@ -17,18 +17,10 @@ production:
     range: 401-600
   batch_size: 10
   total_cycles: 60
-  next_cycle: A036
-  completed_assets: 350
+  next_cycle: A037
+  completed_assets: 360
   status: active
-statuses:
-- planned
-- prompt_ready
-- generated
-- overlay_ready
-- reviewed
-- approved
-- integrated
-- blocked
+statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycle_index:
 - {id: G001, range: 1-10, theme: Identidade Visual, status: generated, source_root: assets/canonical/G001}
 - {id: G002, range: 11-20, theme: Anatomia Respiratória I, status: generated, source_root: assets/canonical/G002}
@@ -65,24 +57,25 @@ cycle_index:
 - {id: A033, range: 321-330, theme: Hemodinâmica Avançada, status: generated, source_root: assets/advanced/A033}
 - {id: A034, range: 331-340, theme: Emergências Avançadas, status: generated, source_root: assets/advanced/A034}
 - {id: A035, range: 341-350, theme: Farmacologia Avançada, status: generated, source_root: assets/advanced/A035}
+- {id: A036, range: 351-360, theme: Nefrologia Avançada, status: generated, source_root: assets/advanced/A036}
 cycles:
-  A035:
+  A036:
     layer: A
-    range: 341-350
-    theme: Farmacologia Avançada
+    range: 351-360
+    theme: Nefrologia Avançada
     status: generated
     exports_pending: [base-art.png, thumbnail.webp]
     assets:
-    - {id: HEX-A035-341, concept: Noradrenalina avançada, status: generated, source: assets/advanced/A035/HEX-A035-341/base-art.svg, metadata: assets/advanced/A035/HEX-A035-341/asset.yml}
-    - {id: HEX-A035-342, concept: Adrenalina avançada, status: generated, source: assets/advanced/A035/HEX-A035-342/base-art.svg, metadata: assets/advanced/A035/HEX-A035-342/asset.yml}
-    - {id: HEX-A035-343, concept: Dobutamina avançada, status: generated, source: assets/advanced/A035/HEX-A035-343/base-art.svg, metadata: assets/advanced/A035/HEX-A035-343/asset.yml}
-    - {id: HEX-A035-344, concept: Vasopressina avançada, status: generated, source: assets/advanced/A035/HEX-A035-344/base-art.svg, metadata: assets/advanced/A035/HEX-A035-344/asset.yml}
-    - {id: HEX-A035-345, concept: Midazolam avançado, status: generated, source: assets/advanced/A035/HEX-A035-345/base-art.svg, metadata: assets/advanced/A035/HEX-A035-345/asset.yml}
-    - {id: HEX-A035-346, concept: Fentanil avançado, status: generated, source: assets/advanced/A035/HEX-A035-346/base-art.svg, metadata: assets/advanced/A035/HEX-A035-346/asset.yml}
-    - {id: HEX-A035-347, concept: Cetamina avançada, status: generated, source: assets/advanced/A035/HEX-A035-347/base-art.svg, metadata: assets/advanced/A035/HEX-A035-347/asset.yml}
-    - {id: HEX-A035-348, concept: Etomidato avançado, status: generated, source: assets/advanced/A035/HEX-A035-348/base-art.svg, metadata: assets/advanced/A035/HEX-A035-348/asset.yml}
-    - {id: HEX-A035-349, concept: Rocurônio avançado, status: generated, source: assets/advanced/A035/HEX-A035-349/base-art.svg, metadata: assets/advanced/A035/HEX-A035-349/asset.yml}
-    - {id: HEX-A035-350, concept: Succinilcolina avançada, status: generated, source: assets/advanced/A035/HEX-A035-350/base-art.svg, metadata: assets/advanced/A035/HEX-A035-350/asset.yml}
+    - {id: HEX-A036-351, concept: Néfron integrado e autorregulação, status: generated, source: assets/advanced/A036/HEX-A036-351/base-art.svg, metadata: assets/advanced/A036/HEX-A036-351/asset.yml}
+    - {id: HEX-A036-352, concept: Taxa de filtração glomerular, status: generated, source: assets/advanced/A036/HEX-A036-352/base-art.svg, metadata: assets/advanced/A036/HEX-A036-352/asset.yml}
+    - {id: HEX-A036-353, concept: Lesão renal aguda, status: generated, source: assets/advanced/A036/HEX-A036-353/base-art.svg, metadata: assets/advanced/A036/HEX-A036-353/asset.yml}
+    - {id: HEX-A036-354, concept: Hipercalemia, status: generated, source: assets/advanced/A036/HEX-A036-354/base-art.svg, metadata: assets/advanced/A036/HEX-A036-354/asset.yml}
+    - {id: HEX-A036-355, concept: Distúrbios do sódio, status: generated, source: assets/advanced/A036/HEX-A036-355/base-art.svg, metadata: assets/advanced/A036/HEX-A036-355/asset.yml}
+    - {id: HEX-A036-356, concept: Acidose metabólica renal, status: generated, source: assets/advanced/A036/HEX-A036-356/base-art.svg, metadata: assets/advanced/A036/HEX-A036-356/asset.yml}
+    - {id: HEX-A036-357, concept: Hemodiálise, status: generated, source: assets/advanced/A036/HEX-A036-357/base-art.svg, metadata: assets/advanced/A036/HEX-A036-357/asset.yml}
+    - {id: HEX-A036-358, concept: Diálise peritoneal, status: generated, source: assets/advanced/A036/HEX-A036-358/base-art.svg, metadata: assets/advanced/A036/HEX-A036-358/asset.yml}
+    - {id: HEX-A036-359, concept: Anticoagulação na terapia renal substitutiva, status: generated, source: assets/advanced/A036/HEX-A036-359/base-art.svg, metadata: assets/advanced/A036/HEX-A036-359/asset.yml}
+    - {id: HEX-A036-360, concept: Transplante renal, status: generated, source: assets/advanced/A036/HEX-A036-360/base-art.svg, metadata: assets/advanced/A036/HEX-A036-360/asset.yml}
 cycle_generation_rule: Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
   source_required: [base-art.svg, asset.yml]

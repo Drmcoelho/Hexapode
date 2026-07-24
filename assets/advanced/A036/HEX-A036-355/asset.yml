@@ -1,0 +1,16 @@
+id: HEX-A036-355
+concept: Distúrbios do sódio
+cycle: A036
+layer: advanced
+status: generated
+canonical_source: HEX-G016-155
+prompt: >-
+  Comparação Hexápode entre hiponatremia e hipernatremia, osmolaridade, movimento de água cerebral e riscos de correção.
+alt: Duas células cerebrais, uma edemaciada na hiponatremia e outra retraída na hipernatremia.
+overlay:
+  title: Distúrbios do sódio
+  subtitle: Movimento de água cerebral e correção segura
+  labels: [hiponatremia, hipernatremia, edema cerebral, desmielinização]
+consumers: [Nefrologia, Neurologia, Emergências, UTI, Medicina Interna]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

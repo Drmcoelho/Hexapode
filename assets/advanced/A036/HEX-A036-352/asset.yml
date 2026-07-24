@@ -1,0 +1,16 @@
+id: HEX-A036-352
+concept: Taxa de filtração glomerular
+cycle: A036
+layer: advanced
+status: generated
+canonical_source: HEX-G016-152
+prompt: >-
+  Infográfico Hexápode sobre barreira glomerular, forças de Starling, Kf e pressão líquida de ultrafiltração.
+alt: Glomérulo esquemático com pressões hidrostática, oncótica e capsular e fórmula da TFG.
+overlay:
+  title: Taxa de filtração glomerular
+  subtitle: Forças de Starling e coeficiente de filtração
+  labels: [barreira glomerular, Kf, PUF, tônus arteriolar]
+consumers: [Nefrologia, Medicina Interna, UTI, Cardio, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

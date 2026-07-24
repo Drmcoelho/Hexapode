@@ -1,0 +1,16 @@
+id: HEX-A036-357
+concept: Hemodiálise
+cycle: A036
+layer: advanced
+status: generated
+canonical_source: HEX-G016-157
+prompt: >-
+  Diagrama Hexápode completo de hemodiálise com acesso, dialisador, contracorrente, difusão e ultrafiltração.
+alt: Circuito de hemodiálise com sangue, dialisato, membrana e três blocos explicativos.
+overlay:
+  title: Hemodiálise
+  subtitle: Difusão, ultrafiltração e circuito extracorpóreo
+  labels: [acesso, dialisador, difusão, ultrafiltração]
+consumers: [Nefrologia, UTI, Enfermagem, Emergências, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

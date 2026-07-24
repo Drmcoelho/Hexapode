@@ -1,0 +1,16 @@
+id: HEX-A036-360
+concept: Transplante renal
+cycle: A036
+layer: advanced
+status: generated
+canonical_source: HEX-G016-160
+prompt: >-
+  Prancha Hexápode sobre implante renal, imunossupressão, rejeição e vigilância pós-transplante.
+alt: Rins nativos e enxerto em fossa ilíaca com três blocos: imunossupressão, rejeição e vigilância.
+overlay:
+  title: Transplante renal
+  subtitle: Imunossupressão, rejeição e vigilância
+  labels: [enxerto, indução, rejeição, monitorização]
+consumers: [Nefrologia, Imunologia, Farmacologia, Cirurgia, Medicina Interna]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

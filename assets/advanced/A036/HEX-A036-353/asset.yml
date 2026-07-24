@@ -1,0 +1,16 @@
+id: HEX-A036-353
+concept: Lesão renal aguda
+cycle: A036
+layer: advanced
+status: generated
+canonical_source: HEX-G016-153
+prompt: >-
+  Fluxograma didático Hexápode da LRA com critérios KDIGO e diferenciação pré-renal, intrínseca e pós-renal.
+alt: Fluxograma de lesão renal aguda com critérios KDIGO e três grandes grupos etiológicos.
+overlay:
+  title: Lesão renal aguda
+  subtitle: KDIGO e raciocínio etiológico
+  labels: [pré-renal, intrínseca, pós-renal, KDIGO]
+consumers: [Nefrologia, Emergências, UTI, Medicina Interna, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

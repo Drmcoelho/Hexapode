@@ -1,0 +1,16 @@
+id: HEX-A036-358
+concept: Diálise peritoneal
+cycle: A036
+layer: advanced
+status: generated
+canonical_source: HEX-G016-158
+prompt: >-
+  Infográfico Hexápode de diálise peritoneal com infusão, permanência, drenagem, difusão e ultrafiltração osmótica.
+alt: Abdome esquemático com cateter e três fases do ciclo de diálise peritoneal.
+overlay:
+  title: Diálise peritoneal
+  subtitle: Troca através do peritônio
+  labels: [infusão, permanência, drenagem, peritonite]
+consumers: [Nefrologia, Enfermagem, Pediatria, Medicina Interna, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
