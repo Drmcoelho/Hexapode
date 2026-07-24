@@ -1,0 +1,12 @@
+id: HEX-A031-310
+concept: Sequência rápida de intubação
+cycle: A031
+layer: advanced
+status: generated
+canonical_source: HEX-G011-110
+prompt: Prancha didática médica sobre preparação, pré-oxigenação, indução, bloqueio, intubação, confirmação e cuidado pós-IOT.
+alt: Linha temporal com sete etapas da sequência rápida, da preparação à sedação pós-intubação.
+overlay: {title: Sequência rápida de intubação, labels: [preparação, pré-oxigenação, indução, bloqueio, ETCO2]}
+consumers: [ViaAerea, Emergencias, Anestesia, UTI, Farmacologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
