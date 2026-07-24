@@ -1,0 +1,14 @@
+id: HEX-A023-228
+concept: Membrana alvéolo-capilar avançada
+cycle: A023
+layer: advanced
+status: generated
+canonical_source: HEX-G003-028
+prompt: Camadas da barreira alvéolo-capilar, espessura, difusão e alterações patológicas.
+alt: Corte ampliado da membrana alvéolo-capilar com epitélio, interstício, endotélio e hemácia.
+overlay:
+  title: Membrana alvéolo-capilar avançada
+  labels: [epitélio alveolar, membrana basal, interstício, endotélio, hemácia]
+consumers: [Respira, Ventila, Cardio, Fisiologia, Patologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
