@@ -1,0 +1,11 @@
+id: HEX-G020-197
+concept: Imunidade
+cycle: G020
+layer: canonical
+status: generated
+prompt: Prancha vetorial Hexápode comparando imunidade inata e adaptativa.
+alt: Dois painéis mostram defesa imediata e resposta específica com memória.
+overlay: {title: Imunidade, labels: [inata, adaptativa, barreiras, anticorpos, memória]}
+consumers: [Infectologia, Emergências, Farmacologia, Pediatria, Medicina Interna, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
