@@ -1,0 +1,16 @@
+id: HEX-A035-341
+concept: Noradrenalina avançada
+cycle: A035
+layer: advanced
+status: generated
+canonical_source: HEX-G015-141
+prompt: >-
+  Prancha didática Hexápode avançada sobre noradrenalina, receptores alfa-1 e beta-1, efeitos sobre RVS, PAM, retorno venoso, perfusão e riscos de isquemia ou extravasamento.
+alt: Infográfico sobre noradrenalina mostrando ativação alfa-1, vasoconstrição, aumento da resistência vascular e da pressão arterial, efeitos clínicos e cautelas.
+overlay:
+  title: Noradrenalina avançada
+  subtitle: Vasopressor alfa-1 predominante com suporte beta-1
+  labels: [mecanismo em sequência, efeitos clínicos, cuidados e riscos, leitura prática]
+consumers: [Emergências, Cardio, UTI, Farmacologia, Nefrologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
