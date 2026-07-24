@@ -1,0 +1,12 @@
+id: HEX-A027-266
+concept: Pausa inspiratória e plateau
+cycle: A027
+layer: advanced
+status: generated
+canonical_origin: HEX-G007-066
+prompt: Prancha médica vetorial didática sobre pausa inspiratória, fluxo zero e medição de Pplat.
+alt: Curva de pressão com pausa inspiratória sem fluxo e pressão de plateau destacada.
+overlay: {title: Pausa inspiratória e plateau, labels: [pausa, fluxo zero, Pplat]}
+consumers: [Ventila, Emergências, UTI, Fisiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
