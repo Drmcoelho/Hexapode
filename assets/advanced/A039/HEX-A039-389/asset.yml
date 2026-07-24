@@ -1,0 +1,11 @@
+id: HEX-A039-389
+cycle: A039
+layer: A
+concept: Diafragma em M-mode
+status: generated
+canonical_source: HEX-G019-189
+prompt_canonical: Infográfico didático sobre excursão e espessamento diafragmático medidos por ultrassom e M-mode.
+alt: Traçado M-mode do diafragma com excursão inspiratória, retorno expiratório e linhas de medida.
+overlay: {title: Diafragma em M-mode, subtitle: Excursão e espessamento diafragmático, labels: [Excursão, Inspiração, Expiração, Espessamento]}
+consumers: [Hexágono, Hexaconsulta, Hexaconecta, Respira, Ventila, Cardio, Trauma, Neuro, Nefro, USG, Farmaco]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
