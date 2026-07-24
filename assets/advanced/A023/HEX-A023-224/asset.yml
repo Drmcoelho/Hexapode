@@ -1,0 +1,14 @@
+id: HEX-A023-224
+concept: Rede capilar alveolar avançada
+cycle: A023
+layer: advanced
+status: generated
+canonical_source: HEX-G003-024
+prompt: Microcirculação alveolar avançada com recrutamento capilar, hemácias e difusão de O2 e CO2.
+alt: Alvéolos envolvidos por rede capilar com hemácias e setas de troca gasosa.
+overlay:
+  title: Rede capilar alveolar avançada
+  labels: [capilar pulmonar, hemácia, O2, CO2, recrutamento]
+consumers: [Respira, Ventila, Cardio, Fisiologia, Emergências]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
