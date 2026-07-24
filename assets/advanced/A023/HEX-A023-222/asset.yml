@@ -1,0 +1,14 @@
+id: HEX-A023-222
+concept: Segmentos broncopulmonares avançados
+cycle: A023
+layer: advanced
+status: generated
+canonical_source: HEX-G003-022
+prompt: Mapa segmentar detalhado dos pulmões com árvore brônquica segmentar e territórios cirúrgicos.
+alt: Pulmões com segmentos broncopulmonares numerados e brônquios segmentares correspondentes.
+overlay:
+  title: Segmentos broncopulmonares avançados
+  labels: [S1, S2, S3, S4, S5, S6, S8, S9, S10]
+consumers: [Respira, Ventila, Cirurgia Torácica, Radiologia, Emergências]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
