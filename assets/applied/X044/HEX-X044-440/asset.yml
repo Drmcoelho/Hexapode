@@ -1,0 +1,13 @@
+id: HEX-X044-440
+cycle: X044
+layer: X
+concept: "Histerese aplicada: recrutamento e titulação de PEEP"
+status: generated
+source_asset: HEX-G004-040
+source_file: base-art.svg
+prompt_canonical: "Infográfico aplicado sobre loop pressão-volume, histerese, pontos de inflexão, recrutamento, PEEP e sobredistensão."
+alt: "Interpretação do loop pressão-volume, pontos de inflexão e escolha de PEEP evitando colapso e sobredistensão."
+overlay: {embedded: true, labels: [Loop P-V, Inflexão inferior, Inflexão superior, PEEP, Proteção pulmonar]}
+consumers: [Ventila, Respira, UTI, Clínica]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
