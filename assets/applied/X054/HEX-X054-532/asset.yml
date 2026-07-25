@@ -1,0 +1,13 @@
+id: HEX-X054-532
+concept: ABCDE do trauma aplicado
+cycle: X054
+layer: applied
+status: generated
+canonical_origin: HEX-G014-132
+advanced_origin: HEX-A034-332
+prompt: Prancha vetorial Hexápode aplicada com sequência ABCDE do trauma, prioridades e reavaliação.
+alt: Cinco etapas A a E representam via aérea, respiração, circulação, avaliação neurológica e exposição.
+overlay: {title: ABCDE do trauma aplicado, labels: [A, B, C, D, E]}
+consumers: [Trauma, Emergências, Ventila, Neuro, Enfermagem]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
