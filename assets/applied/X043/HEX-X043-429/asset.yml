@@ -1,0 +1,13 @@
+id: HEX-X043-429
+cycle: X043
+layer: X
+concept: "Abdome agudo inflamatório"
+status: generated
+source_asset: HEX-G003-029
+source_file: base-art.svg
+prompt_canonical: "Infográfico médico aplicado sobre abdome agudo inflamatório, dor visceral, peritonite, imagem e controle de foco, em SVG vetorial Hexápode."
+alt: "Infográfico mostra progressão da inflamação abdominal para peritonite, avaliação de risco, imagem e controle de foco."
+overlay: {embedded: true, labels: [Dor visceral, Peritonite, Imagem, Ressuscitação, Controle de foco]}
+consumers: [Clínica, Trauma, USG, Hexaconsulta]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
