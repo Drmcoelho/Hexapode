@@ -1,0 +1,13 @@
+id: HEX-X051-503
+cycle: X051
+layer: applied
+concept: BURP aplicado
+status: generated
+base_art: base-art.svg
+canonical_prompt: Prancha clínica Hexápode sobre manobra BURP para otimização laríngea.
+alt_text: Pescoço esquemático com vetor posterior, superior e para a direita sobre a laringe.
+overlay: {title: BURP aplicado, labels: [posterior, superior, direita, visão glótica]}
+source_links: [G011, A031]
+consumers: [Emergencias, Anestesia, UTI, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: ready, no_duplication: pending}

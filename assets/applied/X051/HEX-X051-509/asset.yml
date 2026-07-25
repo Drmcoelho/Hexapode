@@ -1,0 +1,13 @@
+id: HEX-X051-509
+cycle: X051
+layer: applied
+concept: Cricotireoidostomia aplicada
+status: generated
+base_art: base-art.svg
+canonical_prompt: Prancha clínica Hexápode sobre acesso frontal de emergência em cenário não intuba-não oxigena.
+alt_text: Cartilagens laríngeas esquemáticas com membrana cricotireóidea destacada.
+overlay: {title: Cricotireoidostomia, labels: [membrana, acesso frontal, resgate, CICO]}
+source_links: [G011, A031]
+consumers: [Emergencias, Trauma, Anestesia, UTI, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: ready, no_duplication: pending}

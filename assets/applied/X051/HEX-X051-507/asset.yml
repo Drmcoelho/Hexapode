@@ -1,0 +1,13 @@
+id: HEX-X051-507
+cycle: X051
+layer: applied
+concept: Bougie aplicado
+status: generated
+base_art: base-art.svg
+canonical_prompt: Prancha clínica Hexápode sobre uso do bougie como introdutor traqueal.
+alt_text: Introdutor fino e curvo avançando por trajeto traqueal esquemático.
+overlay: {title: Bougie aplicado, labels: [introdutor, glote parcial, avanço, segurança]}
+source_links: [G011, A031]
+consumers: [Emergencias, Anestesia, UTI, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: ready, no_duplication: pending}

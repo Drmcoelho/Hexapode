@@ -1,0 +1,13 @@
+id: HEX-X051-510
+cycle: X051
+layer: applied
+concept: Sequência rápida aplicada
+status: generated
+base_art: base-art.svg
+canonical_prompt: Prancha clínica Hexápode sobre sequência rápida de intubação e plano de falha.
+alt_text: Oito etapas numeradas representam preparação, oxigenação, indução, bloqueio, intubação e confirmação.
+overlay: {title: Sequência rápida, labels: [preparação, pré-oxigenação, indução, confirmação]}
+source_links: [G011, A031]
+consumers: [Emergencias, Anestesia, UTI, Farmacologia, Pediatria, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: ready, no_duplication: pending}

@@ -1,0 +1,13 @@
+id: HEX-X051-505
+cycle: X051
+layer: applied
+concept: Cuff do tubo aplicado
+status: generated
+base_art: base-art.svg
+canonical_prompt: Prancha clínica Hexápode sobre vedação e pressão do cuff do tubo orotraqueal.
+alt_text: Tubo traqueal esquemático com cuff insuflado e vetores de vedação.
+overlay: {title: Cuff do tubo, labels: [vedação, pressão, escape, mucosa]}
+source_links: [G011, A031]
+consumers: [Emergencias, Anestesia, UTI, Enfermagem, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: ready, no_duplication: pending}

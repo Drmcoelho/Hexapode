@@ -1,0 +1,13 @@
+id: HEX-X051-508
+cycle: X051
+layer: applied
+concept: Máscara laríngea aplicada
+status: generated
+base_art: base-art.svg
+canonical_prompt: Prancha clínica Hexápode sobre máscara laríngea como dispositivo supraglótico.
+alt_text: Máscara laríngea esquemática assentada sobre a entrada laríngea.
+overlay: {title: Máscara laríngea, labels: [supraglótico, ventilação, resgate, ponte]}
+source_links: [G011, A031]
+consumers: [Emergencias, Anestesia, UTI, Pediatria, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: ready, no_duplication: pending}
