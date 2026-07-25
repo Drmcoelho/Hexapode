@@ -1,0 +1,13 @@
+id: HEX-X044-434
+cycle: X044
+layer: X
+concept: "Pressão alveolar aplicada: entrada e saída de ar"
+status: generated
+source_asset: HEX-G004-034
+source_file: base-art.svg
+prompt_canonical: "Infográfico aplicado sobre pressão alveolar, pressão atmosférica, fluxo, pausa e obstrução."
+alt: "Relação entre pressão alveolar e atmosférica durante inspiração, pausa e expiração."
+overlay: {embedded: true, labels: [Inspiração, Pausa, Expiração, Fluxo, Obstrução]}
+consumers: [Respira, Ventila, Clínica, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
