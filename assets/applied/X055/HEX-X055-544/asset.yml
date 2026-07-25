@@ -1,0 +1,15 @@
+id: HEX-X055-544
+concept: 'Insulinoterapia: esquema basal-bolus aplicado'
+cycle: X055
+layer: applied
+status: generated
+canonical_origin: G015
+advanced_origin: A035
+prompt: Prancha aplicada sobre insulinoterapia basal-bolus, correção, monitorização glicêmica e prevenção de hipoglicemia.
+alt: Caneta e frasco de insulina acompanhados por curvas glicêmicas representam componentes basal, prandial e de correção.
+overlay:
+  title: 'Insulinoterapia: esquema basal-bolus aplicado'
+  labels: [basal, prandial, correção, glicemia, hipoglicemia]
+consumers: [Endocrinologia, UTI, Emergências, Nefrologia, Enfermagem, Nutrição]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
