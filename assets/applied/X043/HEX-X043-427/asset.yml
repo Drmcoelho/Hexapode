@@ -1,0 +1,13 @@
+id: HEX-X043-427
+cycle: X043
+layer: X
+concept: "AVC isquêmico agudo"
+status: generated
+source_asset: HEX-G003-027
+source_file: base-art.svg
+prompt_canonical: "Infográfico médico aplicado sobre AVC isquêmico agudo, oclusão arterial, penumbra, janela terapêutica e reperfusão, em SVG vetorial Hexápode."
+alt: "Infográfico mostra oclusão arterial cerebral, núcleo do infarto, penumbra e fluxo de decisão para reperfusão."
+overlay: {embedded: true, labels: [Oclusão, Núcleo, Penumbra, Trombólise, Trombectomia]}
+consumers: [Neuro, Cardio, Clínica, Hexaconsulta]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
