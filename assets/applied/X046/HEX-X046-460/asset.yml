@@ -1,0 +1,12 @@
+id: HEX-X046-460
+cycle: X046
+layer: X
+status: generated
+concept: "Ultrassom à beira-leito"
+source_asset: HEX-G006-060
+canonical_prompt: "Aparelho POCUS portátil vetorial com sonda e aplicações em pulmão, coração, veia cava e FAST, incluindo profundidade e foco."
+alt_text: "Ultrassom portátil com imagem setorial, sonda e principais aplicações à beira-leito."
+overlay: {embedded: true, labels: [POCUS, sonda, pulmão, coração, VCI, FAST, profundidade, foco]}
+consumers: [Clinica, UTI, Emergencias, Cardio, Trauma, USG, Respira, Ventila, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

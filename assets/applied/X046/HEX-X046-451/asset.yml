@@ -1,0 +1,12 @@
+id: HEX-X046-451
+cycle: X046
+layer: X
+status: generated
+concept: "Ventilador mecânico: visão funcional"
+source_asset: HEX-G006-051
+canonical_prompt: "Ilustração médica vetorial didática de ventilador mecânico, circuito inspiratório e expiratório, humidificador, válvula expiratória e interface com paciente; paleta Hexápode; português; sem pessoa identificável."
+alt_text: "Ventilador ligado ao paciente por dois ramos do circuito, mostrando entrega de gás, retorno expiratório e monitorização."
+overlay: {embedded: true, labels: [tela, circuito inspiratório, circuito expiratório, humidificador, válvula expiratória, interface]}
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Clinica, UTI, Emergencias, Respira, Ventila, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

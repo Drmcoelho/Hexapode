@@ -1,0 +1,12 @@
+id: HEX-X046-454
+cycle: X046
+layer: X
+status: generated
+concept: "Monitorização ventilatória"
+source_asset: HEX-G006-054
+canonical_prompt: "Curvas vetoriais de pressão, fluxo e volume com Ppico, Pplat, PEEP, driving pressure e complacência; paleta Hexápode."
+alt_text: "Curva de pressão mostrando pico, plateau, PEEP e fórmulas de driving pressure e complacência estática."
+overlay: {embedded: true, labels: [Ppico, Pplat, PEEP, driving pressure, complacência]}
+consumers: [Clinica, UTI, Emergencias, Respira, Ventila, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

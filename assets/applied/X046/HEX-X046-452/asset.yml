@@ -1,0 +1,12 @@
+id: HEX-X046-452
+cycle: X046
+layer: X
+status: generated
+concept: "Escolha do modo ventilatório"
+source_asset: HEX-G006-052
+canonical_prompt: "Fluxograma vetorial didático para escolha entre VCV, PCV, PSV, SIMV e CPAP conforme esforço espontâneo, controle e suporte; paleta Hexápode; português."
+alt_text: "Fluxograma que relaciona esforço espontâneo e necessidade de controle aos principais modos ventilatórios."
+overlay: {embedded: true, labels: [VCV, PCV, PSV, SIMV, CPAP, esforço espontâneo, controle, suporte]}
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Clinica, UTI, Emergencias, Respira, Ventila, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

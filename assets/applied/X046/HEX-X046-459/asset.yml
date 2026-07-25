@@ -1,0 +1,12 @@
+id: HEX-X046-459
+cycle: X046
+layer: X
+status: generated
+concept: "Aspiração de secreções"
+source_asset: HEX-G006-059
+canonical_prompt: "Sistema vetorial de aspiração com frasco coletor, regulador de vácuo, sonda e técnica fechada; riscos de hipóxia e trauma."
+alt_text: "Sistema de aspiração mostrando regulador, frasco, tubulação e princípios de segurança."
+overlay: {embedded: true, labels: [vácuo, frasco coletor, sonda, sistema fechado, hipóxia, trauma]}
+consumers: [Clinica, UTI, Emergencias, Respira, Ventila, Pediatria, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

@@ -1,0 +1,12 @@
+id: HEX-X046-453
+cycle: X046
+layer: X
+status: generated
+concept: "Ajustes iniciais do ventilador"
+source_asset: HEX-G006-053
+canonical_prompt: "Painel médico vetorial com Vt, FR, PEEP, FiO2, fluxo e I:E, associado a metas de proteção pulmonar; paleta Hexápode."
+alt_text: "Painel de ajustes iniciais do ventilador com valores orientativos e lembrete de individualização."
+overlay: {embedded: true, labels: [Vt, FR, PEEP, FiO2, fluxo, I:E, PBW]}
+consumers: [Clinica, UTI, Emergencias, Respira, Ventila, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

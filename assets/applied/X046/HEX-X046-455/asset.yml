@@ -1,0 +1,12 @@
+id: HEX-X046-455
+cycle: X046
+layer: X
+status: generated
+concept: "Capnografia aplicada"
+source_asset: HEX-G006-055
+canonical_prompt: "Capnograma vetorial com fases I, II, III e zero, EtCO2 e interpretação clínica de hipoventilação e obstrução."
+alt_text: "Capnograma normal dividido em quatro fases com identificação do plateau e EtCO2."
+overlay: {embedded: true, labels: [fase I, fase II, fase III, fase zero, EtCO2, plateau]}
+consumers: [Clinica, UTI, Emergencias, Anestesia, Respira, Ventila, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
