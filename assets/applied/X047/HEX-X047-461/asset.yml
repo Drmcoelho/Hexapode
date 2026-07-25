@@ -1,0 +1,12 @@
+id: HEX-X047-461
+cycle: X047
+layer: X
+status: generated
+concept: "Fluxo × tempo aplicado"
+source_asset: HEX-G007-061
+canonical_prompt: "Ilustração médica vetorial didática de fluxo versus tempo, com inspiração positiva, expiração negativa e retorno ao zero; paleta Hexápode; português; sem pessoa identificável."
+alt_text: "Fluxograma respiratório com fluxo inspiratório positivo, fluxo expiratório negativo e retorno ao zero."
+overlay: {embedded: true, labels: [fluxo inspiratório, fluxo expiratório, retorno ao zero]}
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Clinica, UTI, Emergencias, Respira, Ventila, Cardio, Trauma, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
