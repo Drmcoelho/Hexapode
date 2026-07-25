@@ -1,0 +1,12 @@
+id: HEX-X048-479
+cycle: X048
+layer: X
+status: generated
+concept: "HFOV aplicado"
+source_asset: HEX-G008-079
+canonical_prompt: "Infográfico médico vetorial didático de ventilação oscilatória de alta frequência, com pressão média, amplitude, frequência e relações com oxigenação e eliminação de dióxido de carbono; paleta Hexápode; português."
+alt_text: "Curva oscilatória de alta frequência ao redor da pressão média, com amplitude e frequência destacadas."
+overlay: {embedded: true, labels: [pressão média, amplitude, frequência, oxigenação, eliminação de CO2, monitorização]}
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Clinica, UTI, Emergencias, Respira, Ventila, Pneumo, Pediatria, Neonatologia, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
