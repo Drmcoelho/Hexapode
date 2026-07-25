@@ -1,0 +1,15 @@
+id: HEX-X052-519
+concept: Conteúdo arterial e oferta de O2 aplicados
+cycle: X052
+layer: applied
+status: generated
+canonical_source: HEX-G012-119
+advanced_source: HEX-A032-319
+prompt: Infográfico aplicado Hexápode que relaciona hemoglobina, saturação, PaO2, conteúdo arterial e oferta sistêmica de oxigênio.
+alt: Dois círculos conectam CaO2 dependente de hemoglobina e saturação à DO2 dependente também do débito cardíaco.
+overlay:
+  title: Conteúdo arterial e oferta de O2 aplicados
+  labels: [CaO2, Hb, SaO2, PaO2, débito cardíaco, DO2]
+consumers: [Cardio, Emergências, UTI, Hematologia, Ventila, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

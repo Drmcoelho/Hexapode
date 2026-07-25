@@ -1,0 +1,15 @@
+id: HEX-X052-515
+concept: Ânion gap aplicado
+cycle: X052
+layer: applied
+status: generated
+canonical_source: HEX-G012-115
+advanced_source: HEX-A032-315
+prompt: Infográfico aplicado Hexápode para calcular o ânion gap, corrigir pela albumina e separar causas com AG aumentado ou normal.
+alt: Fórmula do ânion gap acima de duas colunas com causas de AG aumentado e normal e lembrete de correção pela albumina.
+overlay:
+  title: Ânion gap aplicado
+  labels: [AG aumentado, AG normal, lactato, cetoácidos, diarreia, acidose tubular renal]
+consumers: [Emergências, Medicina Interna, Nefrologia, Toxicologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

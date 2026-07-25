@@ -1,0 +1,15 @@
+id: HEX-X052-518
+concept: Relação PaO2/FiO2 aplicada
+cycle: X052
+layer: applied
+status: generated
+canonical_source: HEX-G012-118
+advanced_source: HEX-A032-318
+prompt: Escala aplicada Hexápode da relação PaO2/FiO2 para estratificar hipoxemia e contextualizar com PEEP.
+alt: Quatro faixas coloridas mostram P/F acima de 300, entre 200 e 300, entre 100 e 200 e até 100.
+overlay:
+  title: Relação PaO2/FiO2 aplicada
+  labels: [P/F, PaO2, FiO2, hipoxemia, PEEP]
+consumers: [Respira, Ventila, Emergências, UTI, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

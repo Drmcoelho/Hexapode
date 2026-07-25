@@ -1,0 +1,15 @@
+id: HEX-X052-516
+concept: Delta gap aplicado
+cycle: X052
+layer: applied
+status: generated
+canonical_source: HEX-G012-116
+advanced_source: HEX-A032-316
+prompt: Escala clínica aplicada Hexápode da relação delta AG sobre delta bicarbonato para reconhecer distúrbios metabólicos mistos.
+alt: Quatro faixas do delta ratio distinguem acidose hiperclorêmica associada, AG elevado predominante e alcalose metabólica associada.
+overlay:
+  title: Delta gap aplicado
+  labels: [delta AG, delta bicarbonato, baixo, intermediário, alto]
+consumers: [Emergências, Medicina Interna, Nefrologia, Toxicologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

@@ -1,0 +1,15 @@
+id: HEX-X052-514
+concept: Fórmula de Winter aplicada
+cycle: X052
+layer: applied
+status: generated
+canonical_source: HEX-G012-114
+advanced_source: HEX-A032-314
+prompt: Gráfico aplicado Hexápode da fórmula de Winter com faixa esperada e interpretação dos desvios.
+alt: Linha central e faixa de PaCO2 esperada conforme bicarbonato; valores acima e abaixo sugerem componente respiratório associado.
+overlay:
+  title: Fórmula de Winter aplicada
+  labels: [PaCO2 esperada, HCO3, faixa esperada, acidose respiratória, alcalose respiratória]
+consumers: [Emergências, Medicina Interna, Nefrologia, UTI, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

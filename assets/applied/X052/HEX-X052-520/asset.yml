@@ -1,0 +1,15 @@
+id: HEX-X052-520
+concept: Lactato e depuração aplicados
+cycle: X052
+layer: applied
+status: generated
+canonical_source: HEX-G012-120
+advanced_source: HEX-A032-320
+prompt: Infográfico aplicado Hexápode sobre produção, depuração hepática e interpretação seriada do lactato.
+alt: Tecidos produzem lactato, o fígado participa da depuração e a fórmula de clearance relaciona valores inicial e final.
+overlay:
+  title: Lactato e depuração aplicados
+  labels: [produção, depuração, hipoperfusão, fígado, clearance]
+consumers: [Emergências, UTI, Cardio, Hepatologia, Nefrologia, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

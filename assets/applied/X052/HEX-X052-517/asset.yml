@@ -1,0 +1,15 @@
+id: HEX-X052-517
+concept: Gradiente alvéolo-arterial aplicado
+cycle: X052
+layer: applied
+status: generated
+canonical_source: HEX-G012-117
+advanced_source: HEX-A032-317
+prompt: Diagrama aplicado Hexápode para calcular e interpretar o gradiente alvéolo-arterial em pacientes com hipoxemia.
+alt: Alvéolo com PAO2 e sangue com PaO2 são separados pelo gradiente A-a; causas de aumento aparecem abaixo.
+overlay:
+  title: Gradiente alvéolo-arterial aplicado
+  labels: [PAO2, PaO2, gradiente A-a, V/Q, shunt, difusão]
+consumers: [Respira, Ventila, Emergências, UTI, Cardio, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
