@@ -1,0 +1,12 @@
+id: HEX-X047-470
+cycle: X047
+layer: X
+status: generated
+concept: "Driving pressure aplicado"
+source_asset: HEX-G007-070
+canonical_prompt: "Ilustração médica vetorial didática de driving pressure como diferença entre plateau e PEEP em dois níveis de complacência; paleta Hexápode; português."
+alt_text: "Comparação didática entre PEEP, plateau e driving pressure, com pulmão mais complacente e menos complacente."
+overlay: {embedded: true, labels: [Pplat, PEEP, driving pressure, complacência]}
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Clinica, UTI, Emergencias, Respira, Ventila, Cardio, Trauma, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
