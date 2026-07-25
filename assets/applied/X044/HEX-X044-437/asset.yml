@@ -1,0 +1,13 @@
+id: HEX-X044-437
+cycle: X044
+layer: X
+concept: "Complacência aplicada: cálculo e interpretação"
+status: generated
+source_asset: HEX-G004-037
+source_file: base-art.svg
+prompt_canonical: "Infográfico aplicado sobre complacência estática e dinâmica, pressão de pico, plateau, PEEP e interpretação clínica."
+alt: "Cálculo e interpretação da complacência estática e dinâmica com pressão de pico, plateau e PEEP."
+overlay: {embedded: true, labels: [Cstat, Cdyn, Plateau, Pico, Interpretação]}
+consumers: [Ventila, Respira, UTI, Clínica]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
