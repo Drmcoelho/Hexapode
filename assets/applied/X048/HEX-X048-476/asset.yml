@@ -1,0 +1,12 @@
+id: HEX-X048-476
+cycle: X048
+layer: X
+status: generated
+concept: "APRV aplicado"
+source_asset: HEX-G008-076
+canonical_prompt: "Infográfico médico vetorial didático de APRV com P-high prolongada, liberações breves T-low e respiração espontânea; paleta Hexápode; português."
+alt_text: "Curva pressão-tempo de APRV com pressão alta prolongada, liberações breves e respiração espontânea."
+overlay: {embedded: true, labels: [P-high, T-high, P-low, T-low, respiração espontânea, recrutamento]}
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Clinica, UTI, Emergencias, Respira, Ventila, Pneumo, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
