@@ -1,0 +1,12 @@
+id: HEX-X047-465
+cycle: X047
+layer: X
+status: generated
+concept: "Loop fluxo–volume aplicado"
+source_asset: HEX-G007-065
+canonical_prompt: "Ilustração médica vetorial didática de loop fluxo-volume com concavidade expiratória obstrutiva; paleta Hexápode; português."
+alt_text: "Loop fluxo-volume com ramo expiratório côncavo típico de obstrução e ramo inspiratório."
+overlay: {embedded: true, labels: [loop fluxo-volume, obstrução, concavidade expiratória]}
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Clinica, UTI, Emergencias, Respira, Ventila, Cardio, Trauma, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
