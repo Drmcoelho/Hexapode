@@ -1,0 +1,13 @@
+id: HEX-X050-497
+cycle: X050
+layer: applied
+concept: Bronquiectasias em exacerbação
+status: generated
+base_art: base-art.svg
+canonical_prompt: "Infográfico médico vetorial didático das bronquiectasias em exacerbação, mostrando o ciclo entre dilatação brônquica, retenção de secreções, infecção e inflamação."
+alt_text: "Diagrama circular conecta dilatação brônquica, secreção retida, infecção e inflamação, com abordagem prática para interromper o ciclo."
+overlay: {title: "Bronquiectasias em exacerbação", labels: [dilatação, secreção, infecção, inflamação]}
+source_links: [G010, A030]
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Respira, Ventila, Clinica, UTI, Emergencias, Pneumo, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: ready, no_duplication: pending}
