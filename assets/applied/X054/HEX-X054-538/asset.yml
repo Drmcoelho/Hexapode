@@ -1,0 +1,13 @@
+id: HEX-X054-538
+concept: 'Desfibrilação: algoritmo aplicado'
+cycle: X054
+layer: applied
+status: generated
+canonical_origin: HEX-G014-138
+advanced_origin: HEX-A034-338
+prompt: Prancha vetorial Hexápode aplicada sobre desfibrilação, integrando RCP, análise de ritmo, choque, medicação e cuidados pós-ROSC.
+alt: Coração com raio central e ciclo ao redor representa RCP, análise de ritmo, choque e retorno da circulação.
+overlay: {title: 'Desfibrilação: algoritmo aplicado', labels: [RCP, analisar ritmo, choque, medicação, ROSC]}
+consumers: [Emergências, Cardio, UTI, Enfermagem, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
