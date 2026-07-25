@@ -1,0 +1,12 @@
+id: HEX-X047-463
+cycle: X047
+layer: X
+status: generated
+concept: "Volume × tempo aplicado"
+source_asset: HEX-G007-063
+canonical_prompt: "Ilustração médica vetorial didática de volume versus tempo mostrando volume corrente, subida inspiratória, plateau e retorno à linha de base; paleta Hexápode; português."
+alt_text: "Curva de volume que sobe durante a inspiração, atinge o volume corrente e retorna na expiração."
+overlay: {embedded: true, labels: [volume corrente, inspiração, expiração, linha de base]}
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Clinica, UTI, Emergencias, Respira, Ventila, Cardio, Trauma, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
