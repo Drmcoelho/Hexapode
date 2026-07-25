@@ -1,0 +1,12 @@
+id: HEX-X045-443
+cycle: X045
+layer: X
+concept: Princípio de Fick aplicado
+status: generated
+source_asset: HEX-G005-043
+prompt_canonical: Infográfico vetorial sobre estimativa do débito cardíaco pelo princípio de Fick.
+alt: Diagrama mostrando consumo de oxigênio, diferença arteriovenosa e cálculo do débito cardíaco.
+overlay: {embedded: true, labels: [VO2, CaO2, CvO2, DC]}
+consumers: [Cardio, UTI, Hemodinâmica, Respira, Ventila]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
+exports_pending: [base-art.png, thumbnail.webp]

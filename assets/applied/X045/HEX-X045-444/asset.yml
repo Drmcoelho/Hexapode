@@ -1,0 +1,12 @@
+id: HEX-X045-444
+cycle: X045
+layer: X
+concept: Equação do gás alveolar
+status: generated
+source_asset: HEX-G005-044
+prompt_canonical: Infográfico vetorial da equação do gás alveolar e sua aplicação na hipoxemia.
+alt: Fórmula da pressão alveolar de oxigênio com variáveis e aplicação no gradiente alvéolo-arterial.
+overlay: {embedded: true, labels: [PAO2, FiO2, PaCO2, gradiente A-a]}
+consumers: [Respira, Ventila, UTI, Emergências, Pneumo]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
+exports_pending: [base-art.png, thumbnail.webp]

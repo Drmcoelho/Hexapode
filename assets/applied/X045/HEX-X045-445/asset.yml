@@ -1,0 +1,12 @@
+id: HEX-X045-445
+cycle: X045
+layer: X
+concept: Desequilíbrio ventilação perfusão aplicado
+status: generated
+source_asset: HEX-G005-045
+prompt_canonical: Infográfico comparando unidades de baixo VQ, normal e alto VQ.
+alt: Três unidades pulmonares ilustram baixo VQ, relação normal e alto VQ.
+overlay: {embedded: true, labels: [VQ baixo, VQ normal, VQ alto]}
+consumers: [Respira, Ventila, Pneumo, UTI, Emergências]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
+exports_pending: [base-art.png, thumbnail.webp]

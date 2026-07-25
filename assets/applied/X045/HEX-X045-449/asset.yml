@@ -1,0 +1,12 @@
+id: HEX-X045-449
+cycle: X045
+layer: X
+concept: Ventilação alveolar e PaCO2
+status: generated
+source_asset: HEX-G005-049
+prompt_canonical: Infográfico da relação inversa entre ventilação alveolar e PaCO2.
+alt: Comparação de hipoventilação e hiperventilação com efeitos opostos sobre a PaCO2.
+overlay: {embedded: true, labels: [ventilação alveolar, PaCO2, VCO2]}
+consumers: [Respira, Ventila, UTI, Emergências, Neuro]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
+exports_pending: [base-art.png, thumbnail.webp]

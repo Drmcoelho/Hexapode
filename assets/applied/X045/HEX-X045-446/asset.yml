@@ -1,0 +1,12 @@
+id: HEX-X045-446
+cycle: X045
+layer: X
+concept: Shunt e resposta ao oxigênio
+status: generated
+source_asset: HEX-G005-046
+prompt_canonical: Infográfico vetorial sobre perfusão sem ventilação e hipoxemia refratária.
+alt: Unidade alveolar perfundida e não ventilada, com resposta limitada ao oxigênio isolado.
+overlay: {embedded: true, labels: [V igual a zero, Q preservada, hipoxemia refratária]}
+consumers: [Respira, Ventila, UTI, Emergências, Cardio]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
+exports_pending: [base-art.png, thumbnail.webp]

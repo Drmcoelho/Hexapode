@@ -1,0 +1,12 @@
+id: HEX-X045-441
+cycle: X045
+layer: X
+concept: Oferta de oxigênio à beira-leito
+status: generated
+source_asset: HEX-G005-041
+prompt_canonical: Infográfico vetorial didático sobre DO2, débito cardíaco e conteúdo arterial de oxigênio.
+alt: Diagrama relacionando débito cardíaco, conteúdo arterial de oxigênio e oferta sistêmica aos tecidos.
+overlay: {embedded: true, labels: [DO2, DC, CaO2]}
+consumers: [Cardio, UTI, Emergências, Respira, Ventila, Nefro, Neuro]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
+exports_pending: [base-art.png, thumbnail.webp]

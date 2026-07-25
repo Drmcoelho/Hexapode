@@ -1,0 +1,12 @@
+id: HEX-X045-448
+cycle: X045
+layer: X
+concept: Curva da oxiemoglobina aplicada
+status: generated
+source_asset: HEX-G005-048
+prompt_canonical: Infográfico da curva de dissociação da oxiemoglobina e deslocamentos clínicos.
+alt: Curvas normal, deslocada à direita e à esquerda com efeitos na afinidade e descarga de oxigênio.
+overlay: {embedded: true, labels: [direita, esquerda, afinidade, descarga tecidual]}
+consumers: [Respira, Ventila, UTI, Emergências, Cardio]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
+exports_pending: [base-art.png, thumbnail.webp]

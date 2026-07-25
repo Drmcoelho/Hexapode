@@ -1,0 +1,12 @@
+id: HEX-X045-450
+cycle: X045
+layer: X
+concept: Lactato produção depuração e tendência
+status: generated
+source_asset: HEX-G005-050
+prompt_canonical: Infográfico clínico sobre produção, depuração e interpretação seriada do lactato.
+alt: Fluxo entre produção tecidual, concentração de lactato e depuração hepatorrenal.
+overlay: {embedded: true, labels: [produção, lactato, depuração, tendência]}
+consumers: [UTI, Emergências, Cardio, Nefro, Trauma, Sepse]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
+exports_pending: [base-art.png, thumbnail.webp]

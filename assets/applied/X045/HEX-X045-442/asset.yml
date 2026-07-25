@@ -1,0 +1,12 @@
+id: HEX-X045-442
+cycle: X045
+layer: X
+concept: Extração de oxigênio e ScvO2
+status: generated
+source_asset: HEX-G005-042
+prompt_canonical: Infográfico vetorial sobre oferta, consumo, extração e saturação venosa central.
+alt: Comparação entre oferta de oxigênio, extração tecidual e ScvO2 em condições normais e choque.
+overlay: {embedded: true, labels: [Oferta, Extração, ScvO2]}
+consumers: [UTI, Emergências, Cardio, Sepse, Nefro, Neuro]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
+exports_pending: [base-art.png, thumbnail.webp]

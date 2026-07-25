@@ -1,0 +1,12 @@
+id: HEX-X045-447
+cycle: X045
+layer: X
+concept: Espaço morto e capnografia
+status: generated
+source_asset: HEX-G005-047
+prompt_canonical: Infográfico clínico sobre VDVT, espaço morto alveolar e gradiente PaCO2 EtCO2.
+alt: Diagrama de espaço morto e capnograma com interpretação do gradiente arterial-expirado.
+overlay: {embedded: true, labels: [VDVT, PaCO2, EtCO2]}
+consumers: [Respira, Ventila, UTI, Emergências, Trauma]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
+exports_pending: [base-art.png, thumbnail.webp]
