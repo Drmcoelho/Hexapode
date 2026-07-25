@@ -12,7 +12,7 @@ production:
   batch_size: 10
   total_cycles: 60
   next_cycle: X047
-  completed_assets: 460
+  completed_assets: 470
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycle_index:
@@ -62,24 +62,25 @@ cycle_index:
 - {id: X044, range: 431-440, theme: Mecânica Respiratória Aplicada, status: generated, source_root: assets/applied/X044}
 - {id: X045, range: 441-450, theme: Fisiologia Aplicada, status: generated, source_root: assets/applied/X045}
 - {id: X046, range: 451-460, theme: Equipamentos Aplicados, status: generated, source_root: assets/applied/X046}
+- {id: X047, range: 461-470, theme: Curvas Aplicadas, status: generated, source_root: assets/applied/X047}
 cycles:
-  X046:
+  X047:
     layer: X
-    range: 451-460
-    theme: Equipamentos Aplicados
+    range: 461-470
+    theme: Curvas Aplicadas
     status: generated
     exports_pending: [base-art.png, thumbnail.webp]
     assets:
-    - {id: HEX-X046-451, concept: 'Ventilador mecânico: visão funcional', status: generated, source: assets/applied/X046/HEX-X046-451/base-art.svg, metadata: assets/applied/X046/HEX-X046-451/asset.yml}
-    - {id: HEX-X046-452, concept: 'Escolha do modo ventilatório', status: generated, source: assets/applied/X046/HEX-X046-452/base-art.svg, metadata: assets/applied/X046/HEX-X046-452/asset.yml}
-    - {id: HEX-X046-453, concept: 'Ajustes iniciais do ventilador', status: generated, source: assets/applied/X046/HEX-X046-453/base-art.svg, metadata: assets/applied/X046/HEX-X046-453/asset.yml}
-    - {id: HEX-X046-454, concept: 'Monitorização ventilatória', status: generated, source: assets/applied/X046/HEX-X046-454/base-art.svg, metadata: assets/applied/X046/HEX-X046-454/asset.yml}
-    - {id: HEX-X046-455, concept: 'Capnografia aplicada', status: generated, source: assets/applied/X046/HEX-X046-455/base-art.svg, metadata: assets/applied/X046/HEX-X046-455/asset.yml}
-    - {id: HEX-X046-456, concept: 'Oximetria de pulso aplicada', status: generated, source: assets/applied/X046/HEX-X046-456/base-art.svg, metadata: assets/applied/X046/HEX-X046-456/asset.yml}
-    - {id: HEX-X046-457, concept: 'Bomba de infusão segura', status: generated, source: assets/applied/X046/HEX-X046-457/base-art.svg, metadata: assets/applied/X046/HEX-X046-457/asset.yml}
-    - {id: HEX-X046-458, concept: 'Desfibrilador e cardioversão', status: generated, source: assets/applied/X046/HEX-X046-458/base-art.svg, metadata: assets/applied/X046/HEX-X046-458/asset.yml}
-    - {id: HEX-X046-459, concept: 'Aspiração de secreções', status: generated, source: assets/applied/X046/HEX-X046-459/base-art.svg, metadata: assets/applied/X046/HEX-X046-459/asset.yml}
-    - {id: HEX-X046-460, concept: 'Ultrassom à beira-leito', status: generated, source: assets/applied/X046/HEX-X046-460/base-art.svg, metadata: assets/applied/X046/HEX-X046-460/asset.yml}
+    - {id: HEX-X047-461, concept: 'Fluxo × tempo aplicado', status: generated, source: assets/applied/X047/HEX-X047-461/base-art.svg, metadata: assets/applied/X047/HEX-X047-461/asset.yml}
+    - {id: HEX-X047-462, concept: 'Pressão × tempo aplicada', status: generated, source: assets/applied/X047/HEX-X047-462/base-art.svg, metadata: assets/applied/X047/HEX-X047-462/asset.yml}
+    - {id: HEX-X047-463, concept: 'Volume × tempo aplicado', status: generated, source: assets/applied/X047/HEX-X047-463/base-art.svg, metadata: assets/applied/X047/HEX-X047-463/asset.yml}
+    - {id: HEX-X047-464, concept: 'Loop pressão–volume aplicado', status: generated, source: assets/applied/X047/HEX-X047-464/base-art.svg, metadata: assets/applied/X047/HEX-X047-464/asset.yml}
+    - {id: HEX-X047-465, concept: 'Loop fluxo–volume aplicado', status: generated, source: assets/applied/X047/HEX-X047-465/base-art.svg, metadata: assets/applied/X047/HEX-X047-465/asset.yml}
+    - {id: HEX-X047-466, concept: 'Pausa inspiratória e plateau', status: generated, source: assets/applied/X047/HEX-X047-466/base-art.svg, metadata: assets/applied/X047/HEX-X047-466/asset.yml}
+    - {id: HEX-X047-467, concept: 'Auto-PEEP aplicada', status: generated, source: assets/applied/X047/HEX-X047-467/base-art.svg, metadata: assets/applied/X047/HEX-X047-467/asset.yml}
+    - {id: HEX-X047-468, concept: 'Trigger: esforço do paciente', status: generated, source: assets/applied/X047/HEX-X047-468/base-art.svg, metadata: assets/applied/X047/HEX-X047-468/asset.yml}
+    - {id: HEX-X047-469, concept: 'Ciclagem aplicada', status: generated, source: assets/applied/X047/HEX-X047-469/base-art.svg, metadata: assets/applied/X047/HEX-X047-469/asset.yml}
+    - {id: HEX-X047-470, concept: 'Driving pressure aplicado', status: generated, source: assets/applied/X047/HEX-X047-470/base-art.svg, metadata: assets/applied/X047/HEX-X047-470/asset.yml}
 cycle_generation_rule: Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
   source_required: [base-art.svg, asset.yml]
