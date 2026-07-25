@@ -1,0 +1,13 @@
+id: HEX-X042-413
+cycle: X042
+layer: X
+concept: Exacerbação de DPOC
+status: generated
+source_asset: HEX-G002-013
+base_art: base-art.svg
+prompt_canonical: Infográfico vetorial didático sobre exacerbação de DPOC, hipercapnia, oxigênio titulado e VNI.
+alt: Pulmões hiperinsuflados com sequência de avaliação, oxigênio, tratamento e indicação de VNI.
+overlay: {embedded: true, labels: [sintomas, oxigênio, broncodilatadores, VNI]}
+consumers: [Respira, Ventila, Clínica, Emergência, UTI]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
+exports_pending: [base-art.png, thumbnail.webp]
