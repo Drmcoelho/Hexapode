@@ -1,0 +1,12 @@
+id: HEX-X048-471
+cycle: X048
+layer: X
+status: generated
+concept: "VCV aplicado"
+source_asset: HEX-G008-071
+canonical_prompt: "Ilustração médica vetorial didática do modo volume controlado, mostrando volume corrente fixo, fluxo ajustado e pressão variável conforme resistência e complacência; paleta Hexápode; português; sem pessoa identificável."
+alt_text: "Diagrama de ventilação volume controlada com volume fixo, fluxo quadrado e pressão variável."
+overlay: {embedded: true, labels: [volume corrente fixo, fluxo quadrado, pressão variável, resistência, complacência]}
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Clinica, UTI, Emergencias, Respira, Ventila, Pneumo, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
