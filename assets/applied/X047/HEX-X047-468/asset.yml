@@ -1,0 +1,12 @@
+id: HEX-X047-468
+cycle: X047
+layer: X
+status: generated
+concept: "Trigger: esforço do paciente"
+source_asset: HEX-G007-068
+canonical_prompt: "Ilustração médica vetorial didática de trigger ventilatório mostrando esforço do paciente, queda de pressão e ciclo assistido; paleta Hexápode; português."
+alt_text: "Esforço inspiratório do paciente reduz a pressão de base antes de o ventilador entregar o ciclo assistido."
+overlay: {embedded: true, labels: [esforço do paciente, trigger, ciclo assistido]}
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Clinica, UTI, Emergencias, Respira, Ventila, Cardio, Trauma, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
