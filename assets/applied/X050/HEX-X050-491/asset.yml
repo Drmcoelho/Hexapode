@@ -1,0 +1,13 @@
+id: HEX-X050-491
+cycle: X050
+layer: applied
+concept: Padrão obstrutivo versus restritivo
+status: generated
+base_art: base-art.svg
+canonical_prompt: "Infográfico médico vetorial didático comparando padrões ventilatórios obstrutivo e restritivo por volumes, fluxos, mecânica e pistas clínicas."
+alt_text: "Dois painéis comparam obstrução, marcada por dificuldade de esvaziamento e relação VEF1/CVF reduzida, com restrição, marcada por volumes pulmonares reduzidos."
+overlay: {title: "Obstrução × restrição", labels: [fluxo expiratório, volumes pulmonares, aprisionamento, CPT]}
+source_links: [G010, A030]
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Respira, Ventila, Clinica, UTI, Emergencias, Pneumo, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: ready, no_duplication: pending}
