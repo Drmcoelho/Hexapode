@@ -1,0 +1,15 @@
+id: HEX-X055-550
+concept: Transfusão de hemocomponentes indicada e monitorada
+cycle: X055
+layer: applied
+status: generated
+canonical_origin: G015
+advanced_origin: A035
+prompt: Prancha aplicada sobre indicação de hemocomponentes, compatibilidade, monitorização e reconhecimento de reações transfusionais.
+alt: Bolsa de sangue, gota e checklist representam decisão transfusional, identificação e monitorização de segurança.
+overlay:
+  title: Transfusão de hemocomponentes indicada e monitorada
+  labels: [hemácias, plasma, plaquetas, compatibilidade, reação transfusional]
+consumers: [Emergências, UTI, Hematologia, Trauma, Oncologia, Enfermagem]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
