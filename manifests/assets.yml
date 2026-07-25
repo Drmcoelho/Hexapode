@@ -11,8 +11,8 @@ production:
   - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: X045
-  completed_assets: 440
+  next_cycle: X046
+  completed_assets: 450
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycle_index:
@@ -60,24 +60,25 @@ cycle_index:
 - {id: X042, range: 411-420, theme: Clínica Aplicada II, status: generated, source_root: assets/applied/X042}
 - {id: X043, range: 421-430, theme: Clínica Aplicada III, status: generated, source_root: assets/applied/X043}
 - {id: X044, range: 431-440, theme: Mecânica Respiratória Aplicada, status: generated, source_root: assets/applied/X044}
+- {id: X045, range: 441-450, theme: Fisiologia Aplicada, status: generated, source_root: assets/applied/X045}
 cycles:
-  X044:
+  X045:
     layer: X
-    range: 431-440
-    theme: Mecânica Respiratória Aplicada
+    range: 441-450
+    theme: Fisiologia Aplicada
     status: generated
     exports_pending: [base-art.png, thumbnail.webp]
     assets:
-    - {id: HEX-X044-431, concept: 'Inspiração aplicada: avaliação do esforço', status: generated, source: assets/applied/X044/HEX-X044-431/base-art.svg, metadata: assets/applied/X044/HEX-X044-431/asset.yml}
-    - {id: HEX-X044-432, concept: 'Expiração aplicada: obstrução e aprisionamento', status: generated, source: assets/applied/X044/HEX-X044-432/base-art.svg, metadata: assets/applied/X044/HEX-X044-432/asset.yml}
-    - {id: HEX-X044-433, concept: 'Pressão pleural aplicada: esforço e interação cardiopulmonar', status: generated, source: assets/applied/X044/HEX-X044-433/base-art.svg, metadata: assets/applied/X044/HEX-X044-433/asset.yml}
-    - {id: HEX-X044-434, concept: 'Pressão alveolar aplicada: entrada e saída de ar', status: generated, source: assets/applied/X044/HEX-X044-434/base-art.svg, metadata: assets/applied/X044/HEX-X044-434/asset.yml}
-    - {id: HEX-X044-435, concept: 'Pressão transpulmonar aplicada: recrutamento e sobredistensão', status: generated, source: assets/applied/X044/HEX-X044-435/base-art.svg, metadata: assets/applied/X044/HEX-X044-435/asset.yml}
-    - {id: HEX-X044-436, concept: 'Elastância aplicada: pulmão rígido versus complacente', status: generated, source: assets/applied/X044/HEX-X044-436/base-art.svg, metadata: assets/applied/X044/HEX-X044-436/asset.yml}
-    - {id: HEX-X044-437, concept: 'Complacência aplicada: cálculo e interpretação', status: generated, source: assets/applied/X044/HEX-X044-437/base-art.svg, metadata: assets/applied/X044/HEX-X044-437/asset.yml}
-    - {id: HEX-X044-438, concept: 'Resistência aplicada: causas de pressão de pico elevada', status: generated, source: assets/applied/X044/HEX-X044-438/base-art.svg, metadata: assets/applied/X044/HEX-X044-438/asset.yml}
-    - {id: HEX-X044-439, concept: 'Trabalho respiratório aplicado: fadiga iminente', status: generated, source: assets/applied/X044/HEX-X044-439/base-art.svg, metadata: assets/applied/X044/HEX-X044-439/asset.yml}
-    - {id: HEX-X044-440, concept: 'Histerese aplicada: recrutamento e titulação de PEEP', status: generated, source: assets/applied/X044/HEX-X044-440/base-art.svg, metadata: assets/applied/X044/HEX-X044-440/asset.yml}
+    - {id: HEX-X045-441, concept: 'Oferta de oxigênio à beira-leito', status: generated, source: assets/applied/X045/HEX-X045-441/base-art.svg, metadata: assets/applied/X045/HEX-X045-441/asset.yml}
+    - {id: HEX-X045-442, concept: 'Extração de oxigênio e ScvO2', status: generated, source: assets/applied/X045/HEX-X045-442/base-art.svg, metadata: assets/applied/X045/HEX-X045-442/asset.yml}
+    - {id: HEX-X045-443, concept: 'Princípio de Fick aplicado', status: generated, source: assets/applied/X045/HEX-X045-443/base-art.svg, metadata: assets/applied/X045/HEX-X045-443/asset.yml}
+    - {id: HEX-X045-444, concept: 'Equação do gás alveolar', status: generated, source: assets/applied/X045/HEX-X045-444/base-art.svg, metadata: assets/applied/X045/HEX-X045-444/asset.yml}
+    - {id: HEX-X045-445, concept: 'Desequilíbrio V/Q aplicado', status: generated, source: assets/applied/X045/HEX-X045-445/base-art.svg, metadata: assets/applied/X045/HEX-X045-445/asset.yml}
+    - {id: HEX-X045-446, concept: 'Shunt e resposta ao oxigênio', status: generated, source: assets/applied/X045/HEX-X045-446/base-art.svg, metadata: assets/applied/X045/HEX-X045-446/asset.yml}
+    - {id: HEX-X045-447, concept: 'Espaço morto e capnografia', status: generated, source: assets/applied/X045/HEX-X045-447/base-art.svg, metadata: assets/applied/X045/HEX-X045-447/asset.yml}
+    - {id: HEX-X045-448, concept: 'Curva da oxiemoglobina aplicada', status: generated, source: assets/applied/X045/HEX-X045-448/base-art.svg, metadata: assets/applied/X045/HEX-X045-448/asset.yml}
+    - {id: HEX-X045-449, concept: 'Ventilação alveolar e PaCO2', status: generated, source: assets/applied/X045/HEX-X045-449/base-art.svg, metadata: assets/applied/X045/HEX-X045-449/asset.yml}
+    - {id: HEX-X045-450, concept: 'Lactato: produção, depuração e tendência', status: generated, source: assets/applied/X045/HEX-X045-450/base-art.svg, metadata: assets/applied/X045/HEX-X045-450/asset.yml}
 cycle_generation_rule: Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
   source_required: [base-art.svg, asset.yml]
