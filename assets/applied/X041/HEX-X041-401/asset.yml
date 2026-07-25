@@ -1,0 +1,14 @@
+id: HEX-X041-401
+cycle: X041
+layer: X
+concept: Anamnese clínica estruturada
+status: generated
+prompt_canonical: >-
+  Infográfico médico aplicado sobre anamnese clínica estruturada, com seis etapas sequenciais, identidade visual Hexápode, linguagem objetiva, fundo marfim, azul petróleo e teal.
+alt: Fluxograma de anamnese com identificação, queixa principal, história atual, antecedentes, revisão de sistemas e impacto funcional.
+overlay:
+  title: Anamnese clínica estruturada
+  labels: [Identificação, Queixa principal, História atual, Antecedentes, Revisão de sistemas, Impacto funcional]
+source_links: [G001, A021]
+consumers: [Hexágono, Hexaconsulta, Hexaconecta, Clínica, Emergência, Respira, Ventila]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

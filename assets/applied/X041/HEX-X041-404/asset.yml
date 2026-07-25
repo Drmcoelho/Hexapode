@@ -1,0 +1,14 @@
+id: HEX-X041-404
+cycle: X041
+layer: X
+concept: 'Dispneia: abordagem diagnóstica'
+status: generated
+prompt_canonical: >-
+  Infográfico aplicado de dispneia com avaliação inicial de gravidade e diferenciação entre causas pulmonares, cardíacas e sistêmicas.
+alt: Fluxograma de dispneia com início e tempo, gravidade, causas pulmonares, cardíacas, metabólicas e neuromusculares.
+overlay:
+  title: Dispneia
+  labels: [Gravidade, Pulmonar, Cardiovascular, Sistêmica]
+source_links: [G001, A021]
+consumers: [Respira, Ventila, Cardio, Emergência, Hexaconsulta]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

@@ -1,0 +1,14 @@
+id: HEX-X041-409
+cycle: X041
+layer: X
+concept: 'Cefaleia aguda: abordagem'
+status: generated
+prompt_canonical: >-
+  Fluxograma de cefaleia aguda com caracterização, sinais de alarme, exame neurológico, imagem e diferenciação de causas primárias e secundárias.
+alt: Fluxograma para cefaleia aguda com caracterização, sinais de alarme, exame neurológico, hipóteses primárias e secundárias e indicação de imagem.
+overlay:
+  title: Cefaleia aguda
+  labels: [Caracterização, Sinais de alarme, Neurológico, Imagem, Punção]
+source_links: [G001, A021]
+consumers: [Neuro, Emergência, Clínica, Hexaconsulta]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

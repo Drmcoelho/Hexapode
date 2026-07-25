@@ -1,0 +1,14 @@
+id: HEX-X041-405
+cycle: X041
+layer: X
+concept: 'Febre: abordagem diagnóstica'
+status: generated
+prompt_canonical: >-
+  Algoritmo visual de febre com confirmação, duração, foco, exposições, gravidade, hospedeiro e exames dirigidos.
+alt: Algoritmo de febre com confirmação da temperatura, tempo de evolução, foco provável, gravidade e investigação dirigida.
+overlay:
+  title: Febre
+  labels: [Confirmação, Duração, Foco, Gravidade, Investigação]
+source_links: [G001, A021]
+consumers: [Clínica, Emergência, Infectologia, Hexaconsulta]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

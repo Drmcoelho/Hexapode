@@ -1,0 +1,14 @@
+id: HEX-X041-406
+cycle: X041
+layer: X
+concept: 'Abdome agudo: abordagem diagnóstica'
+status: generated
+prompt_canonical: >-
+  Mapa visual de abdome agudo com sinais de gravidade, grupos etiológicos e decisão entre cirurgia, imagem e observação.
+alt: Mapa de abdome agudo com dor, vômitos, distensão, irritação peritoneal, choque e diferenciação entre causas inflamatórias, obstrutivas, vasculares e perfurativas.
+overlay:
+  title: Abdome agudo
+  labels: [Dor, Peritonite, Obstrução, Sangramento, Isquemia, Choque]
+source_links: [G001, A021]
+consumers: [Emergência, Trauma, Cirurgia, Hexaconsulta]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

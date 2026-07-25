@@ -1,0 +1,14 @@
+id: HEX-X041-407
+cycle: X041
+layer: X
+concept: 'Choque: abordagem clínica'
+status: generated
+prompt_canonical: >-
+  Diagrama clínico aplicado dos quatro tipos de choque, com suporte, tratamento causal e monitorização.
+alt: Diagrama dos choques hipovolêmico, cardiogênico, distributivo e obstrutivo, com reconhecimento, suporte hemodinâmico, tratamento causal e monitorização.
+overlay:
+  title: Choque
+  labels: [Hipovolêmico, Cardiogênico, Distributivo, Obstrutivo]
+source_links: [G001, A021]
+consumers: [Emergência, Cardio, Trauma, UTI, Hexaconsulta, Ventila]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

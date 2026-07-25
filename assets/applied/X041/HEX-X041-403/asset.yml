@@ -1,0 +1,14 @@
+id: HEX-X041-403
+cycle: X041
+layer: X
+concept: 'Dor torácica: abordagem diagnóstica'
+status: generated
+prompt_canonical: >-
+  Algoritmo médico visual de dor torácica com caracterização, instabilidade, ECG, troponina, diagnósticos ameaçadores e estratificação de risco.
+alt: Algoritmo para caracterizar dor torácica, reconhecer instabilidade, obter ECG e biomarcadores e separar causas cardiovasculares, pulmonares e não ameaçadoras.
+overlay:
+  title: Dor torácica
+  labels: [Caracterização, Instabilidade, ECG, Troponina, Estratificação]
+source_links: [G001, A021]
+consumers: [Cardio, Emergência, Trauma, Hexaconsulta, Hexágono]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

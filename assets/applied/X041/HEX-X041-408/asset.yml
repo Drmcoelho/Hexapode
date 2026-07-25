@@ -1,0 +1,14 @@
+id: HEX-X041-408
+cycle: X041
+layer: X
+concept: 'Desmaio (síncope): abordagem'
+status: generated
+prompt_canonical: >-
+  Algoritmo aplicado de síncope com história, ortostatismo, ECG, risco e causas reflexa, ortostática e cardíaca.
+alt: Algoritmo para síncope com história, exame físico, ECG, sinais de alto risco e diferenciação entre causas reflexas, ortostáticas e cardíacas.
+overlay:
+  title: Síncope
+  labels: [História, Ortostatismo, ECG, Risco, Reflexa, Cardíaca]
+source_links: [G001, A021]
+consumers: [Cardio, Emergência, Neuro, Hexaconsulta]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

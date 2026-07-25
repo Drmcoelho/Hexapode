@@ -1,0 +1,14 @@
+id: HEX-X041-410
+cycle: X041
+layer: X
+concept: 'Distúrbios hidroeletrolíticos: abordagem prática'
+status: generated
+prompt_canonical: >-
+  Algoritmo aplicado para sódio, potássio, cálcio e magnésio, com confirmação, gravidade, causa, correção e monitorização.
+alt: Algoritmo aplicado para alterações de sódio, potássio, cálcio e magnésio, priorizando confirmação, gravidade, causa, correção segura e monitorização.
+overlay:
+  title: Distúrbios hidroeletrolíticos
+  labels: [Sódio, Potássio, Cálcio, Magnésio, Gravidade, Correção]
+source_links: [G001, A021]
+consumers: [Nefro, Emergência, Cardio, Neuro, Hexaconsulta]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
