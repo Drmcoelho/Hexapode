@@ -1,0 +1,12 @@
+id: HEX-X047-467
+cycle: X047
+layer: X
+status: generated
+concept: "Auto-PEEP aplicada"
+source_asset: HEX-G007-067
+canonical_prompt: "Ilustração médica vetorial didática de auto-PEEP mostrando fluxo expiratório que não retorna ao zero antes do ciclo seguinte; paleta Hexápode; português."
+alt_text: "Fluxo expiratório que não retorna ao zero antes do próximo disparo, gerando pressão positiva intrínseca."
+overlay: {embedded: true, labels: [fluxo expiratório, auto-PEEP, aprisionamento aéreo]}
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Clinica, UTI, Emergencias, Respira, Ventila, Cardio, Trauma, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
