@@ -1,0 +1,12 @@
+id: HEX-X047-466
+cycle: X047
+layer: X
+status: generated
+concept: "Pausa inspiratória e plateau"
+source_asset: HEX-G007-066
+canonical_prompt: "Ilustração médica vetorial didática de pausa inspiratória, pressão de pico, plateau, PEEP e driving pressure; paleta Hexápode; português."
+alt_text: "Curva de pressão mostrando pressão de pico, pausa inspiratória, plateau e PEEP."
+overlay: {embedded: true, labels: [Ppico, Pplat, PEEP, pausa inspiratória, driving pressure]}
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Clinica, UTI, Emergencias, Respira, Ventila, Cardio, Trauma, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
