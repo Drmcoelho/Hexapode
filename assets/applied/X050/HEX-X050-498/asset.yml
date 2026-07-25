@@ -1,0 +1,13 @@
+id: HEX-X050-498
+cycle: X050
+layer: applied
+concept: Doença intersticial em exacerbação
+status: generated
+base_art: base-art.svg
+canonical_prompt: "Infográfico médico vetorial didático da doença intersticial pulmonar em exacerbação, enfatizando espessamento da barreira, limitação à difusão e diagnóstico diferencial da piora aguda."
+alt_text: "Alvéolos com barreira espessada demonstram difusão de oxigênio prejudicada, dessaturação ao esforço e causas concorrentes a excluir na piora aguda."
+overlay: {title: "Doença intersticial em exacerbação", labels: [interstício, difusão, dessaturação, diagnóstico diferencial]}
+source_links: [G010, A030]
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Respira, Ventila, Clinica, UTI, Emergencias, Pneumo, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: ready, no_duplication: pending}
