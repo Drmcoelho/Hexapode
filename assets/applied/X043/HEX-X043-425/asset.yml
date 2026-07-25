@@ -1,0 +1,13 @@
+id: HEX-X043-425
+cycle: X043
+layer: X
+concept: "TVP e embolia pulmonar"
+status: generated
+source_asset: HEX-G003-025
+source_file: base-art.svg
+prompt_canonical: "Infográfico médico aplicado sobre trombose venosa profunda, embolização pulmonar e sobrecarga de ventrículo direito, em SVG vetorial Hexápode."
+alt: "Infográfico mostra trombo em membro inferior, migração para o pulmão, probabilidade pré-teste, anticoagulação e reperfusão."
+overlay: {embedded: true, labels: [TVP, Embolização, Pulmão, Ventrículo direito, Anticoagulação]}
+consumers: [Cardio, Respira, Ventila, USG, Clínica, Trauma]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
