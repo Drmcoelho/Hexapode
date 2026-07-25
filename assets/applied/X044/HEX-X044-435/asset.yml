@@ -1,0 +1,13 @@
+id: HEX-X044-435
+cycle: X044
+layer: X
+concept: "Pressão transpulmonar aplicada: recrutamento e sobredistensão"
+status: generated
+source_asset: HEX-G004-035
+source_file: base-art.svg
+prompt_canonical: "Infográfico aplicado sobre pressão transpulmonar, colapso, recrutamento, PEEP e sobredistensão."
+alt: "Uso da pressão transpulmonar para compreender colapso, recrutamento e sobredistensão."
+overlay: {embedded: true, labels: [Colapso, Recrutamento, Zona segura, Sobredistensão, PEEP]}
+consumers: [Ventila, Respira, UTI, Clínica]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
