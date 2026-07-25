@@ -1,0 +1,13 @@
+id: HEX-X054-534
+concept: 'Choque: classificação aplicada'
+cycle: X054
+layer: applied
+status: generated
+canonical_origin: HEX-G014-134
+advanced_origin: HEX-A034-334
+prompt: Prancha vetorial Hexápode aplicada comparando choque hipovolêmico, cardiogênico, distributivo e obstrutivo.
+alt: Quatro gotas representam os principais mecanismos de choque e sua diferenciação clínica.
+overlay: {title: 'Choque: classificação aplicada', labels: [hipovolêmico, cardiogênico, distributivo, obstrutivo]}
+consumers: [Emergências, Cardio, Trauma, UTI, Nefrologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
