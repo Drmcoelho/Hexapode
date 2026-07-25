@@ -1,0 +1,12 @@
+id: HEX-X048-473
+cycle: X048
+layer: X
+status: generated
+concept: "PSV aplicado"
+source_asset: HEX-G008-073
+canonical_prompt: "Infográfico vetorial didático sobre modo espontâneo assistido por pressão, com início pelo esforço respiratório, assistência inspiratória e término por redução do fluxo; paleta Hexápode; português."
+alt_text: "Esquema de modo espontâneo assistido por pressão com esforço respiratório, assistência e término por fluxo."
+overlay: {embedded: true, labels: [esforço respiratório, assistência inspiratória, fluxo desacelerado, término por fluxo, avaliação clínica]}
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Clinica, UTI, Emergencias, Respira, Ventila, Pneumo, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
