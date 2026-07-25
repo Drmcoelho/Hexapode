@@ -1,0 +1,13 @@
+id: HEX-X054-533
+concept: Escala de Glasgow aplicada
+cycle: X054
+layer: applied
+status: generated
+canonical_origin: HEX-G014-133
+advanced_origin: HEX-A034-333
+prompt: Prancha vetorial Hexápode aplicada sobre Escala de Glasgow, com componentes ocular, verbal e motor.
+alt: Tabela visual soma abertura ocular, resposta verbal e resposta motora em escore de 3 a 15.
+overlay: {title: Escala de Glasgow aplicada, labels: [ocular, verbal, motora, total]}
+consumers: [Neuro, Trauma, Emergências, UTI, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
