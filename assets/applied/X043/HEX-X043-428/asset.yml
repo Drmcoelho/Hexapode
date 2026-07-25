@@ -1,0 +1,13 @@
+id: HEX-X043-428
+cycle: X043
+layer: X
+concept: "Meningite aguda"
+status: generated
+source_asset: HEX-G003-028
+source_file: base-art.svg
+prompt_canonical: "Infográfico médico aplicado sobre meningite aguda, inflamação meníngea, sinais de alarme, coleta de LCR e antibiótico precoce, em SVG vetorial Hexápode."
+alt: "Infográfico mostra meninges inflamadas, sinais de alarme, culturas, punção lombar e início precoce de antimicrobianos."
+overlay: {embedded: true, labels: [Meninges, Sinais de alarme, Culturas, LCR, Antibiótico]}
+consumers: [Neuro, Clínica, Farmaco, Hexaconsulta]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
