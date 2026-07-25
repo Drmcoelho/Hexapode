@@ -1,0 +1,15 @@
+id: HEX-X052-511
+concept: Interpretação sistemática aplicada
+cycle: X052
+layer: applied
+status: generated
+canonical_source: HEX-G012-111
+advanced_source: HEX-A032-311
+prompt: Prancha aplicada Hexápode com caso clínico guiado em seis passos para interpretar gasometria arterial sem saltos lógicos.
+alt: Fluxo em seis passos percorre pH, PaCO2, bicarbonato, compensação, oxigenação e ânion gap.
+overlay:
+  title: Interpretação sistemática aplicada
+  labels: [pH, PaCO2, HCO3, compensação, oxigenação, ânion gap]
+consumers: [Emergências, Medicina Interna, Nefrologia, Respira, Ventila, UTI, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
