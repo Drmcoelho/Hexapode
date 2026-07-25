@@ -1,0 +1,12 @@
+id: HEX-X048-475
+cycle: X048
+layer: X
+status: generated
+concept: "PRVC aplicado"
+source_asset: HEX-G008-075
+canonical_prompt: "Infográfico médico vetorial didático do PRVC, com volume-alvo, volume medido e ajuste automático da pressão inspiratória ciclo a ciclo; paleta Hexápode; português."
+alt_text: "Diagrama de PRVC mostrando volume-alvo e ajuste automático da pressão para aproximar o volume medido."
+overlay: {embedded: true, labels: [volume alvo, volume medido, ajuste de pressão, adaptação ciclo a ciclo, variação transitória]}
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Clinica, UTI, Emergencias, Respira, Ventila, Pneumo, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
