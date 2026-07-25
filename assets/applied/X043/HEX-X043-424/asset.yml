@@ -1,0 +1,13 @@
+id: HEX-X043-424
+cycle: X043
+layer: X
+concept: "Emergências diabéticas"
+status: generated
+source_asset: HEX-G003-024
+source_file: base-art.svg
+prompt_canonical: "Infográfico médico aplicado comparando cetoacidose diabética e estado hiperosmolar, reposição volêmica, potássio e insulina, em SVG vetorial Hexápode."
+alt: "Infográfico compara CAD e EHH, destacando cetonas, acidose, hiperosmolaridade, desidratação e sequência terapêutica."
+overlay: {embedded: true, labels: [CAD, EHH, Cetonas, Osmolaridade, Potássio, Insulina]}
+consumers: [Clínica, Nefro, Neuro, Farmaco, Hexaconsulta]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
