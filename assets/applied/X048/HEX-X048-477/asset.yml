@@ -1,0 +1,12 @@
+id: HEX-X048-477
+cycle: X048
+layer: X
+status: generated
+concept: "CPAP aplicado"
+source_asset: HEX-G008-077
+canonical_prompt: "Infográfico médico vetorial didático de CPAP, mostrando pressão positiva contínua, recrutamento alveolar, efeitos clínicos e parâmetros de monitorização; paleta Hexápode; português."
+alt_text: "Comparação de alvéolo instável antes do CPAP e alvéolo recrutado com pressão positiva contínua."
+overlay: {embedded: true, labels: [pressão positiva contínua, recrutamento alveolar, capacidade residual funcional, esforço inspiratório, monitorização]}
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Clinica, UTI, Emergencias, Respira, Ventila, Pneumo, Pediatria, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
