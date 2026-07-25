@@ -1,0 +1,12 @@
+id: HEX-X048-474
+cycle: X048
+layer: X
+status: generated
+concept: "SIMV aplicado"
+source_asset: HEX-G008-074
+canonical_prompt: "Infográfico médico vetorial didático do modo SIMV, mostrando ciclos mandatórios sincronizados e respirações espontâneas intercaladas, com pontos de atenção clínicos; paleta Hexápode; português."
+alt_text: "Linha do tempo respiratória com ciclos mandatórios sincronizados e respirações espontâneas."
+overlay: {embedded: true, labels: [ciclo mandatório, respiração espontânea, sincronização, frequência mandatória, esforço respiratório]}
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Clinica, UTI, Emergencias, Respira, Ventila, Pneumo, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
