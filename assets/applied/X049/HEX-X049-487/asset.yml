@@ -1,0 +1,13 @@
+id: HEX-X049-487
+cycle: X049
+layer: applied
+concept: Ciclagem tardia aplicada
+status: generated
+base_art: base-art.svg
+canonical_prompt: "Infográfico médico vetorial didático sobre ciclagem tardia, mostrando ventilador mantendo inspiração após o fim do esforço e correções de Ti, suporte e critério de ciclagem."
+alt_text: "O esforço do paciente termina antes do fluxo inspiratório do ventilador; painel lateral resume ajustes para encurtar a inspiração."
+overlay: {title: "Ciclagem tardia", labels: [Ti longo, esforço termina, expiração ativa, encurtar inspiração]}
+source_links: [G009, A029]
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Ventila, Respira, UTI, Emergencias, Pneumo, Pediatria, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: ready, no_duplication: pending}
