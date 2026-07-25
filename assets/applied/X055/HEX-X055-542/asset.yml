@@ -1,0 +1,15 @@
+id: HEX-X055-542
+concept: 'Antibiótico: ajuste por função renal aplicado'
+cycle: X055
+layer: applied
+status: generated
+canonical_origin: G015
+advanced_origin: A035
+prompt: Prancha aplicada sobre ajuste antimicrobiano conforme função renal, depuração estimada, modalidade dialítica e monitorização.
+alt: Dois rins, tubo de coleta e tabela de doses representam ajuste de antibióticos conforme função renal e modalidade dialítica.
+overlay:
+  title: 'Antibiótico: ajuste por função renal aplicado'
+  labels: [TFG, depuração, dose, intervalo, diálise]
+consumers: [Nefrologia, UTI, Infectologia, Farmácia Clínica, Emergências]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
