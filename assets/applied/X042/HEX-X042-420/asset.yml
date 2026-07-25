@@ -1,0 +1,13 @@
+id: HEX-X042-420
+cycle: X042
+layer: X
+concept: Intoxicação exógena
+status: generated
+source_asset: HEX-G002-020
+base_art: base-art.svg
+prompt_canonical: Infográfico vetorial didático sobre abordagem geral da intoxicação exógena baseada em toxíndromes.
+alt: Frasco tóxico esquemático com quatro etapas: ABCDE, identificação do agente, descontaminação criteriosa e antídoto.
+overlay: {embedded: true, labels: [ABCDE, agente, descontaminação, antídoto]}
+consumers: [Clínica, Emergência, Toxicologia, UTI, Farmaco]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
+exports_pending: [base-art.png, thumbnail.webp]
