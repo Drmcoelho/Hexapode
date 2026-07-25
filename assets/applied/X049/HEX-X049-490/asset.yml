@@ -1,0 +1,13 @@
+id: HEX-X049-490
+cycle: X049
+layer: applied
+concept: Mapa aplicado de correção das assincronias
+status: generated
+base_art: base-art.svg
+canonical_prompt: "Infográfico médico vetorial didático em formato de fluxograma para reconhecer, explicar e corrigir assincronias ventilatórias comuns a partir das curvas."
+alt_text: "Fluxograma em três colunas relaciona padrão observado, mecanismo provável e primeiro ajuste para disparo ineficaz, duplo disparo, fome de fluxo, ciclagem inadequada e auto-PEEP."
+overlay: {title: "Mapa de correção das assincronias", labels: [padrão, mecanismo, ajuste inicial, reavaliar curvas]}
+source_links: [G009, A029]
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Ventila, Respira, UTI, Emergencias, Pneumo, Pediatria, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: ready, no_duplication: pending}
