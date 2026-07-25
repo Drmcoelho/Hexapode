@@ -1,0 +1,12 @@
+id: HEX-X048-478
+cycle: X048
+layer: X
+status: generated
+concept: "Ventilação bilevel aplicada"
+source_asset: HEX-G008-078
+canonical_prompt: "Infográfico médico vetorial didático de ventilação bilevel, mostrando IPAP, EPAP, pressão de suporte e ajuste orientado por ventilação e oxigenação; paleta Hexápode; português."
+alt_text: "Curva de dois níveis de pressão com IPAP, EPAP e diferença de pressão representando suporte ventilatório."
+overlay: {embedded: true, labels: [IPAP, EPAP, pressão de suporte, ventilação, oxigenação, reavaliação precoce]}
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Clinica, UTI, Emergencias, Respira, Ventila, Pneumo, Pediatria, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
