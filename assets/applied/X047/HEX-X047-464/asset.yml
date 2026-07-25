@@ -1,0 +1,12 @@
+id: HEX-X047-464
+cycle: X047
+layer: X
+status: generated
+concept: "Loop pressão–volume aplicado"
+source_asset: HEX-G007-064
+canonical_prompt: "Ilustração médica vetorial didática de loop pressão-volume com recrutamento, histerese e sobredistensão; paleta Hexápode; português."
+alt_text: "Loop pressão-volume com ramo inspiratório, ramo expiratório, recrutamento e sobredistensão."
+overlay: {embedded: true, labels: [recrutamento, histerese, sobredistensão, complacência]}
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Clinica, UTI, Emergencias, Respira, Ventila, Cardio, Trauma, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
