@@ -11,8 +11,8 @@ production:
   - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: X049
-  completed_assets: 480
+  next_cycle: X050
+  completed_assets: 490
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycle_index:
@@ -64,6 +64,7 @@ cycle_index:
 - {id: X046, range: 451-460, theme: Equipamentos Aplicados, status: generated, source_root: assets/applied/X046}
 - {id: X047, range: 461-470, theme: Curvas Aplicadas, status: generated, source_root: assets/applied/X047}
 - {id: X048, range: 471-480, theme: Modos Ventilatórios Aplicados, status: generated, source_root: assets/applied/X048}
+- {id: X049, range: 481-490, theme: Assincronias Aplicadas, status: generated, source_root: assets/applied/X049}
 cycles:
   X047:
     layer: X
@@ -99,6 +100,23 @@ cycles:
     - {id: HEX-X048-478, concept: 'Ventilação bilevel aplicada', status: generated, source: assets/applied/X048/HEX-X048-478/base-art.svg, metadata: assets/applied/X048/HEX-X048-478/asset.yml}
     - {id: HEX-X048-479, concept: 'HFOV aplicado', status: generated, source: assets/applied/X048/HEX-X048-479/base-art.svg, metadata: assets/applied/X048/HEX-X048-479/asset.yml}
     - {id: HEX-X048-480, concept: 'VNI aplicada', status: generated, source: assets/applied/X048/HEX-X048-480/base-art.svg, metadata: assets/applied/X048/HEX-X048-480/asset.yml}
+  X049:
+    layer: X
+    range: 481-490
+    theme: Assincronias Aplicadas
+    status: generated
+    exports_pending: [base-art.png, thumbnail.webp]
+    assets:
+    - {id: HEX-X049-481, concept: 'Disparo ineficaz aplicado', status: generated, source: assets/applied/X049/HEX-X049-481/base-art.svg, metadata: assets/applied/X049/HEX-X049-481/asset.yml}
+    - {id: HEX-X049-482, concept: 'Duplo disparo aplicado', status: generated, source: assets/applied/X049/HEX-X049-482/base-art.svg, metadata: assets/applied/X049/HEX-X049-482/asset.yml}
+    - {id: HEX-X049-483, concept: 'Reverse trigger aplicado', status: generated, source: assets/applied/X049/HEX-X049-483/base-art.svg, metadata: assets/applied/X049/HEX-X049-483/asset.yml}
+    - {id: HEX-X049-484, concept: 'Auto-trigger aplicado', status: generated, source: assets/applied/X049/HEX-X049-484/base-art.svg, metadata: assets/applied/X049/HEX-X049-484/asset.yml}
+    - {id: HEX-X049-485, concept: 'Fome de fluxo aplicada', status: generated, source: assets/applied/X049/HEX-X049-485/base-art.svg, metadata: assets/applied/X049/HEX-X049-485/asset.yml}
+    - {id: HEX-X049-486, concept: 'Ciclagem precoce aplicada', status: generated, source: assets/applied/X049/HEX-X049-486/base-art.svg, metadata: assets/applied/X049/HEX-X049-486/asset.yml}
+    - {id: HEX-X049-487, concept: 'Ciclagem tardia aplicada', status: generated, source: assets/applied/X049/HEX-X049-487/base-art.svg, metadata: assets/applied/X049/HEX-X049-487/asset.yml}
+    - {id: HEX-X049-488, concept: 'Breath stacking aplicado', status: generated, source: assets/applied/X049/HEX-X049-488/base-art.svg, metadata: assets/applied/X049/HEX-X049-488/asset.yml}
+    - {id: HEX-X049-489, concept: 'Auto-PEEP dinâmica aplicada', status: generated, source: assets/applied/X049/HEX-X049-489/base-art.svg, metadata: assets/applied/X049/HEX-X049-489/asset.yml}
+    - {id: HEX-X049-490, concept: 'Mapa aplicado de correção das assincronias', status: generated, source: assets/applied/X049/HEX-X049-490/base-art.svg, metadata: assets/applied/X049/HEX-X049-490/asset.yml}
 cycle_generation_rule: Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
   source_required: [base-art.svg, asset.yml]
