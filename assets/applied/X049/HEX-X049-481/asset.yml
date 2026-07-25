@@ -1,0 +1,13 @@
+id: HEX-X049-481
+cycle: X049
+layer: applied
+concept: Disparo ineficaz aplicado
+status: generated
+base_art: base-art.svg
+canonical_prompt: "Infográfico médico vetorial didático sobre disparo ineficaz no ventilador, curvas sincronizadas de esforço, pressão e fluxo, causas e correções, design system Hexápode."
+alt_text: "Tentativas inspiratórias do paciente aparecem como deflexões sem ciclo ventilatório correspondente; painel lateral lista auto-PEEP, sensibilidade e ajustes."
+overlay: {title: "Disparo ineficaz", labels: [esforço sem ciclo, auto-PEEP, sensibilidade, correção]}
+source_links: [G009, A029]
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Ventila, Respira, UTI, Emergencias, Pneumo, Pediatria, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: ready, no_duplication: pending}
