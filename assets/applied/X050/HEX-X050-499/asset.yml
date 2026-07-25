@@ -1,0 +1,13 @@
+id: HEX-X050-499
+cycle: X050
+layer: applied
+concept: Pneumonia grave aplicada
+status: generated
+base_art: base-art.svg
+canonical_prompt: "Infográfico médico vetorial didático da pneumonia grave conectando consolidação, hipoxemia, sepse, disfunção orgânica e prioridades de tratamento."
+alt_text: "Pulmão com foco de consolidação demonstra troca gasosa comprometida, progressão para sepse e critérios práticos de gravidade."
+overlay: {title: "Pneumonia grave aplicada", labels: [consolidação, hipoxemia, sepse, suporte]}
+source_links: [G010, A030]
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Respira, Ventila, Clinica, UTI, Emergencias, Pneumo, Infectologia, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: ready, no_duplication: pending}
