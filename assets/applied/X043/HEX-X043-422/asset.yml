@@ -1,0 +1,13 @@
+id: HEX-X043-422
+cycle: X043
+layer: X
+concept: "Insuficiência cardíaca aguda descompensada"
+status: generated
+source_asset: HEX-G003-022
+source_file: base-art.svg
+prompt_canonical: "Infográfico médico aplicado sobre insuficiência cardíaca aguda, congestão pulmonar, baixo débito e prioridades terapêuticas, em SVG vetorial Hexápode."
+alt: "Infográfico de insuficiência cardíaca aguda mostrando congestão, baixo débito, fenotipagem e reavaliação."
+overlay: {embedded: true, labels: [Congestão, Baixo débito, Perfusão, Descongestão, Reavaliação]}
+consumers: [Cardio, Clínica, Respira, Ventila, Hexaconsulta]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
