@@ -1,0 +1,13 @@
+id: HEX-X043-430
+cycle: X043
+layer: X
+concept: "UTI: pacote de medidas essenciais"
+status: generated
+source_asset: HEX-G003-030
+source_file: base-art.svg
+prompt_canonical: "Infográfico médico aplicado sobre bundle diário de UTI, segurança, prevenção e suporte multissistêmico, em SVG vetorial Hexápode."
+alt: "Infográfico de pacote diário de UTI com sedação, delirium, mobilização, ventilação protetora, profilaxias, dispositivos, nutrição e glicemia."
+overlay: {embedded: true, labels: [Sedação, Delirium, Mobilização, Ventilação, Profilaxias, Dispositivos]}
+consumers: [Clínica, Ventila, Respira, Cardio, Neuro, Nefro, Farmaco]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
