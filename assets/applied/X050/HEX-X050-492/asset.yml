@@ -1,0 +1,13 @@
+id: HEX-X050-492
+cycle: X050
+layer: applied
+concept: SDRA aplicada
+status: generated
+base_art: base-art.svg
+canonical_prompt: "Infográfico médico vetorial didático da SDRA, conectando lesão alveolocapilar, shunt, baixa complacência e ventilação protetora."
+alt_text: "Três etapas mostram lesão da barreira, edema e shunt, seguidos de volume corrente baixo, PEEP individualizada e limitação de pressão."
+overlay: {title: "SDRA aplicada", labels: [lesão alveolocapilar, shunt, complacência, ventilação protetora]}
+source_links: [G010, A030]
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Respira, Ventila, UTI, Emergencias, Pneumo, Pediatria, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: ready, no_duplication: pending}
