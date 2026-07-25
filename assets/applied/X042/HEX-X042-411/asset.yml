@@ -1,0 +1,19 @@
+id: HEX-X042-411
+cycle: X042
+layer: X
+concept: Insuficiência respiratória aguda
+status: generated
+source_asset: HEX-G002-011
+base_art: base-art.svg
+prompt_canonical: >-
+  Infográfico médico vetorial didático sobre insuficiência respiratória aguda,
+  mostrando reconhecimento, confirmação da hipoxemia, oxigenoterapia e escalonamento.
+alt: >-
+  Pulmões esquemáticos com sequência em quatro etapas para avaliação e suporte
+  da insuficiência respiratória aguda.
+overlay:
+  embedded: true
+  labels: [reconhecimento, hipoxemia, oxigênio, escalonamento]
+consumers: [Respira, Ventila, Clínica, Emergência, UTI]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
+exports_pending: [base-art.png, thumbnail.webp]
