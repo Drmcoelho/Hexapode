@@ -1,0 +1,15 @@
+id: HEX-X055-543
+concept: 'Anticoagulação: indicação e escolha aplicadas'
+cycle: X055
+layer: applied
+status: generated
+canonical_origin: G015
+advanced_origin: A035
+prompt: Prancha aplicada sobre indicação, contraindicações, risco trombótico, risco hemorrágico e escolha do anticoagulante.
+alt: Vaso com elementos sanguíneos e escudo representam equilíbrio entre prevenção de trombose e risco de sangramento.
+overlay:
+  title: 'Anticoagulação: indicação e escolha aplicadas'
+  labels: [indicação, risco trombótico, risco hemorrágico, reversão, monitorização]
+consumers: [Cardio, Emergências, UTI, Neuro, Hematologia, Medicina Interna]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
