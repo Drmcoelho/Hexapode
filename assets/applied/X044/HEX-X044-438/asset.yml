@@ -1,0 +1,13 @@
+id: HEX-X044-438
+cycle: X044
+layer: X
+concept: "Resistência aplicada: causas de pressão de pico elevada"
+status: generated
+source_asset: HEX-G004-038
+source_file: base-art.svg
+prompt_canonical: "Infográfico aplicado com algoritmo para pressão de pico elevada: broncoespasmo, secreção, tubo e circuito."
+alt: "Algoritmo para pressão de pico elevada: broncoespasmo, secreção, tubo dobrado e obstrução do circuito."
+overlay: {embedded: true, labels: [Pico elevado, Broncoespasmo, Secreção, Tubo, Circuito]}
+consumers: [Ventila, Respira, Emergências, Clínica]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
