@@ -11,8 +11,8 @@ production:
   - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: X056
-  completed_assets: 550
+  next_cycle: X057
+  completed_assets: 560
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycle_index:
@@ -71,24 +71,25 @@ cycle_index:
 - {id: X053, range: 521-530, theme: Hemodinâmica Aplicada, status: generated, source_root: assets/applied/X053}
 - {id: X054, range: 531-540, theme: Emergências Aplicadas, status: generated, source_root: assets/applied/X054}
 - {id: X055, range: 541-550, theme: Terapêuticas Aplicadas, status: generated, source_root: assets/applied/X055}
+- {id: X056, range: 551-560, theme: Nefrologia Aplicada, status: generated, source_root: assets/applied/X056}
 cycles:
-  X055:
+  X056:
     layer: X
-    range: 541-550
-    theme: Terapêuticas Aplicadas
+    range: 551-560
+    theme: Nefrologia Aplicada
     status: generated
     exports_pending: [base-art.png, thumbnail.webp]
     assets:
-    - {id: HEX-X055-541, concept: 'Antibiótico: escolha empírica aplicada', status: generated, source: assets/applied/X055/HEX-X055-541/base-art.svg, metadata: assets/applied/X055/HEX-X055-541/asset.yml}
-    - {id: HEX-X055-542, concept: 'Antibiótico: ajuste por função renal aplicado', status: generated, source: assets/applied/X055/HEX-X055-542/base-art.svg, metadata: assets/applied/X055/HEX-X055-542/asset.yml}
-    - {id: HEX-X055-543, concept: 'Anticoagulação: indicação e escolha aplicadas', status: generated, source: assets/applied/X055/HEX-X055-543/base-art.svg, metadata: assets/applied/X055/HEX-X055-543/asset.yml}
-    - {id: HEX-X055-544, concept: 'Insulinoterapia: esquema basal-bolus aplicado', status: generated, source: assets/applied/X055/HEX-X055-544/base-art.svg, metadata: assets/applied/X055/HEX-X055-544/asset.yml}
-    - {id: HEX-X055-545, concept: 'Analgesia multimodal aplicada', status: generated, source: assets/applied/X055/HEX-X055-545/base-art.svg, metadata: assets/applied/X055/HEX-X055-545/asset.yml}
-    - {id: HEX-X055-546, concept: 'Fluidoterapia: tipos e indicações aplicadas', status: generated, source: assets/applied/X055/HEX-X055-546/base-art.svg, metadata: assets/applied/X055/HEX-X055-546/asset.yml}
-    - {id: HEX-X055-547, concept: 'Vasopressores: uso e titulação aplicados', status: generated, source: assets/applied/X055/HEX-X055-547/base-art.svg, metadata: assets/applied/X055/HEX-X055-547/asset.yml}
-    - {id: HEX-X055-548, concept: 'Corticoterapia: indicações e esquemas aplicados', status: generated, source: assets/applied/X055/HEX-X055-548/base-art.svg, metadata: assets/applied/X055/HEX-X055-548/asset.yml}
-    - {id: HEX-X055-549, concept: 'Broncodilatadores: escolha e técnica aplicadas', status: generated, source: assets/applied/X055/HEX-X055-549/base-art.svg, metadata: assets/applied/X055/HEX-X055-549/asset.yml}
-    - {id: HEX-X055-550, concept: 'Transfusão de hemocomponentes indicada e monitorada', status: generated, source: assets/applied/X055/HEX-X055-550/base-art.svg, metadata: assets/applied/X055/HEX-X055-550/asset.yml}
+    - {id: HEX-X056-551, concept: 'Lesão renal aguda: abordagem aplicada', status: generated, source: assets/applied/X056/HEX-X056-551/base-art.svg, metadata: assets/applied/X056/HEX-X056-551/asset.yml}
+    - {id: HEX-X056-552, concept: 'Hipercalemia: manejo aplicado', status: generated, source: assets/applied/X056/HEX-X056-552/base-art.svg, metadata: assets/applied/X056/HEX-X056-552/asset.yml}
+    - {id: HEX-X056-553, concept: 'Hiponatremia: correção segura aplicada', status: generated, source: assets/applied/X056/HEX-X056-553/base-art.svg, metadata: assets/applied/X056/HEX-X056-553/asset.yml}
+    - {id: HEX-X056-554, concept: 'Acidose metabólica: abordagem aplicada', status: generated, source: assets/applied/X056/HEX-X056-554/base-art.svg, metadata: assets/applied/X056/HEX-X056-554/asset.yml}
+    - {id: HEX-X056-555, concept: 'Indicações de diálise urgente aplicadas', status: generated, source: assets/applied/X056/HEX-X056-555/base-art.svg, metadata: assets/applied/X056/HEX-X056-555/asset.yml}
+    - {id: HEX-X056-556, concept: 'Hemodiálise: prescrição inicial aplicada', status: generated, source: assets/applied/X056/HEX-X056-556/base-art.svg, metadata: assets/applied/X056/HEX-X056-556/asset.yml}
+    - {id: HEX-X056-557, concept: 'Diálise peritoneal: ciclo aplicado', status: generated, source: assets/applied/X056/HEX-X056-557/base-art.svg, metadata: assets/applied/X056/HEX-X056-557/asset.yml}
+    - {id: HEX-X056-558, concept: 'Ajuste de fármacos na DRC aplicado', status: generated, source: assets/applied/X056/HEX-X056-558/base-art.svg, metadata: assets/applied/X056/HEX-X056-558/asset.yml}
+    - {id: HEX-X056-559, concept: 'Balanço hídrico e diurese aplicados', status: generated, source: assets/applied/X056/HEX-X056-559/base-art.svg, metadata: assets/applied/X056/HEX-X056-559/asset.yml}
+    - {id: HEX-X056-560, concept: 'Síndrome cardiorrenal aplicada', status: generated, source: assets/applied/X056/HEX-X056-560/base-art.svg, metadata: assets/applied/X056/HEX-X056-560/asset.yml}
 cycle_generation_rule: Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
   source_required: [base-art.svg, asset.yml]
