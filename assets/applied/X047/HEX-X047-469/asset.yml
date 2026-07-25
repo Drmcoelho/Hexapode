@@ -1,0 +1,12 @@
+id: HEX-X047-469
+cycle: X047
+layer: X
+status: generated
+concept: "Ciclagem aplicada"
+source_asset: HEX-G007-069
+canonical_prompt: "Ilustração médica vetorial didática de ciclagem ventilatória comparando tempo neural, ciclagem precoce e ciclagem tardia; paleta Hexápode; português."
+alt_text: "Comparação entre tempo neural inspiratório e ciclagem do ventilador, com ciclagem precoce e tardia."
+overlay: {embedded: true, labels: [tempo neural, ciclagem precoce, ciclagem tardia]}
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Clinica, UTI, Emergencias, Respira, Ventila, Cardio, Trauma, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
