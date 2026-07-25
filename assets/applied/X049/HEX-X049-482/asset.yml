@@ -1,0 +1,13 @@
+id: HEX-X049-482
+cycle: X049
+layer: applied
+concept: Duplo disparo aplicado
+status: generated
+base_art: base-art.svg
+canonical_prompt: "Infográfico médico vetorial didático sobre duplo disparo e breath stacking, relacionando esforço neural prolongado, dois ciclos consecutivos, risco de volume excessivo e correções."
+alt_text: "Um esforço neural prolongado produz dois ciclos ventilatórios quase contíguos, com destaque para empilhamento de volume e ajustes de tempo inspiratório e fluxo."
+overlay: {title: "Duplo disparo", labels: [um esforço, dois ciclos, breath stacking, corrigir fluxo e Ti]}
+source_links: [G009, A029]
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Ventila, Respira, UTI, Emergencias, Pneumo, Pediatria, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: ready, no_duplication: pending}
