@@ -1,0 +1,13 @@
+id: HEX-X054-540
+concept: Transferência segura aplicada
+cycle: X054
+layer: applied
+status: generated
+canonical_origin: HEX-G014-140
+advanced_origin: HEX-A034-340
+prompt: Prancha vetorial Hexápode aplicada sobre transferência segura, com estabilização, comunicação, documentação, monitorização e handoff estruturado.
+alt: Ambulância, seta e hospital representam estabilização prévia, transporte monitorizado e entrega estruturada.
+overlay: {title: Transferência segura aplicada, labels: [estabilização, comunicação, documentação, monitorização, handoff]}
+consumers: [Emergências, Trauma, UTI, Qualidade, Enfermagem]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
