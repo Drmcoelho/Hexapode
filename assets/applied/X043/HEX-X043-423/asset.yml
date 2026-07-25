@@ -1,0 +1,13 @@
+id: HEX-X043-423
+cycle: X043
+layer: X
+concept: "Crise hipertensiva"
+status: generated
+source_asset: HEX-G003-023
+source_file: base-art.svg
+prompt_canonical: "Infográfico médico aplicado sobre crise hipertensiva, urgência versus emergência e lesão de órgão-alvo, em SVG vetorial Hexápode."
+alt: "Infográfico sobre crise hipertensiva mostrando pressão muito elevada, avaliação de órgão-alvo e redução titulada."
+overlay: {embedded: true, labels: [Pressão, Órgão-alvo, Emergência, Titulação, Hipoperfusão]}
+consumers: [Cardio, Neuro, Nefro, Clínica, Hexaconsulta]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
