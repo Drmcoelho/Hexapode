@@ -1,0 +1,12 @@
+id: HEX-X053-521
+concept: Pressão arterial média aplicada
+cycle: X053
+layer: applied
+status: generated
+links: [HEX-G013-121, HEX-A033-321]
+prompt: Prancha aplicada Hexápode sobre PAM, gradiente de perfusão e interpretação por órgão-alvo.
+alt: Curva arterial com linha média destacada, fórmula aproximada da PAM e painel de aplicação clínica.
+overlay: {title: Pressão arterial média aplicada, labels: [PAS, PAD, PAM, gradiente de perfusão]}
+consumers: [Cardio, Emergências, Neuro, Nefrologia, Ventila]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

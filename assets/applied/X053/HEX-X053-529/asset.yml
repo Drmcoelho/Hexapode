@@ -1,0 +1,12 @@
+id: HEX-X053-529
+concept: Relação PEEP/PAM aplicada
+cycle: X053
+layer: applied
+status: generated
+links: [HEX-G013-129, HEX-A033-329]
+prompt: Prancha aplicada Hexápode relacionando carga ventilatória e pressão arterial média.
+alt: Pulmões, medidor de pressão e razão PEEP sobre PAM como índice contextual de carga relativa.
+overlay: {title: Relação PEEP/PAM aplicada, labels: [PEEP, PAM, carga ventilatória, perfusão]}
+consumers: [Ventila, Cardio, Emergências, Fisiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

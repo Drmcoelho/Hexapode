@@ -1,0 +1,12 @@
+id: HEX-X053-522
+concept: Pressão de pulso aplicada
+cycle: X053
+layer: applied
+status: generated
+links: [HEX-G013-122, HEX-A033-322]
+prompt: Prancha aplicada Hexápode sobre pressão de pulso, componente pulsátil e complacência arterial.
+alt: Onda arterial com distância entre pressão sistólica e diastólica destacada como pressão de pulso.
+overlay: {title: Pressão de pulso aplicada, labels: [PAS, PAD, PP, complacência arterial]}
+consumers: [Cardio, Emergências, Geriatria, Nefrologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

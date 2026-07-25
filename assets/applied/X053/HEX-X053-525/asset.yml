@@ -1,0 +1,12 @@
+id: HEX-X053-525
+concept: Resistência vascular sistêmica aplicada
+cycle: X053
+layer: applied
+status: generated
+links: [HEX-G013-125, HEX-A033-325]
+prompt: Prancha aplicada Hexápode sobre resistência vascular sistêmica, pós-carga e gradiente sistêmico.
+alt: Vaso esquemático com lúmen, direção do fluxo e fórmula da resistência vascular sistêmica.
+overlay: {title: Resistência vascular sistêmica aplicada, labels: [PAM, PVC, DC, RVS, tônus vascular]}
+consumers: [Cardio, Emergências, Farmacologia, Fisiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

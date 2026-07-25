@@ -1,0 +1,12 @@
+id: HEX-X053-527
+concept: Variação da pressão de pulso aplicada
+cycle: X053
+layer: applied
+status: generated
+links: [HEX-G013-127, HEX-A033-327]
+prompt: Prancha aplicada Hexápode sobre variação respiratória da pressão de pulso e condições de validade.
+alt: Onda arterial variável entre ciclos respiratórios com máximos, mínimos e interação coração-pulmão.
+overlay: {title: Variação da pressão de pulso aplicada, labels: [PPmáx, PPmín, PPmédia, ventilação controlada]}
+consumers: [Ventila, Cardio, Emergências, Fisiologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

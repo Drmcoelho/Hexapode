@@ -1,0 +1,12 @@
+id: HEX-X053-523
+concept: Duplo produto aplicado
+cycle: X053
+layer: applied
+status: generated
+links: [HEX-G013-123, HEX-A033-323]
+prompt: Prancha aplicada Hexápode sobre duplo produto como aproximação da demanda miocárdica.
+alt: Coração, traçado pulsátil e fórmula frequência cardíaca vezes pressão sistólica.
+overlay: {title: Duplo produto aplicado, labels: [FC, PAS, demanda miocárdica]}
+consumers: [Cardio, Emergências, Farmacologia, Reabilitação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

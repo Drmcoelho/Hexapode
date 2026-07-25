@@ -1,0 +1,12 @@
+id: HEX-X053-528
+concept: Variação do volume sistólico aplicada
+cycle: X053
+layer: applied
+status: generated
+links: [HEX-G013-128, HEX-A033-328]
+prompt: Prancha aplicada Hexápode sobre oscilação respiratória do volume sistólico e interpretação dinâmica.
+alt: Curva de volume sistólico variando com a respiração, com máximos e mínimos identificados.
+overlay: {title: Variação do volume sistólico aplicada, labels: [VSmáx, VSmín, VSmédio, interação cardiopulmonar]}
+consumers: [Ventila, Cardio, Emergências, USG]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

@@ -1,0 +1,12 @@
+id: HEX-X053-526
+concept: Pressão venosa central aplicada
+cycle: X053
+layer: applied
+status: generated
+links: [HEX-G013-126, HEX-A033-326]
+prompt: Prancha aplicada Hexápode sobre pressão atrial direita, retorno venoso e limitações da PVC isolada.
+alt: Compartimento venoso conectado ao átrio direito com coluna de pressão e orientação contextual.
+overlay: {title: Pressão venosa central aplicada, labels: [PVC, átrio direito, retorno venoso, tendência]}
+consumers: [Cardio, Emergências, Nefrologia, Ventila, USG]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
