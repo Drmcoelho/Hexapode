@@ -1,0 +1,12 @@
+id: HEX-X046-457
+cycle: X046
+layer: X
+status: generated
+concept: "Bomba de infusão segura"
+source_asset: HEX-G006-057
+canonical_prompt: "Bomba volumétrica vetorial com programação de dose, volume, tempo e checklist de segurança."
+alt_text: "Bomba de infusão com taxa, volume programado e tempo, acompanhada de itens de segurança."
+overlay: {embedded: true, labels: [dose, volume, tempo, concentração, via, paciente, alarmes]}
+consumers: [Clinica, UTI, Emergencias, Farmaco, Oncologia, Pediatria, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

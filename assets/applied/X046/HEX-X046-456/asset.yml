@@ -1,0 +1,12 @@
+id: HEX-X046-456
+cycle: X046
+layer: X
+status: generated
+concept: "Oximetria de pulso aplicada"
+source_asset: HEX-G006-056
+canonical_prompt: "Oxímetro vetorial com SpO2, pulso, pletismografia e fatores que reduzem confiabilidade."
+alt_text: "Oxímetro exibindo saturação de 98 por cento e curva pletismográfica, com alerta para artefatos."
+overlay: {embedded: true, labels: [SpO2, frequência de pulso, pletismografia, perfusão, artefato]}
+consumers: [Clinica, UTI, Emergencias, Pediatria, Respira, Ventila, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}

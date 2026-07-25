@@ -1,0 +1,12 @@
+id: HEX-X046-458
+cycle: X046
+layer: X
+status: generated
+concept: "Desfibrilador e cardioversão"
+source_asset: HEX-G006-058
+canonical_prompt: "Monitor-desfibrilador vetorial comparando desfibrilação, cardioversão sincronizada e marcapasso transcutâneo."
+alt_text: "Desfibrilador com traçado de ECG, energia selecionada e indicação dos três modos terapêuticos."
+overlay: {embedded: true, labels: [desfibrilação, sincronização, marcapasso, energia, pás, ECG]}
+consumers: [Clinica, UTI, Emergencias, Cardio, Trauma, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
