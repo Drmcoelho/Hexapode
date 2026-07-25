@@ -1,0 +1,13 @@
+id: HEX-X044-439
+cycle: X044
+layer: X
+concept: "Trabalho respiratório aplicado: fadiga iminente"
+status: generated
+source_asset: HEX-G004-039
+source_file: base-art.svg
+prompt_canonical: "Infográfico aplicado para reconhecer aumento do trabalho respiratório, fadiga ventilatória e necessidade de suporte."
+alt: "Reconhecimento visual de aumento do trabalho respiratório e sinais de fadiga ventilatória iminente."
+overlay: {embedded: true, labels: [Taquipneia, Tiragem, Paradoxo, Fadiga, Suporte]}
+consumers: [Respira, Ventila, Emergências, Clínica, Pediatria]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
