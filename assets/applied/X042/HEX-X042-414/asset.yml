@@ -1,0 +1,13 @@
+id: HEX-X042-414
+cycle: X042
+layer: X
+concept: Pneumonia adquirida na comunidade
+status: generated
+source_asset: HEX-G002-014
+base_art: base-art.svg
+prompt_canonical: Infográfico vetorial didático sobre pneumonia comunitária, gravidade, antibiótico e complicações.
+alt: Pulmões esquemáticos com consolidação e quatro etapas de avaliação e manejo da pneumonia comunitária.
+overlay: {embedded: true, labels: [diagnóstico, gravidade, antibiótico, complicações]}
+consumers: [Respira, Clínica, Emergência, Infectologia, UTI]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
+exports_pending: [base-art.png, thumbnail.webp]
