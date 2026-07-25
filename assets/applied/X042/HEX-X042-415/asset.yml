@@ -1,0 +1,13 @@
+id: HEX-X042-415
+cycle: X042
+layer: X
+concept: Sepse
+status: generated
+source_asset: HEX-G002-015
+base_art: base-art.svg
+prompt_canonical: Infográfico vetorial didático sobre reconhecimento e conduta inicial na sepse.
+alt: Diagrama central de sepse ligado a infecção, lactato, culturas e antibiótico, com quatro etapas clínicas.
+overlay: {embedded: true, labels: [infecção, lactato, culturas, antibiótico]}
+consumers: [Clínica, Emergência, UTI, Infectologia, Farmaco]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
+exports_pending: [base-art.png, thumbnail.webp]
