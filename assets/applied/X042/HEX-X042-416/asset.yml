@@ -1,0 +1,13 @@
+id: HEX-X042-416
+cycle: X042
+layer: X
+concept: Anafilaxia
+status: generated
+source_asset: HEX-G002-016
+base_art: base-art.svg
+prompt_canonical: Infográfico vetorial didático sobre reconhecimento e tratamento imediato da anafilaxia.
+alt: Via aérea esquemática e seringa de adrenalina intramuscular, com quatro etapas de reconhecimento e manejo.
+overlay: {embedded: true, labels: [reconhecimento, adrenalina IM, suporte, prevenção]}
+consumers: [Clínica, Emergência, Alergia, Pediatria, Farmaco]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
+exports_pending: [base-art.png, thumbnail.webp]
