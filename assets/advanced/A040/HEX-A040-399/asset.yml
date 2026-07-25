@@ -1,0 +1,14 @@
+id: HEX-A040-399
+cycle: A040
+layer: A
+concept: Escalas clínicas e incerteza de medida
+status: generated
+canonical_source: HEX-G020-199
+prompt_canonical: Infográfico médico sobre variáveis contínuas, pontos de corte, sensibilidade, especificidade, tendência e contexto clínico.
+alt: Escala contínua com zonas de risco, pontos de corte e explicação da incerteza de medida.
+overlay:
+  title: Escalas clínicas e incerteza de medida
+  subtitle: Da variável contínua à decisão clínica
+  labels: [Variável contínua, Ponto de corte, Sensibilidade, Especificidade, Tendência, Contexto]
+consumers: [Hexágono, Hexaconsulta, Hexaconecta, Respira, Ventila, Cardio, Trauma, Neuro, Nefro, USG, Farmaco]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}

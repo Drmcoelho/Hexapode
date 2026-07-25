@@ -1,0 +1,14 @@
+id: HEX-A040-396
+cycle: A040
+layer: A
+concept: Cicatrização e remodelamento
+status: generated
+canonical_source: HEX-G020-196
+prompt_canonical: Infográfico médico sobre hemostasia, inflamação, proliferação, epitelização e remodelamento do colágeno.
+alt: Linha do tempo com quatro fases sobrepostas da cicatrização de feridas.
+overlay:
+  title: Cicatrização e remodelamento
+  subtitle: Fases sobrepostas do reparo tecidual
+  labels: [Hemostasia, Inflamação, Granulação, Epitelização, Colágeno III, Colágeno I]
+consumers: [Hexágono, Hexaconsulta, Hexaconecta, Respira, Ventila, Cardio, Trauma, Neuro, Nefro, USG, Farmaco]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}

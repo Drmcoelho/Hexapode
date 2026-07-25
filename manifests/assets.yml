@@ -11,8 +11,8 @@ production:
   - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: A040
-  completed_assets: 390
+  next_cycle: X041
+  completed_assets: 400
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycle_index:
@@ -55,24 +55,25 @@ cycle_index:
 - {id: A037, range: 361-370, theme: Neurologia Avançada, status: generated, source_root: assets/advanced/A037}
 - {id: A038, range: 371-380, theme: Cardiologia Avançada, status: generated, source_root: assets/advanced/A038}
 - {id: A039, range: 381-390, theme: Ultrassom Avançado, status: generated, source_root: assets/advanced/A039}
+- {id: A040, range: 391-400, theme: Biblioteca Universal Avançada, status: generated, source_root: assets/advanced/A040}
 cycles:
-  A039:
+  A040:
     layer: A
-    range: 381-390
-    theme: Ultrassom Avançado
+    range: 391-400
+    theme: Biblioteca Universal Avançada
     status: generated
     exports_pending: [base-art.png, thumbnail.webp]
     assets:
-    - {id: HEX-A039-381, concept: Janelas acústicas do ultrassom, status: generated, source: assets/advanced/A039/HEX-A039-381/base-art.svg, metadata: assets/advanced/A039/HEX-A039-381/asset.yml}
-    - {id: HEX-A039-382, concept: Doppler colorido, status: generated, source: assets/advanced/A039/HEX-A039-382/base-art.svg, metadata: assets/advanced/A039/HEX-A039-382/asset.yml}
-    - {id: HEX-A039-383, concept: Doppler espectral, status: generated, source: assets/advanced/A039/HEX-A039-383/base-art.svg, metadata: assets/advanced/A039/HEX-A039-383/asset.yml}
-    - {id: HEX-A039-384, concept: Padrão A-lines, status: generated, source: assets/advanced/A039/HEX-A039-384/base-art.svg, metadata: assets/advanced/A039/HEX-A039-384/asset.yml}
-    - {id: HEX-A039-385, concept: Padrão B-lines, status: generated, source: assets/advanced/A039/HEX-A039-385/base-art.svg, metadata: assets/advanced/A039/HEX-A039-385/asset.yml}
-    - {id: HEX-A039-386, concept: Pneumotórax no ultrassom, status: generated, source: assets/advanced/A039/HEX-A039-386/base-art.svg, metadata: assets/advanced/A039/HEX-A039-386/asset.yml}
-    - {id: HEX-A039-387, concept: Derrame pleural no ultrassom, status: generated, source: assets/advanced/A039/HEX-A039-387/base-art.svg, metadata: assets/advanced/A039/HEX-A039-387/asset.yml}
-    - {id: HEX-A039-388, concept: Consolidação pulmonar, status: generated, source: assets/advanced/A039/HEX-A039-388/base-art.svg, metadata: assets/advanced/A039/HEX-A039-388/asset.yml}
-    - {id: HEX-A039-389, concept: Diafragma em M-mode, status: generated, source: assets/advanced/A039/HEX-A039-389/base-art.svg, metadata: assets/advanced/A039/HEX-A039-389/asset.yml}
-    - {id: HEX-A039-390, concept: Setor, foco e profundidade, status: generated, source: assets/advanced/A039/HEX-A039-390/base-art.svg, metadata: assets/advanced/A039/HEX-A039-390/asset.yml}
+    - {id: HEX-A040-391, concept: Sinalização celular e segundos mensageiros, status: generated, source: assets/advanced/A040/HEX-A040-391/base-art.svg, metadata: assets/advanced/A040/HEX-A040-391/asset.yml}
+    - {id: HEX-A040-392, concept: Arquitetura tecidual e matriz extracelular, status: generated, source: assets/advanced/A040/HEX-A040-392/base-art.svg, metadata: assets/advanced/A040/HEX-A040-392/asset.yml}
+    - {id: HEX-A040-393, concept: Microcirculação e troca endotelial, status: generated, source: assets/advanced/A040/HEX-A040-393/base-art.svg, metadata: assets/advanced/A040/HEX-A040-393/asset.yml}
+    - {id: HEX-A040-394, concept: Lesão nervosa e regeneração periférica, status: generated, source: assets/advanced/A040/HEX-A040-394/base-art.svg, metadata: assets/advanced/A040/HEX-A040-394/asset.yml}
+    - {id: HEX-A040-395, concept: Inflamação aguda e crônica, status: generated, source: assets/advanced/A040/HEX-A040-395/base-art.svg, metadata: assets/advanced/A040/HEX-A040-395/asset.yml}
+    - {id: HEX-A040-396, concept: Cicatrização e remodelamento, status: generated, source: assets/advanced/A040/HEX-A040-396/base-art.svg, metadata: assets/advanced/A040/HEX-A040-396/asset.yml}
+    - {id: HEX-A040-397, concept: Integração da imunidade inata e adaptativa, status: generated, source: assets/advanced/A040/HEX-A040-397/base-art.svg, metadata: assets/advanced/A040/HEX-A040-397/asset.yml}
+    - {id: HEX-A040-398, concept: Interação hospedeiro–patógeno, status: generated, source: assets/advanced/A040/HEX-A040-398/base-art.svg, metadata: assets/advanced/A040/HEX-A040-398/asset.yml}
+    - {id: HEX-A040-399, concept: Escalas clínicas e incerteza de medida, status: generated, source: assets/advanced/A040/HEX-A040-399/base-art.svg, metadata: assets/advanced/A040/HEX-A040-399/asset.yml}
+    - {id: HEX-A040-400, concept: Homeostase integrada dos sistemas, status: generated, source: assets/advanced/A040/HEX-A040-400/base-art.svg, metadata: assets/advanced/A040/HEX-A040-400/asset.yml}
 cycle_generation_rule: Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
   source_required: [base-art.svg, asset.yml]

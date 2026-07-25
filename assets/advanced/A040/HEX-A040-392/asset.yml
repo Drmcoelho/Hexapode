@@ -1,0 +1,14 @@
+id: HEX-A040-392
+cycle: A040
+layer: A
+concept: Arquitetura tecidual e matriz extracelular
+status: generated
+canonical_source: HEX-G020-192
+prompt_canonical: Infográfico médico didático sobre epitélio, membrana basal, fibroblastos, colágeno, capilares e matriz extracelular.
+alt: Corte esquemático de tecido com epitélio, membrana basal, matriz e fibroblastos.
+overlay:
+  title: Arquitetura tecidual e matriz extracelular
+  subtitle: Organização que determina função e reparo
+  labels: [Epitélio, Membrana basal, Colágeno, Fibroblasto, Capilar, Matriz]
+consumers: [Hexágono, Hexaconsulta, Hexaconecta, Respira, Ventila, Cardio, Trauma, Neuro, Nefro, USG, Farmaco]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}

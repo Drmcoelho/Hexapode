@@ -1,0 +1,14 @@
+id: HEX-A040-400
+cycle: A040
+layer: A
+concept: Homeostase integrada dos sistemas
+status: generated
+canonical_source: HEX-G020-200
+prompt_canonical: Infográfico médico integrando pulmão, coração, rim, fígado, cérebro e metabolismo em um modelo de homeostase.
+alt: Diagrama circular dos principais órgãos conectados ao centro de homeostase.
+overlay:
+  title: Homeostase integrada dos sistemas
+  subtitle: Relações entre órgãos, fluxo e controle
+  labels: [Pulmão, Coração, Rim, Fígado, Cérebro, Metabolismo]
+consumers: [Hexágono, Hexaconsulta, Hexaconecta, Respira, Ventila, Cardio, Trauma, Neuro, Nefro, USG, Farmaco]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}

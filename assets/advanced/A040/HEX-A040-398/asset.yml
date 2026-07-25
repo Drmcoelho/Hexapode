@@ -1,0 +1,14 @@
+id: HEX-A040-398
+cycle: A040
+layer: A
+concept: Interação hospedeiro–patógeno
+status: generated
+canonical_source: HEX-G020-198
+prompt_canonical: Infográfico médico sobre adesão, invasão, toxinas, evasão imune e principais alvos antimicrobianos.
+alt: Relação entre hospedeiro e patógeno com etapas de virulência e alvos terapêuticos.
+overlay:
+  title: Interação hospedeiro–patógeno
+  subtitle: Virulência, defesa e alvos antimicrobianos
+  labels: [Adesão, Invasão, Toxinas, Evasão, Parede celular, Ribossomo]
+consumers: [Hexágono, Hexaconsulta, Hexaconecta, Respira, Ventila, Cardio, Trauma, Neuro, Nefro, USG, Farmaco]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
