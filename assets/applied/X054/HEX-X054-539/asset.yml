@@ -1,0 +1,13 @@
+id: HEX-X054-539
+concept: Analgesia e sedação aplicadas
+cycle: X054
+layer: applied
+status: generated
+canonical_origin: HEX-G014-139
+advanced_origin: HEX-A034-339
+prompt: Prancha vetorial Hexápode aplicada sobre analgesia e sedação em emergência, com avaliação, escolha, titulação, monitorização e reavaliação.
+alt: Painéis mostram dor e agitação, medicações e monitorização contínua durante analgesia e sedação.
+overlay: {title: Analgesia e sedação aplicadas, labels: [dor, agitação, escolha, dose, monitorização, reavaliação]}
+consumers: [Emergências, Trauma, UTI, Farmacologia, Pediatria]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
