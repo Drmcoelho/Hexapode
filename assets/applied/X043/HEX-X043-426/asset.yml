@@ -1,0 +1,13 @@
+id: HEX-X043-426
+cycle: X043
+layer: X
+concept: "Asfixia e parada cardiorrespiratória"
+status: generated
+source_asset: HEX-G003-026
+source_file: base-art.svg
+prompt_canonical: "Infográfico médico aplicado sobre asfixia, parada cardiorrespiratória, RCP, desfibrilação e cuidados pós-PCR, em SVG vetorial Hexápode."
+alt: "Infográfico mostra reconhecimento da PCR, compressões, ventilação, DEA, causas reversíveis e cuidados pós-retorno da circulação."
+overlay: {embedded: true, labels: [Reconhecimento, RCP, Ritmo, DEA, Pós-PCR]}
+consumers: [Clínica, Cardio, Trauma, Neuro, Ventila]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
