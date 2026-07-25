@@ -1,0 +1,13 @@
+id: HEX-X050-500
+cycle: X050
+layer: applied
+concept: Hipertensão pulmonar descompensada
+status: generated
+base_art: base-art.svg
+canonical_prompt: "Infográfico médico vetorial didático da hipertensão pulmonar descompensada, mostrando aumento da resistência vascular, sobrecarga do ventrículo direito e princípios de estabilização."
+alt_text: "Vasculatura pulmonar sob alta resistência converge para ventrículo direito dilatado, com alerta para evitar hipóxia, acidose e hipotensão."
+overlay: {title: "Hipertensão pulmonar descompensada", labels: [resistência vascular, VD, baixo débito, estabilização]}
+source_links: [G010, A030]
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Cardio, Respira, Ventila, Clinica, UTI, Emergencias, Pneumo, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: ready, no_duplication: pending}
