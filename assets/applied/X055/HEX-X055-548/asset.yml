@@ -1,0 +1,15 @@
+id: HEX-X055-548
+concept: 'Corticoterapia: indicações e esquemas aplicados'
+cycle: X055
+layer: applied
+status: generated
+canonical_origin: G015
+advanced_origin: A035
+prompt: Prancha aplicada sobre indicações, dose, duração, desmame e efeitos adversos da corticoterapia sistêmica.
+alt: Escudo modulando partículas inflamatórias representa ação anti-inflamatória e necessidade de uso criterioso.
+overlay:
+  title: 'Corticoterapia: indicações e esquemas aplicados'
+  labels: [indicação, dose, duração, desmame, efeitos adversos]
+consumers: [Pneumologia, Emergências, UTI, Reumatologia, Endocrinologia, Infectologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
