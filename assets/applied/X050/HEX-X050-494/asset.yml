@@ -1,0 +1,13 @@
+id: HEX-X050-494
+cycle: X050
+layer: applied
+concept: Derrame pleural aplicado
+status: generated
+base_art: base-art.svg
+canonical_prompt: "Infográfico médico vetorial didático do derrame pleural, relacionando coleção dependente, compressão pulmonar, achados clínicos, ultrassom e toracocentese."
+alt_text: "Pulmões esquemáticos mostram líquido pleural dependente comprimindo a base pulmonar e uma agulha guiada por ultrassom em janela segura."
+overlay: {title: "Derrame pleural aplicado", labels: [coleção dependente, compressão, ultrassom, punção]}
+source_links: [G010, A030]
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Respira, Ventila, UTI, Emergencias, Pneumo, USG, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: ready, no_duplication: pending}
