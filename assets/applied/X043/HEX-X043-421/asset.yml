@@ -1,0 +1,15 @@
+id: HEX-X043-421
+cycle: X043
+layer: X
+concept: "IAM com supra de ST"
+status: generated
+source_asset: HEX-G003-021
+source_file: base-art.svg
+prompt_canonical: "Infográfico médico aplicado sobre IAM com supra de ST, oclusão coronariana, elevação de ST e reperfusão precoce, em SVG vetorial no design system Hexápode."
+alt: "Infográfico sobre IAM com supra de ST mostrando oclusão, isquemia, necrose, reconhecimento e reperfusão."
+overlay:
+  embedded: true
+  labels: [Oclusão, Isquemia, Necrose, Reperfusão, Reavaliação]
+consumers: [Cardio, Clínica, Hexaconsulta, Farmaco]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
