@@ -1,0 +1,13 @@
+id: HEX-X054-536
+concept: Acesso venoso e intraósseo aplicados
+cycle: X054
+layer: applied
+status: generated
+canonical_origin: HEX-G014-136
+advanced_origin: HEX-A034-336
+prompt: Prancha vetorial Hexápode aplicada comparando acesso venoso periférico, central e intraósseo, com fluxo e contexto de uso.
+alt: Dois painéis com acesso venoso e intraósseo destacam escolha conforme urgência, anatomia e necessidade de fluxo.
+overlay: {title: Acesso venoso e intraósseo, labels: [periférico, central, intraósseo, fluxo, complicações]}
+consumers: [Emergências, Trauma, Pediatria, Enfermagem, Farmacologia]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
