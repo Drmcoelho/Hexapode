@@ -1,0 +1,12 @@
+id: HEX-X048-480
+cycle: X048
+layer: X
+status: generated
+concept: "VNI aplicada"
+source_asset: HEX-G008-080
+canonical_prompt: "Infográfico médico vetorial didático para seleção, início e reavaliação precoce da ventilação não invasiva, comparando CPAP e bilevel e destacando sinais de resposta e falha; paleta Hexápode; português."
+alt_text: "Algoritmo visual de ventilação não invasiva com seleção do candidato, escolha entre CPAP e bilevel e reavaliação precoce."
+overlay: {embedded: true, labels: [seleção do candidato, CPAP, bilevel, interface, reavaliação precoce, escalonamento]}
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Clinica, UTI, Emergencias, Respira, Ventila, Pneumo, Pediatria, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
