@@ -1,0 +1,15 @@
+id: HEX-X044-431
+cycle: X044
+layer: X
+concept: "Inspiração aplicada: avaliação do esforço"
+status: generated
+source_asset: HEX-G004-031
+source_file: base-art.svg
+prompt_canonical: "Infográfico médico aplicado sobre avaliação do esforço inspiratório, com expansão torácica, musculatura acessória, tiragem, fadiga e reavaliação, em SVG vetorial no design system Hexápode."
+alt: "Avaliação do esforço inspiratório à beira-leito com expansão torácica, musculatura acessória, tiragem e movimento do diafragma."
+overlay:
+  embedded: true
+  labels: [Expansão torácica, Musculatura acessória, Tiragem, Diafragma, Reavaliar]
+consumers: [Respira, Ventila, Clínica, Trauma, Neuro]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
