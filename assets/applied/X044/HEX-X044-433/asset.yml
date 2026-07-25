@@ -1,0 +1,13 @@
+id: HEX-X044-433
+cycle: X044
+layer: X
+concept: "Pressão pleural aplicada: esforço e interação cardiopulmonar"
+status: generated
+source_asset: HEX-G004-033
+source_file: base-art.svg
+prompt_canonical: "Infográfico aplicado comparando pressão pleural negativa e positiva, esforço respiratório e retorno venoso."
+alt: "Comparação da pressão pleural na respiração espontânea e na ventilação positiva e seus efeitos cardiopulmonares."
+overlay: {embedded: true, labels: [Espontânea, Pressão negativa, Ventilação positiva, Retorno venoso, Monitorar]}
+consumers: [Respira, Ventila, Cardio, Clínica, UTI]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
