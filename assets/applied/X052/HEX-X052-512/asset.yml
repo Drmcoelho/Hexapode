@@ -1,0 +1,15 @@
+id: HEX-X052-512
+concept: Distúrbios ácido-base primários aplicados
+cycle: X052
+layer: applied
+status: generated
+canonical_source: HEX-G012-112
+advanced_source: HEX-A032-312
+prompt: Matriz clínica aplicada Hexápode para reconhecer acidose e alcalose metabólicas e respiratórias pelo pH, PaCO2 e bicarbonato.
+alt: Quatro quadrantes mostram os padrões primários de acidose e alcalose metabólicas e respiratórias.
+overlay:
+  title: Distúrbios ácido-base primários aplicados
+  labels: [acidose metabólica, alcalose metabólica, acidose respiratória, alcalose respiratória]
+consumers: [Emergências, Medicina Interna, Nefrologia, UTI, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
