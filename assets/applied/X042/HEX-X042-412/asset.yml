@@ -1,0 +1,13 @@
+id: HEX-X042-412
+cycle: X042
+layer: X
+concept: Asma aguda
+status: generated
+source_asset: HEX-G002-012
+base_art: base-art.svg
+prompt_canonical: Infográfico vetorial didático sobre asma aguda, gravidade, broncodilatação e reavaliação.
+alt: Comparação entre brônquio em broncoespasmo e após broncodilatação, seguida de quatro etapas de manejo.
+overlay: {embedded: true, labels: [gravidade, broncodilatação, ipratrópio, escalonamento]}
+consumers: [Respira, Ventila, Clínica, Emergência, Pediatria]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
+exports_pending: [base-art.png, thumbnail.webp]
