@@ -1,0 +1,13 @@
+id: HEX-X050-493
+cycle: X050
+layer: applied
+concept: Pneumotórax hipertensivo
+status: generated
+base_art: base-art.svg
+canonical_prompt: "Infográfico médico vetorial didático do pneumotórax hipertensivo, mostrando ar sob pressão, colapso pulmonar, desvio mediastinal e necessidade de descompressão imediata."
+alt_text: "Tórax esquemático mostra ar pleural sob pressão comprimindo o pulmão e deslocando o mediastino, com alerta para descompressão sem esperar imagem."
+overlay: {title: "Pneumotórax hipertensivo", labels: [ar sob pressão, colapso, choque, descompressão]}
+source_links: [G010, A030]
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Trauma, UTI, Emergencias, Respira, Ventila, Pneumo, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: ready, no_duplication: pending}
