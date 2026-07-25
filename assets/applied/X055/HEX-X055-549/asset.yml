@@ -1,0 +1,15 @@
+id: HEX-X055-549
+concept: 'Broncodilatadores: escolha e técnica aplicadas'
+cycle: X055
+layer: applied
+status: generated
+canonical_origin: G015
+advanced_origin: A035
+prompt: Prancha aplicada sobre escolha de broncodilatadores, técnica inalatória, espaçador, nebulização e resposta clínica.
+alt: Inalador dosimetrado, máscara e nebulizador representam diferentes dispositivos para broncodilatação.
+overlay:
+  title: 'Broncodilatadores: escolha e técnica aplicadas'
+  labels: [SABA, SAMA, espaçador, nebulização, técnica]
+consumers: [Respira, Ventila, Pneumologia, Emergências, Pediatria, Enfermagem]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
