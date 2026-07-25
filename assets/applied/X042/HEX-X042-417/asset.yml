@@ -1,0 +1,13 @@
+id: HEX-X042-417
+cycle: X042
+layer: X
+concept: Dor abdominal aguda
+status: generated
+source_asset: HEX-G002-017
+base_art: base-art.svg
+prompt_canonical: Infográfico vetorial didático sobre dor abdominal aguda, localização, sinais de alarme, investigação e analgesia.
+alt: Abdome esquemático dividido em quadrantes, com foco doloroso e quatro etapas de raciocínio clínico.
+overlay: {embedded: true, labels: [caracterização, alarmes, investigação, analgesia]}
+consumers: [Clínica, Emergência, Cirurgia, Trauma, Imagem]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
+exports_pending: [base-art.png, thumbnail.webp]
