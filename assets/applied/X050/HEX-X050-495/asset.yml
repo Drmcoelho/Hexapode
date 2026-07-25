@@ -1,0 +1,13 @@
+id: HEX-X050-495
+cycle: X050
+layer: applied
+concept: Tromboembolismo pulmonar aplicado
+status: generated
+base_art: base-art.svg
+canonical_prompt: "Infográfico médico vetorial didático do tromboembolismo pulmonar, mostrando obstrução vascular, aumento abrupto da pós-carga do ventrículo direito, dilatação do VD e choque."
+alt_text: "Artéria pulmonar bifurcada contém êmbolo em um ramo, com coração inferior mostrando sobrecarga e dilatação aguda do ventrículo direito."
+overlay: {title: "TEP aplicado", labels: [êmbolo, pós-carga do VD, dilatação, choque]}
+source_links: [G010, A030]
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Cardio, UTI, Emergencias, Respira, Ventila, Pneumo, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: ready, no_duplication: pending}
