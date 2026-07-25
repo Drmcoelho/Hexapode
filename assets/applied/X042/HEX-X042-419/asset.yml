@@ -1,0 +1,13 @@
+id: HEX-X042-419
+cycle: X042
+layer: X
+concept: Fratura de membro
+status: generated
+source_asset: HEX-G002-019
+base_art: base-art.svg
+prompt_canonical: Infográfico vetorial didático sobre avaliação, analgesia, exame neurovascular e imobilização de fratura de membro.
+alt: Osso fraturado ao lado de talas, com quatro etapas para avaliação e imobilização segura.
+overlay: {embedded: true, labels: [ABCDE, neurovascular, imobilização, reavaliação]}
+consumers: [Trauma, Emergência, Ortopedia, Clínica, Reabilitação]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: pending, no_duplication: pending}
+exports_pending: [base-art.png, thumbnail.webp]
