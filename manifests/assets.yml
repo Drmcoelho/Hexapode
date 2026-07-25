@@ -11,8 +11,8 @@ production:
   - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: X044
-  completed_assets: 430
+  next_cycle: X045
+  completed_assets: 440
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycle_index:
@@ -59,24 +59,25 @@ cycle_index:
 - {id: X041, range: 401-410, theme: Clínica Aplicada I, status: generated, source_root: assets/applied/X041}
 - {id: X042, range: 411-420, theme: Clínica Aplicada II, status: generated, source_root: assets/applied/X042}
 - {id: X043, range: 421-430, theme: Clínica Aplicada III, status: generated, source_root: assets/applied/X043}
+- {id: X044, range: 431-440, theme: Mecânica Respiratória Aplicada, status: generated, source_root: assets/applied/X044}
 cycles:
-  X043:
+  X044:
     layer: X
-    range: 421-430
-    theme: Clínica Aplicada III
+    range: 431-440
+    theme: Mecânica Respiratória Aplicada
     status: generated
     exports_pending: [base-art.png, thumbnail.webp]
     assets:
-    - {id: HEX-X043-421, concept: IAM com supra de ST, status: generated, source: assets/applied/X043/HEX-X043-421/base-art.svg, metadata: assets/applied/X043/HEX-X043-421/asset.yml}
-    - {id: HEX-X043-422, concept: Insuficiência cardíaca aguda descompensada, status: generated, source: assets/applied/X043/HEX-X043-422/base-art.svg, metadata: assets/applied/X043/HEX-X043-422/asset.yml}
-    - {id: HEX-X043-423, concept: Crise hipertensiva, status: generated, source: assets/applied/X043/HEX-X043-423/base-art.svg, metadata: assets/applied/X043/HEX-X043-423/asset.yml}
-    - {id: HEX-X043-424, concept: Emergências diabéticas, status: generated, source: assets/applied/X043/HEX-X043-424/base-art.svg, metadata: assets/applied/X043/HEX-X043-424/asset.yml}
-    - {id: HEX-X043-425, concept: TVP e embolia pulmonar, status: generated, source: assets/applied/X043/HEX-X043-425/base-art.svg, metadata: assets/applied/X043/HEX-X043-425/asset.yml}
-    - {id: HEX-X043-426, concept: Asfixia e parada cardiorrespiratória, status: generated, source: assets/applied/X043/HEX-X043-426/base-art.svg, metadata: assets/applied/X043/HEX-X043-426/asset.yml}
-    - {id: HEX-X043-427, concept: AVC isquêmico agudo, status: generated, source: assets/applied/X043/HEX-X043-427/base-art.svg, metadata: assets/applied/X043/HEX-X043-427/asset.yml}
-    - {id: HEX-X043-428, concept: Meningite aguda, status: generated, source: assets/applied/X043/HEX-X043-428/base-art.svg, metadata: assets/applied/X043/HEX-X043-428/asset.yml}
-    - {id: HEX-X043-429, concept: Abdome agudo inflamatório, status: generated, source: assets/applied/X043/HEX-X043-429/base-art.svg, metadata: assets/applied/X043/HEX-X043-429/asset.yml}
-    - {id: HEX-X043-430, concept: 'UTI: pacote de medidas essenciais', status: generated, source: assets/applied/X043/HEX-X043-430/base-art.svg, metadata: assets/applied/X043/HEX-X043-430/asset.yml}
+    - {id: HEX-X044-431, concept: 'Inspiração aplicada: avaliação do esforço', status: generated, source: assets/applied/X044/HEX-X044-431/base-art.svg, metadata: assets/applied/X044/HEX-X044-431/asset.yml}
+    - {id: HEX-X044-432, concept: 'Expiração aplicada: obstrução e aprisionamento', status: generated, source: assets/applied/X044/HEX-X044-432/base-art.svg, metadata: assets/applied/X044/HEX-X044-432/asset.yml}
+    - {id: HEX-X044-433, concept: 'Pressão pleural aplicada: esforço e interação cardiopulmonar', status: generated, source: assets/applied/X044/HEX-X044-433/base-art.svg, metadata: assets/applied/X044/HEX-X044-433/asset.yml}
+    - {id: HEX-X044-434, concept: 'Pressão alveolar aplicada: entrada e saída de ar', status: generated, source: assets/applied/X044/HEX-X044-434/base-art.svg, metadata: assets/applied/X044/HEX-X044-434/asset.yml}
+    - {id: HEX-X044-435, concept: 'Pressão transpulmonar aplicada: recrutamento e sobredistensão', status: generated, source: assets/applied/X044/HEX-X044-435/base-art.svg, metadata: assets/applied/X044/HEX-X044-435/asset.yml}
+    - {id: HEX-X044-436, concept: 'Elastância aplicada: pulmão rígido versus complacente', status: generated, source: assets/applied/X044/HEX-X044-436/base-art.svg, metadata: assets/applied/X044/HEX-X044-436/asset.yml}
+    - {id: HEX-X044-437, concept: 'Complacência aplicada: cálculo e interpretação', status: generated, source: assets/applied/X044/HEX-X044-437/base-art.svg, metadata: assets/applied/X044/HEX-X044-437/asset.yml}
+    - {id: HEX-X044-438, concept: 'Resistência aplicada: causas de pressão de pico elevada', status: generated, source: assets/applied/X044/HEX-X044-438/base-art.svg, metadata: assets/applied/X044/HEX-X044-438/asset.yml}
+    - {id: HEX-X044-439, concept: 'Trabalho respiratório aplicado: fadiga iminente', status: generated, source: assets/applied/X044/HEX-X044-439/base-art.svg, metadata: assets/applied/X044/HEX-X044-439/asset.yml}
+    - {id: HEX-X044-440, concept: 'Histerese aplicada: recrutamento e titulação de PEEP', status: generated, source: assets/applied/X044/HEX-X044-440/base-art.svg, metadata: assets/applied/X044/HEX-X044-440/asset.yml}
 cycle_generation_rule: Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
   source_required: [base-art.svg, asset.yml]
