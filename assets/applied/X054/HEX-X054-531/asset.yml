@@ -1,0 +1,13 @@
+id: HEX-X054-531
+concept: Avaliação inicial do paciente em emergência
+cycle: X054
+layer: applied
+status: generated
+canonical_origin: HEX-G014-131
+advanced_origin: HEX-A034-331
+prompt: Prancha vetorial Hexápode aplicada sobre avaliação inicial do paciente em emergência, com sequência ABCDE, sinais vitais, prioridades e reavaliação.
+alt: Fluxo visual da avaliação inicial em emergência, do ABCDE à intervenção e reavaliação seriada.
+overlay: {title: Avaliação inicial do paciente, labels: [ABCDE, sinais vitais, prioridades, intervenção, reavaliação]}
+consumers: [Emergências, Trauma, UTI, Enfermagem, Educação]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: complete, no_duplication: pending}
