@@ -1,0 +1,13 @@
+id: HEX-X049-488
+cycle: X049
+layer: applied
+concept: Breath stacking aplicado
+status: generated
+base_art: base-art.svg
+canonical_prompt: "Infográfico médico vetorial didático sobre breath stacking, mostrando dois ciclos somando volume antes da expiração completa, risco de sobredistensão e correção do mecanismo."
+alt_text: "Curva de volume sobe em dois degraus sem retornar à linha de base, indicando soma de volumes e risco de sobredistensão."
+overlay: {title: "Breath stacking", labels: [volume somado, expiração incompleta, sobredistensão, corrigir duplo disparo]}
+source_links: [G009, A029]
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Ventila, Respira, UTI, Emergencias, Pneumo, Pediatria, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: ready, no_duplication: pending}
