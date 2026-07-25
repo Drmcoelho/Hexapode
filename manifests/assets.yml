@@ -11,8 +11,8 @@ production:
   - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: X053
-  completed_assets: 520
+  next_cycle: X054
+  completed_assets: 530
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycle_index:
@@ -68,24 +68,25 @@ cycle_index:
 - {id: X050, range: 491-500, theme: Patologias Respiratórias Aplicadas, status: generated, source_root: assets/applied/X050}
 - {id: X051, range: 501-510, theme: Via Aérea Aplicada, status: generated, source_root: assets/applied/X051}
 - {id: X052, range: 511-520, theme: Gasometria Aplicada, status: generated, source_root: assets/applied/X052}
+- {id: X053, range: 521-530, theme: Hemodinâmica Aplicada, status: generated, source_root: assets/applied/X053}
 cycles:
-  X052:
+  X053:
     layer: X
-    range: 511-520
-    theme: Gasometria Aplicada
+    range: 521-530
+    theme: Hemodinâmica Aplicada
     status: generated
     exports_pending: [base-art.png, thumbnail.webp]
     assets:
-    - {id: HEX-X052-511, concept: 'Interpretação sistemática aplicada', status: generated, source: assets/applied/X052/HEX-X052-511/base-art.svg, metadata: assets/applied/X052/HEX-X052-511/asset.yml}
-    - {id: HEX-X052-512, concept: 'Distúrbios ácido-base primários aplicados', status: generated, source: assets/applied/X052/HEX-X052-512/base-art.svg, metadata: assets/applied/X052/HEX-X052-512/asset.yml}
-    - {id: HEX-X052-513, concept: 'Compensações esperadas aplicadas', status: generated, source: assets/applied/X052/HEX-X052-513/base-art.svg, metadata: assets/applied/X052/HEX-X052-513/asset.yml}
-    - {id: HEX-X052-514, concept: 'Fórmula de Winter aplicada', status: generated, source: assets/applied/X052/HEX-X052-514/base-art.svg, metadata: assets/applied/X052/HEX-X052-514/asset.yml}
-    - {id: HEX-X052-515, concept: 'Ânion gap aplicado', status: generated, source: assets/applied/X052/HEX-X052-515/base-art.svg, metadata: assets/applied/X052/HEX-X052-515/asset.yml}
-    - {id: HEX-X052-516, concept: 'Delta gap aplicado', status: generated, source: assets/applied/X052/HEX-X052-516/base-art.svg, metadata: assets/applied/X052/HEX-X052-516/asset.yml}
-    - {id: HEX-X052-517, concept: 'Gradiente alvéolo-arterial aplicado', status: generated, source: assets/applied/X052/HEX-X052-517/base-art.svg, metadata: assets/applied/X052/HEX-X052-517/asset.yml}
-    - {id: HEX-X052-518, concept: 'Relação PaO2/FiO2 aplicada', status: generated, source: assets/applied/X052/HEX-X052-518/base-art.svg, metadata: assets/applied/X052/HEX-X052-518/asset.yml}
-    - {id: HEX-X052-519, concept: 'Conteúdo arterial e oferta de O2 aplicados', status: generated, source: assets/applied/X052/HEX-X052-519/base-art.svg, metadata: assets/applied/X052/HEX-X052-519/asset.yml}
-    - {id: HEX-X052-520, concept: 'Lactato e depuração aplicados', status: generated, source: assets/applied/X052/HEX-X052-520/base-art.svg, metadata: assets/applied/X052/HEX-X052-520/asset.yml}
+    - {id: HEX-X053-521, concept: 'Pressão arterial média aplicada', status: generated, source: assets/applied/X053/HEX-X053-521/base-art.svg, metadata: assets/applied/X053/HEX-X053-521/asset.yml}
+    - {id: HEX-X053-522, concept: 'Pressão de pulso aplicada', status: generated, source: assets/applied/X053/HEX-X053-522/base-art.svg, metadata: assets/applied/X053/HEX-X053-522/asset.yml}
+    - {id: HEX-X053-523, concept: 'Duplo produto aplicado', status: generated, source: assets/applied/X053/HEX-X053-523/base-art.svg, metadata: assets/applied/X053/HEX-X053-523/asset.yml}
+    - {id: HEX-X053-524, concept: 'Índice cardíaco aplicado', status: generated, source: assets/applied/X053/HEX-X053-524/base-art.svg, metadata: assets/applied/X053/HEX-X053-524/asset.yml}
+    - {id: HEX-X053-525, concept: 'Resistência vascular sistêmica aplicada', status: generated, source: assets/applied/X053/HEX-X053-525/base-art.svg, metadata: assets/applied/X053/HEX-X053-525/asset.yml}
+    - {id: HEX-X053-526, concept: 'Pressão venosa central aplicada', status: generated, source: assets/applied/X053/HEX-X053-526/base-art.svg, metadata: assets/applied/X053/HEX-X053-526/asset.yml}
+    - {id: HEX-X053-527, concept: 'Variação da pressão de pulso aplicada', status: generated, source: assets/applied/X053/HEX-X053-527/base-art.svg, metadata: assets/applied/X053/HEX-X053-527/asset.yml}
+    - {id: HEX-X053-528, concept: 'Variação do volume sistólico aplicada', status: generated, source: assets/applied/X053/HEX-X053-528/base-art.svg, metadata: assets/applied/X053/HEX-X053-528/asset.yml}
+    - {id: HEX-X053-529, concept: 'Relação PEEP/PAM aplicada', status: generated, source: assets/applied/X053/HEX-X053-529/base-art.svg, metadata: assets/applied/X053/HEX-X053-529/asset.yml}
+    - {id: HEX-X053-530, concept: 'Lactato hemodinâmico aplicado', status: generated, source: assets/applied/X053/HEX-X053-530/base-art.svg, metadata: assets/applied/X053/HEX-X053-530/asset.yml}
 cycle_generation_rule: Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
   source_required: [base-art.svg, asset.yml]
