@@ -1,0 +1,13 @@
+id: HEX-X049-486
+cycle: X049
+layer: applied
+concept: Ciclagem precoce aplicada
+status: generated
+base_art: base-art.svg
+canonical_prompt: "Infográfico médico vetorial didático sobre ciclagem precoce, mostrando término do fluxo antes do esforço neural e correções de tempo inspiratório e critério de ciclagem."
+alt_text: "O fluxo inspiratório termina enquanto a curva de esforço ainda está ativa; painel lateral mostra como prolongar a inspiração e tratar drive aumentado."
+overlay: {title: "Ciclagem precoce", labels: [Ti curto, esforço persiste, duplo disparo, prolongar inspiração]}
+source_links: [G009, A029]
+consumers: [Hexagono, Hexaconsulta, Hexaconecta, Ventila, Respira, UTI, Emergencias, Pneumo, Pediatria, Educacao]
+exports_pending: [base-art.png, thumbnail.webp]
+review_gates: {visual_consistency: pending, clinical_accuracy: pending, didactic_function: pending, accessibility: pending, responsive_legibility: pending, metadata_completeness: ready, no_duplication: pending}
