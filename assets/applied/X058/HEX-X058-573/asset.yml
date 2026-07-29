@@ -1,0 +1,12 @@
+id: HEX-X058-573
+concept: O Painel Elétrico Travado
+cycle: X058
+layer: applied
+theme: Neurologia Aplicada II
+status: generated
+prompt: "Central elétrica cerebral presa em descarga contínua; sequência visual de benzodiazepínico, carga anticonvulsivante, causas reversíveis e suporte avançado."
+alt: "Painel elétrico cerebral em curto contínuo, representando estado de mal epiléptico e sua sequência terapêutica."
+overlay: {title: O Painel Elétrico Travado, subtitle: Estado de mal epiléptico, takeaway: Desligue o curto antes que a usina queime, labels: [Benzodiazepínico adequado, Carga anticonvulsivante, Glicemia e causas, Sedação e via aérea]}
+consumers: [Emergências, Neurologia, Farmacologia]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
