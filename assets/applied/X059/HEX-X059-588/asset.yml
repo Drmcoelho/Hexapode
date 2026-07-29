@@ -1,0 +1,16 @@
+id: HEX-X059-588
+concept: O Túnel Pulmonar Bloqueado
+cycle: X059
+layer: applied
+theme: Cardiologia Aplicada II
+status: generated
+prompt: "Grande túnel pulmonar bloqueado por coágulo; o lado direito acumula tráfego e a cidade fica sem oxigênio."
+alt: "Túnel pulmonar obstruído por coágulo, com congestionamento à direita e baixa entrega de oxigênio."
+overlay:
+  title: O Túnel Pulmonar Bloqueado
+  subtitle: Embolia pulmonar de alto risco
+  takeaway: Obstrução à frente, falência à direita
+  labels: [Instabilidade, Anticoagulação, Reperfusão, Suporte do VD]
+consumers: [Emergências, Cardiologia, Pneumologia]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
