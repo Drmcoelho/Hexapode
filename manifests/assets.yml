@@ -11,9 +11,9 @@ production:
   - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: X060
-  completed_assets: 590
-  status: active
+  next_cycle: null
+  completed_assets: 600
+  status: completed
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycle_index:
 - {id: G001, range: 1-10, theme: Identidade Visual, status: generated, source_root: assets/canonical/G001}
@@ -75,6 +75,7 @@ cycle_index:
 - {id: X057, range: 561-570, theme: Universo Visual Aplicado I, status: generated, source_root: assets/applied/X057}
 - {id: X058, range: 571-580, theme: Neurologia Aplicada II, status: generated, source_root: assets/applied/X058}
 - {id: X059, range: 581-590, theme: Cardiologia Aplicada II, status: generated, source_root: assets/applied/X059}
+- {id: X060, range: 591-600, theme: Integração Clínica Final, status: generated, source_root: assets/applied/X060}
 cycles:
   X059:
     layer: X
@@ -93,6 +94,23 @@ cycles:
     - {id: HEX-X059-588, concept: 'O Túnel Pulmonar Bloqueado', status: generated, source: assets/applied/X059/HEX-X059-588/base-art.svg, metadata: assets/applied/X059/HEX-X059-588/asset.yml}
     - {id: HEX-X059-589, concept: 'A Capa de Lixa do Coração', status: generated, source: assets/applied/X059/HEX-X059-589/base-art.svg, metadata: assets/applied/X059/HEX-X059-589/asset.yml}
     - {id: HEX-X059-590, concept: 'A Fábrica de Válvulas Contaminada', status: generated, source: assets/applied/X059/HEX-X059-590/base-art.svg, metadata: assets/applied/X059/HEX-X059-590/asset.yml}
+  X060:
+    layer: X
+    range: 591-600
+    theme: Integração Clínica Final
+    status: generated
+    exports_pending: [base-art.png, thumbnail.webp]
+    assets:
+    - {id: HEX-X060-591, concept: 'A Colmeia em Colapso', status: generated, source: assets/applied/X060/HEX-X060-591/base-art.svg, metadata: assets/applied/X060/HEX-X060-591/asset.yml}
+    - {id: HEX-X060-592, concept: 'A Fornalha sem Termostato', status: generated, source: assets/applied/X060/HEX-X060-592/base-art.svg, metadata: assets/applied/X060/HEX-X060-592/asset.yml}
+    - {id: HEX-X060-593, concept: 'A Fábrica sem Insulina', status: generated, source: assets/applied/X060/HEX-X060-593/base-art.svg, metadata: assets/applied/X060/HEX-X060-593/asset.yml}
+    - {id: HEX-X060-594, concept: 'O Deserto Hiperosmolar', status: generated, source: assets/applied/X060/HEX-X060-594/base-art.svg, metadata: assets/applied/X060/HEX-X060-594/asset.yml}
+    - {id: HEX-X060-595, concept: 'O Cofre da Hipoglicemia', status: generated, source: assets/applied/X060/HEX-X060-595/base-art.svg, metadata: assets/applied/X060/HEX-X060-595/asset.yml}
+    - {id: HEX-X060-596, concept: 'A Estação Hepática em Pane', status: generated, source: assets/applied/X060/HEX-X060-596/base-art.svg, metadata: assets/applied/X060/HEX-X060-596/asset.yml}
+    - {id: HEX-X060-597, concept: 'O Intestino sem Estrada', status: generated, source: assets/applied/X060/HEX-X060-597/base-art.svg, metadata: assets/applied/X060/HEX-X060-597/asset.yml}
+    - {id: HEX-X060-598, concept: 'O Edifício Abdominal sem Espaço', status: generated, source: assets/applied/X060/HEX-X060-598/base-art.svg, metadata: assets/applied/X060/HEX-X060-598/asset.yml}
+    - {id: HEX-X060-599, concept: 'O Sangue sem Freio', status: generated, source: assets/applied/X060/HEX-X060-599/base-art.svg, metadata: assets/applied/X060/HEX-X060-599/asset.yml}
+    - {id: HEX-X060-600, concept: 'A Sala de Crise', status: generated, source: assets/applied/X060/HEX-X060-600/base-art.svg, metadata: assets/applied/X060/HEX-X060-600/asset.yml}
 cycle_generation_rule: Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
   source_required: [base-art.svg, asset.yml]
