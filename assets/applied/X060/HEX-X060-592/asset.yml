@@ -1,0 +1,16 @@
+id: HEX-X060-592
+concept: A Fornalha sem Termostato
+cycle: X060
+layer: applied
+theme: Integração Clínica Final
+status: generated
+prompt: "Metáfora visual de hipertermia grave como fornalha corporal sem termostato, com resfriamento ativo, busca de causa e suporte de órgãos. Design Hexápode editorial vetorial."
+alt: "Fornalha corporal superaquecida representa hipertermia grave e necessidade de resfriamento imediato e tratamento causal."
+overlay:
+  title: A Fornalha sem Termostato
+  subtitle: Hipertermia grave
+  takeaway: Resfriar é tratar
+  labels: [Temperatura central, Resfriamento ativo, Causa, Órgãos]
+consumers: [Emergências, Toxicologia, Terapêuticas]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
