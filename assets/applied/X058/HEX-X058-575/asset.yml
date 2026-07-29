@@ -1,0 +1,12 @@
+id: HEX-X058-575
+concept: O Prédio que Não Expande
+cycle: X058
+layer: applied
+theme: Neurologia Aplicada II
+status: generated
+prompt: "Cérebro, sangue e líquor disputam espaço em edifício rígido; quando um ocupa demais, os demais são comprimidos e a perfusão ameaça falhar."
+alt: "Prédio rígido com três compartimentos comprimidos, representando hipertensão intracraniana."
+overlay: {title: O Prédio que Não Expande, subtitle: Hipertensão intracraniana, takeaway: O prédio não expande, labels: [Cabeceira e alinhamento, Oxigenação e perfusão, Terapia hiperosmolar, Tratar causa]}
+consumers: [Terapia Intensiva, Neurologia, Emergências]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
