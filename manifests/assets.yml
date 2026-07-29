@@ -11,8 +11,8 @@ production:
   - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: X058
-  completed_assets: 570
+  next_cycle: X059
+  completed_assets: 580
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycle_index:
@@ -73,6 +73,7 @@ cycle_index:
 - {id: X055, range: 541-550, theme: Terapêuticas Aplicadas, status: generated, source_root: assets/applied/X055}
 - {id: X056, range: 551-560, theme: Nefrologia Aplicada, status: generated, source_root: assets/applied/X056}
 - {id: X057, range: 561-570, theme: Universo Visual Aplicado I, status: generated, source_root: assets/applied/X057}
+- {id: X058, range: 571-580, theme: Neurologia Aplicada II, status: generated, source_root: assets/applied/X058}
 cycles:
   X056:
     layer: X
@@ -108,6 +109,23 @@ cycles:
     - {id: HEX-X057-568, concept: 'A Cidade do Choque Séptico', status: generated, source: assets/applied/X057/HEX-X057-568/base-art.svg, metadata: assets/applied/X057/HEX-X057-568/asset.yml}
     - {id: HEX-X057-569, concept: 'O Porto da Difusão', status: generated, source: assets/applied/X057/HEX-X057-569/base-art.svg, metadata: assets/applied/X057/HEX-X057-569/asset.yml}
     - {id: HEX-X057-570, concept: 'A Rodovia da Microcirculação', status: generated, source: assets/applied/X057/HEX-X057-570/base-art.svg, metadata: assets/applied/X057/HEX-X057-570/asset.yml}
+  X058:
+    layer: X
+    range: 571-580
+    theme: Neurologia Aplicada II
+    status: generated
+    exports_pending: [base-art.png, thumbnail.webp]
+    assets:
+    - {id: HEX-X058-571, concept: 'A Cidade e a Ponte Entupida', status: generated, source: assets/applied/X058/HEX-X058-571/base-art.svg, metadata: assets/applied/X058/HEX-X058-571/asset.yml}
+    - {id: HEX-X058-572, concept: 'A Barragem Rompida Dentro da Cidade', status: generated, source: assets/applied/X058/HEX-X058-572/base-art.svg, metadata: assets/applied/X058/HEX-X058-572/asset.yml}
+    - {id: HEX-X058-573, concept: 'O Painel Elétrico Travado', status: generated, source: assets/applied/X058/HEX-X058-573/base-art.svg, metadata: assets/applied/X058/HEX-X058-573/asset.yml}
+    - {id: HEX-X058-574, concept: 'A Muralha Invadida', status: generated, source: assets/applied/X058/HEX-X058-574/base-art.svg, metadata: assets/applied/X058/HEX-X058-574/asset.yml}
+    - {id: HEX-X058-575, concept: 'O Prédio que Não Expande', status: generated, source: assets/applied/X058/HEX-X058-575/base-art.svg, metadata: assets/applied/X058/HEX-X058-575/asset.yml}
+    - {id: HEX-X058-576, concept: 'A Central de Comando em Pane', status: generated, source: assets/applied/X058/HEX-X058-576/base-art.svg, metadata: assets/applied/X058/HEX-X058-576/asset.yml}
+    - {id: HEX-X058-577, concept: 'O Aeroporto sem Torre', status: generated, source: assets/applied/X058/HEX-X058-577/base-art.svg, metadata: assets/applied/X058/HEX-X058-577/asset.yml}
+    - {id: HEX-X058-578, concept: 'A Estrada que Perde a Fiação', status: generated, source: assets/applied/X058/HEX-X058-578/base-art.svg, metadata: assets/applied/X058/HEX-X058-578/asset.yml}
+    - {id: HEX-X058-579, concept: 'O Correio sem Caixas Postais', status: generated, source: assets/applied/X058/HEX-X058-579/base-art.svg, metadata: assets/applied/X058/HEX-X058-579/asset.yml}
+    - {id: HEX-X058-580, concept: 'O Detector de Fumaça', status: generated, source: assets/applied/X058/HEX-X058-580/base-art.svg, metadata: assets/applied/X058/HEX-X058-580/asset.yml}
 cycle_generation_rule: Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
   source_required: [base-art.svg, asset.yml]
