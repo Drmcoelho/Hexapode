@@ -1,0 +1,16 @@
+id: HEX-X059-585
+concept: A Cidade em Câmara Lenta
+cycle: X059
+layer: applied
+theme: Cardiologia Aplicada II
+status: generated
+prompt: "Relógios e bombas da cidade desaceleram até bairros ficarem sem entrega; equipe usa atropina e prepara estimulação."
+alt: "Cidade desacelerada com baixa entrega sistêmica, representando bradicardia sintomática e necessidade de atropina ou pacing."
+overlay:
+  title: A Cidade em Câmara Lenta
+  subtitle: Bradicardia sintomática
+  takeaway: Ritmo lento só importa quando falta entrega
+  labels: [Perfusão, Atropina, Pacing, Causas reversíveis]
+consumers: [Emergências, Cardiologia]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
