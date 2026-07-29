@@ -1,0 +1,16 @@
+id: HEX-X060-600
+concept: A Sala de Crise
+cycle: X060
+layer: applied
+theme: Integração Clínica Final
+status: generated
+prompt: "Lâmina-capstone do Hexápode: sala de crise clínica com equipes simultâneas para via aérea, ventilação, circulação, diagnóstico causal e reavaliação, mostrando que estabilizar, entender e prevenir são camadas complementares."
+alt: "Sala de crise integra suporte imediato, investigação causal e reavaliação contínua como síntese do raciocínio clínico do Hexápode."
+overlay:
+  title: A Sala de Crise
+  subtitle: Integração clínica em camadas
+  takeaway: Agir, compreender, reavaliar
+  labels: [Sobrevivência, Mecanismo, Causa, Prevenção]
+consumers: [Emergências, Terapia Intensiva, Ensino Médico]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
