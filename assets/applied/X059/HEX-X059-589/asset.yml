@@ -1,0 +1,16 @@
+id: HEX-X059-589
+concept: A Capa de Lixa do Coração
+cycle: X059
+layer: applied
+theme: Cardiologia Aplicada II
+status: generated
+prompt: "Coração envolto por capa áspera que dói ao roçar e melhora ao inclinar o corpo; ECG difuso como faíscas ao redor."
+alt: "Coração envolto por superfície áspera, representando dor pleurítica e posicional da pericardite aguda."
+overlay:
+  title: A Capa de Lixa do Coração
+  subtitle: Pericardite aguda
+  takeaway: Dor posicional conta uma história
+  labels: [Dor pleurítica, Melhora inclinado, Supra difuso, Procurar alto risco]
+consumers: [Cardiologia, Emergências, ECG]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
