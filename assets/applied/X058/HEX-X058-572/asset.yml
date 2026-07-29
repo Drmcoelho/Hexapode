@@ -1,0 +1,12 @@
+id: HEX-X058-572
+concept: A Barragem Rompida Dentro da Cidade
+cycle: X058
+layer: applied
+theme: Neurologia Aplicada II
+status: generated
+prompt: "Reservatório rompe dentro da cidade cerebral; equipes estancam vazamento, revertem anticoagulação e preservam espaço intracraniano."
+alt: "Cidade cerebral inundada internamente por reservatório rompido, representando hemorragia intracraniana."
+overlay: {title: A Barragem Rompida Dentro da Cidade, subtitle: Hemorragia intracraniana, takeaway: Pare o vazamento; preserve o espaço, labels: [ABC e TC imediata, Reverter anticoagulante, Controle pressórico, Neurocirurgia e PIC]}
+consumers: [Emergências, Neurologia, Terapia Intensiva]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
