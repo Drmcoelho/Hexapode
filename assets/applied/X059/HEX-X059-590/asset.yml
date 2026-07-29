@@ -1,0 +1,16 @@
+id: HEX-X059-590
+concept: A Fábrica de Válvulas Contaminada
+cycle: X059
+layer: applied
+theme: Cardiologia Aplicada II
+status: generated
+prompt: "Fábrica valvar contaminada lança detritos pela cidade e destrói comportas; culturas e antibióticos controlam a fonte."
+alt: "Válvula cardíaca representada como fábrica contaminada lançando êmbolos e causando falha de comporta na endocardite."
+overlay:
+  title: A Fábrica de Válvulas Contaminada
+  subtitle: Endocardite infecciosa
+  takeaway: A válvula infectada contamina a cidade inteira
+  labels: [Hemoculturas, Ecocardiografia, Antibiótico dirigido, Cirurgia quando indicada]
+consumers: [Cardiologia, Infectologia, Ecocardiografia]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
