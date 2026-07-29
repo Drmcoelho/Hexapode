@@ -1,0 +1,16 @@
+id: HEX-X059-586
+concept: A Autoestrada Rasgada
+cycle: X059
+layer: applied
+theme: Cardiologia Aplicada II
+status: generated
+prompt: "Autoestrada arterial se rasga em duas pistas, uma falsa alimentada pela pressão; órgãos perdem saídas enquanto equipe reduz força de cisalhamento e chama cirurgia."
+alt: "Aorta como autoestrada rasgada em lúmen verdadeiro e falso, representando dissecção aguda e necessidade de controle anti-impulso."
+overlay:
+  title: A Autoestrada Rasgada
+  subtitle: Dissecção aguda de aorta
+  takeaway: Feche a força que abre a fenda
+  labels: [Analgesia, Controle de frequência, Controle de pressão, Cirurgia]
+consumers: [Emergências, Cardiologia, Cirurgia Vascular]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
