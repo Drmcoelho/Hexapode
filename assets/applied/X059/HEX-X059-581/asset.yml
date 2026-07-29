@@ -1,0 +1,16 @@
+id: HEX-X059-581
+concept: A Rodovia Coronariana Fechada
+cycle: X059
+layer: applied
+theme: Cardiologia Aplicada II
+status: generated
+prompt: "Rodovia coronariana principal bloqueada por trombo; bairro miocárdico a jusante perde energia enquanto equipe abre rota de reperfusão. Design Hexápode editorial vetorial, fundo marfim, azul-petróleo, âmbar e terracota."
+alt: "Rodovia coronariana obstruída por trombo, com território miocárdico escurecendo e equipe correndo para reperfusão no IAM com supra."
+overlay:
+  title: A Rodovia Coronariana Fechada
+  subtitle: IAM com supra de ST
+  takeaway: Tempo é músculo
+  labels: [ECG precoce, Reperfusão, Não atrasar transferência, Monitorização]
+consumers: [Emergências, Cardiologia, ECG]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
