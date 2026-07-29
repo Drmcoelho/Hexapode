@@ -1,0 +1,12 @@
+id: HEX-X058-574
+concept: A Muralha Invadida
+cycle: X058
+layer: applied
+theme: Neurologia Aplicada II
+status: generated
+prompt: "Cidade protegida por muralhas meníngeas sob invasão; sentinelas febris e portões rígidos representam sinais de alarme e urgência terapêutica."
+alt: "Muralha cerebral sob invasão, representando meningite e necessidade de tratamento rápido."
+overlay: {title: A Muralha Invadida, subtitle: Meningite, takeaway: Não espere a muralha cair, labels: [Estabilizar, Culturas sem atrasar, Adjuvante quando indicado, Tratamento empírico imediato]}
+consumers: [Emergências, Neurologia, Infectologia]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
