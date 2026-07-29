@@ -1,0 +1,16 @@
+id: HEX-X060-598
+concept: O Edifício Abdominal sem Espaço
+cycle: X060
+layer: applied
+theme: Integração Clínica Final
+status: generated
+prompt: "Metáfora visual de hipertensão intra-abdominal como edifício rígido superlotado, elevando pressão e prejudicando rim, pulmão e circulação; foco em reconhecer, medir e corrigir o mecanismo."
+alt: "Edifício abdominal rígido e superlotado prejudica órgãos e circulação, representando hipertensão intra-abdominal grave."
+overlay:
+  title: O Edifício Abdominal sem Espaço
+  subtitle: Hipertensão intra-abdominal grave
+  takeaway: Pressão escondida derruba vários sistemas
+  labels: [Pressão, Rim, Ventilação, Circulação]
+consumers: [Terapia Intensiva, Cirurgia, Ventilação]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
