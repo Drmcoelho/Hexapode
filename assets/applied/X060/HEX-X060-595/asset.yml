@@ -1,0 +1,16 @@
+id: HEX-X060-595
+concept: O Cofre da Hipoglicemia
+cycle: X060
+layer: applied
+theme: Integração Clínica Final
+status: generated
+prompt: "Metáfora visual de hipoglicemia grave como cofre cerebral sem combustível, alarmes disparando e equipe restaurando glicose enquanto procura a causa. Design Hexápode editorial vetorial."
+alt: "Cofre cerebral vazio representa hipoglicemia grave e a necessidade de corrigir glicose e investigar causa."
+overlay:
+  title: O Cofre da Hipoglicemia
+  subtitle: Hipoglicemia grave
+  takeaway: Corrigir primeiro, explicar depois
+  labels: [Glicemia, Glicose, Consciência, Causa]
+consumers: [Emergências, Endocrinologia, Neurologia]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
