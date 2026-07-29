@@ -1,0 +1,16 @@
+id: HEX-X060-597
+concept: O Intestino sem Estrada
+cycle: X060
+layer: applied
+theme: Integração Clínica Final
+status: generated
+prompt: "Metáfora visual de isquemia mesentérica como região intestinal isolada após bloqueio da única estrada de abastecimento; dor intensa antes da destruição visível."
+alt: "Região intestinal perde sua estrada arterial e fica sem abastecimento, representando isquemia mesentérica aguda."
+overlay:
+  title: O Intestino sem Estrada
+  subtitle: Isquemia mesentérica aguda
+  takeaway: Dor desproporcional exige imaginação vascular
+  labels: [Suspeita, Angio-TC, Perfusão, Cirurgia]
+consumers: [Emergências, Cirurgia, Radiologia]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
