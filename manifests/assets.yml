@@ -11,8 +11,8 @@ production:
   - {id: X, name: applied, range: 401-600}
   batch_size: 10
   total_cycles: 60
-  next_cycle: X057
-  completed_assets: 560
+  next_cycle: X058
+  completed_assets: 570
   status: active
 statuses: [planned, prompt_ready, generated, overlay_ready, reviewed, approved, integrated, blocked]
 cycle_index:
@@ -72,6 +72,7 @@ cycle_index:
 - {id: X054, range: 531-540, theme: Emergências Aplicadas, status: generated, source_root: assets/applied/X054}
 - {id: X055, range: 541-550, theme: Terapêuticas Aplicadas, status: generated, source_root: assets/applied/X055}
 - {id: X056, range: 551-560, theme: Nefrologia Aplicada, status: generated, source_root: assets/applied/X056}
+- {id: X057, range: 561-570, theme: Universo Visual Aplicado I, status: generated, source_root: assets/applied/X057}
 cycles:
   X056:
     layer: X
@@ -90,6 +91,23 @@ cycles:
     - {id: HEX-X056-558, concept: 'Ajuste de fármacos na DRC aplicado', status: generated, source: assets/applied/X056/HEX-X056-558/base-art.svg, metadata: assets/applied/X056/HEX-X056-558/asset.yml}
     - {id: HEX-X056-559, concept: 'Balanço hídrico e diurese aplicados', status: generated, source: assets/applied/X056/HEX-X056-559/base-art.svg, metadata: assets/applied/X056/HEX-X056-559/asset.yml}
     - {id: HEX-X056-560, concept: 'Síndrome cardiorrenal aplicada', status: generated, source: assets/applied/X056/HEX-X056-560/base-art.svg, metadata: assets/applied/X056/HEX-X056-560/asset.yml}
+  X057:
+    layer: X
+    range: 561-570
+    theme: Universo Visual Aplicado I
+    status: generated
+    exports_pending: [base-art.png, thumbnail.webp]
+    assets:
+    - {id: HEX-X057-561, concept: 'A Banana no Mar', status: generated, source: assets/applied/X057/HEX-X057-561/base-art.svg, metadata: assets/applied/X057/HEX-X057-561/asset.yml}
+    - {id: HEX-X057-562, concept: 'A Cidade da Perfusão', status: generated, source: assets/applied/X057/HEX-X057-562/base-art.svg, metadata: assets/applied/X057/HEX-X057-562/asset.yml}
+    - {id: HEX-X057-563, concept: 'A Represa e a Tempestade', status: generated, source: assets/applied/X057/HEX-X057-563/base-art.svg, metadata: assets/applied/X057/HEX-X057-563/asset.yml}
+    - {id: HEX-X057-564, concept: 'O Cabo de Guerra da Água', status: generated, source: assets/applied/X057/HEX-X057-564/base-art.svg, metadata: assets/applied/X057/HEX-X057-564/asset.yml}
+    - {id: HEX-X057-565, concept: 'O Ônibus da Hemoglobina', status: generated, source: assets/applied/X057/HEX-X057-565/base-art.svg, metadata: assets/applied/X057/HEX-X057-565/asset.yml}
+    - {id: HEX-X057-566, concept: 'O Elevador da Ventilação', status: generated, source: assets/applied/X057/HEX-X057-566/base-art.svg, metadata: assets/applied/X057/HEX-X057-566/asset.yml}
+    - {id: HEX-X057-567, concept: 'O Bairro dos Alvéolos', status: generated, source: assets/applied/X057/HEX-X057-567/base-art.svg, metadata: assets/applied/X057/HEX-X057-567/asset.yml}
+    - {id: HEX-X057-568, concept: 'A Cidade do Choque Séptico', status: generated, source: assets/applied/X057/HEX-X057-568/base-art.svg, metadata: assets/applied/X057/HEX-X057-568/asset.yml}
+    - {id: HEX-X057-569, concept: 'O Porto da Difusão', status: generated, source: assets/applied/X057/HEX-X057-569/base-art.svg, metadata: assets/applied/X057/HEX-X057-569/asset.yml}
+    - {id: HEX-X057-570, concept: 'A Rodovia da Microcirculação', status: generated, source: assets/applied/X057/HEX-X057-570/base-art.svg, metadata: assets/applied/X057/HEX-X057-570/asset.yml}
 cycle_generation_rule: Complete G001-G020, then A021-A040, then X041-X060. Never regenerate approved or integrated assets.
 asset_package:
   source_required: [base-art.svg, asset.yml]
