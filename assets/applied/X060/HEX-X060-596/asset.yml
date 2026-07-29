@@ -1,0 +1,16 @@
+id: HEX-X060-596
+concept: A Estação Hepática em Pane
+cycle: X060
+layer: applied
+theme: Integração Clínica Final
+status: generated
+prompt: "Metáfora visual de insuficiência hepática aguda como estação de tratamento incapaz de depurar toxinas e produzir fatores de coagulação, com encefalopatia e risco de edema cerebral."
+alt: "Estação hepática em pane acumula toxinas, perde produção e ameaça cérebro e coagulação na insuficiência hepática aguda."
+overlay:
+  title: A Estação Hepática em Pane
+  subtitle: Insuficiência hepática aguda
+  takeaway: Reconhecer cedo e transferir cedo
+  labels: [Encefalopatia, Coagulação, Glicose, Transplante]
+consumers: [Emergências, Hepatologia, Terapia Intensiva]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
