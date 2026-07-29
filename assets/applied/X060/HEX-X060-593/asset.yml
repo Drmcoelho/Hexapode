@@ -1,0 +1,16 @@
+id: HEX-X060-593
+concept: A Fábrica sem Insulina
+cycle: X060
+layer: applied
+theme: Integração Clínica Final
+status: generated
+prompt: "Metáfora visual de cetoacidose diabética como fábrica sem insulina, glicose acumulada do lado de fora, gordura sendo queimada e fumaça ácida ocupando a cidade; design Hexápode editorial vetorial."
+alt: "Fábrica sem insulina mostra glicose sem entrar na célula, produção de cetonas e desidratação na cetoacidose diabética."
+overlay:
+  title: A Fábrica sem Insulina
+  subtitle: Cetoacidose diabética
+  takeaway: Fluido, insulina, potássio e causa
+  labels: [Volume, Potássio, Insulina, Gatilho]
+consumers: [Emergências, Endocrinologia, Gasometria]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
