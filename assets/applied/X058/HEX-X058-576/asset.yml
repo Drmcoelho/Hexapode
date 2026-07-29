@@ -1,0 +1,16 @@
+id: HEX-X058-576
+concept: A Central de Comando em Pane
+cycle: X058
+layer: applied
+theme: Neurologia Aplicada II
+status: generated
+prompt: "Central de controle com telas conflitantes, relógios invertidos e alarmes simultâneos; metáfora visual de confusão aguda multifatorial."
+alt: "Central de comando com telas e alarmes conflitantes, representando delirium."
+overlay:
+  title: A Central de Comando em Pane
+  subtitle: Delirium
+  takeaway: Silenciar o alarme não conserta a central
+  labels: [Buscar causas, Reorientar e mobilizar, Sono e sentidos, Revisar medicações]
+consumers: [Terapia Intensiva, Geriatria, Clínica Médica]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
