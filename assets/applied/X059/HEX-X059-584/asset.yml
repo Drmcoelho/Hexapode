@@ -1,0 +1,16 @@
+id: HEX-X059-584
+concept: A Tempestade no Ritmo
+cycle: X059
+layer: applied
+theme: Cardiologia Aplicada II
+status: generated
+prompt: "Tempestade elétrica acelera a cidade e causa colapso hidráulico; cardioversão sincronizada desliga a tempestade."
+alt: "Cidade sob tempestade elétrica causada por taquiarritmia instável, com equipe realizando cardioversão sincronizada."
+overlay:
+  title: A Tempestade no Ritmo
+  subtitle: Taquiarritmia instável
+  takeaway: Choque primeiro, detalhes depois
+  labels: [Hipotensão, Isquemia, Alteração mental, Edema pulmonar]
+consumers: [Emergências, Cardiologia, Terapêutica Intensiva]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
