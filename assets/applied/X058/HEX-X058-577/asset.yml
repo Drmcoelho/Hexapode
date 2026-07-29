@@ -1,0 +1,12 @@
+id: HEX-X058-577
+concept: O Aeroporto sem Torre
+cycle: X058
+layer: applied
+theme: Neurologia Aplicada II
+status: generated
+prompt: "Aeroporto cerebral com pistas ativas e torre apagada; equipe sustenta funções vitais enquanto procura causas reversíveis de coma."
+alt: "Aeroporto sem torre de controle, representando coma e avaliação inicial sistemática."
+overlay: {title: O Aeroporto sem Torre, subtitle: Coma, takeaway: Antes da caixa-preta, mantenha o avião no ar, labels: [ABC e glicemia, Pupilas e exame, Toxinas e temperatura, Imagem conforme contexto]}
+consumers: [Emergências, Neurologia, Terapia Intensiva]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
