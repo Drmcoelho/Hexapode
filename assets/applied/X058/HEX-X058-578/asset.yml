@@ -1,0 +1,12 @@
+id: HEX-X058-578
+concept: A Estrada que Perde a Fiação
+cycle: X058
+layer: applied
+theme: Neurologia Aplicada II
+status: generated
+prompt: "Nervos periféricos como estrada cuja fiação é descascada de baixo para cima; veículos musculares param e a equipe antecipa falência respiratória."
+alt: "Estrada neural perdendo cabos progressivamente, representando síndrome de Guillain-Barré."
+overlay: {title: A Estrada que Perde a Fiação, subtitle: Síndrome de Guillain-Barré, takeaway: Quando a fiação sobe, não espere apagar, labels: [Fraqueza e arreflexia, Disautonomia, Função respiratória, Imunoterapia]}
+consumers: [Neurologia, Terapia Intensiva, Emergências]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
