@@ -1,0 +1,16 @@
+id: HEX-X060-594
+concept: O Deserto Hiperosmolar
+cycle: X060
+layer: applied
+theme: Integração Clínica Final
+status: generated
+prompt: "Metáfora visual do estado hiperosmolar como cidade no deserto, reservatórios vazios e glicose cristalizada puxando água para fora das casas; foco em volume, osmolaridade, eletrólitos e causa."
+alt: "Cidade desidratada em deserto representa estado hiperosmolar, com déficit hídrico grave e distúrbio de consciência."
+overlay:
+  title: O Deserto Hiperosmolar
+  subtitle: Estado hiperosmolar
+  takeaway: Corrigir sem precipitar nova catástrofe
+  labels: [Volume, Osmolaridade, Eletrólitos, Causa]
+consumers: [Emergências, Endocrinologia, Nefrologia]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
