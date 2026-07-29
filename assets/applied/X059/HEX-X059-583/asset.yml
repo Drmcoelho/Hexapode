@@ -1,0 +1,16 @@
+id: HEX-X059-583
+concept: A Usina que Perdeu a Bomba
+cycle: X059
+layer: applied
+theme: Cardiologia Aplicada II
+status: generated
+prompt: "Usina cardíaca falha enquanto bairros perdem energia e congestionam água; equipes sustentam pressão e restauram a bomba."
+alt: "Usina cardíaca com bomba falhando, bairros sem energia e alagamento representando choque cardiogênico."
+overlay:
+  title: A Usina que Perdeu a Bomba
+  subtitle: Choque cardiogênico
+  takeaway: Pressão sem fluxo não salva
+  labels: [Hipoperfusão, Congestão, Tratar a causa, Suporte circulatório]
+consumers: [UTI, Emergências, Cardiologia]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
