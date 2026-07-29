@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img">
+<rect width="1600" height="1000" fill="#F4E7C5"/>
+<rect x="0" y="0" width="1600" height="150" fill="#0B3C49"/>
+<text x="70" y="78" font-family="Georgia,serif" font-size="60" font-weight="700" fill="white">A BANANA NO MAR</text>
+<text x="72" y="125" font-family="Arial,sans-serif" font-size="28" fill="#D6EEF0">Potássio dentro, sódio fora — a fronteira mantém a excitabilidade</text>
+<rect x="70" y="200" width="650" height="620" rx="40" fill="#D7C679" stroke="#0B3C49" stroke-width="8"/>
+<text x="110" y="260" font-family="Arial" font-size="34" font-weight="700" fill="#0B3C49">ILHA INTRACELULAR · K⁺</text>
+<path d="M300 650 C220 520 280 350 430 300 C520 270 600 330 570 410 C530 520 440 650 300 650Z" fill="#F0C928" stroke="#7B5B00" stroke-width="10"/>
+<circle cx="365" cy="425" r="12" fill="#1F2A2E"/><circle cx="445" cy="415" r="12" fill="#1F2A2E"/>
+<path d="M360 480 Q405 520 455 475" fill="none" stroke="#1F2A2E" stroke-width="10"/>
+<rect x="820" y="200" width="710" height="620" rx="40" fill="#77BFD1" stroke="#0B3C49" stroke-width="8"/>
+<text x="860" y="260" font-family="Arial" font-size="34" font-weight="700" fill="#0B3C49">MAR EXTRACELULAR · Na⁺</text>
+<circle cx="1165" cy="515" r="155" fill="none" stroke="#F6EEE0" stroke-width="42"/>
+<path d="M1105 650 C1030 540 1070 385 1170 335 C1250 300 1315 355 1280 430 C1245 525 1195 635 1105 650Z" fill="#F0C928" stroke="#7B5B00" stroke-width="10"/>
+<text x="1000" y="740" font-family="Arial" font-size="30" font-weight="700" fill="#0B3C49">FORA DO HABITAT: A BOIA É O GRADIENTE</text>
+<g font-family="Arial" font-size="32" font-weight="700" fill="white"><circle cx="900" cy="350" r="42" fill="#176B73"/><text x="900" y="362" text-anchor="middle">Na⁺</text><circle cx="1440" cy="390" r="42" fill="#176B73"/><text x="1440" y="402" text-anchor="middle">Na⁺</text></g>
+<rect x="0" y="900" width="1600" height="100" fill="#0B3C49"/>
+<text x="70" y="962" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="white">K⁺ É DA ILHA. Na⁺ É DO MAR. ROMPER A FRONTEIRA MUDA VOLUME E ELETRICIDADE.</text>
+<text x="1460" y="962" text-anchor="end" font-family="Arial,sans-serif" font-size="24" fill="#D6EEF0">HEXÁPODE · X057</text>
+</svg>
