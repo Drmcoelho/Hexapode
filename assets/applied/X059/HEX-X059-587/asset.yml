@@ -1,0 +1,16 @@
+id: HEX-X059-587
+concept: O Coração na Caixa Apertada
+cycle: X059
+layer: applied
+theme: Cardiologia Aplicada II
+status: generated
+prompt: "Coração comprimido dentro de caixa rígida por líquido crescente; bomba não consegue encher apesar de tentar."
+alt: "Coração comprimido por líquido em caixa rígida, representando tamponamento e limitação do enchimento."
+overlay:
+  title: O Coração na Caixa Apertada
+  subtitle: Tamponamento cardíaco
+  takeaway: A bomba existe; falta espaço para encher
+  labels: [Choque obstrutivo, Ultrassom, Suporte temporário, Drenagem urgente]
+consumers: [Emergências, Cardiologia, Ultrassom]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
