@@ -1,0 +1,12 @@
+id: HEX-X058-579
+concept: O Correio sem Caixas Postais
+cycle: X058
+layer: applied
+theme: Neurologia Aplicada II
+status: generated
+prompt: "Junção neuromuscular como correio em que mensagens chegam, mas faltam caixas receptoras; entregadores cansam e a comunicação falha."
+alt: "Correio com poucas caixas receptoras e pacotes acumulados, representando miastenia grave."
+overlay: {title: O Correio sem Caixas Postais, subtitle: Miastenia grave, takeaway: A mensagem existe; falta porta para recebê-la, labels: [Bulbar e respiração, Evitar precipitantes, Imunoterapia, Suporte ventilatório]}
+consumers: [Neurologia, Terapia Intensiva, Farmacologia]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
