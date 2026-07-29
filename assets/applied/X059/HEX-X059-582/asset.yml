@@ -1,0 +1,16 @@
+id: HEX-X059-582
+concept: A Ponte do Ventrículo Direito
+cycle: X059
+layer: applied
+theme: Cardiologia Aplicada II
+status: generated
+prompt: "Ponte de entrada do ventrículo direito depende de fluxo de chegada; vasodilatação excessiva esvazia a ponte e derruba a pressão. Design Hexápode editorial vetorial."
+alt: "Ponte representando ventrículo direito com fluxo de entrada reduzido e risco de colapso no infarto de VD."
+overlay:
+  title: A Ponte do Ventrículo Direito
+  subtitle: Infarto de ventrículo direito
+  takeaway: Sem pré-carga, a ponte cai
+  labels: [Derivações direitas, Volume criterioso, Evitar nitrato imprudente, Reperfusão]
+consumers: [Emergências, Cardiologia, Hemodinâmica]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
