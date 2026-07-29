@@ -1,0 +1,16 @@
+id: HEX-X058-571
+concept: A Cidade e a Ponte Entupida
+cycle: X058
+layer: applied
+theme: Neurologia Aplicada II
+status: generated
+prompt: "Cidade cerebral com ponte arterial bloqueada; bairros a jusante perdem energia enquanto a equipe corre para restaurar o fluxo. Design Hexápode editorial vetorial, fundo marfim, azul-petróleo, âmbar e terracota."
+alt: "Cidade cerebral com ponte arterial obstruída e bairros sem fluxo, representando AVC isquêmico e urgência de reperfusão."
+overlay:
+  title: A Cidade e a Ponte Entupida
+  subtitle: AVC isquêmico
+  takeaway: Tempo é cérebro
+  labels: [Déficit focal súbito, Último visto bem, Glicemia e TC, Reperfusão]
+consumers: [Emergências, Neurologia, Radiologia]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
