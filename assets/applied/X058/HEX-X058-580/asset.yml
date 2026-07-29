@@ -1,0 +1,12 @@
+id: HEX-X058-580
+concept: O Detector de Fumaça
+cycle: X058
+layer: applied
+theme: Neurologia Aplicada II
+status: generated
+prompt: "Casa-cérebro com detectores para início explosivo, déficit focal, febre, papiledema, trauma e contexto de alto risco; tratar dor não substitui investigar o incêndio."
+alt: "Casa cerebral com vários detectores de fumaça, representando sinais de alarme em cefaleia."
+overlay: {title: O Detector de Fumaça, subtitle: Cefaleia com sinais de alarme, takeaway: Analgésico baixa o alarme; não apaga o fogo, labels: [Início súbito máximo, Déficit ou febre, Contexto de alto risco, Imagem ou punção dirigida]}
+consumers: [Emergências, Neurologia, Radiologia]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
