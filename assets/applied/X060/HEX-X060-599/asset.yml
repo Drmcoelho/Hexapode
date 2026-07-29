@@ -1,0 +1,16 @@
+id: HEX-X060-599
+concept: O Sangue sem Freio
+cycle: X060
+layer: applied
+theme: Integração Clínica Final
+status: generated
+prompt: "Metáfora visual de coagulação intravascular disseminada como cidade onde todos os freios e selos de reparo são acionados ao mesmo tempo, consumindo recursos e causando trombose e sangramento."
+alt: "Cidade usa todos os freios e materiais de reparo simultaneamente, representando consumo de coagulação e sangramento na coagulação intravascular disseminada."
+overlay:
+  title: O Sangue sem Freio
+  subtitle: Coagulação intravascular disseminada
+  takeaway: Tratar a causa é desligar a fábrica do caos
+  labels: [Gatilho, Consumo, Trombose, Sangramento]
+consumers: [Emergências, Hematologia, Terapia Intensiva]
+source: base-art.svg
+exports_pending: [base-art.png, thumbnail.webp]
